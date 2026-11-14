@@ -1,0 +1,53 @@
+AVALON VISUALS
+DayZ Steam 1.30 | GTX 1660 Ti 6 GB | i9-9900K | 32 GB RAM
+
+PLAY
+Use Client > Play Avalon Enhanced for the Avalon Visuals quality preset
+and daylight color preview in one click. Every Enhanced launch selects
+quality mode: farther views, more object detail, and cleaner edges.
+Azimuth signs the preview and loads it on both server and client.
+If Avalon is running without it, Azimuth waits for the server to be empty
+before restarting it and joining. The graphics mode and preview choice
+are saved for later launches.
+
+Close DayZ and the DayZ Launcher, then click Play Avalon in Azimuth.
+Azimuth prepares the server, applies the chosen native graphics preset
+to your saved client profile, and joins with BattlEye.
+
+Avalon Visuals requests 5,000 m terrain and 3,000 m object visibility.
+It raises object detail, texture detail, shadows, and filtering, with
+hardware anti-aliasing and foliage smoothing. Higher saved detail settings
+are preserved. Shadows extend to at least 200 m where the profile supports
+them. These quality settings use more GPU and CPU and can lower FPS.
+
+The preset uses the installed map's models and textures; it does not
+replace those assets. Their detail still limits how the landscape looks.
+The server and weather can further limit actual visibility in game.
+
+Choose Apply FPS preset in Client for lower visibility limits of 1,600 m
+and 1,000 m. That choice is saved for ordinary Play Avalon launches;
+Play Avalon Enhanced switches back to quality mode. Use Restore graphics
+to restore the original managed settings and keep your own in-game choices
+on later ordinary launches. Your resolution and display mode are still
+set in DayZ's Video menu.
+
+DAYZ LAUNCHER
+For a manual join, close the game and launcher, click Apply Avalon
+Visuals in Azimuth, then join normally with that same DayZ profile. Use
+Client > Choose profile if you want to select a different graphics file.
+Azimuth remembers your choice for later launches.
+
+RESHADE COMPATIBILITY
+ReShade's standard installer blocks DayZ_x64.exe. The old Avalon Looks
+button copied only preset files. Play Avalon uses native graphics.
+https://raw.githubusercontent.com/crosire/reshade-shaders/list/Compatibility.ini
+
+EXPERIMENTAL DAYLIGHT COLOR
+Stop Avalon and close DayZ. In Client, click Enable color preview and then
+Play Avalon. Azimuth builds the local mod, signs it with installed DayZ
+Tools, and loads it with both server and client. The preview adds subtle
+warmth and contrast outdoors during Avalon daylight, from 08:00 to 16:59.
+The grade is designed to pause for survival and camera effects. Live
+appearance and compatibility with the installed mod list need validation.
+To return to standard color, stop Avalon, click Disable color preview,
+then click Play Avalon. This setting does not reset the world.
