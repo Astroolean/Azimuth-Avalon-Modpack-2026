@@ -1,0 +1,26 @@
+{
+  "release": "Azimuth_DayZ_Server_Manager_R23_Full_Audit_Repair.zip",
+  "parent": {
+    "archive": "/workspace/scratch/5af776953b72/vehicle_integration/output/Azimuth_DayZ_Server_Manager_R23_GoKart_Vehicle_Wrap_Integration.zip",
+    "sha256": "8b8cfd9c727e02759f25b2f3f05cf68bf666a474e8b41ffb0b463961b9972f93",
+    "library_id": "libfile_fde3_f-8b868cdc6f348191a65696d74973df54_b9d254397b588191bf13f4eb4cc3a703",
+    "version": 45,
+    "source": "/workspace/scratch/5af776953b72/complete_repair/package/Azimuth"
+  },
+  "repair_tests": 155,
+  "retained_regressions": 125,
+  "skin_assets": "All 30 finishes passed the bundled binary/format/reference checker.",
+  "native_dayz_compilation_or_execution": false,
+  "native_windows_execution": false,
+  "live_user_files_modified": false,
+  "scope": "Source, actual supplied configuration, isolated file operations, and extracted code adapters.",
+  "remaining": [
+    "33 vehicle variants without mapped exteriors; 8 fitted panels only; 19 require live opaque readback.",
+    "LMs Planes unreadable export; original installed PBO required.",
+    "8 missing publisher material paths and Tech ATV handlebars model lack supplied replacements.",
+    "Native game execution, terrain survey results, rendering and handling were not run here."
+  ],
+  "fresh_zip_repair_tests": 155,
+  "fresh_zip_retained_regressions": 125,
+  "fresh_zip_code_and_asset_hashes_match_final": true
+}

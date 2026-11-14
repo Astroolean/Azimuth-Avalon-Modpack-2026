@@ -1,0 +1,43 @@
+{
+  "scope": "Native BoatScript and MotorbikeScript cosmetic hooks; fitted body panels across CarScript, BoatScript and MotorbikeScript",
+  "source_basis": {
+    "repository": "https://github.com/BohemiaInteractive/DayZ-Script-Diff",
+    "commit": "78be1c402eec249e4e4cdac7e1fef71006e94d20",
+    "classes": [
+      "BoatScript : Boat",
+      "MotorbikeScript : Motorbike",
+      "MotorbikePart : ItemBase",
+      "Motorbike_02_ShieldFront_ColorBase : MotorbikePart",
+      "Motorbike_02_ShieldLeft_ColorBase : MotorbikePart",
+      "Motorbike_02_ShieldRight_ColorBase : MotorbikePart"
+    ]
+  },
+  "behavior": [
+    "Server-only choice uses all four persistent-ID parts and the existing vehicle-wrap hash/chance/selected-ID rules.",
+    "AfterStoreLoad recomputes the same choice for an unchanged persistent ID and selected settings; no extra save-stream fields.",
+    "Per-root synchronized wrap ID; fitted body panels inherit that ID rather than rolling independently.",
+    "Client texture application defers after event stacks; 30 attempts per render window; later sync/health/attach can recover.",
+    "Persistent-ID readiness retries are bounded at 120 attempts.",
+    "Detach and reparent require original owned textures to restore; rejected writes retain ownership for a bounded retry.",
+    "Only immediate supported parents and fitted CarDoor/MotorbikePart roots dispatch; no inventory cargo or wheel traversal.",
+    "Texture eligibility is controlled by separately audited model/selection mappings.",
+    "Server eligibility accepts exact declared slots while the client keeps actual texture-readback guards.",
+    "An actually fitted mapped panel can establish vehicle eligibility; late attachments and store loads recheck the cached assembly.",
+    "Vehicles with only mapped panels dispatch those panels without retrying an unpaintable body or treating a zero-slot body write as success."
+  ],
+  "verification": {
+    "command": "python3 -m unittest discover -s vehicle_integration/Tests -p test_native_transport_lifecycle.py -v",
+    "passed": 7,
+    "type": "Extracted production methods executed through C++ engine adapters with undefined-behavior sanitizer, plus script-root contract checks.",
+    "native_dayz_compilation": false,
+    "native_dayz_rendering": false,
+    "native_networking_physics": false
+  },
+  "new_scripts": {
+    "azimuth_vehicle_wrap_boat.c": "15bd2175ec4183fc06ec9334965a2a7a62f0cb336be401159a59f0c699a46c46",
+    "azimuth_vehicle_wrap_motorbike.c": "126e05c50639b1fd088d875dc1c5ab4efe652e81e1c8920448568382f7b608e8",
+    "azimuth_vehicle_wrap_motorbikepart.c": "48556bcea383f4cabd9e548b7f22c64794c736e35e684605c864dcc3f4cf3036",
+    "azimuth_vehicle_wrap_parent.c": "88156e266f4dafb53680b1d584fcfbe21fd73edc4665baa65e63dafc2a7e7599"
+  },
+  "existing_car_hook_sha256": "5024464512897090ebb7ee269947b5e9fe4fad14363cb9ab204e1766128e1042"
+}

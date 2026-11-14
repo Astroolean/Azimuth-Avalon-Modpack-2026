@@ -1,0 +1,358 @@
+{
+  "schema_version": 1,
+  "validation_boundary": "Offline source/policy/hash tests only. DayZ Enforce compilation, join, persistence networking, UV quality and native rendering have not been executed here.",
+  "sources": {
+    "expansion_commit": "14fd692bd7eb46df05853ea31ee3d481239a826c",
+    "dayz_script_commit": "78be1c402eec249e4e4cdac7e1fef71006e94d20",
+    "native_transport": "https://github.com/BohemiaInteractive/DayZ-Script-Diff/blob/78be1c402eec249e4e4cdac7e1fef71006e94d20/scripts/3_game/vehicles/transport.c",
+    "expansion_inheritance": "https://github.com/salutesh/DayZ-Expansion-Scripts/blob/14fd692bd7eb46df05853ea31ee3d481239a826c/DayZExpansion/Vehicles/Scripts/4_World/DayZExpansion_Vehicles/Entities/Vehicles/expansionhelicopterscript.c"
+  },
+  "semantics": {
+    "choice": "Independent vehicleEnabled / vehicleChancePercent, same selected-only 30-finish catalog, deterministic existing hash with separate vehicle domain and persistent ID; no class replacement or extra production spawns.",
+    "default_chance_percent": 100,
+    "materials": "No SetObjectMaterial calls. Native materials, glass, lights, tires, seats and alpha-bearing textures remain under engine/publisher control.",
+    "repaint_ownership": "A later player/Expansion/native damage repaint can override an applied wrap until a later load. The implementation does not fight that repaint or replace damage materials.",
+    "restart": "Same selected finish set and persistent ID produce the same choice. Settings/catalog changes may alter selection. Disabling restores original next load; owned current textures can also be reset to their exact original, including blank.",
+    "door_behavior": "Existing attached CarDoor-derived body panels with verified selections/model directory follow parent finish; detach restores exact original if still owned. No wheel/interior/cargo recoloring.",
+    "report": "$profile:AzimuthSkins/vehicle_wrap_coverage.json aggregates observed server configuration candidates; eligibility is not proof of client rendering.",
+    "cost": "Lifecycle/sync/attachment callbacks only; server waits at most120 bounded persistent-ID attempts; no world scan/per-frame hook.",
+    "unsupported_behavior": "Original appearance; no guess based on generic camo name."
+  },
+  "implemented_families": [
+    {
+      "family": "OffroadHatchback",
+      "label": "ADA 4x4",
+      "status": "implemented_native_render_unverified",
+      "body_selection_allowlist": [
+        "dmgZone_chassis",
+        "dmgZone_front",
+        "dmgZone_back",
+        "dmgZone_roof",
+        "dmgZone_fender_1_1",
+        "dmgZone_fender_1_2",
+        "dmgZone_fender_2_1",
+        "dmgZone_fender_2_2"
+      ],
+      "attached_panel_candidates": [
+        "dmgZone_doors",
+        "dmgZone_hood",
+        "dmgZone_trunk",
+        "camo_doors",
+        "camo_hood",
+        "camo_trunk"
+      ],
+      "source": "https://github.com/salutesh/DayZ-Expansion-Scripts/blob/14fd692bd7eb46df05853ea31ee3d481239a826c/DayZExpansion/Skins/Vehicles/Ground/OffroadHatchback/Blue.json",
+      "notes": "Selection must actually exist; parent and panel must retain the original publisher model directory. Blank original texture is deliberately restored as blank, preserving the native material/model default."
+    },
+    {
+      "family": "CivilianSedan",
+      "label": "Olga 24",
+      "status": "implemented_native_render_unverified",
+      "body_selection_allowlist": [
+        "dmgZone_chassis",
+        "dmgZone_front",
+        "dmgZone_back",
+        "dmgZone_roof",
+        "dmgZone_fender_1_1",
+        "dmgZone_fender_1_2",
+        "dmgZone_fender_2_1",
+        "dmgZone_fender_2_2"
+      ],
+      "attached_panel_candidates": [
+        "dmgZone_doors",
+        "dmgZone_hood",
+        "dmgZone_trunk",
+        "camo_doors",
+        "camo_hood",
+        "camo_trunk"
+      ],
+      "source": "https://github.com/salutesh/DayZ-Expansion-Scripts/blob/14fd692bd7eb46df05853ea31ee3d481239a826c/DayZExpansion/Skins/Vehicles/Ground/CivilianSedan/White.json",
+      "notes": "Selection must actually exist; parent and panel must retain the original publisher model directory. Blank original texture is deliberately restored as blank, preserving the native material/model default."
+    },
+    {
+      "family": "Sedan_02",
+      "label": "Sarka 120",
+      "status": "implemented_native_render_unverified",
+      "body_selection_allowlist": [
+        "dmgZone_chassis",
+        "dmgZone_front",
+        "dmgZone_back",
+        "dmgZone_roof",
+        "dmgZone_fender_1_1",
+        "dmgZone_fender_1_2",
+        "dmgZone_fender_2_1",
+        "dmgZone_fender_2_2"
+      ],
+      "attached_panel_candidates": [
+        "dmgZone_doors",
+        "dmgZone_hood",
+        "dmgZone_trunk",
+        "camo_doors",
+        "camo_hood",
+        "camo_trunk"
+      ],
+      "source": "https://github.com/salutesh/DayZ-Expansion-Scripts/blob/14fd692bd7eb46df05853ea31ee3d481239a826c/DayZExpansion/Skins/Vehicles/Ground/Sedan_02/Grey.json",
+      "notes": "Selection must actually exist; parent and panel must retain the original publisher model directory. Blank original texture is deliberately restored as blank, preserving the native material/model default."
+    },
+    {
+      "family": "Hatchback_02",
+      "label": "Gunter 2",
+      "status": "implemented_native_render_unverified",
+      "body_selection_allowlist": [
+        "dmgZone_chassis",
+        "dmgZone_front",
+        "dmgZone_back",
+        "dmgZone_roof",
+        "dmgZone_fender_1_1",
+        "dmgZone_fender_1_2",
+        "dmgZone_fender_2_1",
+        "dmgZone_fender_2_2",
+        "camo_chassi"
+      ],
+      "attached_panel_candidates": [
+        "dmgZone_doors",
+        "dmgZone_hood",
+        "dmgZone_trunk",
+        "camo_doors",
+        "camo_hood",
+        "camo_trunk"
+      ],
+      "source": "https://github.com/salutesh/DayZ-Expansion-Scripts/blob/14fd692bd7eb46df05853ea31ee3d481239a826c/DayZExpansion/Skins/Vehicles/Ground/Hatchback_02/Blue.json",
+      "notes": "Selection must actually exist; parent and panel must retain the original publisher model directory. Blank original texture is deliberately restored as blank, preserving the native material/model default."
+    },
+    {
+      "family": "Truck_01_Base",
+      "label": "M3S trucks",
+      "status": "implemented_native_render_unverified",
+      "body_selection_allowlist": [
+        "dmgZone_chassis",
+        "dmgZone_front",
+        "dmgZone_back",
+        "dmgZone_roof",
+        "dmgZone_fender_1_1",
+        "dmgZone_fender_1_2",
+        "dmgZone_fender_2_1",
+        "dmgZone_fender_2_2",
+        "dmgZone_fueltank",
+        "dmgZone_wood"
+      ],
+      "attached_panel_candidates": [
+        "dmgZone_doors",
+        "dmgZone_hood",
+        "dmgZone_trunk",
+        "camo_doors",
+        "camo_hood",
+        "camo_trunk"
+      ],
+      "source": "https://github.com/salutesh/DayZ-Expansion-Scripts/blob/14fd692bd7eb46df05853ea31ee3d481239a826c/DayZExpansion/Skins/Vehicles/Ground/Truck_01_Covered/Blue.json",
+      "notes": "Selection must actually exist; parent and panel must retain the original publisher model directory. Blank original texture is deliberately restored as blank, preserving the native material/model default."
+    },
+    {
+      "family": "ExpansionUAZBase",
+      "label": "Expansion UAZ",
+      "status": "implemented_native_render_unverified",
+      "body_selection_allowlist": [
+        "camo1"
+      ],
+      "attached_panel_candidates": [
+        "camo"
+      ],
+      "source": "https://github.com/salutesh/DayZ-Expansion-Scripts/blob/14fd692bd7eb46df05853ea31ee3d481239a826c/DayZExpansion/Vehicles/Ground/UAZ/config.cpp",
+      "notes": "Original publisher model directory required; separate light/window/interior selections and all materials unchanged."
+    },
+    {
+      "family": "Expansion_Landrover_Base",
+      "label": "Expansion Land Rover",
+      "status": "implemented_native_render_unverified",
+      "body_selection_allowlist": [
+        "body_outdoor"
+      ],
+      "attached_panel_candidates": [
+        "body_outdoor"
+      ],
+      "source": "https://github.com/salutesh/DayZ-Expansion-Scripts/blob/14fd692bd7eb46df05853ea31ee3d481239a826c/DayZExpansion/Vehicles/Ground/LandRover/config.cpp",
+      "notes": "Original publisher model directory required; separate light/window/interior selections and all materials unchanged."
+    },
+    {
+      "family": "ExpansionBus",
+      "label": "Expansion bus",
+      "status": "implemented_native_render_unverified",
+      "body_selection_allowlist": [
+        "camo"
+      ],
+      "attached_panel_candidates": [],
+      "source": "https://github.com/salutesh/DayZ-Expansion-Scripts/blob/14fd692bd7eb46df05853ea31ee3d481239a826c/DayZExpansion/Vehicles/Ground/Bus/config.cpp",
+      "notes": "Original publisher model directory required; separate light/window/interior selections and all materials unchanged."
+    },
+    {
+      "family": "ExpansionMh6",
+      "label": "Expansion MH6 helicopter",
+      "status": "implemented_native_render_unverified",
+      "body_selection_allowlist": [
+        "camo"
+      ],
+      "attached_panel_candidates": [
+        "camo"
+      ],
+      "source": "https://github.com/salutesh/DayZ-Expansion-Scripts/blob/14fd692bd7eb46df05853ea31ee3d481239a826c/DayZExpansion/Vehicles/Air/Mh6/config.cpp",
+      "notes": "Original publisher model directory required; separate light/window/interior selections and all materials unchanged."
+    },
+    {
+      "family": "ExpansionUh1h",
+      "label": "Expansion UH1H helicopter",
+      "status": "implemented_native_render_unverified",
+      "body_selection_allowlist": [
+        "camo1"
+      ],
+      "attached_panel_candidates": [
+        "camo1"
+      ],
+      "source": "https://github.com/salutesh/DayZ-Expansion-Scripts/blob/14fd692bd7eb46df05853ea31ee3d481239a826c/DayZExpansion/Vehicles/Air/Uh1h/config.cpp",
+      "notes": "Original publisher model directory required; separate light/window/interior selections and all materials unchanged."
+    }
+  ],
+  "explicit_skips": [
+    {
+      "family": "ExpansionMerlin",
+      "reason": "Numbered camo1/2/3 atlases are recolorable, but exterior-only boundaries are not established."
+    },
+    {
+      "family": "ExpansionZodiacBoat",
+      "reason": "Publisher camo texture is alpha-bearing (_ca.paa)."
+    },
+    {
+      "family": "ExpansionUtilityBoat",
+      "reason": "RHIB whole camo atlas has no established exterior/seat split."
+    },
+    {
+      "family": "ExpansionVodnik",
+      "reason": "Current config exposes lights, med and antiwater; no verified independent body texture selection."
+    },
+    {
+      "family": "ExpansionGyrocopter",
+      "reason": "No verified body hidden selection in published config."
+    },
+    {
+      "family": "ExpansionTractor",
+      "reason": "Camo/default atlas boundary and mismatched publisher texture indices need native validation."
+    },
+    {
+      "family": "Offroad_02",
+      "reason": "Humvee exterior atlas mapping not verified for this build."
+    },
+    {
+      "family": "RZR",
+      "reason": "Installed mod model/atlas mapping not verified."
+    },
+    {
+      "family": "Motorbike_01_ColorBase / Motorbike_02_ColorBase",
+      "reason": "Common transport lifecycle supported, but native bike exterior atlas mapping not verified."
+    },
+    {
+      "family": "Boat_01_ColorBase",
+      "reason": "Common boat lifecycle supported, but native motorboat exterior atlas mapping not verified."
+    },
+    {
+      "family": "Bicycles / An2 / other third-party vehicles",
+      "reason": "No fallback guessing by camo/body name; original model/atlas mapping required."
+    },
+    {
+      "family": "Horses / animals / wrecks / holograms",
+      "reason": "Explicitly excluded; no cosmetic repaint."
+    }
+  ],
+  "reference_files": [
+    {
+      "local_reference": "reference/expansion/DayZExpansion/Vehicles/Air/Gyro/config.cpp",
+      "sha256": "5f1e13b1e1acfa4085dca2845ea8b392725fb1e6b35cf2ddfa87f8526560def1"
+    },
+    {
+      "local_reference": "reference/expansion/DayZExpansion/Vehicles/Air/Mh6/config.cpp",
+      "sha256": "4da70098074e4b5e9e082edba026ca9bb630039df9bec096752bbb40b6517da3"
+    },
+    {
+      "local_reference": "reference/expansion/DayZExpansion/Vehicles/Air/Uh1h/config.cpp",
+      "sha256": "3a27e77fabda924b43e134318f15b0aebc48479c1edce66937000f06c7730de0"
+    },
+    {
+      "local_reference": "reference/expansion/DayZExpansion/Vehicles/Ground/Bus/config.cpp",
+      "sha256": "7ac23ae3ec382c58597df0e082a8f09e04176449561c66fb7abb1a344c3899bd"
+    },
+    {
+      "local_reference": "reference/expansion/DayZExpansion/Vehicles/Ground/LandRover/config.cpp",
+      "sha256": "b9d07309533c799ccae4fd56cf8728769ed2180a5de00b9c6e720e0109a8de20"
+    },
+    {
+      "local_reference": "reference/expansion/DayZExpansion/Vehicles/Ground/UAZ/config.cpp",
+      "sha256": "a16dcc3a68ceb062d83c53a5896395384ef3efee631497c171441adbeeaa8192"
+    },
+    {
+      "local_reference": "reference/expansion/DayZExpansion/Vehicles/Ground/Vodnik/config.cpp",
+      "sha256": "8b33e0b41f3acdf676ddc4b1a8c2a21238e46e83a8edbf82e71ad28f21183963"
+    },
+    {
+      "local_reference": "reference/expansion/DayZExpansion/Vehicles/Scripts/4_World/DayZExpansion_Vehicles/Entities/Vehicles/expansionboatscript.c",
+      "sha256": "fdf2a35db5e6c92d69ac1250529238c270977c081bc6d9088aebf27f83849a26"
+    },
+    {
+      "local_reference": "reference/expansion/DayZExpansion/Vehicles/Scripts/4_World/DayZExpansion_Vehicles/Entities/Vehicles/expansionhelicopterscript.c",
+      "sha256": "075e733d251373bfde4be1676140fdaf3c2c18bd158e6f0f9b7c4a627463a1b0"
+    },
+    {
+      "local_reference": "reference/expansion/DayZExpansion/Vehicles/Water/Utility/config.cpp",
+      "sha256": "3bf1af26e1ba879dd295372251e63897c57162f1c635deba77a3b46d786d6a91"
+    },
+    {
+      "local_reference": "reference/expansion/DayZExpansion/Vehicles/Water/Zodiac/config.cpp",
+      "sha256": "e41bfc8c1df848f42f080148b1256e8d9da024351111573608ba27b134897c18"
+    },
+    {
+      "local_reference": "reference/review/DayZExpansion/Core/Scripts/4_World/DayZExpansion_Core/Classes/Systems/Skins/ExpansionSkin.c",
+      "sha256": "261458914854dad291aa40c2a7507a86e8bacaed05d0c949d4ee14f77a9b6442"
+    },
+    {
+      "local_reference": "reference/review/DayZExpansion/Core/Scripts/4_World/DayZExpansion_Core/Classes/Systems/Skins/ExpansionSkinModule.c",
+      "sha256": "470754112707f7d9c8066120f68d2e9e5423ba0b74411a9976b27bef9d12da15"
+    },
+    {
+      "local_reference": "reference/review/DayZExpansion/Core/Scripts/4_World/DayZExpansion_Core/Entities/Vehicles/CarScript.c",
+      "sha256": "cc0393e9d6b76637d1dbcefe17dbe113c4d115455076da49a8aa882684c90741"
+    },
+    {
+      "local_reference": "reference/review/DayZExpansion/Skins/Vehicles/Air/ExpansionMerlin/Green.json",
+      "sha256": "4c60546535892b7d9b74e662faedaf86defe271ee87b0c583c438ab8e6b3c10c"
+    },
+    {
+      "local_reference": "reference/review/DayZExpansion/Skins/Vehicles/Ground/CivilianSedan/White.json",
+      "sha256": "c9c3617f45c14ec5523bb882eb8b68d91ba7cf61ef2371a9ecb59852a1281546"
+    },
+    {
+      "local_reference": "reference/review/DayZExpansion/Skins/Vehicles/Ground/HatchbackDoors_Driver/Blue.json",
+      "sha256": "f8ea64c97d4a0bb39ee486d158aff301c6985fd0935d93c5cb2df096bdb414ff"
+    },
+    {
+      "local_reference": "reference/review/DayZExpansion/Skins/Vehicles/Ground/Hatchback_02/Blue.json",
+      "sha256": "8fa85be614024d6ea85eddbf986dd843a7ec480e95f4821ab5df4fdc1388d2b8"
+    },
+    {
+      "local_reference": "reference/review/DayZExpansion/Skins/Vehicles/Ground/OffroadHatchback/Blue.json",
+      "sha256": "cfd9f82bea24f6f06eda79bc64a2ef1a819a2feb3804aa5d35244bf2937651e9"
+    },
+    {
+      "local_reference": "reference/review/DayZExpansion/Skins/Vehicles/Ground/Sedan_02/Grey.json",
+      "sha256": "f85525ab8d14106e13711158deeac7aded658d29a6ff0f3781fbd1e67b154ebc"
+    },
+    {
+      "local_reference": "reference/review/DayZExpansion/Skins/Vehicles/Ground/Truck_01_Covered/Blue.json",
+      "sha256": "0e4c1c7cca42c36200fb634af848e2340c71c4845a77ebae6983cf783cd5b440"
+    },
+    {
+      "local_reference": "reference/review/DayZExpansion/Skins/Vehicles/Ground/Truck_01_Door_1_1/Blue.json",
+      "sha256": "6499d0a106c1a118c514a77b8d514011d1de0ef426daa5aa2a59b3397126c573"
+    },
+    {
+      "local_reference": "reference/review/DayZExpansion/Vehicles/Scripts/4_World/DayZExpansion_Vehicles/Entities/Vehicles/CarScript.c",
+      "sha256": "3315603fbf6942a12c8b1433f61d7631003200407ba13d817a9e0b29affc2821"
+    }
+  ]
+}

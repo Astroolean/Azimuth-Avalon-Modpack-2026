@@ -1,0 +1,225 @@
+{
+  "scope": "First-party native DayZ script/API evidence and current shipped Azimuth code; no native game execution or atlas inspection",
+  "source_commit": "78be1c402eec249e4e4cdac7e1fef71006e94d20",
+  "families": [
+    {
+      "label": "Jana 50",
+      "config_family": "Motorbike_01_ColorBase",
+      "classes": [
+        "Motorbike_01_Blue",
+        "Motorbike_01_Red",
+        "Motorbike_01_Yellow"
+      ],
+      "inheritance": [
+        "Motorbike_01_ColorBase",
+        "MotorbikeScript",
+        "Motorbike",
+        "Transport"
+      ],
+      "current_wrap_support": false,
+      "body_hidden_selections_verified": false,
+      "model_path_verified": false,
+      "required_work": [
+        "Dedicated MotorbikeScript lifecycle and network-synchronized wrap ID or equivalent supported common adapter",
+        "Read installed effective config and body texture/model selection boundaries before allowing painted slots",
+        "Preserve native light selections (script uses indices3 front and2 brake; never substitute indices)"
+      ],
+      "primary_files": [
+        "motorbike_01.c",
+        "motorbikescript.c",
+        "motorbike.c"
+      ]
+    },
+    {
+      "label": "Bitrak 682",
+      "config_family": "Motorbike_02_ColorBase",
+      "classes": [
+        "Motorbike_02_Blue",
+        "Motorbike_02_Green",
+        "Motorbike_02_Red",
+        "Motorbike_02_Yellow"
+      ],
+      "inheritance": [
+        "Motorbike_02_ColorBase",
+        "MotorbikeScript",
+        "Motorbike",
+        "Transport"
+      ],
+      "current_wrap_support": false,
+      "body_hidden_selections_verified": false,
+      "model_path_verified": false,
+      "panel_family": "MotorbikePart",
+      "panel_classes": {
+        "Front": [
+          "Motorbike_02_ShieldFront_Blue",
+          "Motorbike_02_ShieldFront_Green",
+          "Motorbike_02_ShieldFront_Red",
+          "Motorbike_02_ShieldFront_Yellow"
+        ],
+        "Left": [
+          "Motorbike_02_ShieldLeft_Blue",
+          "Motorbike_02_ShieldLeft_Green",
+          "Motorbike_02_ShieldLeft_Red",
+          "Motorbike_02_ShieldLeft_Yellow"
+        ],
+        "Right": [
+          "Motorbike_02_ShieldRight_Blue",
+          "Motorbike_02_ShieldRight_Green",
+          "Motorbike_02_ShieldRight_Red",
+          "Motorbike_02_ShieldRight_Yellow"
+        ]
+      },
+      "runtime_panel_evidence": "Six observed shield classes exposed camo in uploaded weapon coverage; this proves config candidates, not atlas safety or correct vehicle-owned rendering.",
+      "required_work": [
+        "MotorbikeScript body lifecycle hook",
+        "MotorbikePart parent-aware panel hook and exclusion from competing weapon skin randomizer",
+        "Effective config/model/texture atlas review for body and shields",
+        "Preserve native light selections (script uses indices4 front and6 brake; never substitute indices)"
+      ],
+      "primary_files": [
+        "motorbike_02.c",
+        "motorbikescript.c",
+        "inventoryitem_inherited.c"
+      ]
+    },
+    {
+      "label": "Native rubber motorboat",
+      "config_family": "Boat_01_ColorBase",
+      "classes": [
+        "Boat_01_Blue",
+        "Boat_01_Orange",
+        "Boat_01_Black",
+        "Boat_01_Camo"
+      ],
+      "inheritance": [
+        "Boat_01_ColorBase",
+        "BoatScript",
+        "Boat",
+        "Transport"
+      ],
+      "current_wrap_support": false,
+      "body_hidden_selections_verified": false,
+      "model_path_verified": false,
+      "required_work": [
+        "Dedicated BoatScript lifecycle hook or equivalent supported common adapter",
+        "Installed config/model/texture atlas review: isolate hull/tubes from interior, engine and antiwater geometry",
+        "Preserve ShowDamage/HideDamage/HideAntiwater native model behavior"
+      ],
+      "primary_files": [
+        "boat_01.c",
+        "boatscript.c",
+        "boat.c"
+      ]
+    },
+    {
+      "label": "M1025/Humvee",
+      "config_family": "Offroad_02",
+      "classes_in_official_script": [
+        "Offroad_02",
+        "Offroad_02_Beige"
+      ],
+      "inheritance": [
+        "Offroad_02",
+        "CarScript"
+      ],
+      "current_wrap_support": false,
+      "body_hidden_selections_verified": false,
+      "model_path_verified": false,
+      "runtime_evidence": "Actual uploaded vehicle coverage says no_verified_exterior_selection for Offroad_02. Current KnownModel family lookup returns empty and blocks all slots.",
+      "panel_family": "CarDoor",
+      "required_work": [
+        "Installed body/panel config, model and atlas review",
+        "Add exact allowed model/selection mapping after proof; CarScript and CarDoor lifecycle already exist"
+      ],
+      "primary_files": [
+        "offroad_02.c",
+        "inventoryitem_inherited.c"
+      ]
+    }
+  ],
+  "already_supported_native_families": [
+    {
+      "family": "OffroadHatchback",
+      "label": "ADA 4x4",
+      "status": "implemented; uploaded server eligibility observed; native visual result not supplied"
+    },
+    {
+      "family": "CivilianSedan",
+      "label": "Olga 24",
+      "status": "implemented; uploaded server eligibility observed; native visual result not supplied"
+    },
+    {
+      "family": "Sedan_02",
+      "label": "Sarka 120",
+      "status": "implemented; uploaded server eligibility observed; native visual result not supplied"
+    },
+    {
+      "family": "Hatchback_02",
+      "label": "Gunter 2",
+      "status": "implemented; user confirms native body/panel appearance in screenshot"
+    },
+    {
+      "family": "Truck_01_Base",
+      "label": "M3S",
+      "status": "implemented; uploaded server eligibility observed; native visual result not supplied"
+    }
+  ],
+  "new_safe_surface_mappings_certified_by_this_review": [],
+  "reason": "The official script repository establishes inheritance, lifecycle and light behavior, but does not publish the complete current vehicle CfgVehicles configs, texture atlas bytes or model face selections. The CE publisher extracts establish class names and attachments only. No native model should be enabled just because it has a generic camo selection.",
+  "historical_audit_correction": "Vehicle_Wrap_Compatibility.json says common native bike/boat lifecycle supported; that predates the CarScript-only compile repair. Current native motorcycle and boat classes bypass the shipped CarScript hook.",
+  "sources": [
+    {
+      "url": "https://github.com/BohemiaInteractive/DayZ-Script-Diff/blob/78be1c402eec249e4e4cdac7e1fef71006e94d20/scripts/3_game/vehicles/motorbike.c",
+      "local_file": "motorbike.c",
+      "sha256": "20f1b00d42beb3593a9fee66abcca08122e6b1005cff90fdfdc5d195b61c4e6b"
+    },
+    {
+      "url": "https://github.com/BohemiaInteractive/DayZ-Script-Diff/blob/78be1c402eec249e4e4cdac7e1fef71006e94d20/scripts/3_game/vehicles/boat.c",
+      "local_file": "boat.c",
+      "sha256": "4fb6eb1e2b869e070ffca0832f34fbf70880e9bc72ead302642565a62b46f827"
+    },
+    {
+      "url": "https://github.com/BohemiaInteractive/DayZ-Script-Diff/blob/78be1c402eec249e4e4cdac7e1fef71006e94d20/scripts/4_world/entities/vehicles/boatscript.c",
+      "local_file": "boatscript.c",
+      "sha256": "76086c2f8bffebec86a026665d680ce89d95f9c9d6db543ad3c8749ae6c35c02"
+    },
+    {
+      "url": "https://github.com/BohemiaInteractive/DayZ-Script-Diff/blob/78be1c402eec249e4e4cdac7e1fef71006e94d20/scripts/4_world/entities/vehicles/motorbikescript.c",
+      "local_file": "motorbikescript.c",
+      "sha256": "ae7883080920fb59e731b1cbdaa814df5dbfe2581f8f348acbd24a0522da819f"
+    },
+    {
+      "url": "https://github.com/BohemiaInteractive/DayZ-Script-Diff/blob/78be1c402eec249e4e4cdac7e1fef71006e94d20/scripts/4_world/entities/vehicles/inheritedboats/boat_01.c",
+      "local_file": "boat_01.c",
+      "sha256": "1187b323bf6c71b85f27e036da36158d9825f9ea6fa36e0189a5676ed16d9581"
+    },
+    {
+      "url": "https://github.com/BohemiaInteractive/DayZ-Script-Diff/blob/78be1c402eec249e4e4cdac7e1fef71006e94d20/scripts/4_world/entities/vehicles/inheritedmotorbikes/motorbike_01.c",
+      "local_file": "motorbike_01.c",
+      "sha256": "ccf6424346dbd941044a7e4a83d2b6a48e6f93fbfcbae786fdb5f83d88bc5ea7"
+    },
+    {
+      "url": "https://github.com/BohemiaInteractive/DayZ-Script-Diff/blob/78be1c402eec249e4e4cdac7e1fef71006e94d20/scripts/4_world/entities/vehicles/inheritedmotorbikes/motorbike_02.c",
+      "local_file": "motorbike_02.c",
+      "sha256": "3513cef24d3e51829091d52e07758af56c6ada229e4e3737755b2028fb180bbc"
+    },
+    {
+      "url": "https://github.com/BohemiaInteractive/DayZ-Script-Diff/blob/78be1c402eec249e4e4cdac7e1fef71006e94d20/scripts/4_world/entities/vehicles/inheritedcars/offroad_02.c",
+      "local_file": "offroad_02.c",
+      "sha256": "bed1e6b93fa3b8a23a6661754489d0f7d8f76f4de4edd1935c9c88e947b1a368"
+    },
+    {
+      "url": "https://github.com/BohemiaInteractive/DayZ-Script-Diff/blob/78be1c402eec249e4e4cdac7e1fef71006e94d20/scripts/4_world/entities/core/inherited/inventoryitem.c",
+      "local_file": "inventoryitem_inherited.c",
+      "sha256": "242eb0e99713ef69c2b9111e76bc9bf32dca40467e884e895871d083e44469b8"
+    }
+  ],
+  "official_release_notes": "https://dayz.com/article/game-update/1-30-experimental-release/dayz-steam-patch-notes",
+  "official_ce_provenance": "Custom/Transport/Vanilla130/SOURCE.json (DZ_130 types/spawnabletypes extraction;27types,7vehicles)",
+  "not_claimed": [
+    "No native Enforce compile performed",
+    "No safety inference from _co suffix alone",
+    "No proof every surface on a model is independently paintable",
+    "No assertion every scripted native class is enabled in current Avalon economy"
+  ]
+}

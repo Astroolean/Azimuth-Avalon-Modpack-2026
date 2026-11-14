@@ -1,0 +1,79 @@
+{
+  "date": "2026-11-14",
+  "scope": "Custom transport configured by Azimuth R23; read-only research; no production changes",
+  "native_testing": "None. User confirmation applies to the Gunter screenshot, not these custom families.",
+  "summary": "No additional custom family has enough verified model/texture mapping here to safely enable the existing generic wrap renderer. All are potential custom-texture projects, subject to actual selection, UV and material evidence.",
+  "families": [
+    {
+      "family": "Avalon RZR buggy",
+      "observed_classes": ["RTrzr", "RTrzr_Black", "RTrzr_Desert", "RTrzr_Eclipse"],
+      "current_status": "All four were observed by the supplied runtime vehicle coverage with no_verified_exterior_selection. The exact-model allowlist currently rejects them; this does not prove the model has no paintable selections.",
+      "publisher_evidence": "Avalon publisher credits RisingTheory for RZRs. A standalone RZR1000_fixed item by the same Avalon author describes a handling-modified version for Avalon and links the original RZR1000. The manager does not explicitly require that standalone item, so it must not be assumed to be the owning installed pack.",
+      "source_ids": {"avalon": "3225634444", "related_standalone_fixed": "3326622269", "related_original": "2856902027"},
+      "wrap_feasibility": "Potentially body panels, hood, roof and doors where exposed. Existing skins/colour variants show recolour potential but do not establish exterior-only UV isolation. Do not repaint tyres, seats or glazing by guessing camo indices.",
+      "required_evidence": ["Owning installed PBO's CfgVehicles definition for RTrzr and its inherited base", "Referenced model path, per-LOD selection membership and texture/material slots", "Original exterior atlas or publisher UV template; material definitions to distinguish glass/alpha and body paint"],
+      "smallest_input": "The RZR-owning addon from the actual Avalon installation, or just its decoded config, relevant script-base definitions and referenced body texture/material/model-selection metadata. Do not request the whole 4.6GB map merely for this."
+    },
+    {
+      "family": "DayZ-Bicycle pedal bikes",
+      "source_ids": {"required": "2971190303", "optional_separate_arma_bikes": "2971993210"},
+      "observed_classes": ["Old_Bike"],
+      "class_scope_note": "Old_Bike is explicitly required by the manager's fallback importer. Other bicycle event variants are imported literally from installed publisher XML; their complete current names are not in the delivered package. A ladybicycle_wheel was observed in the supplied item report, which is evidence of a part, not a full bicycle-model mapping.",
+      "current_status": "Not supported by current wrap rules.",
+      "important_lifecycle_evidence": "Publisher changelog: October16 2026 used CarScript temporarily for1.30; October23 changed to vanilla bike simulation; November6 made further simulation changes. The older description calling it basically a car cannot establish the current script base. Azimuth already registers MotorbikeScript as a CE root for updated bikes.",
+      "wrap_feasibility": "Frame, fork and mudguards are reasonable targets if separately exposed. Thin spokes, tyre sidewalls, saddle and chain usually need preserved atlas regions; whether this mod uses separate regions is not yet known.",
+      "required_evidence": ["Current installed bicycle config and script inheritance after October23 simulation migration", "Per-model hidden selections and material/texture mapping", "Frame versus wheels/saddle/chain UV separation", "Conversion/packing behavior for held bicycle item versus rideable vehicle, to preserve identity or intentionally transfer a finish"],
+      "smallest_input": "The current addon(s) defining Old_Bike and the other publisher bicycle event children from steamapps/workshop/content/221100/2971190303/Addons, plus publisher types/events/spawnabletypes XML. Decoded configuration and referenced surface assets are sufficient if already extracted.",
+      "not_installed_by_this_manager": "Arma Bicycles2971993210 is a separate optional addon with documented classes Old_BikeArma and MMTArma (plus packed-item/wheel classes). Do not add these to the current installed vehicle count automatically."
+    },
+    {
+      "family": "An-2 biplane",
+      "source_ids": {"required": "3834034916"},
+      "configured_class_scope": "Manager imports one literal base aircraft ending in biplane and present in all three installed publisher economy documents. It deliberately does not invent optional paint-pack classes.",
+      "publisher_documented_optional_examples": ["An2_Biplane_Red", "An2_Biplane_Camo"],
+      "current_status": "Not supported by current wrap rules.",
+      "publisher_evidence": "The current publisher describes one standard green scheme in the base mod and16 additional schemes in four optional paint packs: Civil, Worn, Military and Soviet Military. November10 changelog says the schemes moved into separate addons while class names stayed unchanged. This is direct evidence that the aircraft supports authored retextures, not evidence that every skin can safely be applied to one generic selection.",
+      "wrap_feasibility": "Fuselage, wings, tail and exterior door surfaces can be a bespoke skin project after mapping the actual model. Cockpit glazing, gauges, interior, wheels and propeller textures must remain separate or be masked. Aircraft doors became fixed model parts on November9, so a CarDoor attachment hook alone is insufficient.",
+      "required_evidence": ["Current base-aircraft configuration/script hierarchy and model path", "Publisher model selections and texture/material slot definitions", "Fuselage/wing/tail UV template or body atlas", "At least one optional paint config or publisher texture template if the base mapping is unclear", "ServerFiles/README.txt and literal base classname for installed-version matching"],
+      "smallest_input": "The installed An-2 addon defining the base aircraft plus its ServerFiles/README.txt; no optional paint pack is required merely to inspect the base model. Prefer decoded config, script-base declaration and relevant referenced texture/material assets when available.",
+      "verified_source_date": "Publisher page updated November13 2026; changelog fetched November14 2026."
+    },
+    {
+      "family": "DayZ Horse and tack",
+      "source_ids": {"required": "3295021220"},
+      "previous_uploaded_verified_horse_classes": ["Animal_Horse_Brown", "Animal_Horse_White", "Animal_Horse_Gray", "Animal_Horse_Gray2", "Animal_Horse_Palomino"],
+      "current_status": "Animal body deliberately excluded from vehicle wraps. Saddle, bridle and saddlebag surfaces have not been verified as safe skin targets.",
+      "publisher_evidence": "Publisher documents multiple horse colours, saddle/bridle ownership/riding and saddlebag contributors. This does not identify a safe tack texture slot. Animal fur/eyes/mane need their own appearance work, not an opaque car wrap.",
+      "wrap_feasibility": "Optional custom saddle blankets, saddle leather panels and saddlebags may be feasible with verified gear models and UV mapping. Treat them as separate equipment skins. Do not enable horse-body painting because it is rideable.",
+      "required_evidence": ["Saddle/bridle/saddlebag class definitions and their model hidden selections", "Leather/cloth atlas boundaries and any transparent straps or hair cutouts", "Attachment ownership/restoration behavior"],
+      "smallest_input": "The previously supplied3295021220.zip contains3295021220/Addons/dayz_horse.pbo (config.bin was independently decoded by the earlier audit). That existing upload can be reused if available; no whole-world upload is needed.",
+      "prior_upload_sha256": "f5345db456600af42963fab08630256863fdb7601b1d746ce79d0cc8af0f6dae"
+    }
+  ],
+  "boundaries": [
+    "Configuration selection names alone do not prove which mesh faces or atlas regions will be recoloured.",
+    "Existing colour variants demonstrate some recolour capability but do not certify generic whole-texture replacement.",
+    "Models without a separately exposed body selection may require a UV-matched composite texture; a model with no usable dynamic selection can require a separate authored variant or a model-author change.",
+    "Publisher originals should remain in their signed Workshop packs. Compatibility code and original generated texture assets can be separate; no publisher binary or artwork redistribution is proposed.",
+    "No native gameplay, rendering, physics or custom-mod compatibility test was run."
+  ],
+  "primary_sources": [
+    {"url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3225634444", "ref": "turn798208155view0", "evidence": "Avalon identity, update1.30 and RisingTheory RZR credit."},
+    {"url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3326622269", "ref": "turn599451952view0", "evidence": "Related RZR1000_fixed publisher says tailored forAvalon and links original2856902027."},
+    {"url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2971190303", "ref": "turn745610750view0", "evidence": "Bicycle publisher identity, requiredSurvivor Animations, XML examples, inspection permissions."},
+    {"url": "https://steamcommunity.com/sharedfiles/filedetails/changelog/2971190303", "ref": "turn979959746view0", "evidence": "October2026 move to vanilla bike simulation and November6 changes."},
+    {"url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2971993210", "ref": "turn979959746view1", "evidence": "Separate Arma bicycle addon and exactOld_BikeArma/MMTArma classes."},
+    {"url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3834034916", "ref": "turn128510216view0", "evidence": "An-2 author, base versus16optional schemes, exampleclassnames andServerFiles."},
+    {"url": "https://steamcommunity.com/sharedfiles/filedetails/changelog/3834034916", "ref": "turn979959746view2", "evidence": "Paint-pack split and fixed-door model changes inNovember2026."},
+    {"url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3295021220", "ref": "turn849168304view0", "evidence": "Horse colour variants and tack requirements; no safe-slot declarations."}
+  ],
+  "local_evidence": [
+    "wrap_fix/package/Azimuth/Engine/azimuth_app/world/avalon_immersion.py",
+    "wrap_fix/package/Azimuth/Engine/azimuth_app/transport/avalon_plane_transport.py",
+    "wrap_fix/package/Azimuth/Engine/azimuth_app/transport/avalon_horse_transport.py",
+    "wrap_fix/package/Azimuth/Engine/azimuth_app/transport/avalon_land_transport.py",
+    "wrap_fix/package/Azimuth/Docs/Audit/Horse_Publisher_Compatibility_Fix.json",
+    "upload/AzimuthSkins.zip:vehicle_wrap_coverage.json",
+    "upload/AzimuthSkins.zip:random_skin_coverage.json"
+  ]
+}

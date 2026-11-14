@@ -1,0 +1,35 @@
+{
+  "release": "Azimuth_DayZ_Server_Manager_R23_Full_Package_Collector_Fix.zip",
+  "parent": {
+    "path": "/workspace/scratch/5af776953b72/complete_repair/output/Azimuth_DayZ_Server_Manager_R23_Full_Audit_Repair.zip",
+    "sha256": "3a94718ed0f36b8ab91a24236e33609ab9404b191404990f709e2949a2555880",
+    "library_id": "libfile_fde3_f-8b868cdc6f348191a65696d74973df54_b9d254397b588191bf13f4eb4cc3a703",
+    "version": 46
+  },
+  "changed": [
+    "Docs/Audit/README.md",
+    "Docs/Guides/PLAYTHROUGH_AUDIT.txt",
+    "Docs/Guides/TRANSPORTATION_GUIDE.txt",
+    "Docs/Guides/VEHICLE_WRAPS_GUIDE.txt",
+    "Docs/Guides/VEHICLE_WRAP_COVERAGE.txt",
+    "Docs/START_HERE.md",
+    "Engine/azimuth_app/checks/vehicle_repair_assets.py",
+    "Engine/azimuth_app/ui/dashboard_workshop.py"
+  ],
+  "unchanged_count": 287,
+  "removed": [],
+  "added": [
+    "Docs/Audit/Vehicle_Collector_Repair.txt",
+    "Docs/Audit/Vehicle_Collector_Repair_Evidence.zip",
+    "Docs/Audit/Vehicle_Collector_Repair_Verification.json"
+  ],
+  "protected_unchanged_count": 160,
+  "python_files_parse_310": 77,
+  "native_game_or_windows_execution": false,
+  "live_user_state_modified": false,
+  "repair_tests": 172,
+  "retained_checks": 125,
+  "fresh_zip_repair_tests": 172,
+  "fresh_zip_retained_checks": 125,
+  "fresh_zip_code_assets_match_final": true
+}

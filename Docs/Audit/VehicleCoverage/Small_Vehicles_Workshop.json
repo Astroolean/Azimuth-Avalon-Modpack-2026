@@ -1,0 +1,349 @@
+{
+  "checked_at": "2026-11-14",
+  "scope": "Public primary-source research. No subscriptions, purchases, builds, native tests, or live changes.",
+  "date_note": "Steam metadata without a year is interpreted in current2026; exact display dates included in prior tool evidence.",
+  "selection": [
+    "3827497320",
+    "3830162428",
+    "3125203834"
+  ],
+  "native_existing": [
+    "Jana50 native moped already in build; do not relabel as a new Workshop mod",
+    "Bitrak native dirtbike already in build",
+    "DayZ-Bicycle/Survivor Animations already in build"
+  ],
+  "integration_requirements": [
+    "Load selected mods and actual required dependencies on server/client using normal Steam paths; copy signing keys. Never redistribute restricted PBOs.",
+    "Read bundled publisher serverfiles and compare exact classes against loaded CfgVehicles before writing events. Do not infer classnames from titles.",
+    "Combine existing economy fragments using XML parser, not header concatenation.",
+    "Add Avalon-specific clear drivable spawn positions; do not import Chernarus coordinate samples.",
+    "Spawn counts, attachments, fuel/battery service and persistence must be verified per vehicle. Server startup and one native movement/rejoin test per new family before calling ready.",
+    "Wrap eligibility is separate: audit body/attachment hidden selections, server-selectedID/clientID/per-slot material and texture readback; exclude glass/rubber/lights. Native screenshot test is still required."
+  ],
+  "unresolved": [
+    "No author-verified electric bicycle addition located in current search; do not invent one.",
+    "GolfCart and Vespa exact classes exist only in downloaded serverfiles at present.",
+    "None of these vehicles has been natively tested by this agent.",
+    "Vespa and Tech terms restrict modifications; stock transport enablement does not establish permission for custom wraps."
+  ],
+  "items": [
+    {
+      "workshop_id": "3827497320",
+      "title": "GolfCart",
+      "authors": [
+        "Letro03",
+        "xxroninxx94"
+      ],
+      "category": "electric golf cart",
+      "primary_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3827497320",
+      "source_ref": null,
+      "retrieved_via": "Direct HTTPS urllib; search web open returned inaccessible",
+      "posted": "2026-10-25",
+      "updated": "2026-11-03",
+      "size_mb": 31.489,
+      "publisher_1_30_claim": false,
+      "compatibility": "Released and updated during 1.30; no explicit compatibility text or native test. Candidate, not verified.",
+      "dependencies": [],
+      "dependencies_status": "No Required Items section observed",
+      "features": [
+        "4 seats",
+        "300 inventory slots",
+        "CarBattery power; publisher estimates about two hours at full speed",
+        "6 colors"
+      ],
+      "publisher_server_files": "serverfiles folder contains types and event spawn snippets",
+      "confirmed_vehicle_classes": [],
+      "class_status": "Must read publisher serverfiles after standard Steam download; exact classes are not published on page",
+      "license": "No repacking; no purchase shown; normal external Workshop dependency",
+      "wrap_status": "No retexture permission or hidden-selection specification published; per-slot coverage and permission still unconfirmed",
+      "priority": "Primary golf-cart candidate; do not substitute old GolfKart2963230374"
+    },
+    {
+      "workshop_id": "3830162428",
+      "title": "[CrSk] Vespa 125 Primavera",
+      "authors": [
+        "CrushingSkirmish"
+      ],
+      "category": "scooter",
+      "primary_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3830162428",
+      "source_ref": null,
+      "retrieved_via": "Direct HTTPS urllib; search web open returned inaccessible",
+      "posted": "2026-10-30",
+      "updated": "2026-10-30",
+      "size_mb": 157.407,
+      "publisher_1_30_claim": true,
+      "compatibility": "Publisher explicitly claims DayZ1.30 and vanilla motorbike features; Avalon and combined stack untested",
+      "dependencies": [],
+      "dependencies_status": "No Required Items section observed",
+      "features": [
+        "1 seat",
+        "11 colors plus11 rusty versions",
+        "Versions with or without25-slot cargo/spare wheel",
+        "4-speed manual;90 top speed;5.5L fuel"
+      ],
+      "publisher_server_files": "Classnames, trader, types and events XML in mod folder",
+      "confirmed_vehicle_classes": [],
+      "class_status": "Read bundled publisher classnames after Steam download; no names invented",
+      "license": "No reupload/repack/modify/build-on or redistribution without permission; use normal Steam dependency. Public listing, no purchase required for regular use shown.",
+      "wrap_status": "Do not promise Azimuth wrap support: restrictive modification terms and no audited surfaces",
+      "priority": "Primary scooter candidate; new addition distinct from native Jana50 moped"
+    },
+    {
+      "workshop_id": "3125203834",
+      "title": "Techs 4x4 All Terrain Vehicles",
+      "authors": [
+        "Tech"
+      ],
+      "category": "quad/ATV",
+      "primary_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3125203834",
+      "source_ref": "turn219528010view2",
+      "posted": "2023-12-28",
+      "updated": "2026-10-16",
+      "size_mb": 102.091,
+      "publisher_1_30_claim": true,
+      "compatibility": "Publisher claims1.30, Survivor Animations and RaG_Immersive_Vehicles compatible; Nov11 author investigating Nasdara floaty/unstable terrain behavior. Avalon untested.",
+      "dependencies": [],
+      "recommended_dependencies": [
+        "Survivor Animations"
+      ],
+      "dependencies_status": "Survivor Animations is recommended, already in user build",
+      "features": [
+        "2 seats",
+        "100 slots",
+        "Rifle/camonet slots",
+        "Solid colors and camouflages; Standard/EVO cosmetic branding"
+      ],
+      "publisher_server_files": "Extras folder; author pinned mission XML discussion",
+      "publisher_config_url": "https://steamcommunity.com/workshop/filedetails/discussion/3125203834/6394634754794689915/",
+      "publisher_config_source_ref": "turn664653421view0",
+      "confirmed_vehicle_classes": [
+        "Techs_ATV_Black",
+        "Techs_ATV_Red",
+        "Techs_ATV_White",
+        "Techs_ATV_Blue",
+        "Techs_ATV_Yellow",
+        "Techs_ATV_OD",
+        "Techs_ATV_Brown",
+        "Techs_ATV_Lime",
+        "Techs_ATV_Orange",
+        "Techs_ATV_Pink",
+        "Techs_ATV_Purple",
+        "Techs_ATV_Teal",
+        "Techs_ATV_M90",
+        "Techs_ATV_SM90",
+        "Techs_ATV_DM90",
+        "Techs_ATV_TigerStripe",
+        "Techs_ATV_WinterTigerStripe",
+        "Techs_ATV_DesertTigerStripe",
+        "Techs_EvoGaming_ATV_Black",
+        "Techs_EvoGaming_ATV_Red",
+        "Techs_EvoGaming_ATV_White",
+        "Techs_EvoGaming_ATV_Blue",
+        "Techs_EvoGaming_ATV_Yellow",
+        "Techs_EvoGaming_ATV_OD",
+        "Techs_EvoGaming_ATV_Brown",
+        "Techs_EvoGaming_ATV_Lime",
+        "Techs_EvoGaming_ATV_Orange",
+        "Techs_EvoGaming_ATV_Pink",
+        "Techs_EvoGaming_ATV_Purple",
+        "Techs_EvoGaming_ATV_Teal",
+        "Techs_EvoGaming_ATV_M90",
+        "Techs_EvoGaming_ATV_SM90",
+        "Techs_EvoGaming_ATV_DM90",
+        "Techs_EvoGaming_ATV_TigerStripe",
+        "Techs_EvoGaming_ATV_WinterTigerStripe",
+        "Techs_EvoGaming_ATV_DesertTigerStripe"
+      ],
+      "confirmed_part_classes": [
+        "Techs_ATV_Wheel",
+        "Techs_ATV_Wheel_Ruined"
+      ],
+      "event_name": "VehicleTechs_ATV_Spawn",
+      "class_status": "36 vehicle classes explicitly present in author-published event XML; runtime availability not yet checked",
+      "license": "No extract/repack/modify/reupload without permission; distribute dependency reference only",
+      "wrap_status": "No explicit external retexture permission identified; do not promise customwrap eligibility",
+      "priority": "Primary quad candidate, requires isolated terrain/handling test",
+      "integration_note": "Author Dec22 2025 warns old bundled spawnabletypes incorrectly use Hilux wheels; actual publisher class is Techs_ATV_Wheel. Use exact ATV wheel classes."
+    },
+    {
+      "workshop_id": "3456445155",
+      "title": "MBM_GoKart",
+      "authors": [
+        "mebrad"
+      ],
+      "category": "go-kart",
+      "primary_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3456445155",
+      "source_ref": "turn456580228view2",
+      "posted": "2025-04-01",
+      "updated": "2026-10-22",
+      "size_mb": 41.089,
+      "publisher_1_30_claim": true,
+      "compatibility": "Publisher re-tested Nov3 and reports working; page contains user reports of failures, so native test still needed. Flashlight slot explicitly excludes Expansion users.",
+      "dependencies": [],
+      "dependencies_status": "None listed in Required Items",
+      "features": [
+        "100 slots/backpack",
+        "AWD/CVT",
+        "Custom sounds",
+        "Retexturable; multiple colors"
+      ],
+      "publisher_server_files": "types file and key in mod folder",
+      "confirmed_vehicle_classes": [],
+      "community_observed_classes": [
+        "MBM_GoKart_Blue",
+        "MBM_GoKart_Red",
+        "MBM_GoKart_Green",
+        "MBM_GoKart_Orange",
+        "MBM_GoKart_Grey",
+        "MBM_GoKart_Hearts",
+        "MBM_GoKart_Splatter",
+        "MBM_GoKart_BlueSplatter",
+        "MBM_GoKart_Camo"
+      ],
+      "community_class_source_url": "https://steamcommunity.com/workshop/filedetails/discussion/3456445155/600775936314456950/",
+      "community_class_source_ref": "turn664653421view1",
+      "class_status": "Names above from community discussion, not publisher; validate bundled types before integration",
+      "license": "Publisher explicitly free use and free repack",
+      "wrap_status": "Publisher explicitly retexturable; inspect hidden selections and client readback",
+      "priority": "Strong optional fun vehicle; not a golf cart"
+    },
+    {
+      "workshop_id": "3011551250",
+      "title": "Trolley Kart UPDATED",
+      "authors": [
+        "Spurgle",
+        "Wilma Fingerdoo"
+      ],
+      "category": "craftable gas/electric junk kart",
+      "primary_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3011551250",
+      "source_ref": "turn509662331view1",
+      "posted": "2023-07-28",
+      "updated": "2026-10-22",
+      "size_mb": 92.235,
+      "publisher_1_30_claim": true,
+      "compatibility": "Publisher says tested1.30 and Expansion. Custom HUD is not functional with Expansion; MedicalAttensionUpdated conflict needs linked patch2357461124 if installed.",
+      "dependencies": [],
+      "features": [
+        "Gas and electric versions",
+        "Craftable from junk",
+        "Retexture hidden selections on kart/road-sign armor",
+        "Repair and damage systems"
+      ],
+      "publisher_server_files": "types XML in info folder",
+      "confirmed_vehicle_classes": [],
+      "community_observed_classes": [
+        "Spur_TrolleyKart"
+      ],
+      "class_status": "Need bundled types for authoritative complete list; original linked mod2221274779 returned error",
+      "license": "No repacking; maintainers say original-author permission to maintain; monetized servers allowed but not monetizing items",
+      "wrap_status": "Explicit retexture hidden selections; promising for Azimuth slot adapter",
+      "priority": "Optional; fits apocalypse aesthetic, extra crafting/economy work"
+    },
+    {
+      "workshop_id": "2971993210",
+      "title": "Arma Bicycles",
+      "authors": [
+        "Hunterz",
+        "RaG Tyson",
+        "Nazzgy",
+        "KAMO",
+        "Sajid_Alfa"
+      ],
+      "category": "pedal bicycles",
+      "primary_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2971993210",
+      "source_ref": "turn624090084view0",
+      "posted": "2023-05-05",
+      "updated": "2026-11-06",
+      "size_mb": 4.638,
+      "publisher_1_30_claim": false,
+      "compatibility": "Recently updated addon to DayZ-Bicycle; native Avalon testing not performed",
+      "dependencies": [
+        "2971190303",
+        "Survivor Animations"
+      ],
+      "features": [
+        "Two additional Arma bicycle models"
+      ],
+      "publisher_server_files": "Page publishes literal classnames",
+      "confirmed_vehicle_classes": [
+        "Old_BikeArma",
+        "MMTArma"
+      ],
+      "confirmed_part_classes": [
+        "ItemOld_BikeArma",
+        "Oldbike_wheel",
+        "ItemMMTArma",
+        "MMT_wheel"
+      ],
+      "class_status": "Literal author list; distinguish Item* pickup/crafting entities from rideable class",
+      "license": "Contains Bohemia licensed ADPL-SA material; page permits learning inspection",
+      "wrap_status": "Need compatible editable surfaces; not confirmed",
+      "priority": "Small optional addon using existing bicycle/animation dependencies; not electric"
+    },
+    {
+      "workshop_id": "2963230374",
+      "title": "GolfKart",
+      "authors": [
+        "ArtificialSweetener"
+      ],
+      "category": "golf cart",
+      "primary_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2963230374",
+      "source_ref": "turn509662331view0",
+      "posted": "2023-04-16",
+      "updated": "2025-01-03",
+      "size_mb": 23.743,
+      "publisher_1_30_claim": false,
+      "dependencies": [],
+      "dependencies_status": "Publisher explicitly no dependencies",
+      "publisher_server_files": "No public config instructions beyond key and mod load list",
+      "confirmed_vehicle_classes": [],
+      "license": "No repack",
+      "wrap_status": "Unknown",
+      "priority": "Hold: older than current GolfCart3827497320, no public exact classes or1.30 statement"
+    },
+    {
+      "workshop_id": "2757080411",
+      "title": "Crocos Quadbike",
+      "authors": [
+        "Crocodoc"
+      ],
+      "category": "quad/ATV",
+      "primary_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2757080411",
+      "source_ref": "turn219528010view1",
+      "posted": "2022-02-18",
+      "updated": "2022-11-10",
+      "size_mb": 10.136,
+      "publisher_1_30_claim": false,
+      "dependencies": [],
+      "recommended_dependencies": [
+        "DBO_Surfaces or bundled Croco_Traction_Improve.pbo"
+      ],
+      "publisher_server_files": "XML folder; trader folder for DrJones",
+      "confirmed_vehicle_classes": [],
+      "license": "No repack except Croco_Traction_Improve.pbo; learning inspection allowed",
+      "wrap_status": "Unknown",
+      "priority": "Hold: old release; Techs ATV has fresher1.30 declaration"
+    },
+    {
+      "workshop_id": "3384771409",
+      "title": "MBM_YamahaYZF450",
+      "authors": [
+        "mebrad"
+      ],
+      "category": "dirtbike",
+      "primary_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3384771409",
+      "source_ref": "turn456580228view3",
+      "posted": "2024-12-15",
+      "updated": "2024-12-22",
+      "size_mb": 24.58,
+      "publisher_1_30_claim": false,
+      "dependencies": [],
+      "compatibility": "With/without Survivor Animations variants; author Oct21 says working on updates",
+      "publisher_server_files": "types/key in mod folder",
+      "confirmed_vehicle_classes": [],
+      "license": "Free use; no repack",
+      "wrap_status": "Retexturable publisher claim",
+      "priority": "Hold pending current1.30 update; native Bitrak already supplies dirtbike category"
+    }
+  ]
+}

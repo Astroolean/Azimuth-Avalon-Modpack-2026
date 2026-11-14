@@ -1,0 +1,178 @@
+{
+  "no_supported_exterior_selection": {
+    "rtrzr/rtrzr.p3d": [
+      "RTrzr"
+    ],
+    "rtrzr/rtrzr_razzle.p3d": [
+      "RTrzr_Razzle"
+    ],
+    "rtrzr/rtrzr_forest.p3d": [
+      "RTrzr_Forest"
+    ],
+    "rtrzr/rtrzr_winter.p3d": [
+      "RTrzr_Winter"
+    ],
+    "rtrzr/rtrzr_black.p3d": [
+      "RTrzr_Black"
+    ],
+    "rtrzr/rtrzr_woodland.p3d": [
+      "RTrzr_Woodland"
+    ],
+    "rtrzr/rtrzr_eclipse.p3d": [
+      "RTrzr_Eclipse"
+    ],
+    "rtrzr/rtrzr_matte_black.p3d": [
+      "RTrzr_Matte_Black"
+    ],
+    "rtrzr/rtrzr_od.p3d": [
+      "RTrzr_OD"
+    ],
+    "rtrzr/rtrzr_desert.p3d": [
+      "RTrzr_Desert"
+    ],
+    "dayzexpansion/vehicles/air/gyro/gyrocopter.p3d": [
+      "ExpansionGyrocopter"
+    ],
+    "dayzexpansion/vehicles/air/gyro/gyrocopter_big.p3d": [
+      "ExpansionBigGyrocopter"
+    ],
+    "dayzexpansion/vehicles/water/zodiac/zodiac.p3d": [
+      "ExpansionZodiacBoat",
+      "ExpansionZodiacBoat_Orange",
+      "ExpansionZodiacBoat_Black",
+      "ExpansionZodiacBoat_Green"
+    ],
+    "dayzexpansion/vehicles/ground/vodnik/vodnik.p3d": [
+      "ExpansionVodnik",
+      "ExpansionVodnik_Camo",
+      "ExpansionVodnik_CamoMedical"
+    ],
+    "dayzexpansion/vehicles/water/carrier/lhd.p3d": [
+      "ExpansionLHD"
+    ],
+    "rag/rag_vehicles/rag_gaz69/rag_gaz69.p3d": [
+      "rag_gaz69"
+    ],
+    "rag/rag_vehicles/rag_jeep_willys/rag_jeep_willys.p3d": [
+      "rag_jeep_willys"
+    ],
+    "rag/rag_vehicles/rag_schoolbus/rag_schoolbus.p3d": [
+      "rag_schoolbus"
+    ],
+    "rag/rag_vehicles/rag_schoolbus/rag_schoolbus_czech.p3d": [
+      "rag_schoolbus_czech"
+    ],
+    "van_camperrv/van_camperrv.p3d": [
+      "Van_CamperRV"
+    ],
+    "extension_helicopters/merlinhc3/merlinhc3_baf.p3d": [
+      "EXT_MerlinHC3"
+    ],
+    "extension_helicopters/mi8/mi_171.p3d": [
+      "EXT_Mi171"
+    ],
+    "motorhome_boss/motorhome_apo.p3d": [
+      "MotorHome_Apo"
+    ],
+    "motorhome_boss/motorhome_white.p3d": [
+      "MotorHome_White"
+    ],
+    "motorhome_boss/motorhome_rust.p3d": [
+      "MotorHome_Rust"
+    ],
+    "motorhome_boss/motorhome_greencamo.p3d": [
+      "MotorHome_GreenCamo"
+    ],
+    "armabicycles/model/old_bike.p3d": [
+      "Old_BikeArma"
+    ],
+    "armabicycles/model/mmt.p3d": [
+      "MMTArma"
+    ]
+  },
+  "mapped_fitted_panels_only": {
+    "extension_helicopters/ka60/ka60_pmc.p3d": [
+      "EXT_KA60"
+    ],
+    "fordf150hoonitruck/ford_f150hoonitruck.p3d": [
+      "Ford_F150Hoonitruck"
+    ],
+    "audi_r8_v10/audir8.p3d": [
+      "Audi_R8_White"
+    ],
+    "bmw_m5g90_sadan/bmw_m5g90_sadan.p3d": [
+      "BMW_M5g90_Sadan_White"
+    ],
+    "ford_bronco_xlt/ford_bronco.p3d": [
+      "Ford_Bronco_White"
+    ],
+    "gmc_boss/gmc_boss.p3d": [
+      "GMC_BOSS_Red"
+    ],
+    "porsche_911_gt3/gt3.p3d": [
+      "GT3_Green"
+    ],
+    "saab_900_turbo/saab_900_turbo.p3d": [
+      "saab_900_turbo_yellow"
+    ]
+  },
+  "mapped_requires_nonempty_opaque_readback": {
+    "van_dodgephoenix/van_dodgephoenix.p3d": [
+      "Van_DodgePhoenix"
+    ],
+    "van_dodgephoenix/van_dodgephoenix_blue.p3d": [
+      "Van_DodgePhoenix_blue"
+    ],
+    "van_dodgephoenix/van_dodgephoenix_green.p3d": [
+      "Van_DodgePhoenix_green"
+    ],
+    "van_dodgephoenix/van_dodgephoenix_grey.p3d": [
+      "Van_DodgePhoenix_grey"
+    ],
+    "van_dodgephoenix/van_dodgephoenix_orange.p3d": [
+      "Van_DodgePhoenix_orange"
+    ],
+    "van_dodgephoenix/van_dodgephoenix_red.p3d": [
+      "Van_DodgePhoenix_red"
+    ],
+    "van_houseboat/van_houseboat.p3d": [
+      "Van_HouseBoat"
+    ],
+    "van_sailboat/van_sailboat.p3d": [
+      "Van_Sailboat"
+    ],
+    "van_woodenboat/van_woodenboat.p3d": [
+      "Van_WoodenBoat"
+    ],
+    "van_catamaran/van_catamaran.p3d": [
+      "Van_Catamaran"
+    ],
+    "van_jetski/van_jetski.p3d": [
+      "Van_Jetski"
+    ],
+    "van_jetski/van_jetski_black.p3d": [
+      "Van_Jetski_Black"
+    ],
+    "van_jetski/van_jetski_blue.p3d": [
+      "Van_Jetski_Blue"
+    ],
+    "van_jetski/van_jetski_orange.p3d": [
+      "Van_Jetski_Orange"
+    ],
+    "van_jetski/van_jetski_camo.p3d": [
+      "Van_Jetski_Camo"
+    ],
+    "van_yacht/van_yacht.p3d": [
+      "Van_Yacht"
+    ],
+    "audi_rs6_abt/audi_rs6_abt.p3d": [
+      "Audi_RS6_ABT_White"
+    ],
+    "civic/civic_white.p3d": [
+      "Civic_White"
+    ],
+    "ford_mustang_shelby_gt500/ford_mustang_shelby_gt500.p3d": [
+      "Ford_Mustang_Shelby_GT500_White"
+    ]
+  }
+}

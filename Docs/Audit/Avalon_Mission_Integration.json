@@ -1,0 +1,25 @@
+{
+  "suite": "Actual Avalon mission release integration",
+  "tests_passed": 6,
+  "tests_failed": 0,
+  "input_sha256": "f45378a3317bcb0d50c32b4677843829241d0289c6b685123c4f7151d42c235d",
+  "input_filename": "Worlds.zip",
+  "checks": [
+    "13 installed additional vehicle packs integrate into a copy of supplied Avalon mission",
+    "Existing non-owned mission/profile/config bytes remain unchanged; original CE and placement entries remain semantically unchanged",
+    "Root classes CarScript, BoatScript, MotorbikeScript registered as vehicles",
+    "Second preparation is byte-identical",
+    "Catalog variants are registered without duplicate types; natural populations bounded per route",
+    "Missing previously enabled Go-Kart pack blocks startup without world mutation",
+    "Existing repair and loot-balance pipeline completes with no economy or contained-source warnings",
+    "Actual Server Workshop resolution and configure-world dispatch preserve required/optional ID mappings into random-skin preparation",
+    "Actual random-skin preparation packs slot compatibility using required+additional active Workshop IDs"
+  ],
+  "explicit_test_doubles": [
+    "Synthetic save/database and Gunter/kart receipts because older supplied world archive lacks those runtime files",
+    "Steam library directories contain placeholder PBO files for discovery only",
+    "Native signing function stub produces clearly test-only bytes; no valid signatures or native DayZ launch are claimed",
+    "Unrelated required-pack/world/cosmetic preparation functions stubbed in dispatch test; additional vehicle preparation and random-skin preparation are real"
+  ],
+  "native_dayz_tested": false
+}

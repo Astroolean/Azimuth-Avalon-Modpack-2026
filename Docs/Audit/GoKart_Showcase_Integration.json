@@ -1,0 +1,43 @@
+{
+  "scope": "One-time MBM Go-Kart showcase, preserving original Gunter and receipt",
+  "installed_evidence": {
+    "pbo": "MBM_GoKart.pbo",
+    "config_sha256": "c4d9a4191cb2ae46bb719699b0d1e341f3b6eba38c1eb9448ad716c4f5c10f76",
+    "class": "MBM_GoKart_Blue",
+    "base": "CarScript",
+    "body_selection": "camo",
+    "fuel_capacity_l": 25,
+    "required_parts": [
+      "CarBattery",
+      "SparkPlug",
+      "MBM_GoKart_wheel_Black",
+      "MBM_GoKart_wheel_Black",
+      "MBM_GoKart_wheel_Black",
+      "MBM_GoKart_wheel_Black"
+    ],
+    "required_slots": [
+      "CarBattery",
+      "SparkPlug",
+      "gokart_wheel_1_1",
+      "gokart_wheel_1_2",
+      "gokart_wheel_2_1",
+      "gokart_wheel_2_2"
+    ]
+  },
+  "old_receipt": "AzimuthSkins/vehicle_showcase_state.json",
+  "new_receipt": "AzimuthSkins/vehicle_gokart_showcase_state.json",
+  "new_schema": 2,
+  "token_policy": "Stable sha256 REQUEST_KIND + existing generation; existing settings generation remains unchanged",
+  "focused_tests": {
+    "passed": 13,
+    "command": "python3 -m unittest discover -s vehicle_integration/Tests -p test_gokart_showcase.py -v"
+  },
+  "checks": "check-skins passed; real script PBO packed twice byte-identical in temporary storage",
+  "native_dayz_testing": "Not run: neither DayZ executable nor native renderer is available here",
+  "sources": {
+    "Engine/azimuth_app/cosmetics/vehicle_showcase.py": "9976a821a99083dd7105296ae472a1d29f0faf18d9237b3edb624bc76f075961",
+    "Engine/azimuth_app/checks/verify_gun_skins.py": "a44397e02e37f1951bfa3350a96eafb72baa4b74da127a238cf8ab086ddedd07",
+    "Custom/GunSkins/VehicleShowcase/azimuthvehicleshowcase/scripts/5_mission/azimuth_vehicle_showcase.c": "bae923cb961f25dccddaadc6d04f6c2602afd764e4f77e3b48d5aed171a78eb0",
+    "Custom/GunSkins/VehicleShowcase/SOURCE_NOTES.md": "e93cbb5601937518a074ed3dc9a76a6ffb9c5a2f6ae68140ec8f9cc24b15a04c"
+  }
+}

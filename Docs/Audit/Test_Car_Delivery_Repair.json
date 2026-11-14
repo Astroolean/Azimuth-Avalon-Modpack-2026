@@ -1,0 +1,31 @@
+{
+  "release": "R23 test-car delivery repair",
+  "changes": [
+    "Retry every five seconds while the assigned player remains connected; movement no longer exhausts a short join window.",
+    "Search four nearby rings at 12,16,20,24 metres. Preserve dry-ground, slope, personal-clearance, physical-collision and stationary checks.",
+    "Accept modest terrain variation and no longer reject every unrelated object within seven metres.",
+    "Report delivery direction/distance and last recorded location for an already-used receipt.",
+    "Clarify that current vehicle wraps do not support bicycles or motorcycles."
+  ],
+  "preserved": [
+    "No settings or receipts reset",
+    "No existing cars deleted",
+    "No player teleportation or damage changes",
+    "Same assembled Gunter, engine off and driverless brakes on",
+    "Prior startup repairs and organized folder layout"
+  ],
+  "qualification": {
+    "tests_run": 63,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "successful": true,
+    "superseded_source_contracts": [
+      "test_candidate_geometry_preserves_personal_clearance_for_every_heading",
+      "test_native_checks_dry_flat_clear_ground_and_rechecks_immediately_before_spawn"
+    ],
+    "native_DayZ_execution": "NOT_RUN"
+  },
+  "skin_source_check": "PASS, 30 finishes; deterministic selected asset and script PBOs",
+  "native_DayZ_compile_physics_delivery": "NOT RUN; requires user game test"
+}

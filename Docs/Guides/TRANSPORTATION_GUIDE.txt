@@ -1,0 +1,180 @@
+AZIMUTH EXPANDED TRANSPORTATION
+Current guide | November 14, 2026
+
+WHAT THIS UPDATE DOES
+Enables the disabled Olga, Gunter and M3S truck events. Adds seven native DayZ
+1.30 motorcycle variants plus Expansion helicopters, a gyrocopter, extra cars,
+an amphibious vehicle, buses, tractors and boats. Adds installed-publisher-data
+setup for rideable horses and the An-2 airplane. No live save is bundled or wiped.
+Previously disabled road events are enabled using their complete effective
+definitions, preserving their original values and children.
+All previous 30 skins, I inspection, P freecam, graphics and solo-loot fixes remain.
+
+INSTALL
+Follow Docs/START_HERE.md. Before upgrading the older manager, stop Avalon,
+use Backups > Back up now and confirm its archive, then close DayZ and Azimuth.
+Extract the complete Azimuth folder; keep Worlds, Config, Mods and Backups. Update DayZ
+and DayZ Server to the same current build, then use START_SERVER.bat > Play Avalon.
+The repaired manager checks matching builds and required downloads. No reinstall,
+new character, world wipe, or manual round of vehicle tests is required.
+
+ADDITIONAL DOWNLOADED PACKS
+The 14 supported additional packs contain 580 catalogued variants. They load
+for both client and server when their downloads/dependencies are ready. Small
+vehicles, road vehicles, trucks, boats and helicopters use bounded mixed pools
+and literal installed part classes. Your existing one-time Gunter/go-kart
+receipts remain intact; the showcase is optional and is not requeued by updating.
+See VEHICLE_WRAP_COVERAGE.txt and VEHICLE_VARIANTS.csv for exact class coverage.
+LMs Planes is integrated from the supplied full archive: 12 vehicle variants,
+16 actual part classes, nine land aircraft and three seaplanes. Two authored
+airfield event anchors are transferred to a bounded land-plane event (target
+one). Seaplanes use the large-water survey route; existing An-2 placement stays.
+Publisher scripts and vehicle physics remain installed from Workshop.
+
+AUTOMATIC PLACEMENT
+The server-only survey checks candidate Avalon sites for 15 large vessels, one
+Airship and separate additional-helicopter placements. It creates/removes no
+vehicles. Only complete matching reports provide new sites. Large ships need
+deep clear water; aircraft need level, clear ground. Existing dedicated positions
+are preserved, and new additional-helicopter sites do not reuse Expansion's six
+allocated pad anchors. Unsafe fallback positions are not guessed.
+
+Play Avalon displays Checking Avalon vehicle placement sites for up to two
+minutes. One clean backup/restart can apply accepted sites together with first-
+run fishing setup before joining. If discovery continues, play proceeds using
+existing transport; accepted new sites are imported on a later start. The live
+survey was not executed in this offline repair environment. No manual coordinate
+survey or per-model test assignment is required.
+
+Airship assembly follows the publisher's ready-on-spawn behavior. AirshipRemote
+receives an ordinary floor-loot route where verified; the admin shuttle remote
+stays excluded. The wrap covers the Airship banners and galleon sails, not their
+entire hulls. Lack of a suitable surveyed site remains an explicit spawn limit.
+
+VEHICLES AND SOURCES
+Existing: ADA/Sarka, Humvee, four RZR variants, pedal bicycles and motorboats.
+Enabled: Olga, Gunter and M3S truck colour variants, with matching spare wheels.
+Motorcycles: Jana 50 and Bitrak 682, seven colour variants in total.
+Expansion: MH6 Little Bird, UH1H, Merlin, gyrocopter; UAZ, Land Rover, Vodnik,
+bus and tractor; Zodiac and RHIB. Its 57 configured variants include paint and
+body variations, not 57 unrelated vehicle models.
+
+Horse: imports literal classes, AI behavior and equipment rules from the
+installed DayZ Horse setup files. Uses three existing Avalon cattle grazing
+areas, including their rest/water zones. Saddles and bridles receive ordinary
+Farm/Village supply routes. Riding needs both; apples can lure a horse.
+
+An-2: imports the literal base-aircraft class and required attachments from the
+installed publisher ServerFiles. One existing airfield-area crash-event position
+is transferred to its own plane event so that crash site cannot occupy the same
+point. Optional repaint classes are not invented or assumed installed.
+
+HORSE AND AIRPLANE DATA CHECK
+The Horse importer has since been checked against your supplied publisher
+XML and horse class definitions. It repairs the known malformed comment in its
+parsing copy and uses Avalon locations; installed Workshop files stay unchanged.
+An-2 validation now recognizes its known cargo/passenger/storage door classes
+and rejects incompatible wheel attachments. Supplied configuration and fixture
+checks do not establish native horse behavior, flight or collision results.
+If required setup data is missing or unsupported, the manager says NEEDS SETUP
+and does not claim that category is spawning. Other transport can still run.
+Keep the original Workshop Extras/ServerFiles/manual folders alongside Addons
+and Keys. Verify the Workshop download if a required folder is missing.
+Use the control panel's Loot audit or Tools/VERIFY_PLAYTHROUGH.bat after a normal stop
+to see outstanding setup notices. An-2 also writes its status to
+Worlds/avalon/Profiles/Azimuth/Transport Plane Audit.json.
+
+PARTS AND SPAWN BEHAVIOR
+Motorcycles have both wheels fitted; spark plugs use a 75% attachment chance.
+Expansion engine parts and wheels use complete attachment rules, with optional
+body panels retaining their authored chances. Spare wheels, engine components,
+hydraulic fluid, hoses and related supplies have ordinary loot routes.
+Fuel and replacement supplies are still scavenged. Vehicles are not magically
+refuelled, teleported to you or handed out as another test kit.
+
+The disabled road lists included unverified legacy locations. New road vehicles
+use exact positions from Avalon's active ADA/Sarka, Humvee and RZR event pools.
+Motorcycles and each enabled road event have 28 candidate positions; bicycles
+have up to 40, replacing the old five-position limit. Road categories share
+candidate sites, so their target counts are not simultaneous parking capacity.
+The Central Economy still controls occupancy, spacing and replenishment.
+
+Expansion helicopters use six candidate anchors from eight authored Avalon helipads.
+Two anchors fail the static origin-clearance check. The accepted anchors use
+the pad's authored floor-height evidence. Rotor clearance, unlisted props,
+terrain, slope, native collision, takeoff and landing are not certified by those
+static checks. Additional helicopter variants use the separate survey above.
+Boats reuse the creator's water-event positions. No Chernarus/Nasdara spawn
+coordinates were pasted into Avalon. Existing loot refreshes over normal cycles.
+
+WORKSHOP REQUIREMENTS ADDED
+Dabs Framework: 2545327648
+DayZ-Expansion-Core: 2291785308
+DayZ-Expansion-Licensed: 2116157322
+DayZ-Expansion-Vehicles: 2291785437
+DayZ Horse: 3295021220
+An-2 Biplane: 3834034916
+CF and Survivor Animations were already required by your existing pack.
+Original signed Workshop downloads are used; third-party mod binaries are not
+repacked into this ZIP. Expansion Animations is not included because the Horse
+author explicitly lists it as incompatible.
+
+ASSET AND APPEARANCE REPAIRS
+The supplied full models and LM archive have been processed. Eight missing
+Maharlika material references now use safe model-backed recovery: missing glass
+material transitions retain the model material, and armor repaint selectors
+use proven exterior materials. Three existing Cybertruck repairs remain.
+The absent Techs ATV handlebars are omitted from new optional spawn recipes;
+existing vehicles are not replaced or edited. No missing mesh was invented.
+
+The 738-variant inventory has 703 exterior mappings, 33 stock-body variants and
+two fitted-panel-only variants. Mapping does not mean every surface is wrapped.
+The Airship hull remains stock; its isolated banners remain supported. Humvee
+Multi-material door wrapping remains unresolved. See VEHICLE_WRAP_COVERAGE.txt
+for exact limits. Collection remains optional diagnostics; no further export
+is required for this release.
+
+WHAT IS NOT ENABLED
+HypeTrain currently documents ChernarusPlus, Enoch and Namalsk support. It has
+no supported Avalon track setup in the checked material. Trains therefore need
+a separate Avalon adaptation; enabling a train wreck event would not add one.
+Unsupported classes and missing publisher assets are not replaced with guesses.
+This is a broad supported transportation pack, not every Workshop vehicle mod.
+
+HISTORICAL TRANSPORT UPDATE VERIFICATION
+These are retained results from that update, not a native test of this release.
+332 automated offline tests passed (265 existing regression checks plus
+67 transportation/version/upgrade checks). Tests cover parent functionality,
+positive parts/attachment routes, event imports, dependency deduplication,
+version guards, pack upgrades, invalid input, rollback and complete preparation.
+The actual manager pipeline ran twice with publisher fixtures and twice without
+Horse/An-2 data. Both cases kept generated files byte-identical on repeat and
+preserved save, skin-choice/chance and receipt fixtures plus original publisher
+types/events/spawnables. Existing saves were not used or changed.
+
+The no-Horse/no-plane fixture has 2,629 economy entries and 94 configured vehicle
+variants across 20 active vehicle event families. The synthetic publisher-data
+fixture has 2,636 entries, including its test horse/plane definitions. Those fixture
+counts do not prove your installed Horse/An-2 classes, actual population or
+time needed to find a vehicle.
+Native compilation, signatures, physics, flight, performance and joining were
+not run here. Signing is simulated only in offline tests; your original manager
+still performs its normal signing/key checks on Windows.
+
+REPORTS
+Docs/Audit/Transport_Test_Results.json: original transport test results.
+Docs/Audit/Transport_Prepared_Configuration.json: labelled fixture configuration.
+Custom/Transport/Vanilla130/SOURCE.json: official motorcycle provenance.
+Custom/Transport/Expansion/catalog.json: Expansion provenance and data hashes.
+Docs/Guides/PLAYTHROUGH_AUDIT.txt and the older Docs/Audit loot files describe the earlier solo
+loot audit; their counts precede this transport expansion.
+
+PRIMARY SOURCES
+https://dayz.com/article/general/dayz-badlands-out-now
+https://github.com/BohemiaInteractive/DayZ-Central-Economy/tree/DZ_130
+https://steamcommunity.com/sharedfiles/filedetails/?id=2291785437
+https://github.com/ExpansionModTeam/DayZ-Expansion-Missions
+https://github.com/salutesh/DayZ-Expansion-Scripts
+https://steamcommunity.com/sharedfiles/filedetails/?id=3295021220
+https://steamcommunity.com/sharedfiles/filedetails/?id=3834034916
+https://steamcommunity.com/sharedfiles/filedetails/?id=3115714092

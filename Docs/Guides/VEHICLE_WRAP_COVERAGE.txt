@@ -1,0 +1,86 @@
+AZIMUTH VEHICLE WRAP COVERAGE
+Updated 14 November 2026 from the supplied publisher configs and model files.
+
+CURRENT MAPPING TOTALS
+738 public vehicle variants, including 12 LMs Planes variants:
+  703 have at least one exterior mapping.
+   33 retain their stock appearance through this wrap system.
+    2 have mapped fitted panels only: EXT_KA60 and Ford_F150Hoonitruck.
+
+A mapping is an eligible exterior section, not a promise that every part of the
+vehicle changes color. These are static configuration/model coverage totals,
+not 738 native DayZ visual or driving tests. Your supplied screenshot confirms
+the blue Gunter's visible wrap. Native DayZ testing was not performed here.
+
+The new inspection parsed 145 supplied models, with no failed model LODs, and
+checked 2,985 compiled selections against their actual face ranges. The repair
+adds 24 precise config patches and safe exterior rules across all inspected
+visual LODs. Original lights, glass, wheels, slot order and driving physics are
+preserved. The full class-by-class list is VEHICLE_VARIANTS.csv.
+
+WHAT CHANGED
+Real exterior sections omitted from publisher configs are now exposed for the
+Expansion gyrocopters, Vodnik rear module, RaG schoolbus/Gaz69, MMT bicycle,
+MotorHome models and previously unpaintable white/base car variants. The Gaz69
+hood now uses its actual compiled section. Existing saved vehicles can receive
+wraps; no wipe, replacement vehicle or repeat showcase delivery is required.
+
+LMs Planes is now read from its actual downloaded PBO and included in supported
+pack setup. Nine LM variants have exterior mappings: DC-3, Spitfire, Z37,
+three StuntPlane variants and three Tigermoth variants. Cessna180, Catalina and
+Patty Wagon retain stock bodies because their models lack a safe independent
+exterior section. Their transport integration is separate from cosmetic support.
+
+IMPORTANT PARTIAL COVERAGE
+- Airship: left/right banners only; main hull remains stock.
+- Galleon: mapped sail selections; hull coverage is not claimed.
+- Vodnik: independent rear exterior module; mixed cabin sections stay stock.
+- Gaz69: safe back/fenders/hood; mixed interior/front/chassis sections stay stock.
+- Humvee: texture mappings do not establish visual coverage of Multi-shader
+  door exteriors. Material-specific door wrapping was not implemented; do not
+  treat a successful texture readback as proof that those doors display camo.
+- KA60: fitted mapped panels only. Its body camo section includes glass and
+  interior surfaces at distant LODs, so it is not broadly painted.
+
+STOCK-APPEARANCE VEHICLES
+Ten RTrzr variants; four Expansion Zodiac variants; ExpansionLHD; RaG Willys;
+Van CamperRV, HouseBoat, Sailboat, WoodenBoat, Catamaran, Yacht and five JetSki
+variants; EXT MerlinHC3 and Mi171; Old_BikeArma; LM Cessna180, Catalina and
+Patty Wagon. Exact class names appear in the CSV.
+
+These models lack a safe independent exterior section, mix protected surfaces,
+or use an alpha atlas requiring a different texture process. They remain
+available for transportation. No arbitrary texture index or whole-model paint
+fallback is used. Zodiac transparency is retained. Mi171's broad camo group
+includes glass/interior at lower LODs and is intentionally left unchanged.
+
+OPTIONAL ONE-TIME GO-KART
+Stop the server. In Skins / Camos select finishes, enable vehicle wraps, set
+Chance to 100%, and enable "Spawn one test go-kart beside me". Save, then Play
+Avalon. Stand outdoors on clear, fairly flat ground for ten seconds. Placement
+retries until a suitable nearby position is available; delivery is announced.
+
+The MBM Go-Kart and existing Gunter use separate durable receipts. Rejoining,
+restarting or installing this repair does not repeat a completed delivery.
+The existing Gunter, saves, settings and receipt are retained. For normal play,
+disable the showcase checkbox and choose your preferred chance, such as 20%.
+100% means eligible vehicles receive a selected finish, not one spawn per login.
+
+WORKSHOP AND SPAWNS
+Supported packs load on server and client after their Steam downloads and
+required dependencies are present. LMs Planes is included. Each pack retains
+its own actual classes, parts and behavior. Cosmetic chance is independent
+of the bounded transport population pools and available safe placements.
+
+Large craft, airship and additional aircraft use suitable authored positions
+or the automatic Avalon terrain/clearance survey. Play can wait up to two
+minutes and perform one setup backup/restart to accept first-run survey data.
+If discovery continues, existing transport remains available and accepted new
+locations are imported later. Unsafe fallback positions are not used.
+
+DETAILS
+VEHICLE_VARIANTS.csv lists all 738 exact public classes and mapping status.
+VEHICLE_WRAPS_GUIDE.txt explains settings, ownership and showcase behavior.
+The Docs/Audit reports distinguish source checks from observed in-game results.
+Runtime server choices are recorded in Profiles/AzimuthSkins/
+vehicle_wrap_coverage.json; client texture state is a separate rendering check.

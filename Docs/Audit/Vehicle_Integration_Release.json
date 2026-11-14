@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "release": "R23 Go-Kart and installed vehicle integration",
+  "created_utc": "2026-11-14T15:49:10.843295+00:00",
+  "parent_filename": "Azimuth_DayZ_Server_Manager_R23_Workshop_Vehicle_List_Fix.zip",
+  "parent_sha256": "fe6cf0d518dd09a27af2f02d7ea9f95345570c274b64daa67fffe5cf567d70ae",
+  "input_vehicle_evidence_sha256": "89bbbdb4ca121f3a0ba50cf0daace1bcbfacb3d05c2dd9a7218d57fd7d8677e4",
+  "decoded_configs": 265,
+  "wrap_configuration": {
+    "vehicle_classes": 785,
+    "scope_2_classes": 726,
+    "body_models_mapped": 117,
+    "panel_models_mapped": 289,
+    "known_paint_texture_paths": 493,
+    "scope_2_status": {
+      "mapped_exterior": 666,
+      "no_supported_exterior_selection": 33,
+      "mapped_requires_nonempty_opaque_readback": 19,
+      "mapped_fitted_panels_only": 8
+    }
+  },
+  "additional_transport": {
+    "loadable_packs": 13,
+    "variants": 567,
+    "ordinary_pool_candidates": 552,
+    "large_vessels_requiring_locations": 15
+  },
+  "showcase": {
+    "class": "MBM_GoKart_Blue",
+    "placement_metres": [
+      12,
+      24
+    ],
+    "state_file": "vehicle_gokart_showcase_state.json",
+    "original_gunter_receipt": "vehicle_showcase_state.json",
+    "old_receipt_action": "Untouched",
+    "parts": [
+      "CarBattery",
+      "SparkPlug",
+      "MBM_GoKart_wheel_Black x4"
+    ],
+    "repeat_policy": "Stable separate token; restart/rejoin/checkbox changes do not redeliver"
+  },
+  "preservation": {
+    "parent_files_deleted": 0,
+    "unrelated_source_and_assets": "Exact parent-byte comparison passed",
+    "original_placement_logic": "Preserved byte-for-byte",
+    "saved_settings": "Unchanged",
+    "persistent_save_streams": "No new fields or migrations",
+    "save_and_receipt_tests": "Isolated real mission/profile copy and explicit synthetic runtime sentinels; no access to live Windows save"
+  },
+  "checks": {
+    "new_and_updated_test_cases": 103,
+    "retained_asset_item_selection_export_and_rules_cases": 62,
+    "retained_surface_cases": 15,
+    "distinct_release_test_cases": 180,
+    "research_decoder_tests": 12,
+    "check_skins": "PASS:30 catalog finishes,54 selected normal variants,3 test M4A1 classes,deterministic PBO generation",
+    "attachment_entries_checked": 6695,
+    "attachment_or_wheel_mismatches": 0,
+    "actual_mission_pipeline": "PASS: no economy or contained-source warnings",
+    "native_dayz_compile_join_physics_visual_network": "NOT RUN"
+  },
+  "repairs": [
+    "Car/Boat/Motorbike lifecycle and parent panel coverage",
+    "Failed restoration retains ownership and retries",
+    "Selected active vehicle packs load on both server and client",
+    "Previously configured missing pack blocks saved-world launch",
+    "Compatible canister/barrel slots survive pack overrides",
+    "21 Kamaz-only shared config subtrees isolated onto Kamaz"
+  ],
+  "known_limits": [
+    "LMs Planes config unavailable from export; not activated",
+    "33 public vehicle variants have no supported exterior selection or require an alpha-preserving asset",
+    "19 variants require nonempty safe actual texture readback before painting",
+    "8 variants support fitted panels only",
+    "15 large vessels need dedicated authored Avalon positions",
+    "Airship lacks a complete ordinary-spawn recipe",
+    "TechsHandleBars publisher model absent from exported PBO member index",
+    "Other publisher-defined shared values such as 4KBOSSK fuel/door-health defaults remain publisher values"
+  ],
+  "native_visual_evidence": "User screenshot confirms original wrapped Gunter only"
+}

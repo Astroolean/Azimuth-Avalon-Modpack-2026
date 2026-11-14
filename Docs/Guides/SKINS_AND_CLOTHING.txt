@@ -1,0 +1,41 @@
+AZIMUTH WEAPON AND CLOTHING CAMOS
+
+Use Skins / Camos to select from the same 30 finishes. Random skins on weapons
+and gear controls the chance for each compatible item independently. The saved
+percentage also applies to compatible helmets, clothing and backpacks; vehicles
+keep their separate wrap percentage. Only checked finishes enter new random
+choices. Assets needed by previously installed fixed-skin guns remain available.
+
+Firearms, magazines, stocks, handguards, suppressors, bayonets and compatible
+melee-capable items retain the same underlying item classes and gameplay.
+Clothing is now identified separately from melee weapons. Named ground, male
+and female clothing paint selections are handled where the model exposes them.
+Faces, optic selections, glass/visor selections and known alpha/cutout textures
+are not paint targets. Some models use combined atlases or expose no compatible
+paint selection; those need their own model-specific treatment.
+
+The application repair reads each current texture instead of treating a cached
+finish ID as success. Failed or delayed writes get bounded retries. Native
+texture resets can be repaired after synchronization, health and inventory
+changes. Unrelated external repaints and original damage materials are retained.
+Your existing saved percentages and selected finishes are unchanged.
+
+To apply changes: stop Avalon normally, close DayZ, save the selection, then
+start through Azimuth. Changing choices can change an existing random finish;
+with unchanged choices it is derived from the item's persistent ID. No save
+stream fields or gameplay stats are added.
+
+Fixed older Azimuth M4A1/AKM variants are different from random normal-class
+items. Azimuth retains their previously installed classes and assets when you
+uncheck finishes, including when all finishes are off. Existing test chests also
+remain supported. New random choices still use only your current selection.
+
+Remove test kit cleans up reachable eligible test items. If recorded items have
+gone away or are out of reach, cleanup is deferred without discarding their
+records or blocking your finish choices. The page explains this state. Use
+Remove test kit again if those items become reachable. Reachable items with
+protected added gear remain pending until that gear is removed safely.
+
+The asset audit checks all 30 textures/previews and 60 fixed weapon variants.
+The regression audit checks renderer behavior with extracted production methods.
+Those checks do not replace native DayZ compilation or visual gameplay results.

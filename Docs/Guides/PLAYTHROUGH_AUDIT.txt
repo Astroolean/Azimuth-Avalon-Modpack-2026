@@ -1,0 +1,157 @@
+AZIMUTH FIRST-PLAYTHROUGH AUDIT — HISTORICAL BASELINE WITH CURRENT NOTES
+
+For the current repair summary and limits, read Docs/Audit/Full_Audit_Repairs.txt.
+The original snapshot counts and original-update tests below are historical.
+Prepared for Astroolean | November 13, 2026 (America/New_York)
+
+RESULT
+Confirmed manager/economy defects have been repaired. Common supplies are tuned
+for practical solo scavenging. No additional custom gameplay mod is needed now.
+This is an offline source/configuration assessment, not a claim that every
+third-party mod or loot location has been tested inside your running game.
+
+WHAT WAS AUDITED
+The latest 30-finish manager plus your supplied Worlds.zip Avalon snapshot.
+Original snapshot: 2,282 loot classes. Prepared example:
+2,368 classes, including the selected cosmetic classes.
+The prepared example uses the default 27 selected finishes; your actual saved
+selection can produce a different number of zero-target cosmetic variants.
+All 30 finishes remain available. Cosmetics create no additional ordinary guns.
+
+The original XML corpus had 52 files and 13 CE extension imports. The audit checked
+XML validity, layered references, numeric ranges, defined flags, cargo chances,
+event references, configured weapon-magazine chains, static placement evidence,
+crafting dependencies, starter settings, backups, signing/launch code and custom
+skin/inspection/photo code. Native binaries, actual saves and runtime logs were
+not present in the supplied snapshot. No live save was changed or reset.
+
+USEFUL SUPPLIES
+Ordinary common ammunition now uses 50-100% stack quantity; standard magazines
+use 35-100%. Ammo boxes retain their authored packaged behavior. Target counts
+and minimums are higher for named ordinary essentials, with common supply
+restock delays capped at 300 seconds and building/wheel delays at 600 seconds.
+Existing faster delays stay faster. A restock delay is not a delivery promise:
+eligible slots, nearby players, tiers and the running economy still matter.
+
+Examples (counts are targets across the whole map, not per building):
+  Ammo_556x45: target 25 -> 40; quantity 10-40% -> 50-100%; Military, Police, Hunting
+  Mag_STANAG_30Rnd: target 6 -> 10; quantity 5-50% -> 35-100%; Military
+  Ammo_545x39: target 0 -> 40; quantity 10-20% -> 50-100%; Military, Police
+  NailBox: target 0 -> 24; Industrial, Farm
+  CombinationLock: target 0 -> 6; Industrial, Farm
+  CombinationLock4: target 0 -> 8; Industrial, Farm
+  BandageDressing: target 15 -> 23; Medic, Town, Village
+  WaterBottle: target 40 -> 60; quantity 20-70% -> 50-100%; any compatible usage
+  HatchbackWheel: target 0 -> 10; Industrial
+  Offroad_02_Wheel: target 0 -> 10; Military, Industrial
+  RT_rzr_wheel_desert: target missing -> 6; Industrial, Farm
+  Mag_FAL_20Rnd: target 8 -> 11; quantity 15-50% -> 35-100%; event-only -> ordinary supply; Military
+
+Matching supplies were checked against 36 configured weapon-magazine
+chains. All 32 ordinary-spawning guns in that set have an ordinary spare-mag
+route after this update; the other chains are event weapons.
+AKM, SV98 and FAL keep their authored rifle rarity,
+while their standard magazines are no longer restricted solely to event loot.
+High-capacity magazines, rare guns, explosives and protected event targets
+keep their authored progression. Crafted outputs are not blindly made loot.
+
+Prepared ordinary mapwide targets: 6,881 -> 8,553.
+This includes restoring disabled essentials and missing dependencies, not a
+blanket multiplier. Full per-item data and 160 essential/important rows are in
+Docs/Audit/Loot_Audit_Data.json and Docs/Audit/Essential_Loot_Before_After.csv.
+
+CONFIRMED REPAIRS
+* Nails, locks, loose 5.45 ammunition and standard spare magazines regained usable
+  supply paths. Medical supplies, food, water containers, common tools and
+  repair ingredients received bounded availability improvements.
+* Bicycle wheel categories now match real Industrial/Farm tool locations.
+  Bicycle refill settings no longer use a roughly 60-hour delay and a minimum of 0.
+* ADA, Humvee and Sarka spares use actual placed wreck-proxy evidence. Exact
+  active RZR wheel variants use compatible Industrial/Farm building routes.
+  The desert wheel's missing definition is copied from its authored sibling
+  only when the active vehicle and positive attachment reference confirm it.
+* The black crossbow's reversed quantity range is corrected to match its
+  sibling variants. Dog gas mask keeps its valid Tier3 route without undefined Tier4.
+* Four nonexistent cargo/attachment presets are repaired for 26 infected types,
+  preserving their other cargo/clothing groups.
+* Duplicate map prototypes no longer disable every placement check. 387 usable
+  prototype groups are retained; eight ambiguous definitions are explicitly
+  excluded from placement claims instead of being guessed.
+* RaG static-table-saw blades and workbench electrical components are now
+  registered from exact author-documented classnames. Crafted outputs remain
+  craftable outputs. BeeHive companion rows are imported/preserved from the
+  installed publisher XML rather than being overwritten by a kit-only file.
+  Missing spatula/dipper/empty-pot definitions can now be recovered only from
+  unambiguous concrete classes in the actual installed publisher configuration;
+  absent or ambiguous definitions remain explicit failures, not guessed names.
+* Backups include global skin choices/chance and generation settings along
+  with world/profile receipts. Reopened-manager backup now requires evidence
+  tied to the recorded launch; old clean logs cannot certify a newer run.
+* The Avalon server's object-distance ceiling matches your existing 3,000 m
+  quality preset; terrain remains 5,000 m. Lower client presets still apply.
+* Existing fixed-skin classes and recorded test-chest classes stay supported
+  when finishes are unchecked. New random choices use only checked finishes.
+  Unreachable recorded items can defer cleanup without locking every choice;
+  reachable items with protected gear remain pending until safely emptied.
+
+ORIGINAL LOOT UPDATE VERIFICATION
+These are retained results from that update, not a native test of this release.
+266 automated tests passed across existing regressions and new targeted checks.
+The actual manager preparation pipeline ran twice against the supplied mission
+copy. Generated files and loot targets stayed byte-identical on the second run;
+saved skin choices/chance, receipt and save fixtures were preserved. The original
+publisher types.xml and cfgspawnabletypes.xml stayed unchanged: fixes use managed
+extension files. Native signing was simulated only for these offline fixtures.
+Workshop inputs in this test were the corresponding registered snapshot XML,
+not a claim to possess or execute your live Workshop binaries.
+
+WHAT STILL NEEDS YOUR INSTALLED GAME
+* BeeHive honey/wine production: the snapshot lacks its publisher companion
+  class definitions. The importer preserves actual publisher XML and can read
+  installed configuration for unambiguous missing spatula/dipper/empty-pot rows.
+  The actual BeeHive binary was unavailable here, so its live class discovery
+  and production behavior were not executed.
+  A visible hive kit alone does not verify the full production chain.
+* gebsfish writes economy data on first successful boot. The existing Play
+  Avalon setup restart imports it; vanilla fishing is a separate working path.
+* SVD_Wooden, PunchedCard and HipPack_Party now have verified ordinary usage
+  routes without increasing their existing target counts. Zero-target events
+  and zero-capacity children are no longer counted as positive source evidence.
+* Native compilation, actual signing/join, per-model textures, item dimensions,
+  terrain tiers, vehicle clearance, spawn timing and performance need DayZ.
+  Source validation cannot guarantee an item in the next house or a search time.
+
+NEXT STEPS AND OPTIONAL WORK
+Follow Docs/START_HERE.md to use the complete application ZIP, then Play Avalon normally.
+No wipe is required. Existing items refresh through the economy; this update
+does not replace them instantly or queue another screenshot kit.
+After a normal stop, Tools/VERIFY_PLAYTHROUGH.bat can inspect the actual installed
+mission and show FAIL for definite parsing/data problems or REVIEW for remaining
+evidence gaps. It changes no settings, world saves, loot or installed mods.
+
+No trader, auto-ammo gift system or extra survival mod is required now. The
+small custom read-only verifier is included because your live Workshop files
+and first-run generated data cannot be inspected from the older snapshot alone.
+One optional later comfort change: the authored corpse cleanup remains 15 minutes;
+60 minutes would give more time for a long solo recovery. It was not changed.
+
+BACKUP RESTORE
+In the repaired manager, Stop requests clean shutdown and a final backup while
+remaining paused. A delayed/failed backup is reported explicitly. Before applying
+this update to an older manager, make a manual stopped-world backup instead.
+
+Close DayZ, stop the server, and wait for pending backup work. Select a matching
+archive in Backups > Restore selected. The confirmation explains replacement
+of active world/profile state, archived world settings and saved skin choices.
+A pre-restore safety copy is retained; current connection settings are kept.
+The server stays stopped. Validation and rollback guard the file replacements.
+Do not mix skin choices from one backup with character/receipt state from another.
+
+PRIMARY REFERENCES
+https://community.bistudio.com/wiki/DayZ:Central_Economy_mission_files_modding
+https://community.bistudio.com/wiki/DayZ:Central_Economy_Configuration
+https://community.bistudio.com/wiki/DayZ:Server_Configuration
+https://tyson89.github.io/RaG-Mod-Wikis/mods/baseitems/key-classnames/
+https://tyson89.github.io/RaG-Mod-Wikis/mods/baseitems/table-saw/
+https://tyson89.github.io/RaG-Mod-Wikis/mods/baseitems/workbench/
+https://steamcommunity.com/sharedfiles/filedetails/?id=2879040969

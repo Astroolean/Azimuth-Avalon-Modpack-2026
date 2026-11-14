@@ -1,0 +1,9 @@
+{
+  "hostname": "FreeDayZ Private Server",
+  "password": "freedayzme",
+  "max_players": 8,
+  "game_port": 2302,
+  "query_port": 27016,
+  "admin_password": "3a77da195a486ce2931fd4342350ce8199bb",
+  "join_password_revision": 1
+}

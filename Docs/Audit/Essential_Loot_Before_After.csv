@@ -1,0 +1,161 @@
+﻿Item,Source kind,Prepared kind,Mapwide target before,Mapwide target after,Refill threshold before,Refill threshold after,Fill percent before,Fill percent after,Restock seconds before,Restock seconds after,Where to look,Configured tiers,Candidate building locations (tier and size not checked),Candidate wreck locations (tier and size not checked)
+AirdropFlare,natural,natural,12,15,6,8,Item default,Item default,1800,1800,"Town, Village, Police, Military",Any tier,1277,0
+Ammo_12gaPellets,natural,natural,45,65,32,46,10-40%,50-100%,0,0,"Farm, Village",Any tier,524,0
+Ammo_12gaSlug,natural,natural,30,45,20,32,10-40%,50-100%,0,0,"Farm, Village",Any tier,524,0
+Ammo_22,natural,natural,30,45,20,32,20-50%,50-100%,0,0,"Farm, Hunting, Village","Tier1, Tier2",649,0
+Ammo_308Win,natural,natural,35,53,28,38,10-20%,50-100%,0,0,"Farm, Hunting",Any tier,227,0
+Ammo_357,natural,natural,35,53,25,38,10-20%,50-100%,0,0,"Farm, Hunting, Town",Any tier,475,0
+Ammo_380,natural,natural,12,40,8,28,10-20%,50-100%,0,0,"Police, Town, Village",Any tier,616,0
+Ammo_45ACP,natural,natural,25,40,20,28,10-20%,50-100%,300,300,"Military, Police, Village","Tier1, Tier2",1350,0
+Ammo_545x39,zero,natural,0,40,0,28,10-20%,50-100%,180,180,"Military, Police",Any tier,367,0
+Ammo_556x45,natural,natural,25,40,20,28,10-40%,50-100%,0,0,"Military, Police, Hunting","Tier2, Tier3, Tier1",527,0
+Ammo_762x39,natural,natural,25,40,20,28,10-20%,50-100%,0,0,"Farm, Village, Hunting",Any tier,649,0
+Ammo_762x54,natural,natural,25,40,20,28,10-20%,50-100%,0,0,"Town, Village",Any tier,523,0
+Ammo_9x19,natural,natural,40,60,30,42,10-20%,50-100%,0,0,"Village, Military, Police",Any tier,887,0
+Ammo_9x39,natural,natural,18,27,14,19,10-40%,50-100%,0,0,Military,Any tier,366,0
+AmmoBox_00buck_10rnd,natural,natural,12,18,8,13,Item default,Item default,0,0,"Police, Hunting",Any tier,330,0
+AmmoBox_12gaSlug_10Rnd,natural,natural,15,23,10,17,Item default,Item default,0,0,"Police, Hunting",Any tier,330,0
+AmmoBox_22_50Rnd,natural,natural,18,27,14,19,Item default,Item default,0,0,Village,"Tier1, Tier2",766,0
+AmmoBox_308Win_20Rnd,natural,natural,12,18,9,13,Item default,Item default,0,0,Hunting,"Tier2, Tier3, Tier1",232,0
+AmmoBox_357_20Rnd,natural,natural,12,18,8,13,Item default,Item default,0,0,Village,Any tier,766,0
+AmmoBox_380_35rnd,natural,natural,6,12,3,9,Item default,Item default,0,0,"Police, Town, Village","Tier1, Tier2",981,0
+AmmoBox_45ACP_25rnd,natural,natural,16,24,12,17,Item default,Item default,0,0,"Military, Police, Village","Tier1, Tier2",1350,0
+AmmoBox_545x39_20Rnd,natural,natural,3,12,1,9,Item default,Item default,0,0,"Military, Police",Tier1,585,0
+AmmoBox_556x45_20Rnd,natural,natural,10,15,6,11,Item default,Item default,0,0,"Military, Police, Hunting","Tier2, Tier3, Tier1",817,0
+AmmoBox_762x39_20Rnd,natural,natural,13,20,9,14,Item default,Item default,0,0,"Military, Hunting, Village","Tier2, Tier3, Tier1",1539,0
+AmmoBox_762x54_20Rnd,natural,natural,15,23,10,17,Item default,Item default,0,0,Hunting,"Tier2, Tier3, Tier1",232,0
+AmmoBox_9x19_25rnd,natural,natural,15,23,9,17,Item default,Item default,0,0,"Military, Police","Tier1, Tier2",585,0
+AmmoBox_9x39_20Rnd,natural,natural,14,21,10,15,Item default,Item default,0,0,Military,"Tier1, Tier2",579,0
+BandageDressing,natural,natural,15,23,10,17,Item default,Item default,0,0,"Medic, Town, Village",Any tier,917,0
+BarbedWire,natural,natural,10,16,5,12,Item default,Item default,0,0,"Industrial, Farm",Any tier,735,0
+Battery9V,natural,natural,27,41,17,29,50-100%,50-100%,0,0,"Industrial, Village, Farm",Any tier,857,0
+bicycle_wheel,natural,natural,8,10,0,7,Item default,Item default,216001,600,Industrial,Any tier,629,0
+BloodTestKit,natural,natural,7,16,4,12,Item default,Item default,0,0,Medic,Any tier,146,0
+CanisterGasoline,natural,natural,10,16,5,12,30-70%,50-100%,0,0,Industrial,Any tier,436,0
+CanOpener,natural,natural,12,18,9,13,Item default,Item default,0,0,"Village, Hunting",Any tier,855,0
+Canteen,natural,natural,10,16,7,12,10-90%,50-100%,0,0,"Military, Hunting",Any tier,512,0
+CarBattery,natural,natural,10,16,5,12,20-100%,50-100%,0,0,Industrial,Any tier,629,0
+CarRadiator,natural,natural,13,20,10,14,Item default,Item default,0,0,Industrial,Any tier,629,0
+CarTent,natural,natural,4,5,4,5,Item default,Item default,43200,43200,Industrial,Any tier,607,0
+CharcoalTablets,natural,natural,12,18,7,13,10-50%,50-100%,0,0,Medic,"Tier1, Tier2",146,0
+CivSedanWheel,zero,zero,0,0,0,0,Item default,Item default,0,0,Industrial,Any tier,0,46
+CivSedanWheel_Ruined,crafted,crafted,0,0,0,0,Item default,Item default,0,0,Industrial,Any tier,0,0
+CombinationLock,zero,natural,0,6,0,5,Item default,Item default,0,0,"Industrial, Farm",Any tier,735,0
+CombinationLock4,zero,natural,0,8,0,6,Item default,Item default,0,0,"Industrial, Farm",Any tier,735,0
+Crowbar,natural,natural,12,18,7,13,Item default,Item default,0,0,"Industrial, Farm",Any tier,735,0
+DisinfectantAlcohol,natural,natural,20,30,13,21,10-50%,50-100%,0,0,Village,Any tier,673,0
+DisinfectantSpray,natural,natural,14,21,10,15,10-50%,50-100%,0,0,"Medic, Village",Any tier,819,0
+DuctTape,natural,natural,35,53,25,38,Item default,Item default,0,0,"Industrial, Village, Farm",Any tier,1060,0
+EpoxyPutty,natural,natural,15,23,10,17,Item default,Item default,0,0,Industrial,Any tier,436,0
+FishingRod,natural,natural,15,23,10,17,Item default,Item default,0,0,Coast,Any tier,173,0
+GlowPlug,natural,natural,8,16,5,12,Item default,Item default,0,0,Military,Tier2,444,0
+Hacksaw,natural,natural,15,23,10,17,Item default,Item default,0,0,"Industrial, Farm",Any tier,735,0
+Hammer,natural,natural,10,16,5,12,Item default,Item default,0,0,"Industrial, Farm",Any tier,735,0
+HandSaw,natural,natural,10,16,5,12,Item default,Item default,0,0,"Industrial, Farm",Any tier,735,0
+Hatchback_02_Wheel,zero,zero,0,0,0,0,Item default,Item default,0,0,Industrial,Any tier,0,55
+Hatchback_02_Wheel_Ruined,crafted,crafted,0,0,0,0,Item default,Item default,0,0,Industrial,Any tier,0,0
+HatchbackWheel,zero,natural,0,10,0,7,Item default,Item default,0,0,Industrial,Any tier,0,87
+HatchbackWheel_Ruined,crafted,crafted,0,0,0,0,Item default,Item default,0,0,Any compatible usage,Any tier,0,0
+Hatchet,natural,natural,15,23,10,17,Item default,Item default,0,0,"Farm, Village",Any tier,764,0
+Hook,natural,natural,20,30,15,21,Item default,Item default,0,0,Coast,Any tier,173,0
+HuntingKnife,natural,natural,14,21,10,15,Item default,Item default,0,0,Hunting,Any tier,219,0
+KitchenKnife,natural,natural,14,21,11,15,Item default,Item default,0,0,"Hunting, Village",Any tier,855,0
+ladybicycle_wheel,natural,natural,8,10,0,7,Item default,Item default,216001,600,Industrial,Any tier,629,0
+LeatherSewingKit,natural,natural,15,23,10,17,Item default,Item default,0,0,"Industrial, Village",Any tier,850,0
+LugWrench,natural,natural,10,16,7,12,Item default,Item default,0,0,Industrial,Any tier,629,0
+Mag_1911_7Rnd,natural,natural,20,27,15,19,50-100%,50-100%,0,0,"Military, Town, Village",Tier1,1461,0
+Mag_AK101_30Rnd,natural,natural,6,10,3,7,5-50%,35-100%,0,0,Military,"Tier3, Tier2",579,0
+Mag_AKM_30Rnd,event,natural,4,10,2,7,5-50%,35-100%,0,0,Military,Any tier,579,0
+Mag_Aug_30Rnd,natural,natural,6,10,5,7,10-50%,35-100%,1800,300,"Military, Oil",Tier3,579,0
+Mag_CMAG_10Rnd,natural,natural,10,14,7,10,20-100%,35-100%,0,0,"Military, Hunting, Police",Tier1,817,0
+Mag_CMAG_20Rnd,natural,natural,9,13,7,10,15-50%,35-100%,0,0,"Military, Hunting, Police",Tier2,817,0
+Mag_CMAG_30Rnd,natural,natural,10,14,7,10,15-50%,35-100%,0,0,Military,Tier2,579,0
+Mag_CZ527_5rnd,natural,natural,15,21,10,15,40-100%,40-100%,0,0,"Farm, Village, Hunting",Any tier,968,0
+Mag_CZ550_10Rnd,natural,natural,9,13,7,10,10-100%,35-100%,0,0,Hunting,"Tier2, Tier3",232,0
+Mag_CZ61_20Rnd,zero,natural,0,10,0,7,5-70%,35-100%,0,0,Police,Any tier,98,0
+Mag_CZ75_15Rnd,natural,natural,7,10,5,7,10-100%,35-100%,0,0,"Police, Village","Tier1, Tier2",864,0
+Mag_Deagle_9rnd,natural,natural,10,14,8,10,25-100%,35-100%,0,0,Town,Any tier,394,0
+Mag_FAL_20Rnd,event,natural,8,11,5,8,15-50%,35-100%,0,0,Military,Tier2,579,0
+Mag_FAMAS_25Rnd,natural,natural,7,10,5,7,10-70%,35-100%,0,0,Military,Tier2,579,0
+Mag_FNX45_15Rnd,natural,natural,12,17,8,12,20-100%,35-100%,0,0,Military,"Tier2, Tier3",579,0
+Mag_Glock_15Rnd,natural,natural,20,27,14,19,10-100%,35-100%,0,0,"Police, Military",Tier1,585,0
+Mag_IJ70_8Rnd,natural,natural,12,17,9,12,10-60%,35-100%,0,0,Village,Tier1,766,0
+Mag_M14_10Rnd,natural,natural,10,14,8,10,20-90%,35-100%,0,0,Military,Tier2,579,0
+Mag_MKII_10Rnd,natural,natural,20,27,15,19,20-100%,35-100%,0,0,Village,"Tier1, Tier2",766,0
+Mag_MP5_15Rnd,natural,natural,15,21,10,15,10-50%,35-100%,0,0,"Military, Police","Tier1, Tier2",585,0
+Mag_MP5_30Rnd,natural,natural,10,14,7,10,5-50%,35-100%,0,0,"Military, Police",Tier2,585,0
+Mag_P1_8Rnd,zero,natural,0,10,0,7,25-100%,35-100%,0,0,"Military, Village",Any tier,1344,0
+Mag_PP19_64Rnd,natural,natural,5,10,3,7,30-80%,35-100%,0,0,Military,Tier2,579,0
+Mag_Ruger1022_15Rnd,natural,natural,12,17,8,12,10-100%,35-100%,0,0,"Town, Village","Tier1, Tier2",883,0
+Mag_Saiga_5Rnd,natural,natural,8,11,5,8,20-100%,35-100%,0,0,Military,Tier1,579,0
+Mag_Saiga_8Rnd,natural,natural,8,11,5,8,20-100%,35-100%,0,0,Military,Tier2,579,0
+Mag_Scout_5Rnd,natural,natural,10,14,7,10,20-100%,35-100%,0,0,"Hunting, Police","Tier1, Tier2",330,0
+Mag_SSG82_5rnd,natural,natural,4,10,2,7,0-100%,35-100%,0,0,"Military, Police",Tier1,585,0
+Mag_STANAG_30Rnd,natural,natural,6,10,4,7,5-50%,35-100%,0,0,Military,"Tier2, Tier3",579,0
+Mag_SV98_10Rnd,event,natural,4,10,2,7,30-70%,35-100%,0,0,Military,Tier3,579,0
+Mag_SVD_10Rnd,natural,natural,6,10,4,7,10-100%,35-100%,0,0,"Oil, Military",Tier3,579,0
+Mag_UMP_25Rnd,natural,natural,18,25,13,18,5-50%,35-100%,0,0,Military,Tier2,579,0
+Mag_VAL_20Rnd,natural,natural,7,10,5,7,30-100%,35-100%,360,300,Military,Tier2,579,0
+Mag_Vikhr_30Rnd,natural,natural,8,11,5,8,30-80%,35-100%,0,0,Military,"Tier2, Tier3",579,0
+Mag_VSS_10Rnd,natural,natural,8,11,5,8,30-100%,35-100%,0,0,Military,Tier1,579,0
+Matchbox,natural,natural,12,18,9,13,10-90%,50-100%,0,0,"Village, Hunting",Any tier,855,0
+MediumTent,natural,natural,4,5,4,5,Item default,Item default,43200,43200,"Town, Village",Any tier,792,0
+MetalWire,natural,natural,15,23,10,17,Item default,Item default,0,0,"Industrial, Farm",Any tier,735,0
+NailBox,zero,natural,0,24,0,17,Item default,Item default,0,0,"Industrial, Farm",Any tier,542,0
+Offroad_02_Wheel,zero,natural,0,10,0,7,Item default,Item default,0,0,"Military, Industrial","Tier2, Tier3",0,95
+PainkillerTablets,natural,natural,15,23,12,17,10-50%,50-100%,0,0,Medic,Any tier,146,0
+Pickaxe,natural,natural,15,23,10,17,Item default,Item default,0,0,"Industrial, Farm",Any tier,735,0
+Pliers,natural,natural,10,16,5,12,Item default,Item default,0,0,"Industrial, Farm, Village",Any tier,1060,0
+PurificationTablets,natural,natural,25,38,15,27,10-50%,50-100%,0,0,"Medic, Hunting",Any tier,365,0
+rag_baseitems_control_unit,missing,natural,missing,9,,6,Not configured,Item default,,600,"Industrial, Farm",Any tier,735,0
+rag_baseitems_electric_wires,missing,natural,missing,9,,6,Not configured,Item default,,600,"Industrial, Farm",Any tier,735,0
+rag_baseitems_greenhouse_big_kit,natural,natural,2,4,1,3,Item default,Item default,1800,600,"Industrial, Farm",Any tier,735,0
+rag_baseitems_greenhouse_kit,natural,natural,2,4,1,3,Item default,Item default,1800,600,"Industrial, Farm",Any tier,735,0
+rag_baseitems_repair_station_kit,natural,natural,2,4,1,3,Item default,Item default,1800,600,"Industrial, Farm",Any tier,735,0
+rag_baseitems_retro_fridge_kit,natural,natural,2,4,1,3,Item default,Item default,1800,600,"Industrial, Farm",Any tier,735,0
+rag_baseitems_sawblade,missing,natural,missing,9,,6,Not configured,Item default,,600,"Industrial, Farm",Any tier,735,0
+rag_baseitems_solarpanel_kit,natural,natural,2,4,1,3,Item default,Item default,1800,600,"Industrial, Farm",Any tier,735,0
+rag_baseitems_table_saw_static_kit,natural,natural,2,4,1,3,Item default,Item default,1800,600,"Industrial, Farm",Any tier,735,0
+rag_baseitems_workbench_blueprint,natural,natural,2,6,1,5,Item default,Item default,1800,600,"Industrial, Farm",Any tier,735,0
+rag_baseitems_workbench_kit,natural,natural,2,6,1,5,Item default,Item default,1800,600,"Industrial, Farm",Any tier,735,0
+RaG_BB_Book,natural,natural,2,6,1,5,Item default,Item default,1800,600,"Industrial, Farm",Any tier,735,0
+RaG_BB_CeilingKit,natural,natural,2,4,1,3,Item default,Item default,1800,600,"Industrial, Farm",Any tier,735,0
+RaG_BB_FloorKit,natural,natural,2,4,1,3,Item default,Item default,1800,600,"Industrial, Farm",Any tier,735,0
+RaG_BB_FoundationKit,natural,natural,2,4,1,3,Item default,Item default,1800,600,"Industrial, Farm",Any tier,735,0
+RaG_BB_Single_DoorKit,natural,natural,2,4,1,3,Item default,Item default,1800,600,"Industrial, Farm",Any tier,735,0
+RaG_BB_WallKit,natural,natural,2,4,1,3,Item default,Item default,1800,600,"Industrial, Farm",Any tier,735,0
+RaG_BB_Window_SmallKit,natural,natural,2,4,1,3,Item default,Item default,1800,600,"Industrial, Farm",Any tier,735,0
+rag_beehive_kit,natural,natural,2,4,1,3,Item default,Item default,1800,600,"Industrial, Farm",Any tier,735,0
+rag_hunting_cabin_kit,natural,natural,2,4,1,3,Item default,Item default,1800,600,"Industrial, Farm",Any tier,735,0
+Roadflare,natural,natural,15,23,10,17,Item default,Item default,0,0,"Military, Police",Any tier,448,0
+Rope,natural,natural,20,30,13,21,Item default,Item default,0,0,"Industrial, Farm",Any tier,735,0
+RT_cv_wheel_police,zero,zero,0,0,0,0,Item default,Item default,0,0,Police,Any tier,96,0
+RT_rzr_wheel,zero,natural,0,6,0,5,Item default,Item default,0,0,"Industrial, Farm",Any tier,724,0
+RT_rzr_wheel_black,zero,natural,0,6,0,5,Item default,Item default,0,0,"Industrial, Farm",Any tier,724,0
+RT_rzr_wheel_desert,missing,natural,missing,6,,5,Not configured,Item default,,0,"Industrial, Farm",Any tier,724,0
+RT_rzr_wheel_eclipse,zero,natural,0,6,0,5,Item default,Item default,0,0,"Industrial, Farm",Any tier,724,0
+RT_rzr_wheel_forest,zero,zero,0,0,0,0,Item default,Item default,0,0,"Industrial, Farm",Any tier,724,0
+RT_rzr_wheel_razzle,zero,zero,0,0,0,0,Item default,Item default,0,0,"Industrial, Farm",Any tier,724,0
+RT_rzr_wheel_winter,zero,zero,0,0,0,0,Item default,Item default,0,0,"Industrial, Farm",Any tier,724,0
+RT_rzr_wheel_woodland,zero,zero,0,0,0,0,Item default,Item default,0,0,"Industrial, Farm",Any tier,724,0
+SalineBag,natural,natural,15,23,10,17,Item default,Item default,0,0,Medic,Any tier,146,0
+SeaChest,natural,natural,10,12,10,11,Item default,Item default,0,0,"Industrial, Farm, Coast",Any tier,904,0
+Sedan_02_Wheel,natural,natural,5,10,3,7,Item default,Item default,0,0,Industrial,Any tier,0,42
+Sedan_02_Wheel_Ruined,crafted,crafted,0,0,0,0,Item default,Item default,0,0,Any compatible usage,Any tier,0,0
+SewingKit,natural,natural,35,53,25,38,Item default,Item default,0,0,Village,Any tier,714,0
+Shovel,natural,natural,20,30,10,21,Item default,Item default,0,0,"Industrial, Farm",Any tier,724,0
+Slingbag_Black,natural,natural,5,16,3,12,Item default,Item default,0,0,Town,Tier1,299,0
+SmallProtectorCase,natural,natural,4,5,2,3,Item default,Item default,0,0,Industrial,Any tier,607,0
+SparkPlug,natural,natural,20,30,16,21,Item default,Item default,0,0,Industrial,Any tier,436,0
+StartKitIV,natural,natural,14,21,10,15,Item default,Item default,0,0,Medic,Any tier,146,0
+SteakKnife,natural,natural,20,30,15,21,Item default,Item default,0,0,"Hunting, Village","Tier1, Tier2",855,0
+TetracyclineAntibiotics,natural,natural,15,23,10,17,10-50%,50-100%,0,0,Medic,Any tier,146,0
+TireRepairKit,natural,natural,12,18,9,13,Item default,Item default,0,0,Industrial,Any tier,436,0
+Truck_01_Wheel,zero,zero,0,0,0,0,Item default,Item default,0,0,"Industrial, Farm",Any tier,0,3
+Truck_01_Wheel_Ruined,crafted,crafted,0,0,0,0,Item default,Item default,0,0,"Industrial, Farm",Any tier,0,0
+Truck_01_WheelDouble,natural,natural,10,11,8,9,Item default,Item default,0,0,"Industrial, Farm",Any tier,0,3
+Truck_01_WheelDouble_Ruined,crafted,crafted,0,0,0,0,Item default,Item default,0,0,"Industrial, Farm",Any tier,0,0
+TruckBattery,natural,natural,10,16,7,12,20-100%,50-100%,360,300,Industrial,Any tier,629,0
+VitaminBottle,natural,natural,20,30,12,21,5-20%,50-100%,0,0,Village,Any tier,703,0
+WaterBottle,natural,natural,40,60,30,42,20-70%,50-100%,0,0,Any compatible usage,Any tier,4176,0
+WeaponCleaningKit,natural,natural,30,45,20,32,Item default,Item default,0,0,"Military, Hunting",Any tier,663,0

@@ -1,0 +1,98 @@
+{
+  "checked_at": "2026-11-14",
+  "workshop_id": "3456445155",
+  "title": "MBM_GoKart",
+  "publisher": "mebrad",
+  "publisher_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3456445155",
+  "updated": "2026-10-22",
+  "native_test_performed": false,
+  "publisher_facts": [
+    "Explicit1.30 compatibility claim; author reports re-testing successfully Nov3",
+    "Retexturable, free use and repack stated",
+    "Types.xml and key are bundled with mod",
+    "AWD,CVT,100slots,backpack,customsounds",
+    "Flashlight slot works via headlight action except for Expansion users",
+    "Apr4 author explains light uses vanilla flashlight, not an actual vehicle headlight",
+    "Jul16 author explains map spawns must be configured explicitly"
+  ],
+  "public_code_search": {
+    "publisher_config_cpp_found": false,
+    "current_publisher_vehicle_classes_found": false,
+    "base_class": null,
+    "script_inheritance": null,
+    "hiddenSelections": null,
+    "hiddenSelectionsTextures": null,
+    "hiddenSelectionsMaterials": null,
+    "model_path": null,
+    "required_part_slots": null
+  },
+  "community_evidence": {
+    "trusted_as_current_publisher_config": false,
+    "sources": [
+      "https://steamcommunity.com/workshop/filedetails/discussion/3456445155/600783421635197453/",
+      "https://steamcommunity.com/workshop/filedetails/discussion/3456445155/600781644360624493/",
+      "https://steamcommunity.com/workshop/filedetails/discussion/3456445155/600775936314456950/"
+    ],
+    "literal_class_names": [
+      "MBM_GoKart_Blue",
+      "MBM_GoKart_BlueSplatter",
+      "MBM_GoKart_Camo",
+      "MBM_GoKart_Graffiti",
+      "MBM_GoKart_Green",
+      "MBM_GoKart_GreenHaze",
+      "MBM_GoKart_Grey",
+      "MBM_GoKart_Hearts",
+      "MBM_GoKart_MBM",
+      "MBM_GoKart_Orange",
+      "MBM_GoKart_PinkHaze",
+      "MBM_GoKart_Red",
+      "MBM_GoKart_RedHaze",
+      "MBM_GoKart_ScrapMetal",
+      "MBM_GoKart_Splatter",
+      "MBM_GoKart_wheel_Black",
+      "MBM_GoKart_wheel_Destroyed",
+      "MBM_GoKart_wheel_Red",
+      "MBM_GoKart_wheel_Yellow"
+    ],
+    "delivery_candidate_class": "MBM_GoKart_Blue",
+    "wheel_candidate_class": "MBM_GoKart_wheel_Black",
+    "important_conflict": "Trader list includes HeadlightH7 despite publisher flashlight specification; radiator only listed forBlue. Do not use this as authoritative required-parts recipe.",
+    "alternate_support_recipe": {
+      "source": "https://steamcommunity.com/workshop/filedetails/discussion/3456445155/600783421635197453/",
+      "author": "Rexxenexx (community, not publisher)",
+      "date": "2025-07-10",
+      "parts": [
+        "CanisterGasoline",
+        "Battery9V",
+        "four MBM_GoKart wheels",
+        "CarBattery",
+        "SparkPlug",
+        "Flashlight"
+      ],
+      "radiator_listed": false,
+      "battery_nesting_note": "Author says9V must manually be placed inside flashlight; their XML putsBattery9V atvehicleattachmentlevel, so cannot blindlycopy."
+    }
+  },
+  "missing_input": "Current Steam Workshop3456445155 installed folder: bundled types and PBO config/script evidence. Existing evidence exporter can collect those without assets/saves.",
+  "safe_integration": "Use MBM_GoKart_Blue only as a candidate validated against installed publisher types and live CfgVehicles; derive attachment slots/parts from actual config and fail visibly if unavailable. Do not substitute Gunter, guessbaseclass, or assert allwrapsverified. Preserve previous car/deliveryreceipt; use separate kart delivery identity.",
+  "wrap_verification": "Need actual per-slot config mapping, texture filesexistence, runtime client material/texture readback and screenshot for each selected finish. Publisher ret​​exturable claim is capability evidence, not verification.",
+  "references": {
+    "publisher": "turn100166603view0",
+    "community_support": "turn859480589view0",
+    "community_trader": "turn859480589view1"
+  },
+  "download_research": {
+    "public_metadata_result": "Valve GetPublishedFileDetails returnedHTTP200,result1,verifiedauthor/app/title,emptyfile_url",
+    "content_handle": "2764594641733565114",
+    "file_size_bytes": 41089039,
+    "published_update_unix": 1792714703,
+    "metadata_file": "mbm_gokart_public_metadata_probe.json",
+    "anonymous_archive_download_confirmed": false,
+    "steamcmd_attempted": false,
+    "primary_docs": [
+      "https://community.bistudio.com/wiki/DayZ:Hosting_a_Linux_Server",
+      "https://partner.steamgames.com/doc/api/ISteamUGC#DownloadItem"
+    ],
+    "conclusion": "Valve documents anonymous game-server UGC downloads generally, but this does not establish anonymous DayZ Workshop access. Bohemia DayZ hosting instructions use actualSteamlogin andworkshop_download_item221100. Use users normalSteam download; no assertion that anonymous is universally impossible."
+  }
+}

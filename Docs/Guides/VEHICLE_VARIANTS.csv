@@ -1,0 +1,739 @@
+Class,Model,Static mapping status,Exterior selections,Native visual confirmation
+Motorbike_01_Blue,dz/vehicles/singletrack/motorbike_01/motorbike_01.p3d,mapped_exterior,"camo1, camo_fender",Not performed
+Motorbike_01_Yellow,dz/vehicles/singletrack/motorbike_01/motorbike_01.p3d,mapped_exterior,"camo1, camo_fender",Not performed
+Motorbike_01_Red,dz/vehicles/singletrack/motorbike_01/motorbike_01.p3d,mapped_exterior,"camo1, camo_fender",Not performed
+Motorbike_02_Red,dz/vehicles/singletrack/motorbike_02/motorbike_02.p3d,mapped_exterior,"camo, camo_fenderfront, camo_fenderrear",Not performed
+Motorbike_02_Yellow,dz/vehicles/singletrack/motorbike_02/motorbike_02.p3d,mapped_exterior,"camo, camo_fenderfront, camo_fenderrear",Not performed
+Motorbike_02_Blue,dz/vehicles/singletrack/motorbike_02/motorbike_02.p3d,mapped_exterior,"camo, camo_fenderfront, camo_fenderrear",Not performed
+Motorbike_02_Green,dz/vehicles/singletrack/motorbike_02/motorbike_02.p3d,mapped_exterior,"camo, camo_fenderfront, camo_fenderrear",Not performed
+Boat_01_Orange,dz/vehicles/water/boat_01/boat_01.p3d,mapped_exterior,"camo1, damage_unhide",Not performed
+Boat_01_Blue,dz/vehicles/water/boat_01/boat_01.p3d,mapped_exterior,"camo1, damage_unhide",Not performed
+Boat_01_Black,dz/vehicles/water/boat_01/boat_01.p3d,mapped_exterior,"camo1, damage_unhide",Not performed
+Boat_01_Camo,dz/vehicles/water/boat_01/boat_01.p3d,mapped_exterior,"camo1, damage_unhide",Not performed
+OffroadHatchback,dz/vehicles/wheeled/offroadhatchback/offroadhatchback.p3d,mapped_exterior,"dmgzone_chassis, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2",Not performed
+OffroadHatchback_Blue,dz/vehicles/wheeled/offroadhatchback/offroadhatchback.p3d,mapped_exterior,"dmgzone_chassis, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2",Not performed
+OffroadHatchback_White,dz/vehicles/wheeled/offroadhatchback/offroadhatchback.p3d,mapped_exterior,"dmgzone_chassis, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2",Not performed
+CivilianSedan,dz/vehicles/wheeled/civiliansedan/civiliansedan.p3d,mapped_exterior,"dmgzone_chassis, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2",Not performed
+CivilianSedan_Wine,dz/vehicles/wheeled/civiliansedan/civiliansedan.p3d,mapped_exterior,"dmgzone_chassis, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2",Not performed
+CivilianSedan_Black,dz/vehicles/wheeled/civiliansedan/civiliansedan.p3d,mapped_exterior,"dmgzone_chassis, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2",Not performed
+Hatchback_02,dz/vehicles/wheeled/hatchback_02/hatchback_02.p3d,mapped_exterior,camo_chassi,Not performed
+Hatchback_02_Black,dz/vehicles/wheeled/hatchback_02/hatchback_02.p3d,mapped_exterior,camo_chassi,Not performed
+Hatchback_02_Blue,dz/vehicles/wheeled/hatchback_02/hatchback_02.p3d,mapped_exterior,camo_chassi,Not performed
+Sedan_02,dz/vehicles/wheeled/sedan_02/sedan_02.p3d,mapped_exterior,"camo, dmgzone_chassis, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2",Not performed
+Sedan_02_Red,dz/vehicles/wheeled/sedan_02/sedan_02.p3d,mapped_exterior,"camo, dmgzone_chassis, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2",Not performed
+Sedan_02_Grey,dz/vehicles/wheeled/sedan_02/sedan_02.p3d,mapped_exterior,"camo, dmgzone_chassis, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2",Not performed
+Truck_01_Covered,dz/vehicles/wheeled/truck_01/truck_01_covered.p3d,mapped_exterior,"dmgzone_chassis, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_fueltank, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2, dmgzone_wood",Not performed
+Truck_01_Covered_Blue,dz/vehicles/wheeled/truck_01/truck_01_covered.p3d,mapped_exterior,"dmgzone_chassis, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_fueltank, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2, dmgzone_wood",Not performed
+Truck_01_Covered_Orange,dz/vehicles/wheeled/truck_01/truck_01_covered.p3d,mapped_exterior,"dmgzone_chassis, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_fueltank, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2, dmgzone_wood",Not performed
+Offroad_02,dz/vehicles/wheeled/offroad_02/offroad_02.p3d,mapped_exterior,"camo, camo_roof",Not performed
+Offroad_02_Beige,dz/vehicles/wheeled/offroad_02/offroad_02.p3d,mapped_exterior,"camo, camo_roof",Not performed
+RTrzr,rtrzr/rtrzr.p3d,no_supported_exterior_selection,,Not performed
+RTrzr_Razzle,rtrzr/rtrzr_razzle.p3d,no_supported_exterior_selection,,Not performed
+RTrzr_Forest,rtrzr/rtrzr_forest.p3d,no_supported_exterior_selection,,Not performed
+RTrzr_Winter,rtrzr/rtrzr_winter.p3d,no_supported_exterior_selection,,Not performed
+RTrzr_Black,rtrzr/rtrzr_black.p3d,no_supported_exterior_selection,,Not performed
+RTrzr_Woodland,rtrzr/rtrzr_woodland.p3d,no_supported_exterior_selection,,Not performed
+RTrzr_Eclipse,rtrzr/rtrzr_eclipse.p3d,no_supported_exterior_selection,,Not performed
+RTrzr_Matte_Black,rtrzr/rtrzr_matte_black.p3d,no_supported_exterior_selection,,Not performed
+RTrzr_OD,rtrzr/rtrzr_od.p3d,no_supported_exterior_selection,,Not performed
+RTrzr_Desert,rtrzr/rtrzr_desert.p3d,no_supported_exterior_selection,,Not performed
+ChevyVan,chevyvan/chevyvan.p3d,mapped_exterior,camo,Not performed
+ChevyVan_white,chevyvan/chevyvan.p3d,mapped_exterior,camo,Not performed
+RTcv,crownvic/cvbase.p3d,mapped_exterior,camo,Not performed
+RTcvpolice,crownvic/cvpolicebase.p3d,mapped_exterior,camo,Not performed
+RTcvred,crownvic/cvbase.p3d,mapped_exterior,camo,Not performed
+RTcvtan,crownvic/cvbase.p3d,mapped_exterior,camo,Not performed
+RTcvblue,crownvic/cvbase.p3d,mapped_exterior,camo,Not performed
+RTcvblack,crownvic/cvbase.p3d,mapped_exterior,camo,Not performed
+ExpansionGyrocopter,dayzexpansion/vehicles/air/gyro/gyrocopter.p3d,mapped_exterior,camo,Not performed
+ExpansionBigGyrocopter,dayzexpansion/vehicles/air/gyro/gyrocopter_big.p3d,mapped_exterior,camo,Not performed
+ExpansionHatchBird,dz/vehicles/wheeled/offroadhatchback/offroadhatchback.p3d,mapped_exterior,"dmgzone_chassis, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2",Not performed
+CivilianSedan_White,dz/vehicles/wheeled/civiliansedan/civiliansedan.p3d,mapped_exterior,"dmgzone_chassis, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2",Not performed
+CivilianSedan_WhiteRust,dz/vehicles/wheeled/civiliansedan/civiliansedan.p3d,mapped_exterior,"dmgzone_chassis, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2",Not performed
+CivilianSedan_WineRust,dz/vehicles/wheeled/civiliansedan/civiliansedan.p3d,mapped_exterior,"dmgzone_chassis, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2",Not performed
+CivilianSedan_BlackRust,dz/vehicles/wheeled/civiliansedan/civiliansedan.p3d,mapped_exterior,"dmgzone_chassis, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2",Not performed
+Hatchback_02_Red,dz/vehicles/wheeled/hatchback_02/hatchback_02.p3d,mapped_exterior,camo_chassi,Not performed
+Hatchback_02_RedRust,dz/vehicles/wheeled/hatchback_02/hatchback_02.p3d,mapped_exterior,camo_chassi,Not performed
+Hatchback_02_BlackRust,dz/vehicles/wheeled/hatchback_02/hatchback_02.p3d,mapped_exterior,camo_chassi,Not performed
+Hatchback_02_BlueRust,dz/vehicles/wheeled/hatchback_02/hatchback_02.p3d,mapped_exterior,camo_chassi,Not performed
+Hatchback_02_BanditKitty,dz/vehicles/wheeled/hatchback_02/hatchback_02.p3d,mapped_exterior,camo_chassi,Not performed
+Expansion_Landrover,dayzexpansion/vehicles/ground/landrover/expansion_landrover.p3d,mapped_exterior,"body_outdoor, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_doors, dmgzone_w_framel, dmgzone_w_framer, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2",Not performed
+Expansion_Landrover_Yellow,dayzexpansion/vehicles/ground/landrover/expansion_landrover.p3d,mapped_exterior,"body_outdoor, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_doors, dmgzone_w_framel, dmgzone_w_framer, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2",Not performed
+Expansion_Landrover_Green,dayzexpansion/vehicles/ground/landrover/expansion_landrover.p3d,mapped_exterior,"body_outdoor, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_doors, dmgzone_w_framel, dmgzone_w_framer, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2",Not performed
+Expansion_Landrover_Red,dayzexpansion/vehicles/ground/landrover/expansion_landrover.p3d,mapped_exterior,"body_outdoor, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_doors, dmgzone_w_framel, dmgzone_w_framer, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2",Not performed
+Expansion_Landrover_Grey,dayzexpansion/vehicles/ground/landrover/expansion_landrover.p3d,mapped_exterior,"body_outdoor, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_doors, dmgzone_w_framel, dmgzone_w_framer, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2",Not performed
+Expansion_Landrover_Blue,dayzexpansion/vehicles/ground/landrover/expansion_landrover.p3d,mapped_exterior,"body_outdoor, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_doors, dmgzone_w_framel, dmgzone_w_framer, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2",Not performed
+Expansion_Landrover_Orange,dayzexpansion/vehicles/ground/landrover/expansion_landrover.p3d,mapped_exterior,"body_outdoor, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_doors, dmgzone_w_framel, dmgzone_w_framer, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2",Not performed
+OffroadHatchback_Green,dz/vehicles/wheeled/offroadhatchback/offroadhatchback.p3d,mapped_exterior,"dmgzone_chassis, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2",Not performed
+OffroadHatchback_GreenRust,dz/vehicles/wheeled/offroadhatchback/offroadhatchback.p3d,mapped_exterior,"dmgzone_chassis, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2",Not performed
+OffroadHatchback_BlueRust,dz/vehicles/wheeled/offroadhatchback/offroadhatchback.p3d,mapped_exterior,"dmgzone_chassis, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2",Not performed
+OffroadHatchback_WhiteRust,dz/vehicles/wheeled/offroadhatchback/offroadhatchback.p3d,mapped_exterior,"dmgzone_chassis, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2",Not performed
+Sedan_02_Yellow,dz/vehicles/wheeled/sedan_02/sedan_02.p3d,mapped_exterior,"camo, dmgzone_chassis, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2",Not performed
+Sedan_02_RedRust,dz/vehicles/wheeled/sedan_02/sedan_02.p3d,mapped_exterior,"camo, dmgzone_chassis, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2",Not performed
+Sedan_02_YellowRust,dz/vehicles/wheeled/sedan_02/sedan_02.p3d,mapped_exterior,"camo, dmgzone_chassis, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2",Not performed
+Sedan_02_GreyRust,dz/vehicles/wheeled/sedan_02/sedan_02.p3d,mapped_exterior,"camo, dmgzone_chassis, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2",Not performed
+Truck_01_Covered_Green,dz/vehicles/wheeled/truck_01/truck_01_covered.p3d,mapped_exterior,"dmgzone_chassis, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_fueltank, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2, dmgzone_wood",Not performed
+Truck_01_Covered_Red,dz/vehicles/wheeled/truck_01/truck_01_covered.p3d,mapped_exterior,"dmgzone_chassis, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_fueltank, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2, dmgzone_wood",Not performed
+Truck_01_Covered_White,dz/vehicles/wheeled/truck_01/truck_01_covered.p3d,mapped_exterior,"dmgzone_chassis, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_fueltank, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2, dmgzone_wood",Not performed
+Truck_01_Covered_Black,dz/vehicles/wheeled/truck_01/truck_01_covered.p3d,mapped_exterior,"dmgzone_chassis, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_fueltank, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2, dmgzone_wood",Not performed
+Truck_01_Covered_Wine,dz/vehicles/wheeled/truck_01/truck_01_covered.p3d,mapped_exterior,"dmgzone_chassis, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_fueltank, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2, dmgzone_wood",Not performed
+Truck_01_Covered_Lime,dz/vehicles/wheeled/truck_01/truck_01_covered.p3d,mapped_exterior,"dmgzone_chassis, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_fueltank, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2, dmgzone_wood",Not performed
+Truck_01_Covered_Yellow,dz/vehicles/wheeled/truck_01/truck_01_covered.p3d,mapped_exterior,"dmgzone_chassis, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_fueltank, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2, dmgzone_wood",Not performed
+Truck_01_Covered_YellowBright,dz/vehicles/wheeled/truck_01/truck_01_covered.p3d,mapped_exterior,"dmgzone_chassis, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_fueltank, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2, dmgzone_wood",Not performed
+ExpansionUAZ,dayzexpansion/vehicles/ground/uaz/uaz.p3d,mapped_exterior,"camo1, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_fender_fl, dmgzone_fender_bl, dmgzone_fender_fr, dmgzone_fender_br",Not performed
+ExpansionUAZRoofless,dayzexpansion/vehicles/ground/uaz/uaz.p3d,mapped_exterior,"camo1, dmgzone_front, dmgzone_back, dmgzone_fender_fl, dmgzone_fender_bl, dmgzone_fender_fr, dmgzone_fender_br",Not performed
+ExpansionUAZCargoRoofless,dayzexpansion/vehicles/ground/uaz/uazcargoroofless.p3d,mapped_exterior,"camo1, dmgzone_front, dmgzone_back, dmgzone_fender_fl, dmgzone_fender_bl, dmgzone_fender_fr, dmgzone_fender_br",Not performed
+ExpansionUAZCargo,dayzexpansion/vehicles/ground/uaz/uaz.p3d,mapped_exterior,"camo1, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_fender_fl, dmgzone_fender_bl, dmgzone_fender_fr, dmgzone_fender_br",Not performed
+ExpansionUAZ_Green,dayzexpansion/vehicles/ground/uaz/uaz.p3d,mapped_exterior,"camo1, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_fender_fl, dmgzone_fender_bl, dmgzone_fender_fr, dmgzone_fender_br",Not performed
+ExpansionUAZCargo_Green,dayzexpansion/vehicles/ground/uaz/uaz.p3d,mapped_exterior,"camo1, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_fender_fl, dmgzone_fender_bl, dmgzone_fender_fr, dmgzone_fender_br",Not performed
+ExpansionUAZRoofless_Green,dayzexpansion/vehicles/ground/uaz/uaz.p3d,mapped_exterior,"camo1, dmgzone_front, dmgzone_back, dmgzone_fender_fl, dmgzone_fender_bl, dmgzone_fender_fr, dmgzone_fender_br",Not performed
+ExpansionUAZCargoRoofless_Green,dayzexpansion/vehicles/ground/uaz/uazcargoroofless.p3d,mapped_exterior,"camo1, dmgzone_front, dmgzone_back, dmgzone_fender_fl, dmgzone_fender_bl, dmgzone_fender_fr, dmgzone_fender_br",Not performed
+ExpansionUAZ_Black,dayzexpansion/vehicles/ground/uaz/uaz.p3d,mapped_exterior,"camo1, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_fender_fl, dmgzone_fender_bl, dmgzone_fender_fr, dmgzone_fender_br",Not performed
+ExpansionUAZCargo_Black,dayzexpansion/vehicles/ground/uaz/uaz.p3d,mapped_exterior,"camo1, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_fender_fl, dmgzone_fender_bl, dmgzone_fender_fr, dmgzone_fender_br",Not performed
+ExpansionUAZRoofless_Black,dayzexpansion/vehicles/ground/uaz/uaz.p3d,mapped_exterior,"camo1, dmgzone_front, dmgzone_back, dmgzone_fender_fl, dmgzone_fender_bl, dmgzone_fender_fr, dmgzone_fender_br",Not performed
+ExpansionUAZCargoRoofless_Black,dayzexpansion/vehicles/ground/uaz/uazcargoroofless.p3d,mapped_exterior,"camo1, dmgzone_front, dmgzone_back, dmgzone_fender_fl, dmgzone_fender_bl, dmgzone_fender_fr, dmgzone_fender_br",Not performed
+ExpansionUAZ_LightGreen,dayzexpansion/vehicles/ground/uaz/uaz.p3d,mapped_exterior,"camo1, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_fender_fl, dmgzone_fender_bl, dmgzone_fender_fr, dmgzone_fender_br",Not performed
+ExpansionUAZCargo_LightGreen,dayzexpansion/vehicles/ground/uaz/uaz.p3d,mapped_exterior,"camo1, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_fender_fl, dmgzone_fender_bl, dmgzone_fender_fr, dmgzone_fender_br",Not performed
+ExpansionUAZRoofless_LightGreen,dayzexpansion/vehicles/ground/uaz/uaz.p3d,mapped_exterior,"camo1, dmgzone_front, dmgzone_back, dmgzone_fender_fl, dmgzone_fender_bl, dmgzone_fender_fr, dmgzone_fender_br",Not performed
+ExpansionUAZCargoRoofless_LightGreen,dayzexpansion/vehicles/ground/uaz/uazcargoroofless.p3d,mapped_exterior,"camo1, dmgzone_front, dmgzone_back, dmgzone_fender_fl, dmgzone_fender_bl, dmgzone_fender_fr, dmgzone_fender_br",Not performed
+ExpansionZodiacBoat,dayzexpansion/vehicles/water/zodiac/zodiac.p3d,no_supported_exterior_selection,,Not performed
+ExpansionZodiacBoat_Orange,dayzexpansion/vehicles/water/zodiac/zodiac.p3d,no_supported_exterior_selection,,Not performed
+ExpansionZodiacBoat_Black,dayzexpansion/vehicles/water/zodiac/zodiac.p3d,no_supported_exterior_selection,,Not performed
+ExpansionZodiacBoat_Green,dayzexpansion/vehicles/water/zodiac/zodiac.p3d,no_supported_exterior_selection,,Not performed
+ExpansionMerlin,dayzexpansion/vehicles/air/merlin/merlin.p3d,mapped_exterior,"camo1, camo2, camo3",Not performed
+ExpansionMerlin_Green,dayzexpansion/vehicles/air/merlin/merlin.p3d,mapped_exterior,"camo1, camo2, camo3",Not performed
+ExpansionMerlin_Dahoman,dayzexpansion/vehicles/air/merlin/merlin.p3d,mapped_exterior,"camo1, camo2, camo3",Not performed
+ExpansionMerlin_Ion,dayzexpansion/vehicles/air/merlin/merlin.p3d,mapped_exterior,"camo1, camo2, camo3",Not performed
+ExpansionMerlin_President,dayzexpansion/vehicles/air/merlin/merlin.p3d,mapped_exterior,"camo1, camo2, camo3",Not performed
+ExpansionMerlin_Vrana,dayzexpansion/vehicles/air/merlin/merlin.p3d,mapped_exterior,"camo1, camo2, camo3",Not performed
+ExpansionMerlin_Wave,dayzexpansion/vehicles/air/merlin/merlin.p3d,mapped_exterior,"camo1, camo2, camo3",Not performed
+ExpansionMh6,dayzexpansion/vehicles/air/mh6/mh6.p3d,mapped_exterior,camo,Not performed
+ExpansionMh6_Green,dayzexpansion/vehicles/air/mh6/mh6.p3d,mapped_exterior,camo,Not performed
+ExpansionMh6_Blueline,dayzexpansion/vehicles/air/mh6/mh6.p3d,mapped_exterior,camo,Not performed
+ExpansionMh6_Digital,dayzexpansion/vehicles/air/mh6/mh6.p3d,mapped_exterior,camo,Not performed
+ExpansionMh6_Elliptical,dayzexpansion/vehicles/air/mh6/mh6.p3d,mapped_exterior,camo,Not performed
+ExpansionMh6_Furious,dayzexpansion/vehicles/air/mh6/mh6.p3d,mapped_exterior,camo,Not performed
+ExpansionMh6_GrayWatcher,dayzexpansion/vehicles/air/mh6/mh6.p3d,mapped_exterior,camo,Not performed
+ExpansionMh6_Jeans,dayzexpansion/vehicles/air/mh6/mh6.p3d,mapped_exterior,camo,Not performed
+ExpansionMh6_Resistance,dayzexpansion/vehicles/air/mh6/mh6.p3d,mapped_exterior,camo,Not performed
+ExpansionMh6_Shadow,dayzexpansion/vehicles/air/mh6/mh6.p3d,mapped_exterior,camo,Not performed
+ExpansionMh6_Sheriff,dayzexpansion/vehicles/air/mh6/mh6.p3d,mapped_exterior,camo,Not performed
+ExpansionMh6_Speedy,dayzexpansion/vehicles/air/mh6/mh6.p3d,mapped_exterior,camo,Not performed
+ExpansionMh6_Sunset,dayzexpansion/vehicles/air/mh6/mh6.p3d,mapped_exterior,camo,Not performed
+ExpansionMh6_Vrana,dayzexpansion/vehicles/air/mh6/mh6.p3d,mapped_exterior,camo,Not performed
+ExpansionMh6_Wasp,dayzexpansion/vehicles/air/mh6/mh6.p3d,mapped_exterior,camo,Not performed
+ExpansionMh6_Wave,dayzexpansion/vehicles/air/mh6/mh6.p3d,mapped_exterior,camo,Not performed
+ExpansionMh6_Black,dayzexpansion/vehicles/air/mh6/mh6.p3d,mapped_exterior,camo,Not performed
+ExpansionUh1h,dayzexpansion/vehicles/air/uh1h/uh1h.p3d,mapped_exterior,camo1,Not performed
+ExpansionUh1h_Green,dayzexpansion/vehicles/air/uh1h/uh1h.p3d,mapped_exterior,camo1,Not performed
+ExpansionUh1h_Civilian,dayzexpansion/vehicles/air/uh1h/uh1h.p3d,mapped_exterior,camo1,Not performed
+ExpansionUh1h_Medical,dayzexpansion/vehicles/air/uh1h/uh1h.p3d,mapped_exterior,camo1,Not performed
+ExpansionUh1h_Uber,dayzexpansion/vehicles/air/uh1h/uh1h.p3d,mapped_exterior,camo1,Not performed
+ExpansionUh1h_Resistance,dayzexpansion/vehicles/air/uh1h/uh1h.p3d,mapped_exterior,camo1,Not performed
+ExpansionBus,dayzexpansion/vehicles/ground/bus/ikarus.p3d,mapped_exterior,"camo, dmgzone_bl, dmgzone_br, dmgzone_fl, dmgzone_ml, dmgzone_fr, dmgzone_front, dmgzone_back, dmgzone_roof",Not performed
+ExpansionBus_Blue,dayzexpansion/vehicles/ground/bus/ikarus.p3d,mapped_exterior,"camo, dmgzone_bl, dmgzone_br, dmgzone_fl, dmgzone_ml, dmgzone_fr, dmgzone_front, dmgzone_back, dmgzone_roof",Not performed
+ExpansionBus_Weeb,dayzexpansion/vehicles/ground/bus/ikarus.p3d,mapped_exterior,"camo, dmgzone_bl, dmgzone_br, dmgzone_fl, dmgzone_ml, dmgzone_fr, dmgzone_front, dmgzone_back, dmgzone_roof",Not performed
+ExpansionBus_Red,dayzexpansion/vehicles/ground/bus/ikarus.p3d,mapped_exterior,"camo, dmgzone_bl, dmgzone_br, dmgzone_fl, dmgzone_ml, dmgzone_fr, dmgzone_front, dmgzone_back, dmgzone_roof",Not performed
+ExpansionTractor,dayzexpansion/vehicles/ground/tractor/tractor2.p3d,mapped_exterior,"camo, dmgzone_front, dmgzone_back, dmgzone_roof",Not performed
+ExpansionTractor_Red,dayzexpansion/vehicles/ground/tractor/tractor2.p3d,mapped_exterior,"camo, dmgzone_front, dmgzone_back, dmgzone_roof",Not performed
+ExpansionTractor_Blue,dayzexpansion/vehicles/ground/tractor/tractor2.p3d,mapped_exterior,"camo, dmgzone_front, dmgzone_back, dmgzone_roof",Not performed
+ExpansionTractor_Green,dayzexpansion/vehicles/ground/tractor/tractor2.p3d,mapped_exterior,"camo, dmgzone_front, dmgzone_back, dmgzone_roof",Not performed
+ExpansionVodnik,dayzexpansion/vehicles/ground/vodnik/vodnik.p3d,mapped_exterior,camo3,Not performed
+ExpansionVodnik_Camo,dayzexpansion/vehicles/ground/vodnik/vodnik.p3d,mapped_exterior,camo3,Not performed
+ExpansionVodnik_CamoMedical,dayzexpansion/vehicles/ground/vodnik/vodnik.p3d,mapped_exterior,camo3,Not performed
+ExpansionLHD,dayzexpansion/vehicles/water/carrier/lhd.p3d,no_supported_exterior_selection,,Not performed
+ExpansionUtilityBoat,dayzexpansion/vehicles/water/utility/rhib.p3d,mapped_exterior,camo,Not performed
+ExpansionUtilityBoat_Black,dayzexpansion/vehicles/water/utility/rhib.p3d,mapped_exterior,camo,Not performed
+ExpansionUtilityBoat_Green,dayzexpansion/vehicles/water/utility/rhib.p3d,mapped_exterior,camo,Not performed
+Old_Bike,bicycle/model2/bicycle.p3d,mapped_exterior,camo1,Not performed
+Old_Bike_White,bicycle/model2/bicycle.p3d,mapped_exterior,camo1,Not performed
+Old_Bike_Red,bicycle/model2/bicycle.p3d,mapped_exterior,camo1,Not performed
+Old_Bike_Green,bicycle/model2/bicycle.p3d,mapped_exterior,camo1,Not performed
+Old_Bike_Blue,bicycle/model2/bicycle.p3d,mapped_exterior,camo1,Not performed
+Old_Bike_Pink,bicycle/model2/bicycle.p3d,mapped_exterior,camo1,Not performed
+Lady_Bicycle,bicycle/model2/lady_bicycle.p3d,mapped_exterior,camo1,Not performed
+Lady_Bicycle_Purple,bicycle/model2/lady_bicycle.p3d,mapped_exterior,camo1,Not performed
+An2_Biplane,an2mod/an2.p3d,mapped_exterior,"camo1, camo2, camo3",Not performed
+TB_GolfCart_Red,tb_golfcart/tb_golfcart.p3d,mapped_exterior,camo,Not performed
+TB_GolfCart_White,tb_golfcart/tb_golfcart.p3d,mapped_exterior,camo,Not performed
+TB_GolfCart_Black,tb_golfcart/tb_golfcart.p3d,mapped_exterior,camo,Not performed
+TB_GolfCart_Blue,tb_golfcart/tb_golfcart.p3d,mapped_exterior,camo,Not performed
+TB_GolfCart_Green,tb_golfcart/tb_golfcart.p3d,mapped_exterior,camo,Not performed
+TB_GolfCart_Silver,tb_golfcart/tb_golfcart.p3d,mapped_exterior,camo,Not performed
+CrSk_Vespa_125_Primavera,crsk_vespa_125_primavera/crsk_vespa_125_primavera.p3d,mapped_exterior,"camo1, camo2",Not performed
+CrSk_Vespa_125_Primavera_NoSlots,crsk_vespa_125_primavera/crsk_vespa_125_primavera.p3d,mapped_exterior,"camo1, camo2",Not performed
+CrSk_Vespa_125_Primavera_Rust,crsk_vespa_125_primavera/crsk_vespa_125_primavera.p3d,mapped_exterior,"camo1, camo2",Not performed
+CrSk_Vespa_125_Primavera_NoSlots_Rust,crsk_vespa_125_primavera/crsk_vespa_125_primavera.p3d,mapped_exterior,"camo1, camo2",Not performed
+CrSk_Vespa_125_Primavera_White,crsk_vespa_125_primavera/crsk_vespa_125_primavera.p3d,mapped_exterior,"camo1, camo2",Not performed
+CrSk_Vespa_125_Primavera_NoSlots_White,crsk_vespa_125_primavera/crsk_vespa_125_primavera.p3d,mapped_exterior,"camo1, camo2",Not performed
+CrSk_Vespa_125_Primavera_Rust_White,crsk_vespa_125_primavera/crsk_vespa_125_primavera.p3d,mapped_exterior,"camo1, camo2",Not performed
+CrSk_Vespa_125_Primavera_NoSlots_Rust_White,crsk_vespa_125_primavera/crsk_vespa_125_primavera.p3d,mapped_exterior,"camo1, camo2",Not performed
+CrSk_Vespa_125_Primavera_Beige,crsk_vespa_125_primavera/crsk_vespa_125_primavera.p3d,mapped_exterior,"camo1, camo2",Not performed
+CrSk_Vespa_125_Primavera_NoSlots_Beige,crsk_vespa_125_primavera/crsk_vespa_125_primavera.p3d,mapped_exterior,"camo1, camo2",Not performed
+CrSk_Vespa_125_Primavera_Rust_Beige,crsk_vespa_125_primavera/crsk_vespa_125_primavera.p3d,mapped_exterior,"camo1, camo2",Not performed
+CrSk_Vespa_125_Primavera_NoSlots_Rust_Beige,crsk_vespa_125_primavera/crsk_vespa_125_primavera.p3d,mapped_exterior,"camo1, camo2",Not performed
+CrSk_Vespa_125_Primavera_Blue,crsk_vespa_125_primavera/crsk_vespa_125_primavera.p3d,mapped_exterior,"camo1, camo2",Not performed
+CrSk_Vespa_125_Primavera_NoSlots_Blue,crsk_vespa_125_primavera/crsk_vespa_125_primavera.p3d,mapped_exterior,"camo1, camo2",Not performed
+CrSk_Vespa_125_Primavera_Rust_Blue,crsk_vespa_125_primavera/crsk_vespa_125_primavera.p3d,mapped_exterior,"camo1, camo2",Not performed
+CrSk_Vespa_125_Primavera_NoSlots_Rust_Blue,crsk_vespa_125_primavera/crsk_vespa_125_primavera.p3d,mapped_exterior,"camo1, camo2",Not performed
+CrSk_Vespa_125_Primavera_Blue2,crsk_vespa_125_primavera/crsk_vespa_125_primavera.p3d,mapped_exterior,"camo1, camo2",Not performed
+CrSk_Vespa_125_Primavera_NoSlots_Blue2,crsk_vespa_125_primavera/crsk_vespa_125_primavera.p3d,mapped_exterior,"camo1, camo2",Not performed
+CrSk_Vespa_125_Primavera_Rust_Blue2,crsk_vespa_125_primavera/crsk_vespa_125_primavera.p3d,mapped_exterior,"camo1, camo2",Not performed
+CrSk_Vespa_125_Primavera_NoSlots_Rust_Blue2,crsk_vespa_125_primavera/crsk_vespa_125_primavera.p3d,mapped_exterior,"camo1, camo2",Not performed
+CrSk_Vespa_125_Primavera_LightBlue,crsk_vespa_125_primavera/crsk_vespa_125_primavera.p3d,mapped_exterior,"camo1, camo2",Not performed
+CrSk_Vespa_125_Primavera_NoSlots_LightBlue,crsk_vespa_125_primavera/crsk_vespa_125_primavera.p3d,mapped_exterior,"camo1, camo2",Not performed
+CrSk_Vespa_125_Primavera_Rust_LightBlue,crsk_vespa_125_primavera/crsk_vespa_125_primavera.p3d,mapped_exterior,"camo1, camo2",Not performed
+CrSk_Vespa_125_Primavera_NoSlots_Rust_LightBlue,crsk_vespa_125_primavera/crsk_vespa_125_primavera.p3d,mapped_exterior,"camo1, camo2",Not performed
+CrSk_Vespa_125_Primavera_Green,crsk_vespa_125_primavera/crsk_vespa_125_primavera.p3d,mapped_exterior,"camo1, camo2",Not performed
+CrSk_Vespa_125_Primavera_NoSlots_Green,crsk_vespa_125_primavera/crsk_vespa_125_primavera.p3d,mapped_exterior,"camo1, camo2",Not performed
+CrSk_Vespa_125_Primavera_Rust_Green,crsk_vespa_125_primavera/crsk_vespa_125_primavera.p3d,mapped_exterior,"camo1, camo2",Not performed
+CrSk_Vespa_125_Primavera_NoSlots_Rust_Green,crsk_vespa_125_primavera/crsk_vespa_125_primavera.p3d,mapped_exterior,"camo1, camo2",Not performed
+CrSk_Vespa_125_Primavera_Green2,crsk_vespa_125_primavera/crsk_vespa_125_primavera.p3d,mapped_exterior,"camo1, camo2",Not performed
+CrSk_Vespa_125_Primavera_NoSlots_Green2,crsk_vespa_125_primavera/crsk_vespa_125_primavera.p3d,mapped_exterior,"camo1, camo2",Not performed
+CrSk_Vespa_125_Primavera_Rust_Green2,crsk_vespa_125_primavera/crsk_vespa_125_primavera.p3d,mapped_exterior,"camo1, camo2",Not performed
+CrSk_Vespa_125_Primavera_NoSlots_Rust_Green2,crsk_vespa_125_primavera/crsk_vespa_125_primavera.p3d,mapped_exterior,"camo1, camo2",Not performed
+CrSk_Vespa_125_Primavera_Red,crsk_vespa_125_primavera/crsk_vespa_125_primavera.p3d,mapped_exterior,"camo1, camo2",Not performed
+CrSk_Vespa_125_Primavera_NoSlots_Red,crsk_vespa_125_primavera/crsk_vespa_125_primavera.p3d,mapped_exterior,"camo1, camo2",Not performed
+CrSk_Vespa_125_Primavera_Rust_Red,crsk_vespa_125_primavera/crsk_vespa_125_primavera.p3d,mapped_exterior,"camo1, camo2",Not performed
+CrSk_Vespa_125_Primavera_NoSlots_Rust_Red,crsk_vespa_125_primavera/crsk_vespa_125_primavera.p3d,mapped_exterior,"camo1, camo2",Not performed
+CrSk_Vespa_125_Primavera_Black,crsk_vespa_125_primavera/crsk_vespa_125_primavera.p3d,mapped_exterior,"camo1, camo2",Not performed
+CrSk_Vespa_125_Primavera_NoSlots_Black,crsk_vespa_125_primavera/crsk_vespa_125_primavera.p3d,mapped_exterior,"camo1, camo2",Not performed
+CrSk_Vespa_125_Primavera_Rust_Black,crsk_vespa_125_primavera/crsk_vespa_125_primavera.p3d,mapped_exterior,"camo1, camo2",Not performed
+CrSk_Vespa_125_Primavera_NoSlots_Rust_Black,crsk_vespa_125_primavera/crsk_vespa_125_primavera.p3d,mapped_exterior,"camo1, camo2",Not performed
+CrSk_Vespa_125_Primavera_Yellow,crsk_vespa_125_primavera/crsk_vespa_125_primavera.p3d,mapped_exterior,"camo1, camo2",Not performed
+CrSk_Vespa_125_Primavera_NoSlots_Yellow,crsk_vespa_125_primavera/crsk_vespa_125_primavera.p3d,mapped_exterior,"camo1, camo2",Not performed
+CrSk_Vespa_125_Primavera_Rust_Yellow,crsk_vespa_125_primavera/crsk_vespa_125_primavera.p3d,mapped_exterior,"camo1, camo2",Not performed
+CrSk_Vespa_125_Primavera_NoSlots_Rust_Yellow,crsk_vespa_125_primavera/crsk_vespa_125_primavera.p3d,mapped_exterior,"camo1, camo2",Not performed
+rag_atv_blue,rag/rag_vehicles/rag_atv/rag_atv.p3d,mapped_exterior,body,Not performed
+rag_atv_red,rag/rag_vehicles/rag_atv/rag_atv.p3d,mapped_exterior,body,Not performed
+rag_atv_green,rag/rag_vehicles/rag_atv/rag_atv.p3d,mapped_exterior,body,Not performed
+rag_atv_pink,rag/rag_vehicles/rag_atv/rag_atv.p3d,mapped_exterior,body,Not performed
+rag_atv_white,rag/rag_vehicles/rag_atv/rag_atv.p3d,mapped_exterior,body,Not performed
+rag_atv_black,rag/rag_vehicles/rag_atv/rag_atv.p3d,mapped_exterior,body,Not performed
+rag_baja,rag/rag_vehicles/rag_baja/rag_baja.p3d,mapped_exterior,"exterior, door_fender",Not performed
+rag_baja_green,rag/rag_vehicles/rag_baja/rag_baja.p3d,mapped_exterior,"exterior, door_fender",Not performed
+rag_baja_ryg,rag/rag_vehicles/rag_baja/rag_baja.p3d,mapped_exterior,"exterior, door_fender",Not performed
+rag_baja_camo,rag/rag_vehicles/rag_baja/rag_baja.p3d,mapped_exterior,"exterior, door_fender",Not performed
+rag_derby_car,rag/rag_vehicles/rag_derby_car/rag_derby_car.p3d,mapped_exterior,base,Not performed
+rag_derby_car_green,rag/rag_vehicles/rag_derby_car/rag_derby_car.p3d,mapped_exterior,base,Not performed
+rag_derby_car_red,rag/rag_vehicles/rag_derby_car/rag_derby_car.p3d,mapped_exterior,base,Not performed
+rag_derby_car_yellow,rag/rag_vehicles/rag_derby_car/rag_derby_car.p3d,mapped_exterior,base,Not performed
+rag_gaz69,rag/rag_vehicles/rag_gaz69/rag_gaz69.p3d,mapped_exterior,"dmgzone_back, dmgzone_fender_1_1, dmgzone_fender_2_1, dmgzone_fender_1_2, dmgzone_fender_2_2",Not performed
+rag_hummer_Armored,rag/rag_vehicles/rag_hummer/rag_hummer_armored.p3d,mapped_exterior,hummer_base,Not performed
+rag_hummer_olive_Armored,rag/rag_vehicles/rag_hummer/rag_hummer_armored.p3d,mapped_exterior,hummer_base,Not performed
+rag_hummer_tan_Armored,rag/rag_vehicles/rag_hummer/rag_hummer_armored.p3d,mapped_exterior,hummer_base,Not performed
+rag_hummer_camo_Armored,rag/rag_vehicles/rag_hummer/rag_hummer_armored.p3d,mapped_exterior,hummer_base,Not performed
+rag_hummer_purple_Armored,rag/rag_vehicles/rag_hummer/rag_hummer_armored.p3d,mapped_exterior,hummer_base,Not performed
+rag_hummer_red_Armored,rag/rag_vehicles/rag_hummer/rag_hummer_armored.p3d,mapped_exterior,hummer_base,Not performed
+rag_hummer_winter_Armored,rag/rag_vehicles/rag_hummer/rag_hummer_armored.p3d,mapped_exterior,hummer_base,Not performed
+rag_hummer_anarchy_Armored,rag/rag_vehicles/rag_hummer/rag_hummer_armored.p3d,mapped_exterior,hummer_base,Not performed
+rag_hummer_gold_Armored,rag/rag_vehicles/rag_hummer/rag_hummer_armored.p3d,mapped_exterior,hummer_base,Not performed
+rag_jeep_willys,rag/rag_vehicles/rag_jeep_willys/rag_jeep_willys.p3d,no_supported_exterior_selection,,Not performed
+rag_landrover_110,rag/rag_vehicles/rag_landrover_110/rag_landrover_110.p3d,mapped_exterior,body_outdoor,Not performed
+rag_landrover_110_olive,rag/rag_vehicles/rag_landrover_110/rag_landrover_110.p3d,mapped_exterior,body_outdoor,Not performed
+rag_landrover_110_grey,rag/rag_vehicles/rag_landrover_110/rag_landrover_110.p3d,mapped_exterior,body_outdoor,Not performed
+rag_landrover_110_red,rag/rag_vehicles/rag_landrover_110/rag_landrover_110.p3d,mapped_exterior,body_outdoor,Not performed
+rag_landrover_110_un,rag/rag_vehicles/rag_landrover_110/rag_landrover_110.p3d,mapped_exterior,body_outdoor,Not performed
+rag_landrover_110_black,rag/rag_vehicles/rag_landrover_110/rag_landrover_110.p3d,mapped_exterior,body_outdoor,Not performed
+rag_landrover_110_pink,rag/rag_vehicles/rag_landrover_110/rag_landrover_110.p3d,mapped_exterior,body_outdoor,Not performed
+rag_mtvr,rag/rag_vehicles/rag_mtvr/rag_mtvr.p3d,mapped_exterior,"body_1, body_2",Not performed
+rag_mtvr_snow,rag/rag_vehicles/rag_mtvr/rag_mtvr.p3d,mapped_exterior,"body_1, body_2",Not performed
+rag_schoolbus,rag/rag_vehicles/rag_schoolbus/rag_schoolbus.p3d,mapped_exterior,"dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_fender_1_1, dmgzone_fender_2_1, dmgzone_fender_1_2, dmgzone_fender_2_2, dmgzone_chassis",Not performed
+rag_schoolbus_czech,rag/rag_vehicles/rag_schoolbus/rag_schoolbus_czech.p3d,mapped_exterior,"dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_fender_1_1, dmgzone_fender_2_1, dmgzone_fender_1_2, dmgzone_fender_2_2, dmgzone_chassis",Not performed
+rag_zil_130,rag/rag_vehicles/rag_zil_130/rag_zil_130.p3d,mapped_exterior,zil_base,Not performed
+rag_zil_130_olive,rag/rag_vehicles/rag_zil_130/rag_zil_130_olive.p3d,mapped_exterior,zil_base,Not performed
+Van_Cybertruck,van_cybertruck/van_cybertruck.p3d,mapped_exterior,camo,Not performed
+Van_Cybertruck_Black_Blue,van_cybertruck/van_cybertruck.p3d,mapped_exterior,camo,Not performed
+Van_CamperRV,van_camperrv/van_camperrv.p3d,no_supported_exterior_selection,,Not performed
+Van_DodgePhoenix,van_dodgephoenix/van_dodgephoenix.p3d,mapped_exterior,"dmgzone_front, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2",Not performed
+Van_DodgePhoenix_blue,van_dodgephoenix/van_dodgephoenix_blue.p3d,mapped_exterior,"dmgzone_front, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2",Not performed
+Van_DodgePhoenix_green,van_dodgephoenix/van_dodgephoenix_green.p3d,mapped_exterior,"dmgzone_front, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2",Not performed
+Van_DodgePhoenix_grey,van_dodgephoenix/van_dodgephoenix_grey.p3d,mapped_exterior,"dmgzone_front, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2",Not performed
+Van_DodgePhoenix_orange,van_dodgephoenix/van_dodgephoenix_orange.p3d,mapped_exterior,"dmgzone_front, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2",Not performed
+Van_DodgePhoenix_red,van_dodgephoenix/van_dodgephoenix_red.p3d,mapped_exterior,"dmgzone_front, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2",Not performed
+Van_HiluxCamper,van_hiluxcamper/van_hiluxcamper.p3d,mapped_exterior,camo,Not performed
+Van_HiluxCamper_Black,van_hiluxcamper/van_hiluxcamper.p3d,mapped_exterior,camo,Not performed
+Van_HiluxCamper_Cream,van_hiluxcamper/van_hiluxcamper.p3d,mapped_exterior,camo,Not performed
+Van_HiluxCamper_Teal,van_hiluxcamper/van_hiluxcamper.p3d,mapped_exterior,camo,Not performed
+Van_ModernMotorhome,van_modernmotorhome/van_modernmotorhome.p3d,mapped_exterior,camo,Not performed
+Van_ModernMotorhome_White,van_modernmotorhome/van_modernmotorhome.p3d,mapped_exterior,camo,Not performed
+Van_Motorhome,van_motorhome/van_motorhome.p3d,mapped_exterior,"camo1, camo5",Not performed
+Van_Motorhome_Tan,van_motorhome/van_motorhome.p3d,mapped_exterior,"camo1, camo5",Not performed
+Van_Motorhome_Teal,van_motorhome/van_motorhome.p3d,mapped_exterior,"camo1, camo5",Not performed
+Van_Motorhome_Purple,van_motorhome/van_motorhome.p3d,mapped_exterior,"camo1, camo5",Not performed
+Van_Motorhome_Black,van_motorhome/van_motorhome.p3d,mapped_exterior,"camo1, camo5",Not performed
+Van_Motorhome_Camo,van_motorhome/van_motorhome.p3d,mapped_exterior,"camo1, camo5",Not performed
+Van_Airboat,van_airboat/van_airboat.p3d,mapped_exterior,camo2,Not performed
+Van_Airboat_Black,van_airboat/van_airboat.p3d,mapped_exterior,camo2,Not performed
+Van_Airboat_Blue,van_airboat/van_airboat.p3d,mapped_exterior,camo2,Not performed
+Van_Airboat_Orange,van_airboat/van_airboat.p3d,mapped_exterior,camo2,Not performed
+Van_Airboat_Purple,van_airboat/van_airboat.p3d,mapped_exterior,camo2,Not performed
+Van_Airboat_Green,van_airboat/van_airboat.p3d,mapped_exterior,camo2,Not performed
+Van_Airboat_Camo,van_airboat/van_airboat.p3d,mapped_exterior,camo2,Not performed
+Van_HouseBoat,van_houseboat/van_houseboat.p3d,no_supported_exterior_selection,,Not performed
+Van_PatrolBoat,van_patrolboat/van_patrolboat.p3d,mapped_exterior,camo5,Not performed
+Van_PatrolBoat_Blue,van_patrolboat/van_patrolboat.p3d,mapped_exterior,camo5,Not performed
+Van_PatrolBoat_PCG,van_patrolboat/van_patrolboat.p3d,mapped_exterior,camo5,Not performed
+Van_RHIB,van_rhib/van_rhib.p3d,mapped_exterior,"camo1, camo2, camo3",Not performed
+Van_RHIB_Black,van_rhib/van_rhib.p3d,mapped_exterior,"camo1, camo2, camo3",Not performed
+Van_RHIB_Green,van_rhib/van_rhib.p3d,mapped_exterior,"camo1, camo2, camo3",Not performed
+Van_Sailboat,van_sailboat/van_sailboat.p3d,no_supported_exterior_selection,,Not performed
+Van_WoodenBoat,van_woodenboat/van_woodenboat.p3d,no_supported_exterior_selection,,Not performed
+Van_Catamaran,van_catamaran/van_catamaran.p3d,no_supported_exterior_selection,,Not performed
+Van_FishingTrawler,van_fishingtrawler/van_fishingtrawler.p3d,mapped_exterior,zbytek,Not performed
+Van_FishingTrawler_Blue,van_fishingtrawler/van_fishingtrawler.p3d,mapped_exterior,zbytek,Not performed
+Van_Jetski,van_jetski/van_jetski.p3d,no_supported_exterior_selection,,Not performed
+Van_Jetski_Black,van_jetski/van_jetski_black.p3d,no_supported_exterior_selection,,Not performed
+Van_Jetski_Blue,van_jetski/van_jetski_blue.p3d,no_supported_exterior_selection,,Not performed
+Van_Jetski_Orange,van_jetski/van_jetski_orange.p3d,no_supported_exterior_selection,,Not performed
+Van_Jetski_Camo,van_jetski/van_jetski_camo.p3d,no_supported_exterior_selection,,Not performed
+Van_Yacht,van_yacht/van_yacht.p3d,no_supported_exterior_selection,,Not performed
+EXT_MerlinHC3,extension_helicopters/merlinhc3/merlinhc3_baf.p3d,no_supported_exterior_selection,,Not performed
+EXT_AH1Z,extension_helicopters/ah1z/ah1z.p3d,mapped_exterior,camo1,Not performed
+EXT_AH64D,extension_helicopters/ah64d/ah64d.p3d,mapped_exterior,camo1,Not performed
+EXT_AW159,extension_helicopters/aw159/aw159.p3d,mapped_exterior,camo1,Not performed
+EXT_CH_47F,extension_helicopters/ch47/ch_47f.p3d,mapped_exterior,"camo1, camo2",Not performed
+EXT_KA52,extension_helicopters/ka52/ka52.p3d,mapped_exterior,"camo1, camo2",Not performed
+EXT_KA60,extension_helicopters/ka60/ka60_pmc.p3d,mapped_fitted_panels_only,,Not performed
+EXT_MH6,extension_helicopters/mh-6/mh_6m.p3d,mapped_exterior,camo,Not performed
+EXT_MI24,extension_helicopters/mi24/mi35.p3d,mapped_exterior,"camo1, camo2",Not performed
+EXT_Mi8,extension_helicopters/mi8/mi8_transport.p3d,mapped_exterior,"camo1, camo2",Not performed
+EXT_Mi8_Attack,extension_helicopters/mi8/mi8_attack.p3d,mapped_exterior,"camo1, camo2",Not performed
+EXT_Mi171,extension_helicopters/mi8/mi_171.p3d,no_supported_exterior_selection,,Not performed
+EXT_Uh1h_Takistan,dayzexpansion/vehicles/air/uh1h/uh1h.p3d,mapped_exterior,camo1,Not performed
+EXT_MI24_Chernarus,extension_helicopters/mi24/mi35.p3d,mapped_exterior,"camo1, camo2",Not performed
+EXT_MI24_ION,extension_helicopters/mi24/mi35.p3d,mapped_exterior,"camo1, camo2",Not performed
+EXT_MI24_Takistan,extension_helicopters/mi24/mi35.p3d,mapped_exterior,"camo1, camo2",Not performed
+EXT_MI24_UN,extension_helicopters/mi24/mi35.p3d,mapped_exterior,"camo1, camo2",Not performed
+EXT_MI24_ACR,extension_helicopters/mi24/mi35.p3d,mapped_exterior,"camo1, camo2",Not performed
+EXT_AH64D_USMC,extension_helicopters/ah64d/ah64d.p3d,mapped_exterior,camo1,Not performed
+EXT_AH64D_BAF,extension_helicopters/ah64d/ah64d.p3d,mapped_exterior,camo1,Not performed
+EXT_UH60M_Green,extension_helicopters/uh60m/uh60m.p3d,mapped_exterior,"camo1, camo2",Not performed
+EXT_UH60M_MEV,extension_helicopters/uh60m/uh60m.p3d,mapped_exterior,"camo1, camo2",Not performed
+EXT_CH_47F_USMC,extension_helicopters/ch47/ch_47f.p3d,mapped_exterior,"camo1, camo2",Not performed
+EXT_CH_47F_BAF,extension_helicopters/ch47/ch_47f.p3d,mapped_exterior,"camo1, camo2",Not performed
+EXT_Mi8_ACR,extension_helicopters/mi8/mi8_transport.p3d,mapped_exterior,"camo1, camo2",Not performed
+EXT_Mi8_Chedaki,extension_helicopters/mi8/mi8_transport.p3d,mapped_exterior,"camo1, camo2",Not performed
+EXT_Mi8_Chernarus,extension_helicopters/mi8/mi8_transport.p3d,mapped_exterior,"camo1, camo2",Not performed
+EXT_Mi8_Civilian,extension_helicopters/mi8/mi8_transport.p3d,mapped_exterior,"camo1, camo2",Not performed
+EXT_Mi8_RAF,extension_helicopters/mi8/mi8_transport.p3d,mapped_exterior,"camo1, camo2",Not performed
+EXT_Mi8_Takistan,extension_helicopters/mi8/mi8_transport.p3d,mapped_exterior,"camo1, camo2",Not performed
+EXT_Mi8_UnitedNations,extension_helicopters/mi8/mi8_transport.p3d,mapped_exterior,"camo1, camo2",Not performed
+EXT_Mi8_Attack_Takistan,extension_helicopters/mi8/mi8_attack.p3d,mapped_exterior,"camo1, camo2",Not performed
+EXT_Mi8_Attack_UnitedNations,extension_helicopters/mi8/mi8_attack.p3d,mapped_exterior,"camo1, camo2",Not performed
+EXT_Mi8_Attack_Chedaki,extension_helicopters/mi8/mi8_attack.p3d,mapped_exterior,"camo1, camo2",Not performed
+EXT_Mi8_Attack_Civilian,extension_helicopters/mi8/mi8_attack.p3d,mapped_exterior,"camo1, camo2",Not performed
+EXT_Mi8_Attack_ACR,extension_helicopters/mi8/mi8_attack.p3d,mapped_exterior,"camo1, camo2",Not performed
+EXT_Mi8_Attack_RAF,extension_helicopters/mi8/mi8_attack.p3d,mapped_exterior,"camo1, camo2",Not performed
+EXT_Mi8_Attack_Chernarus,extension_helicopters/mi8/mi8_attack.p3d,mapped_exterior,"camo1, camo2",Not performed
+EXT_KA52_Black,extension_helicopters/ka52/ka52.p3d,mapped_exterior,"camo1, camo2",Not performed
+EXT_KA52_Woodland,extension_helicopters/ka52/ka52.p3d,mapped_exterior,"camo1, camo2",Not performed
+EXT_UH1Y_USMC,extension_helicopters/uh1y/uh1y.p3d,mapped_exterior,"camo1, dmgzone_engine",Not performed
+EXT_UH1Y_SAR,extension_helicopters/uh1y/uh1y.p3d,mapped_exterior,"camo1, dmgzone_engine",Not performed
+EXT_UH1Y_ACR,extension_helicopters/uh1y/uh1y.p3d,mapped_exterior,"camo1, dmgzone_engine",Not performed
+EXT_AW159_BAF,extension_helicopters/aw159/aw159.p3d,mapped_exterior,camo1,Not performed
+EXT_AW159_UN,extension_helicopters/aw159/aw159.p3d,mapped_exterior,camo1,Not performed
+EXT_AW159_Marine,extension_helicopters/aw159/aw159.p3d,mapped_exterior,camo1,Not performed
+EXT_MH6_WIP,extension_helicopters/mh-6/mh_6m.p3d,mapped_exterior,camo,Not performed
+EXT_MH6_Digital,extension_helicopters/mh-6/mh_6m.p3d,mapped_exterior,camo,Not performed
+EXT_MH6_Blueline,extension_helicopters/mh-6/mh_6m.p3d,mapped_exterior,camo,Not performed
+EXT_MH6_Elliptical,extension_helicopters/mh-6/mh_6m.p3d,mapped_exterior,camo,Not performed
+EXT_MH6_Furious,extension_helicopters/mh-6/mh_6m.p3d,mapped_exterior,camo,Not performed
+EXT_MH6_GrayWatcher,extension_helicopters/mh-6/mh_6m.p3d,mapped_exterior,camo,Not performed
+EXT_MH6_Green,extension_helicopters/mh-6/mh_6m.p3d,mapped_exterior,camo,Not performed
+EXT_MH6_Jeans,extension_helicopters/mh-6/mh_6m.p3d,mapped_exterior,camo,Not performed
+EXT_MH6_Resistance,extension_helicopters/mh-6/mh_6m.p3d,mapped_exterior,camo,Not performed
+EXT_MH6_Shadow,extension_helicopters/mh-6/mh_6m.p3d,mapped_exterior,camo,Not performed
+EXT_MH6_Sheriff,extension_helicopters/mh-6/mh_6m.p3d,mapped_exterior,camo,Not performed
+EXT_MH6_Speedy,extension_helicopters/mh-6/mh_6m.p3d,mapped_exterior,camo,Not performed
+EXT_MH6_Sunset,extension_helicopters/mh-6/mh_6m.p3d,mapped_exterior,camo,Not performed
+EXT_MH6_Vrana,extension_helicopters/mh-6/mh_6m.p3d,mapped_exterior,camo,Not performed
+EXT_MH6_Wasp,extension_helicopters/mh-6/mh_6m.p3d,mapped_exterior,camo,Not performed
+EXT_MH6_Wave,extension_helicopters/mh-6/mh_6m.p3d,mapped_exterior,camo,Not performed
+EXT_MH6_Mango,extension_helicopters/mh-6/mh_6m.p3d,mapped_exterior,camo,Not performed
+EXT_UH1Y,extension_helicopters/uh1y/uh1y.p3d,mapped_exterior,"camo1, dmgzone_engine",Not performed
+EXT_UH60M,extension_helicopters/uh60m/uh60m.p3d,mapped_exterior,"camo1, camo2",Not performed
+Ford_Raptor_MonsterTruck_USA,ford_raptor_monstertruck/ford_raptor_monstertruck.p3d,mapped_exterior,camo,Not performed
+Ford_Raptor_MonsterTruck_Halo,ford_raptor_monstertruck/ford_raptor_monstertruck.p3d,mapped_exterior,camo,Not performed
+Ford_Raptor_MonsterTruck_WideOpen,ford_raptor_monstertruck/ford_raptor_monstertruck.p3d,mapped_exterior,camo,Not performed
+Ford_Raptor_MonsterTruck_Roush,ford_raptor_monstertruck/ford_raptor_monstertruck.p3d,mapped_exterior,camo,Not performed
+Ford_Raptor_MonsterTruck_Baja,ford_raptor_monstertruck/ford_raptor_monstertruck.p3d,mapped_exterior,camo,Not performed
+Ford_Raptor_MonsterTruck_Raptor,ford_raptor_monstertruck/ford_raptor_monstertruck.p3d,mapped_exterior,camo,Not performed
+Ford_F150Hoonitruck,fordf150hoonitruck/ford_f150hoonitruck.p3d,mapped_fitted_panels_only,,Not performed
+Audi_R8_White,audi_r8_v10/audir8.p3d,mapped_exterior,camo,Not performed
+Audi_R8_CustomPaint,audi_r8_v10/audir8.p3d,mapped_exterior,camo,Not performed
+Audi_R8_CustomPaint2,audi_r8_v10/audir8.p3d,mapped_exterior,camo,Not performed
+Audi_R8_Green,audi_r8_v10/audir8.p3d,mapped_exterior,camo,Not performed
+Audi_R8_Blue,audi_r8_v10/audir8.p3d,mapped_exterior,camo,Not performed
+Audi_R8_Black,audi_r8_v10/audir8.p3d,mapped_exterior,camo,Not performed
+Audi_R8_Red,audi_r8_v10/audir8.p3d,mapped_exterior,camo,Not performed
+Audi_R8_DarkBlue,audi_r8_v10/audir8.p3d,mapped_exterior,camo,Not performed
+Audi_R8_Orange,audi_r8_v10/audir8.p3d,mapped_exterior,camo,Not performed
+Audi_R8_Pink,audi_r8_v10/audir8.p3d,mapped_exterior,camo,Not performed
+Audi_RS6_ABT_White,audi_rs6_abt/audi_rs6_abt.p3d,mapped_exterior,camo,Not performed
+Audi_RS6_ABT_Red,audi_rs6_abt/audi_rs6_abt.p3d,mapped_exterior,camo,Not performed
+Audi_RS6_ABT_Blue,audi_rs6_abt/audi_rs6_abt.p3d,mapped_exterior,camo,Not performed
+Audi_RS6_ABT_Yellow,audi_rs6_abt/audi_rs6_abt.p3d,mapped_exterior,camo,Not performed
+Audi_RS6_ABT_Green,audi_rs6_abt/audi_rs6_abt.p3d,mapped_exterior,camo,Not performed
+Audi_RS6_ABT_Pink,audi_rs6_abt/audi_rs6_abt.p3d,mapped_exterior,camo,Not performed
+Audi_RS6_ABT_Teal,audi_rs6_abt/audi_rs6_abt.p3d,mapped_exterior,camo,Not performed
+Audi_RS6_ABT_MidNightBlue,audi_rs6_abt/audi_rs6_abt.p3d,mapped_exterior,camo,Not performed
+Audi_RS6_ABT_Black,audi_rs6_abt/audi_rs6_abt.p3d,mapped_exterior,camo,Not performed
+BMW_M3_White,bmw_m3_boss/bmw_m3.p3d,mapped_exterior,"dmgzone_chassis, dmgzone_front, dmgzone_back, dmgzone_roof, dmgzone_fender_1_1, dmgzone_fender_1_2, dmgzone_fender_2_1, dmgzone_fender_2_2",Not performed
+BMW_M3_Black,bmw_m3_boss/bmw_m3.p3d,mapped_exterior,camo,Not performed
+BMW_M3_MidNightBlue,bmw_m3_boss/bmw_m3.p3d,mapped_exterior,camo,Not performed
+BMW_M3_Green,bmw_m3_boss/bmw_m3.p3d,mapped_exterior,camo,Not performed
+BMW_M3_Orange,bmw_m3_boss/bmw_m3.p3d,mapped_exterior,camo,Not performed
+BMW_M3_Blue,bmw_m3_boss/bmw_m3.p3d,mapped_exterior,camo,Not performed
+BMW_M3_Red,bmw_m3_boss/bmw_m3.p3d,mapped_exterior,camo,Not performed
+BMW_M5g90_Sadan_White,bmw_m5g90_sadan/bmw_m5g90_sadan.p3d,mapped_exterior,camo,Not performed
+BMW_M5g90_Sadan_Red,bmw_m5g90_sadan/bmw_m5g90_sadan.p3d,mapped_exterior,camo,Not performed
+BMW_M5g90_Sadan_Black,bmw_m5g90_sadan/bmw_m5g90_sadan.p3d,mapped_exterior,camo,Not performed
+BMW_M5g90_Sadan_Blue,bmw_m5g90_sadan/bmw_m5g90_sadan.p3d,mapped_exterior,camo,Not performed
+BMW_M5g90_Sadan_LightBlue,bmw_m5g90_sadan/bmw_m5g90_sadan.p3d,mapped_exterior,camo,Not performed
+BMW_M5g90_Sadan_DarkBlue,bmw_m5g90_sadan/bmw_m5g90_sadan.p3d,mapped_exterior,camo,Not performed
+BMW_M5g90_Sadan_Orange,bmw_m5g90_sadan/bmw_m5g90_sadan.p3d,mapped_exterior,camo,Not performed
+BMW_M5g90_Sadan_Pink,bmw_m5g90_sadan/bmw_m5g90_sadan.p3d,mapped_exterior,camo,Not performed
+BMW_M5g90_Sadan_Green,bmw_m5g90_sadan/bmw_m5g90_sadan.p3d,mapped_exterior,camo,Not performed
+Chevrolet_NapalmNova_Black,chevrolet_napalmnova_boss/chevrolet_napalmnova_black.p3d,mapped_exterior,camo,Not performed
+Chevrolet_NapalmNova_White,chevrolet_napalmnova_boss/chevrolet_napalmnova_black.p3d,mapped_exterior,camo,Not performed
+Chevrolet_NapalmNova_Red,chevrolet_napalmnova_boss/chevrolet_napalmnova_black.p3d,mapped_exterior,camo,Not performed
+Chevrolet_NapalmNova_Blue,chevrolet_napalmnova_boss/chevrolet_napalmnova_black.p3d,mapped_exterior,camo,Not performed
+Chevrolet_NapalmNova_Green,chevrolet_napalmnova_boss/chevrolet_napalmnova_black.p3d,mapped_exterior,camo,Not performed
+Chevrolet_NapalmNova_Yellow,chevrolet_napalmnova_boss/chevrolet_napalmnova_black.p3d,mapped_exterior,camo,Not performed
+Chevrolet_NapalmNova_Pink,chevrolet_napalmnova_boss/chevrolet_napalmnova_black.p3d,mapped_exterior,camo,Not performed
+Chevrolet_NapalmNova_Purple,chevrolet_napalmnova_boss/chevrolet_napalmnova_black.p3d,mapped_exterior,camo,Not performed
+Chevrolet_NapalmNova_Orange,chevrolet_napalmnova_boss/chevrolet_napalmnova_black.p3d,mapped_exterior,camo,Not performed
+Chevrolet_NapalmNova_CamoGreen,chevrolet_napalmnova_boss/chevrolet_napalmnova_black.p3d,mapped_exterior,camo,Not performed
+Chevrolet_NapalmNova_NightFrost,chevrolet_napalmnova_boss/chevrolet_napalmnova_black.p3d,mapped_exterior,camo,Not performed
+Chevrolet_NapalmNova_Reptile,chevrolet_napalmnova_boss/chevrolet_napalmnova_black.p3d,mapped_exterior,camo,Not performed
+Chevrolet_NapalmNova_Topo,chevrolet_napalmnova_boss/chevrolet_napalmnova_black.p3d,mapped_exterior,camo,Not performed
+Chevrolet_NapalmNova_CamoRed,chevrolet_napalmnova_boss/chevrolet_napalmnova_black.p3d,mapped_exterior,camo,Not performed
+Chevrolet_NapalmNova_Skull,chevrolet_napalmnova_boss/chevrolet_napalmnova_black.p3d,mapped_exterior,camo,Not performed
+Civic_White,civic/civic_white.p3d,mapped_exterior,camo,Not performed
+Civic_Red,civic/civic_white.p3d,mapped_exterior,camo,Not performed
+Civic_Black,civic/civic_white.p3d,mapped_exterior,camo,Not performed
+Civic_Blue,civic/civic_white.p3d,mapped_exterior,camo,Not performed
+Civic_Green,civic/civic_white.p3d,mapped_exterior,camo,Not performed
+Civic_Yellow,civic/civic_white.p3d,mapped_exterior,camo,Not performed
+Civic_RedCustom,civic/civic_white.p3d,mapped_exterior,camo,Not performed
+Dodge_ChallengerSRT_White,dodgechallengerdemon_boss/dodge_challenger.p3d,mapped_exterior,camo,Not performed
+Dodge_ChallengerSRT_Blue,dodgechallengerdemon_boss/dodge_challenger.p3d,mapped_exterior,camo,Not performed
+Dodge_ChallengerSRT_Red,dodgechallengerdemon_boss/dodge_challenger.p3d,mapped_exterior,camo,Not performed
+Dodge_ChallengerSRT_Orange,dodgechallengerdemon_boss/dodge_challenger.p3d,mapped_exterior,camo,Not performed
+Dodge_ChallengerSRT_Pink,dodgechallengerdemon_boss/dodge_challenger.p3d,mapped_exterior,camo,Not performed
+Dodge_ChallengerSRT_Green,dodgechallengerdemon_boss/dodge_challenger.p3d,mapped_exterior,camo,Not performed
+Dodge_ChallengerSRT_Darkblue,dodgechallengerdemon_boss/dodge_challenger.p3d,mapped_exterior,camo,Not performed
+Dodge_ChallengerSRT_Black,dodgechallengerdemon_boss/dodge_challenger.p3d,mapped_exterior,camo,Not performed
+Dodge_ChallengerSRT_Gray,dodgechallengerdemon_boss/dodge_challenger.p3d,mapped_exterior,camo,Not performed
+dodgechargerhellcat_black,dodgechargerhellcat_boss/dodgechargerhellcat.p3d,mapped_exterior,camo,Not performed
+dodgechargerhellcat_blue,dodgechargerhellcat_boss/dodgechargerhellcat.p3d,mapped_exterior,camo,Not performed
+dodgechargerhellcat_red,dodgechargerhellcat_boss/dodgechargerhellcat.p3d,mapped_exterior,camo,Not performed
+dodgechargerhellcat_lightblue,dodgechargerhellcat_boss/dodgechargerhellcat.p3d,mapped_exterior,camo,Not performed
+dodgechargerhellcat_green,dodgechargerhellcat_boss/dodgechargerhellcat.p3d,mapped_exterior,camo,Not performed
+dodgechargerhellcat_pink,dodgechargerhellcat_boss/dodgechargerhellcat.p3d,mapped_exterior,camo,Not performed
+dodgechargerhellcat_white,dodgechargerhellcat_boss/dodgechargerhellcat.p3d,mapped_exterior,camo,Not performed
+dodgechargerhellcat_gray,dodgechargerhellcat_boss/dodgechargerhellcat.p3d,mapped_exterior,camo,Not performed
+DodgeCharger_18_police,dodgechargerpolice/dodgecharger_police.p3d,mapped_exterior,camo,Not performed
+DodgeCharger_18_sheriff,dodgechargerpolice/dodgecharger_police.p3d,mapped_exterior,camo,Not performed
+DodgeCharger_18_sheriff2,dodgechargerpolice/dodgecharger_police.p3d,mapped_exterior,camo,Not performed
+DodgeCharger_18_sheriff3,dodgechargerpolice/dodgecharger_police.p3d,mapped_exterior,camo,Not performed
+DodgeCharger_18_black,dodgechargerpolice/dodgecharger_police_slicktop.p3d,mapped_exterior,camo,Not performed
+DodgeCharger_18_darkblue,dodgechargerpolice/dodgecharger_police_slicktop.p3d,mapped_exterior,camo,Not performed
+DodgeCharger_18_gray,dodgechargerpolice/dodgecharger_police_slicktop.p3d,mapped_exterior,camo,Not performed
+DodgeCharger_18_white,dodgechargerpolice/dodgecharger_police_slicktop.p3d,mapped_exterior,camo,Not performed
+DodgeCharger_18_lightblue,dodgechargerpolice/dodgecharger_police_slicktop.p3d,mapped_exterior,camo,Not performed
+DodgeCharger_18_gspmarked,dodgechargerpolice/dodgecharger_police.p3d,mapped_exterior,camo,Not performed
+DodgeCharger_18_statepolice,dodgechargerpolice/dodgecharger_police.p3d,mapped_exterior,camo,Not performed
+DodgeCharger_18_statepolice2,dodgechargerpolice/dodgecharger_police.p3d,mapped_exterior,camo,Not performed
+DodgeCharger_18_gsp,dodgechargerpolice/dodgecharger_police_slicktop.p3d,mapped_exterior,camo,Not performed
+DodgeRam_BOSS_White,dodgeram_2021_boss/dodgeram_boss.p3d,mapped_exterior,camo1,Not performed
+DodgeRam_BOSS_Pink,dodgeram_2021_boss/dodgeram_boss.p3d,mapped_exterior,camo1,Not performed
+DodgeRam_BOSS_Orange,dodgeram_2021_boss/dodgeram_boss.p3d,mapped_exterior,camo1,Not performed
+DodgeRam_BOSS_Red,dodgeram_2021_boss/dodgeram_boss.p3d,mapped_exterior,camo1,Not performed
+DodgeRam_BOSS_Cyan,dodgeram_2021_boss/dodgeram_boss.p3d,mapped_exterior,camo1,Not performed
+DodgeRam_BOSS_Green,dodgeram_2021_boss/dodgeram_boss.p3d,mapped_exterior,camo1,Not performed
+DodgeRam_BOSS_Blue,dodgeram_2021_boss/dodgeram_boss.p3d,mapped_exterior,camo1,Not performed
+DodgeRam_BOSS_Black,dodgeram_2021_boss/dodgeram_boss.p3d,mapped_exterior,camo1,Not performed
+DodgeRam_BOSS_VectorTrails,dodgeram_2021_boss/dodgeram_boss.p3d,mapped_exterior,camo1,Not performed
+DodgeRam_BOSS_Woodland_Sand,dodgeram_2021_boss/dodgeram_boss.p3d,mapped_exterior,camo1,Not performed
+DodgeRam_BOSS_Woodland_Blue,dodgeram_2021_boss/dodgeram_boss.p3d,mapped_exterior,camo1,Not performed
+DodgeRam_BOSS_ChinaLake,dodgeram_2021_boss/dodgeram_boss.p3d,mapped_exterior,camo1,Not performed
+DodgeRam_BOSS_RedTiger,dodgeram_2021_boss/dodgeram_boss.p3d,mapped_exterior,camo1,Not performed
+DodgeRam_BOSS_BlueTiger,dodgeram_2021_boss/dodgeram_boss.p3d,mapped_exterior,camo1,Not performed
+DodgeRam_BOSS_Mocha,dodgeram_2021_boss/dodgeram_boss.p3d,mapped_exterior,camo1,Not performed
+DodgeRam_BOSS_ModernWoodland,dodgeram_2021_boss/dodgeram_boss.p3d,mapped_exterior,camo1,Not performed
+DodgeRam_BOSS_Skulls,dodgeram_2021_boss/dodgeram_boss.p3d,mapped_exterior,camo1,Not performed
+DodgeRam_BOSS_DUDB,dodgeram_2021_boss/dodgeram_boss.p3d,mapped_exterior,camo1,Not performed
+DodgeRam_BOSS_Woodland_Nightfrost,dodgeram_2021_boss/dodgeram_boss.p3d,mapped_exterior,camo1,Not performed
+DodgeRam_BOSS_TopoGraphic,dodgeram_2021_boss/dodgeram_boss.p3d,mapped_exterior,camo1,Not performed
+DodgeRam_BOSS_TopoTrip,dodgeram_2021_boss/dodgeram_boss.p3d,mapped_exterior,camo1,Not performed
+DodgeRam_BOSS_Rust,dodgeram_2021_boss/dodgeram_boss.p3d,mapped_exterior,"camo1, camo2",Not performed
+Ford_Bronco_White,ford_bronco_xlt/ford_bronco.p3d,mapped_exterior,"camo, camo2",Not performed
+Ford_Bronco_Rust,ford_bronco_xlt/ford_bronco.p3d,mapped_exterior,"camo, camo2",Not performed
+Ford_Bronco_Black,ford_bronco_xlt/ford_bronco.p3d,mapped_exterior,"camo, camo2",Not performed
+Ford_Bronco_Hunter,ford_bronco_xlt/ford_bronco.p3d,mapped_exterior,"camo, camo2",Not performed
+Ford_Bronco_Blue,ford_bronco_xlt/ford_bronco.p3d,mapped_exterior,"camo, camo2",Not performed
+Ford_BroncoLifted_ChinaLake,ford_bronco_xlt/ford_bronco_lifted.p3d,mapped_exterior,"camo, camo2",Not performed
+Ford_BroncoLifted_Red,ford_bronco_xlt/ford_bronco_lifted.p3d,mapped_exterior,"camo, camo2",Not performed
+Ford_BroncoLifted_DarkBlue,ford_bronco_xlt/ford_bronco_lifted.p3d,mapped_exterior,"camo, camo2",Not performed
+FordCrown_Victoria_Sheriff,ford_crown_victoria_boss/cvpi_police_2.p3d,mapped_exterior,camo,Not performed
+FordCrown_Victoria_Sheriff2,ford_crown_victoria_boss/cvpi_police_2.p3d,mapped_exterior,camo,Not performed
+FordCrown_Victoria_Sheriff2Rust,ford_crown_victoria_boss/cvpi_policerust.p3d,mapped_exterior,camo,Not performed
+FordCrown_Victoria_Unmarked_White,ford_crown_victoria_boss/cvpi.p3d,mapped_exterior,camo,Not performed
+FordCrown_Victoria_Unmarked_Black,ford_crown_victoria_boss/cvpi.p3d,mapped_exterior,camo,Not performed
+FordCrown_Victoria_Unmarked_Teal,ford_crown_victoria_boss/cvpi.p3d,mapped_exterior,camo,Not performed
+FordCrown_Victoria_Unmarked_Red,ford_crown_victoria_boss/cvpi.p3d,mapped_exterior,camo,Not performed
+FordCrown_Victoria_Unmarked_Tan,ford_crown_victoria_boss/cvpi.p3d,mapped_exterior,camo,Not performed
+FordCrown_Victoria_Unmarked_DarkBlue,ford_crown_victoria_boss/cvpi.p3d,mapped_exterior,camo,Not performed
+FordCrown_Victoria_Unmarked_Blue,ford_crown_victoria_boss/cvpi.p3d,mapped_exterior,camo,Not performed
+FordCrown_Victoria_Police,ford_crown_victoria_boss/cvpi_police_2.p3d,mapped_exterior,camo,Not performed
+FordCrown_Victoria_Police2,ford_crown_victoria_boss/cvpi_police_2.p3d,mapped_exterior,camo,Not performed
+FordCrown_Victoria_Sheriff3,ford_crown_victoria_boss/cvpi_police_2.p3d,mapped_exterior,camo,Not performed
+Ford_Mustang_Shelby_GT500_White,ford_mustang_shelby_gt500/ford_mustang_shelby_gt500.p3d,mapped_exterior,camo,Not performed
+Ford_Mustang_Shelby_GT500_Black,ford_mustang_shelby_gt500/ford_mustang_shelby_gt500.p3d,mapped_exterior,camo,Not performed
+Ford_Mustang_Shelby_GT500_Blue,ford_mustang_shelby_gt500/ford_mustang_shelby_gt500.p3d,mapped_exterior,camo,Not performed
+Ford_Mustang_Shelby_GT500_DarkBlue,ford_mustang_shelby_gt500/ford_mustang_shelby_gt500.p3d,mapped_exterior,camo,Not performed
+Ford_Mustang_Shelby_GT500_Green,ford_mustang_shelby_gt500/ford_mustang_shelby_gt500.p3d,mapped_exterior,camo,Not performed
+Ford_Mustang_Shelby_GT500_Orange,ford_mustang_shelby_gt500/ford_mustang_shelby_gt500.p3d,mapped_exterior,camo,Not performed
+Ford_Mustang_Shelby_GT500_Pink,ford_mustang_shelby_gt500/ford_mustang_shelby_gt500.p3d,mapped_exterior,camo,Not performed
+Ford_Mustang_Shelby_GT500_Red,ford_mustang_shelby_gt500/ford_mustang_shelby_gt500.p3d,mapped_exterior,camo,Not performed
+FordMustang_SVT_Red,ford_mustang_svt/ford_mustang_svt.p3d,mapped_exterior,camo,Not performed
+FordMustang_SVT_White,ford_mustang_svt/ford_mustang_svt.p3d,mapped_exterior,camo,Not performed
+FordMustang_SVT_Black,ford_mustang_svt/ford_mustang_svt.p3d,mapped_exterior,camo,Not performed
+FordMustang_SVT_Blue,ford_mustang_svt/ford_mustang_svt.p3d,mapped_exterior,camo,Not performed
+FordMustang_SVT_Yellow,ford_mustang_svt/ford_mustang_svt.p3d,mapped_exterior,camo,Not performed
+FordMustang_SVT_DarkBlue,ford_mustang_svt/ford_mustang_svt.p3d,mapped_exterior,camo,Not performed
+FordMustang_SVT_Orange,ford_mustang_svt/ford_mustang_svt.p3d,mapped_exterior,camo,Not performed
+FordMustang_SVT_Green,ford_mustang_svt/ford_mustang_svt.p3d,mapped_exterior,camo,Not performed
+FordMustang_SVT_Pink,ford_mustang_svt/ford_mustang_svt.p3d,mapped_exterior,camo,Not performed
+FordMustang_SVT_CamoBlack,ford_mustang_svt/ford_mustang_svt.p3d,mapped_exterior,camo,Not performed
+FordMustang_SVT_CamoRed,ford_mustang_svt/ford_mustang_svt.p3d,mapped_exterior,camo,Not performed
+FordMustang_SVT_CamoBlue,ford_mustang_svt/ford_mustang_svt.p3d,mapped_exterior,camo,Not performed
+FordMustang_SVT_CamoRed2,ford_mustang_svt/ford_mustang_svt.p3d,mapped_exterior,camo,Not performed
+FordMustang_SVT_CamoWhite,ford_mustang_svt/ford_mustang_svt.p3d,mapped_exterior,camo,Not performed
+FordMustang_SVT_Police,ford_mustang_svt/ford_mustang_svtpolice.p3d,mapped_exterior,camo,Not performed
+GMC_BOSS_Red,gmc_boss/gmc_boss.p3d,mapped_exterior,"camo, camo2",Not performed
+GMC_BOSS_Black,gmc_boss/gmc_boss.p3d,mapped_exterior,"camo, camo2",Not performed
+GMC_BOSS_White,gmc_boss/gmc_boss.p3d,mapped_exterior,"camo, camo2",Not performed
+GMC_BOSS_Blue,gmc_boss/gmc_boss.p3d,mapped_exterior,"camo, camo2",Not performed
+GMC_BOSS_Police,gmc_boss/gmc_boss_police.p3d,mapped_exterior,"camo, camo2",Not performed
+Jeep_GladiatorF9_BOSS_White,jeep_gladiatorf9/jeep_gladiatorf9_boss.p3d,mapped_exterior,camo,Not performed
+Jeep_GladiatorF9_BOSS_Black,jeep_gladiatorf9/jeep_gladiatorf9_boss.p3d,mapped_exterior,camo,Not performed
+Jeep_GladiatorF9_BOSS_Brown,jeep_gladiatorf9/jeep_gladiatorf9_boss.p3d,mapped_exterior,camo,Not performed
+Jeep_GladiatorF9_BOSS_Red,jeep_gladiatorf9/jeep_gladiatorf9_boss.p3d,mapped_exterior,camo,Not performed
+Jeep_GladiatorF9_BOSS_camo_green,jeep_gladiatorf9/jeep_gladiatorf9_boss.p3d,mapped_exterior,camo,Not performed
+Jeep_GladiatorF9_BOSS_camo_red,jeep_gladiatorf9/jeep_gladiatorf9_boss.p3d,mapped_exterior,camo,Not performed
+Jeep_GladiatorF9_BOSS_camo_blue,jeep_gladiatorf9/jeep_gladiatorf9_boss.p3d,mapped_exterior,camo,Not performed
+Jeep_GladiatorF9_BOSS_camo_black,jeep_gladiatorf9/jeep_gladiatorf9_boss.p3d,mapped_exterior,camo,Not performed
+Jeep_GladiatorF9_BOSS_camo_blue2,jeep_gladiatorf9/jeep_gladiatorf9_boss.p3d,mapped_exterior,camo,Not performed
+Jeep_GladiatorF9_BOSS_camo_bluetiger,jeep_gladiatorf9/jeep_gladiatorf9_boss.p3d,mapped_exterior,camo,Not performed
+Jeep_GladiatorF9_BOSS_camo_flecktarn,jeep_gladiatorf9/jeep_gladiatorf9_boss.p3d,mapped_exterior,camo,Not performed
+Jeep_GladiatorF9_BOSS_camo_orange,jeep_gladiatorf9/jeep_gladiatorf9_boss.p3d,mapped_exterior,camo,Not performed
+Jeep_GladiatorF9_BOSS_Orange,jeep_gladiatorf9/jeep_gladiatorf9_boss.p3d,mapped_exterior,camo,Not performed
+Jeep_GladiatorF9_BOSS_Pink,jeep_gladiatorf9/jeep_gladiatorf9_boss.p3d,mapped_exterior,camo,Not performed
+Jeep_GladiatorF9_BOSS_Green,jeep_gladiatorf9/jeep_gladiatorf9_boss.p3d,mapped_exterior,camo,Not performed
+Jeep_GladiatorF9_BOSS_Cyan,jeep_gladiatorf9/jeep_gladiatorf9_boss.p3d,mapped_exterior,camo,Not performed
+Jeep_GladiatorF9_BOSS_camo_hunter,jeep_gladiatorf9/jeep_gladiatorf9_boss.p3d,mapped_exterior,camo,Not performed
+Jeep_GladiatorF9_BOSS_camo_topotrip,jeep_gladiatorf9/jeep_gladiatorf9_boss.p3d,mapped_exterior,camo,Not performed
+Jeep_GladiatorF9_BOSS_camo_vanished,jeep_gladiatorf9/jeep_gladiatorf9_boss.p3d,mapped_exterior,camo,Not performed
+Jeep_GladiatorF9_BOSS_camo_redtiger,jeep_gladiatorf9/jeep_gladiatorf9_boss.p3d,mapped_exterior,camo,Not performed
+Jeep_GladiatorF9_BOSS_camo_abominable,jeep_gladiatorf9/jeep_gladiatorf9_boss.p3d,mapped_exterior,camo,Not performed
+Jeep_GladiatorF9_BOSS_camo_pinkpython,jeep_gladiatorf9/jeep_gladiatorf9_boss.p3d,mapped_exterior,camo,Not performed
+Jeep_GladiatorF9_BOSS_camo_skulls,jeep_gladiatorf9/jeep_gladiatorf9_boss.p3d,mapped_exterior,camo,Not performed
+Jeep_GladiatorF9_BOSS_camo_dragonmoss,jeep_gladiatorf9/jeep_gladiatorf9_boss.p3d,mapped_exterior,camo,Not performed
+Jeep_GladiatorF9_BOSS_camo_nightseas,jeep_gladiatorf9/jeep_gladiatorf9_boss.p3d,mapped_exterior,camo,Not performed
+Kamaz_TyphoonK_Green,kamaz_typhoonk/kamaz_typhoonk_black.p3d,mapped_exterior,"camo, camo2",Not performed
+Kamaz_TyphoonK_CamoGreen,kamaz_typhoonk/kamaz_typhoonk_black.p3d,mapped_exterior,"camo, camo2",Not performed
+Kamaz_TyphoonK_CamoGreen2,kamaz_typhoonk/kamaz_typhoonk_black.p3d,mapped_exterior,"camo, camo2",Not performed
+Kamaz_TyphoonK_CamoGreen3,kamaz_typhoonk/kamaz_typhoonk_black.p3d,mapped_exterior,"camo, camo2",Not performed
+Kamaz_TyphoonK_RedCamo,kamaz_typhoonk/kamaz_typhoonk_black.p3d,mapped_exterior,"camo, camo2",Not performed
+Kamaz_TyphoonK_White,kamaz_typhoonk/kamaz_typhoonk_black.p3d,mapped_exterior,"camo, camo2",Not performed
+Kamaz_TyphoonK_Black,kamaz_typhoonk/kamaz_typhoonk_black.p3d,mapped_exterior,"camo, camo2",Not performed
+Kamaz_TyphoonK_Rusty,kamaz_typhoonk/kamaz_typhoonk_black.p3d,mapped_exterior,"camo, camo2",Not performed
+Tahoe_White,lifted_tahoe/tahoe_white.p3d,mapped_exterior,camo,Not performed
+Tahoe_LightBlue,lifted_tahoe/tahoe_white.p3d,mapped_exterior,camo,Not performed
+Tahoe_Black,lifted_tahoe/tahoe_white.p3d,mapped_exterior,camo,Not performed
+Tahoe_Blue,lifted_tahoe/tahoe_white.p3d,mapped_exterior,camo,Not performed
+Tahoe_Brown,lifted_tahoe/tahoe_white.p3d,mapped_exterior,camo,Not performed
+Tahoe_DarkBlue,lifted_tahoe/tahoe_white.p3d,mapped_exterior,camo,Not performed
+Tahoe_Green,lifted_tahoe/tahoe_white.p3d,mapped_exterior,camo,Not performed
+Tahoe_Pink,lifted_tahoe/tahoe_white.p3d,mapped_exterior,camo,Not performed
+Tahoe_Red,lifted_tahoe/tahoe_white.p3d,mapped_exterior,camo,Not performed
+MitsubishiEVO_FastAnFurious,mitsubishi_lancerevolutionix_boss/mitsubishievo.p3d,mapped_exterior,camo,Not performed
+MitsubishiEVO_FastAnFurious2,mitsubishi_lancerevolutionix_boss/mitsubishievo.p3d,mapped_exterior,camo,Not performed
+MitsubishiEVO_bee,mitsubishi_lancerevolutionix_boss/mitsubishievo.p3d,mapped_exterior,camo,Not performed
+MitsubishiEVO_white,mitsubishi_lancerevolutionix_boss/mitsubishievo.p3d,mapped_exterior,camo,Not performed
+MitsubishiEVO_black,mitsubishi_lancerevolutionix_boss/mitsubishievo.p3d,mapped_exterior,camo,Not performed
+MitsubishiEVO_blue,mitsubishi_lancerevolutionix_boss/mitsubishievo.p3d,mapped_exterior,camo,Not performed
+MitsubishiEVO_darkblue,mitsubishi_lancerevolutionix_boss/mitsubishievo.p3d,mapped_exterior,camo,Not performed
+MitsubishiEVO_green,mitsubishi_lancerevolutionix_boss/mitsubishievo.p3d,mapped_exterior,camo,Not performed
+MitsubishiEVO_lightblue,mitsubishi_lancerevolutionix_boss/mitsubishievo.p3d,mapped_exterior,camo,Not performed
+MitsubishiEVO_pink,mitsubishi_lancerevolutionix_boss/mitsubishievo.p3d,mapped_exterior,camo,Not performed
+MitsubishiEVO_red,mitsubishi_lancerevolutionix_boss/mitsubishievo.p3d,mapped_exterior,camo,Not performed
+MitsubishiEVO_yellow,mitsubishi_lancerevolutionix_boss/mitsubishievo.p3d,mapped_exterior,camo,Not performed
+MotorHome_Apo,motorhome_boss/motorhome_apo.p3d,mapped_exterior,camo,Not performed
+MotorHome_White,motorhome_boss/motorhome_white.p3d,mapped_exterior,camo,Not performed
+MotorHome_Rust,motorhome_boss/motorhome_rust.p3d,mapped_exterior,camo,Not performed
+MotorHome_GreenCamo,motorhome_boss/motorhome_greencamo.p3d,mapped_exterior,camo,Not performed
+Nissan_Skyline_White,nissan_skyline/skyline.p3d,mapped_exterior,camo,Not performed
+Nissan_Skyline_Blue,nissan_skyline/skyline.p3d,mapped_exterior,camo,Not performed
+Nissan_Skyline_Orange,nissan_skyline/skyline.p3d,mapped_exterior,camo,Not performed
+Nissan_Skyline_Pink,nissan_skyline/skyline.p3d,mapped_exterior,camo,Not performed
+Nissan_Skyline_Red,nissan_skyline/skyline.p3d,mapped_exterior,camo,Not performed
+Nissan_Skyline_Black,nissan_skyline/skyline.p3d,mapped_exterior,camo,Not performed
+NissanGTRNismo_White,nissangtrnismo/nissangtrnismo_white.p3d,mapped_exterior,camo,Not performed
+NissanGTRNismo_Red,nissangtrnismo/nissangtrnismo_white.p3d,mapped_exterior,camo,Not performed
+NissanGTRNismo_Black,nissangtrnismo/nissangtrnismo_white.p3d,mapped_exterior,camo,Not performed
+NissanGTRNismo_DarkPurple,nissangtrnismo/nissangtrnismo_white.p3d,mapped_exterior,camo,Not performed
+NissanGTR_Blue,nissangtrnismo/nissangtr_blue.p3d,mapped_exterior,camo,Not performed
+NissanGTR_White,nissangtrnismo/nissangtr_blue.p3d,mapped_exterior,camo,Not performed
+NissanGTR_Green,nissangtrnismo/nissangtr_blue.p3d,mapped_exterior,camo,Not performed
+NissanGTR_Orange,nissangtrnismo/nissangtr_blue.p3d,mapped_exterior,camo,Not performed
+NissanGTR_Pink,nissangtrnismo/nissangtr_blue.p3d,mapped_exterior,camo,Not performed
+NissanGTR_Red,nissangtrnismo/nissangtr_blue.p3d,mapped_exterior,camo,Not performed
+NissanGTRCustom_Black,nissangtrnismo/nissangtrcustom_black.p3d,mapped_exterior,camo,Not performed
+NissanGTRCustom_Blood,nissangtrnismo/nissangtrcustom_black.p3d,mapped_exterior,camo,Not performed
+NissanGTRCustom_LB,nissangtrnismo/nissangtrcustom_black.p3d,mapped_exterior,camo,Not performed
+NissanGTRCustom_Pink,nissangtrnismo/nissangtrcustom_pink.p3d,mapped_exterior,camo,Not performed
+GT3_Green,porsche_911_gt3/gt3.p3d,mapped_exterior,camo,Not performed
+GT3_White,porsche_911_gt3/gt3.p3d,mapped_exterior,camo,Not performed
+GT3_Black,porsche_911_gt3/gt3.p3d,mapped_exterior,camo,Not performed
+GT3_Blue,porsche_911_gt3/gt3.p3d,mapped_exterior,camo,Not performed
+GT3_Red,porsche_911_gt3/gt3.p3d,mapped_exterior,camo,Not performed
+GT3_Yellow,porsche_911_gt3/gt3.p3d,mapped_exterior,camo,Not performed
+GT3_LightBlue,porsche_911_gt3/gt3.p3d,mapped_exterior,camo,Not performed
+GT3_Pink,porsche_911_gt3/gt3.p3d,mapped_exterior,camo,Not performed
+GT3_Orange,porsche_911_gt3/gt3.p3d,mapped_exterior,camo,Not performed
+GT3_DarkBlue,porsche_911_gt3/gt3.p3d,mapped_exterior,camo,Not performed
+saab_900_turbo_yellow,saab_900_turbo/saab_900_turbo.p3d,mapped_exterior,camo,Not performed
+saab_900_turbo_black,saab_900_turbo/saab_900_turbo.p3d,mapped_exterior,camo,Not performed
+saab_900_turbo_red,saab_900_turbo/saab_900_turbo.p3d,mapped_exterior,camo,Not performed
+saab_900_turbo_white,saab_900_turbo/saab_900_turbo.p3d,mapped_exterior,camo,Not performed
+saab_900_turbo_blue,saab_900_turbo/saab_900_turbo.p3d,mapped_exterior,camo,Not performed
+Shelby_SuperSnake_Black,shelby_supersnake_2019_boss/shelby_supersnake.p3d,mapped_exterior,"camo1, camo2",Not performed
+Shelby_SuperSnake_Blue,shelby_supersnake_2019_boss/shelby_supersnake.p3d,mapped_exterior,"camo1, camo2",Not performed
+Shelby_SuperSnake_White,shelby_supersnake_2019_boss/shelby_supersnake.p3d,mapped_exterior,"camo1, camo2",Not performed
+Shelby_SuperSnake_Red,shelby_supersnake_2019_boss/shelby_supersnake.p3d,mapped_exterior,"camo1, camo2",Not performed
+Shelby_SuperSnake_Orange,shelby_supersnake_2019_boss/shelby_supersnake.p3d,mapped_exterior,"camo1, camo2",Not performed
+Shelby_SuperSnake_DarkBlue,shelby_supersnake_2019_boss/shelby_supersnake.p3d,mapped_exterior,"camo1, camo2",Not performed
+Supra_FastF,toyota_supramkiv/supra.p3d,mapped_exterior,camo,Not performed
+Supra_Blue,toyota_supramkiv/supra.p3d,mapped_exterior,camo,Not performed
+Supra_Green,toyota_supramkiv/supra.p3d,mapped_exterior,camo,Not performed
+Supra_Red,toyota_supramkiv/supra.p3d,mapped_exterior,camo,Not performed
+Supra_Black,toyota_supramkiv/supra.p3d,mapped_exterior,camo,Not performed
+Supra_White,toyota_supramkiv/supra.p3d,mapped_exterior,camo,Not performed
+Supra_RustBlack,toyota_supramkiv/supra.p3d,mapped_exterior,camo,Not performed
+Supra_Falken,toyota_supramkiv/supra.p3d,mapped_exterior,camo,Not performed
+ToyotaRunner_Black,toyotarunner/runner.p3d,mapped_exterior,camo,Not performed
+ToyotaRunner_camoblack,toyotarunner/runner.p3d,mapped_exterior,camo,Not performed
+ToyotaRunner_camopurple,toyotarunner/runner.p3d,mapped_exterior,camo,Not performed
+ToyotaRunner_camogreen,toyotarunner/runner.p3d,mapped_exterior,camo,Not performed
+ToyotaRunner_camowhite,toyotarunner/runner.p3d,mapped_exterior,camo,Not performed
+ToyotaRunner_white,toyotarunner/runner.p3d,mapped_exterior,camo,Not performed
+ToyotaRunner_BOSS,toyotarunner/runner.p3d,mapped_exterior,camo,Not performed
+ToyotaRunner_blue,toyotarunner/runner.p3d,mapped_exterior,camo,Not performed
+ToyotaRunner_red,toyotarunner/runner.p3d,mapped_exterior,camo,Not performed
+ToyotaRunner_yellow,toyotarunner/runner.p3d,mapped_exterior,camo,Not performed
+ToyotaRunner_pink,toyotarunner/runner.p3d,mapped_exterior,camo,Not performed
+ToyotaRunner_camored,toyotarunner/runner.p3d,mapped_exterior,camo,Not performed
+ToyotaRunner_camopink,toyotarunner/runner.p3d,mapped_exterior,camo,Not performed
+ToyotaRunner_camoblue,toyotarunner/runner.p3d,mapped_exterior,camo,Not performed
+ToyotaRunner_CamoWoodland,toyotarunner/runner.p3d,mapped_exterior,camo,Not performed
+ToyotaRunner_Cyan,toyotarunner/runner.p3d,mapped_exterior,camo,Not performed
+ToyotaRunner_ChinaLake,toyotarunner/runner.p3d,mapped_exterior,camo,Not performed
+ToyotaRunner_SandStorm,toyotarunner/runner.p3d,mapped_exterior,camo,Not performed
+ToyotaRunner_OffGrid,toyotarunner/runner.p3d,mapped_exterior,camo,Not performed
+ToyotaRunner_IceBreaker,toyotarunner/runner.p3d,mapped_exterior,camo,Not performed
+ToyotaRunner_UrbanTiegr,toyotarunner/runner.p3d,mapped_exterior,camo,Not performed
+ToyotaRunner_Brown,toyotarunner/runner.p3d,mapped_exterior,camo,Not performed
+ChevroletTahoe_White,unmarked_tahoe/unmarkedtahoe.p3d,mapped_exterior,camo,Not performed
+ChevroletTahoe_Blue,unmarked_tahoe/unmarkedtahoe.p3d,mapped_exterior,camo,Not performed
+ChevroletTahoe_Brown,unmarked_tahoe/unmarkedtahoe.p3d,mapped_exterior,camo,Not performed
+ChevroletTahoe_DarkBlue,unmarked_tahoe/unmarkedtahoe.p3d,mapped_exterior,camo,Not performed
+ChevroletTahoe_Gray,unmarked_tahoe/unmarkedtahoe.p3d,mapped_exterior,camo,Not performed
+ChevroletTahoe_LightGreen,unmarked_tahoe/unmarkedtahoe.p3d,mapped_exterior,camo,Not performed
+ChevroletTahoe_Red,unmarked_tahoe/unmarkedtahoe.p3d,mapped_exterior,camo,Not performed
+ChevroletTahoe_Yellow,unmarked_tahoe/unmarkedtahoe.p3d,mapped_exterior,camo,Not performed
+ChevroletTahoe_Black,unmarked_tahoe/unmarkedtahoe.p3d,mapped_exterior,camo,Not performed
+ChevroletTahoe_Sheriff,unmarked_tahoe/unmarkedtahoe_marked.p3d,mapped_exterior,camo,Not performed
+MBM_GoKart_Blue,mbm_gokart/gokart.p3d,mapped_exterior,camo,Not performed
+MBM_GoKart_Red,mbm_gokart/gokart.p3d,mapped_exterior,camo,Not performed
+MBM_GoKart_Green,mbm_gokart/gokart.p3d,mapped_exterior,camo,Not performed
+MBM_GoKart_Orange,mbm_gokart/gokart.p3d,mapped_exterior,camo,Not performed
+MBM_GoKart_Grey,mbm_gokart/gokart.p3d,mapped_exterior,camo,Not performed
+MBM_GoKart_Hearts,mbm_gokart/gokart.p3d,mapped_exterior,camo,Not performed
+MBM_GoKart_Splatter,mbm_gokart/gokart.p3d,mapped_exterior,camo,Not performed
+MBM_GoKart_BlueSplatter,mbm_gokart/gokart.p3d,mapped_exterior,camo,Not performed
+MBM_GoKart_Camo,mbm_gokart/gokart.p3d,mapped_exterior,camo,Not performed
+MBM_GoKart_ScrapMetal,mbm_gokart/gokart.p3d,mapped_exterior,camo,Not performed
+MBM_GoKart_PinkHaze,mbm_gokart/gokart.p3d,mapped_exterior,camo,Not performed
+MBM_GoKart_GreenHaze,mbm_gokart/gokart.p3d,mapped_exterior,camo,Not performed
+MBM_GoKart_RedHaze,mbm_gokart/gokart.p3d,mapped_exterior,camo,Not performed
+MBM_GoKart_Graffiti,mbm_gokart/gokart.p3d,mapped_exterior,camo,Not performed
+MBM_GoKart_MBM,mbm_gokart/gokart.p3d,mapped_exterior,camo,Not performed
+Spur_Trolley_E_Kart,spur_troll_e_kart/spur_troll_e_kart.p3d,mapped_exterior,"camo_cart, camo_chassis",Not performed
+Spur_Trolley_E_Kart_Black,spur_troll_e_kart/spur_troll_e_kart.p3d,mapped_exterior,"camo_cart, camo_chassis",Not performed
+Spur_Trolley_E_Kart_Admin,spur_troll_e_kart/spur_troll_e_kart.p3d,mapped_exterior,"camo_cart, camo_chassis",Not performed
+Spur_TrolleyKart,spur_trolleykart/spur_trolleykart.p3d,mapped_exterior,"camo_cart, camo_chassis",Not performed
+Spur_TrolleyKart_Black,spur_trolleykart/spur_trolleykart.p3d,mapped_exterior,"camo_cart, camo_chassis",Not performed
+Spur_TrolleyKart_Admin,spur_trolleykart/spur_trolleykart.p3d,mapped_exterior,"camo_cart, camo_chassis",Not performed
+Spur_TrolleyKart_Race,spur_trolleykart/spur_trolleykart.p3d,mapped_exterior,"camo_cart, camo_chassis",Not performed
+Techs_ATV_Black,techs_allterrainvehicle/techs_atv/techs_4x4atv.p3d,mapped_exterior,camo_1,Not performed
+Techs_ATV_Red,techs_allterrainvehicle/techs_atv/techs_4x4atv.p3d,mapped_exterior,camo_1,Not performed
+Techs_ATV_White,techs_allterrainvehicle/techs_atv/techs_4x4atv.p3d,mapped_exterior,camo_1,Not performed
+Techs_ATV_Blue,techs_allterrainvehicle/techs_atv/techs_4x4atv.p3d,mapped_exterior,camo_1,Not performed
+Techs_ATV_Yellow,techs_allterrainvehicle/techs_atv/techs_4x4atv.p3d,mapped_exterior,camo_1,Not performed
+Techs_ATV_OD,techs_allterrainvehicle/techs_atv/techs_4x4atv.p3d,mapped_exterior,camo_1,Not performed
+Techs_ATV_Brown,techs_allterrainvehicle/techs_atv/techs_4x4atv.p3d,mapped_exterior,camo_1,Not performed
+Techs_ATV_Lime,techs_allterrainvehicle/techs_atv/techs_4x4atv.p3d,mapped_exterior,camo_1,Not performed
+Techs_ATV_Orange,techs_allterrainvehicle/techs_atv/techs_4x4atv.p3d,mapped_exterior,camo_1,Not performed
+Techs_ATV_Pink,techs_allterrainvehicle/techs_atv/techs_4x4atv.p3d,mapped_exterior,camo_1,Not performed
+Techs_ATV_Purple,techs_allterrainvehicle/techs_atv/techs_4x4atv.p3d,mapped_exterior,camo_1,Not performed
+Techs_ATV_Teal,techs_allterrainvehicle/techs_atv/techs_4x4atv.p3d,mapped_exterior,camo_1,Not performed
+Techs_ATV_M90,techs_allterrainvehicle/techs_atv/techs_4x4atv.p3d,mapped_exterior,camo_1,Not performed
+Techs_ATV_SM90,techs_allterrainvehicle/techs_atv/techs_4x4atv.p3d,mapped_exterior,camo_1,Not performed
+Techs_ATV_DM90,techs_allterrainvehicle/techs_atv/techs_4x4atv.p3d,mapped_exterior,camo_1,Not performed
+Techs_ATV_TigerStripe,techs_allterrainvehicle/techs_atv/techs_4x4atv.p3d,mapped_exterior,camo_1,Not performed
+Techs_ATV_WinterTigerStripe,techs_allterrainvehicle/techs_atv/techs_4x4atv.p3d,mapped_exterior,camo_1,Not performed
+Techs_ATV_DesertTigerStripe,techs_allterrainvehicle/techs_atv/techs_4x4atv.p3d,mapped_exterior,camo_1,Not performed
+Techs_EvoGaming_ATV_Black,techs_allterrainvehicle/techs_atv/techs_4x4atv.p3d,mapped_exterior,camo_1,Not performed
+Techs_EvoGaming_ATV_Red,techs_allterrainvehicle/techs_atv/techs_4x4atv.p3d,mapped_exterior,camo_1,Not performed
+Techs_EvoGaming_ATV_White,techs_allterrainvehicle/techs_atv/techs_4x4atv.p3d,mapped_exterior,camo_1,Not performed
+Techs_EvoGaming_ATV_Blue,techs_allterrainvehicle/techs_atv/techs_4x4atv.p3d,mapped_exterior,camo_1,Not performed
+Techs_EvoGaming_ATV_Yellow,techs_allterrainvehicle/techs_atv/techs_4x4atv.p3d,mapped_exterior,camo_1,Not performed
+Techs_EvoGaming_ATV_OD,techs_allterrainvehicle/techs_atv/techs_4x4atv.p3d,mapped_exterior,camo_1,Not performed
+Techs_EvoGaming_ATV_Brown,techs_allterrainvehicle/techs_atv/techs_4x4atv.p3d,mapped_exterior,camo_1,Not performed
+Techs_EvoGaming_ATV_Lime,techs_allterrainvehicle/techs_atv/techs_4x4atv.p3d,mapped_exterior,camo_1,Not performed
+Techs_EvoGaming_ATV_Orange,techs_allterrainvehicle/techs_atv/techs_4x4atv.p3d,mapped_exterior,camo_1,Not performed
+Techs_EvoGaming_ATV_Pink,techs_allterrainvehicle/techs_atv/techs_4x4atv.p3d,mapped_exterior,camo_1,Not performed
+Techs_EvoGaming_ATV_Purple,techs_allterrainvehicle/techs_atv/techs_4x4atv.p3d,mapped_exterior,camo_1,Not performed
+Techs_EvoGaming_ATV_Teal,techs_allterrainvehicle/techs_atv/techs_4x4atv.p3d,mapped_exterior,camo_1,Not performed
+Techs_EvoGaming_ATV_M90,techs_allterrainvehicle/techs_atv/techs_4x4atv.p3d,mapped_exterior,camo_1,Not performed
+Techs_EvoGaming_ATV_SM90,techs_allterrainvehicle/techs_atv/techs_4x4atv.p3d,mapped_exterior,camo_1,Not performed
+Techs_EvoGaming_ATV_DM90,techs_allterrainvehicle/techs_atv/techs_4x4atv.p3d,mapped_exterior,camo_1,Not performed
+Techs_EvoGaming_ATV_TigerStripe,techs_allterrainvehicle/techs_atv/techs_4x4atv.p3d,mapped_exterior,camo_1,Not performed
+Techs_EvoGaming_ATV_WinterTigerStripe,techs_allterrainvehicle/techs_atv/techs_4x4atv.p3d,mapped_exterior,camo_1,Not performed
+Techs_EvoGaming_ATV_DesertTigerStripe,techs_allterrainvehicle/techs_atv/techs_4x4atv.p3d,mapped_exterior,camo_1,Not performed
+Old_BikeArma,armabicycles/model/old_bike.p3d,no_supported_exterior_selection,,Not performed
+MMTArma,armabicycles/model/mmt.p3d,mapped_exterior,camo,Not performed
+Van_Galleon,van_galleon/van_galleon.p3d,mapped_exterior,zbytek,Not performed
+Van_Galleon_Red,van_galleon/van_galleon.p3d,mapped_exterior,zbytek,Not performed
+Van_Galleon_Blue,van_galleon/van_galleon.p3d,mapped_exterior,zbytek,Not performed
+Van_Galleon_Green,van_galleon/van_galleon.p3d,mapped_exterior,zbytek,Not performed
+Van_Galleon_Strawhat,van_galleon/van_galleon.p3d,mapped_exterior,zbytek,Not performed
+Van_Galleon_Pirate,van_galleon/van_galleon_pirate.p3d,mapped_exterior,zbytek,Not performed
+Airship,airship/data/airship.p3d,mapped_exterior,"bnr_l_tex, bnr_r_tex",Not performed
+AirshipShuttle,airship/data/airship.p3d,mapped_exterior,"bnr_l_tex, bnr_r_tex",Not performed
+LM_Cessna180,lm_planes/lm_cessna180/lm_cessna180.p3d,no_supported_exterior_selection,,Not performed
+LM_Spitfire,lm_planes/lm_spitfire/lm_spitfire.p3d,mapped_exterior,camo1,Not performed
+LM_Catalina,lm_planes/lm_catalina/lm_catalina.p3d,no_supported_exterior_selection,,Not performed
+LM_StuntPlane,lm_planes/lm_stuntplane/lm_stuntplane.p3d,mapped_exterior,camo,Not performed
+LM_StuntPlane_White,lm_planes/lm_stuntplane/lm_stuntplane.p3d,mapped_exterior,camo,Not performed
+LM_StuntPlane_Green,lm_planes/lm_stuntplane/lm_stuntplane.p3d,mapped_exterior,camo,Not performed
+LM_Tigermoth,lm_planes/lm_tigermoth/lm_tigermoth.p3d,mapped_exterior,"dmgzone_back, dmgzone_body, dmgzone_chassis, dmgzone_flaps_backleft, dmgzone_flaps_backright, dmgzone_flaps_frontleft, dmgzone_flaps_frontright, dmgzone_front, dmgzone_wings_backleft, dmgzone_wings_backright, dmgzone_wings_frontleft, dmgzone_wings_frontright, dmgzone_wings_rudder",Not performed
+LM_Tigermoth_MK2,lm_planes/lm_tigermoth/lm_tigermoth_mk2.p3d,mapped_exterior,"dmgzone_back, dmgzone_body, dmgzone_chassis, dmgzone_flaps_backleft, dmgzone_flaps_backright, dmgzone_flaps_frontleft, dmgzone_flaps_frontright, dmgzone_front, dmgzone_wings_backleft, dmgzone_wings_backright, dmgzone_wings_frontleft, dmgzone_wings_frontright, dmgzone_wings_rudder",Not performed
+LM_Tigermoth_MK3,lm_planes/lm_tigermoth/lm_tigermoth_mk3.p3d,mapped_exterior,"dmgzone_back, dmgzone_body, dmgzone_chassis, dmgzone_flaps_backleft, dmgzone_flaps_backright, dmgzone_flaps_frontleft, dmgzone_flaps_frontright, dmgzone_front, dmgzone_wings_backleft, dmgzone_wings_backright, dmgzone_wings_frontleft, dmgzone_wings_frontright, dmgzone_wings_rudder",Not performed
+LM_Patty_Wagon,lm_planes/lm_patty_wagon/lm_patty_wagon.p3d,no_supported_exterior_selection,,Not performed
+LM_Z37_Bumblebee,lm_planes/lm_z37_bumblebee/lm_z37_bumblebee.p3d,mapped_exterior,camo1,Not performed
+LM_DC_3,lm_planes/lm_dc_3/lm_dc_3.p3d,mapped_exterior,camo1,Not performed

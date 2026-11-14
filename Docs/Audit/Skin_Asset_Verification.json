@@ -1,0 +1,717 @@
+{
+  "scope": "Independent inspection of actual bundled texture, preview, class and generated PBO bytes. No native DayZ execution.",
+  "native_dayz_execution": false,
+  "tests_passed": 4,
+  "test_file": "vehicle_coverage/Tests/test_skin_asset_pipeline.py",
+  "format_reference": "https://community.bistudio.com/wiki/PAA_File_Format",
+  "counts": {
+    "finishes": 30,
+    "fixed_weapon_variants": 60,
+    "opaque_dxt1_paa": 30,
+    "fully_inflated_previews": 30,
+    "textures_1024_square": 6,
+    "textures_2048_square": 24
+  },
+  "checks": [
+    "Every mip boundary, dimensional halving, declared offset and payload length",
+    "All DXT1 blocks inspected for unwanted alpha indices; none found",
+    "PNG CRCs and full scanline decompression",
+    "Each of60 literal M4A1/AKM variants references its correct texture and changes only cosmetic metadata",
+    "All/none/three-finish selected asset packs independently decoded with checksum verification",
+    "0/20/100 weapon and vehicle chances independently combined across all four toggle states;36configurations",
+    "Selected finish IDs remain catalog IDs rather than subset offsets",
+    "Actual runtime scripts round-trip byte-exactly through production PBO builder"
+  ],
+  "assets": [
+    {
+      "id": "neon420",
+      "label": "Neon 420",
+      "stable_id": 1,
+      "texture": "azimuthskins/data/neon420_co.paa",
+      "format": "DXT1",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mip_count": 9,
+      "last_mip": [
+        4,
+        4
+      ],
+      "transparent_blocks": 0,
+      "sha256": "ad78784b5411cd2e5fd0848fba0c1718849560acfc20f88df77424d07ffc6a3d",
+      "preview_dimensions": [
+        1254,
+        1254
+      ],
+      "preview_sha256": "e2775392d7b710c3b543e29abe3f7492171f3cbd889703a7fba96a4f0e21126e"
+    },
+    {
+      "id": "bluedream420",
+      "label": "Blue Dream 420",
+      "stable_id": 2,
+      "texture": "azimuthskins/data/bluedream420_co.paa",
+      "format": "DXT1",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mip_count": 9,
+      "last_mip": [
+        4,
+        4
+      ],
+      "transparent_blocks": 0,
+      "sha256": "8754ed9f1e46bf9e00c3c57205645a26bcb102a546e1fead97532aa54c3e6d69",
+      "preview_dimensions": [
+        1254,
+        1254
+      ],
+      "preview_sha256": "f7c4325b7103543a61401c36b0655cb735502039460b56699a2d4746e05dbfdc"
+    },
+    {
+      "id": "cosmickush420",
+      "label": "Cosmic Kush 420",
+      "stable_id": 3,
+      "texture": "azimuthskins/data/cosmickush420_co.paa",
+      "format": "DXT1",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mip_count": 9,
+      "last_mip": [
+        4,
+        4
+      ],
+      "transparent_blocks": 0,
+      "sha256": "71624c50d2de8e801f476b9809f7a01043411d6ff1006505086d7a66b9fce3d2",
+      "preview_dimensions": [
+        1254,
+        1254
+      ],
+      "preview_sha256": "da93afd8fc99eb71433d68e7b302613b50349512b4ce306f73bee11c59c25b14"
+    },
+    {
+      "id": "deeporbit",
+      "label": "Deep Orbit",
+      "stable_id": 4,
+      "texture": "azimuthskins/data/deeporbit_co.paa",
+      "format": "DXT1",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mip_count": 9,
+      "last_mip": [
+        4,
+        4
+      ],
+      "transparent_blocks": 0,
+      "sha256": "0a1765f5e78c98870ab4418c8934f4e50ec1e56c16da136bc9e1a09ef8ec86af",
+      "preview_dimensions": [
+        1254,
+        1254
+      ],
+      "preview_sha256": "ba22625fff88130517fde1660e564a410df45df8f5d2262921b046858ed25384"
+    },
+    {
+      "id": "arcticpulse",
+      "label": "Arctic Pulse",
+      "stable_id": 5,
+      "texture": "azimuthskins/data/arcticpulse_co.paa",
+      "format": "DXT1",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mip_count": 9,
+      "last_mip": [
+        4,
+        4
+      ],
+      "transparent_blocks": 0,
+      "sha256": "dabe575ccd6c80272d2fc032bc9f4cf744ef9783b812278b6a2f8eccbe9baeec",
+      "preview_dimensions": [
+        1254,
+        1254
+      ],
+      "preview_sha256": "d6f6a3e05a4d96a7da64d5482eefc52284daec8cc619db1d5c1a94ddcdf328ed"
+    },
+    {
+      "id": "eventhorizon",
+      "label": "Event Horizon",
+      "stable_id": 6,
+      "texture": "azimuthskins/data/eventhorizon_co.paa",
+      "format": "DXT1",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mip_count": 9,
+      "last_mip": [
+        4,
+        4
+      ],
+      "transparent_blocks": 0,
+      "sha256": "190e31571cdbaba1b246aafd28db2e806d6a3bb6db5746493da5648725ff4bc9",
+      "preview_dimensions": [
+        1254,
+        1254
+      ],
+      "preview_sha256": "692f0549c95b5dcce0eee895f9657b8f4cf8fc518ccf6662ff16d0ef81a787bb"
+    },
+    {
+      "id": "cathedralash",
+      "label": "Cathedral Ash",
+      "stable_id": 7,
+      "texture": "azimuthskins/data/cathedralash_co.paa",
+      "format": "DXT1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mip_count": 10,
+      "last_mip": [
+        4,
+        4
+      ],
+      "transparent_blocks": 0,
+      "sha256": "7054570abc034ce95bfef6ca481a9c1b42d18a22b1227737da5a1b5b5eb77ca7",
+      "preview_dimensions": [
+        512,
+        512
+      ],
+      "preview_sha256": "c4bd993c704e476b186e7a6cca612d0b62cacad94f75af8f61078bfe1b58dae6"
+    },
+    {
+      "id": "deadfrequency",
+      "label": "Dead Frequency",
+      "stable_id": 8,
+      "texture": "azimuthskins/data/deadfrequency_co.paa",
+      "format": "DXT1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mip_count": 10,
+      "last_mip": [
+        4,
+        4
+      ],
+      "transparent_blocks": 0,
+      "sha256": "85123ecef3cb1dc79686a5891bc1cfd9c6c9b54570c5d93e3bdc2cc85e7aec2f",
+      "preview_dimensions": [
+        512,
+        512
+      ],
+      "preview_sha256": "5756723a01b865cf3112f2f22e0cc2d5b63832167eb15c8e3090e113e4bd8a45"
+    },
+    {
+      "id": "lasttrain",
+      "label": "Last Train",
+      "stable_id": 9,
+      "texture": "azimuthskins/data/lasttrain_co.paa",
+      "format": "DXT1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mip_count": 10,
+      "last_mip": [
+        4,
+        4
+      ],
+      "transparent_blocks": 0,
+      "sha256": "722ab5f6fd3647fa6863692ab161f00e3858276c227ecdfa033ab031a1aeedf7",
+      "preview_dimensions": [
+        512,
+        512
+      ],
+      "preview_sha256": "e3ecb8c502bee790ebc4c8642d5b91bb0201da407299ab92ae9e27bb503f9bbe"
+    },
+    {
+      "id": "floodline",
+      "label": "Floodline",
+      "stable_id": 10,
+      "texture": "azimuthskins/data/floodline_co.paa",
+      "format": "DXT1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mip_count": 10,
+      "last_mip": [
+        4,
+        4
+      ],
+      "transparent_blocks": 0,
+      "sha256": "dcd07947414ab95d46af91e8842a94bd983668da82e2fad124549ec492da298e",
+      "preview_dimensions": [
+        512,
+        512
+      ],
+      "preview_sha256": "fefaf5495b6d7edbf487424aa989ba306d7a666aa203a4556b784fe899729ee4"
+    },
+    {
+      "id": "blackbox",
+      "label": "Black Box",
+      "stable_id": 11,
+      "texture": "azimuthskins/data/blackbox_co.paa",
+      "format": "DXT1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mip_count": 10,
+      "last_mip": [
+        4,
+        4
+      ],
+      "transparent_blocks": 0,
+      "sha256": "ad36ba1eb3bf2b33de09985163d2d316ce4cee14b9d3b76750c182a1158f8ef6",
+      "preview_dimensions": [
+        512,
+        512
+      ],
+      "preview_sha256": "8c0efc4f9a23e823d57bf448cd2c3bd9d0c83ea13af09f56064c6164973be48c"
+    },
+    {
+      "id": "ghostanatomy",
+      "label": "Ghost Anatomy",
+      "stable_id": 12,
+      "texture": "azimuthskins/data/ghostanatomy_co.paa",
+      "format": "DXT1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mip_count": 10,
+      "last_mip": [
+        4,
+        4
+      ],
+      "transparent_blocks": 0,
+      "sha256": "e413390728e4a421dcff2148a8732e100b84071a7e47583b980dbc7e238e87ee",
+      "preview_dimensions": [
+        512,
+        512
+      ],
+      "preview_sha256": "41919f356f04720bb022517fc7633e5b367fe42a2e87399c0d793f2ae61ad1ef"
+    },
+    {
+      "id": "evidencelocker",
+      "label": "Evidence Locker",
+      "stable_id": 13,
+      "texture": "azimuthskins/data/evidencelocker_co.paa",
+      "format": "DXT1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mip_count": 10,
+      "last_mip": [
+        4,
+        4
+      ],
+      "transparent_blocks": 0,
+      "sha256": "edadf55f0a837ac0ee1c83995c19169d007db074a38a1e5ef2f4763d071c057f",
+      "preview_dimensions": [
+        512,
+        512
+      ],
+      "preview_sha256": "71c51d39c372ab485d44c2dd9f4c7e9be67a8867489eeaf1550d018a1e6a040b"
+    },
+    {
+      "id": "funeralporcelain",
+      "label": "Funeral Porcelain",
+      "stable_id": 14,
+      "texture": "azimuthskins/data/funeralporcelain_co.paa",
+      "format": "DXT1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mip_count": 10,
+      "last_mip": [
+        4,
+        4
+      ],
+      "transparent_blocks": 0,
+      "sha256": "b80243830a67f520e6c0e47f25a08ae91f478533757d4a1fce49bf1f510d1ae1",
+      "preview_dimensions": [
+        512,
+        512
+      ],
+      "preview_sha256": "4774dfd111fc7d933c8d0b5a884a7b86808323eea830062859a6b3548625c15d"
+    },
+    {
+      "id": "mothkeeper",
+      "label": "Mothkeeper",
+      "stable_id": 15,
+      "texture": "azimuthskins/data/mothkeeper_co.paa",
+      "format": "DXT1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mip_count": 10,
+      "last_mip": [
+        4,
+        4
+      ],
+      "transparent_blocks": 0,
+      "sha256": "f976cec26117961d2f4fa0945a879e286265ea20e47048b4901e4aff25276f04",
+      "preview_dimensions": [
+        512,
+        512
+      ],
+      "preview_sha256": "af57e6e86087bef0d96c6184dad4428ed3429647fe64e74e8922736c3595a16b"
+    },
+    {
+      "id": "mycelium",
+      "label": "Mycelium",
+      "stable_id": 16,
+      "texture": "azimuthskins/data/mycelium_co.paa",
+      "format": "DXT1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mip_count": 10,
+      "last_mip": [
+        4,
+        4
+      ],
+      "transparent_blocks": 0,
+      "sha256": "e02ed148497fb54bb1412f132a4c3e149542e06e04aae8bafa28cc43c13d513a",
+      "preview_dimensions": [
+        512,
+        512
+      ],
+      "preview_sha256": "c16b302a42e06d8ba35c3a74f2403df5b9dba42f813e9d0eca9329343bb464fd"
+    },
+    {
+      "id": "redactedatlas",
+      "label": "Redacted Atlas",
+      "stable_id": 17,
+      "texture": "azimuthskins/data/redactedatlas_co.paa",
+      "format": "DXT1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mip_count": 10,
+      "last_mip": [
+        4,
+        4
+      ],
+      "transparent_blocks": 0,
+      "sha256": "40a2d99998bfb1a9533a84254255406fd9bdfab2484d2b693f7558d8f3699621",
+      "preview_dimensions": [
+        512,
+        512
+      ],
+      "preview_sha256": "281acf6f1eccf63e84ff6a4e9b7390f4369eb59e5d9b0f48cb53c1e75163f4cb"
+    },
+    {
+      "id": "foundrybloom",
+      "label": "Foundry Bloom",
+      "stable_id": 18,
+      "texture": "azimuthskins/data/foundrybloom_co.paa",
+      "format": "DXT1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mip_count": 10,
+      "last_mip": [
+        4,
+        4
+      ],
+      "transparent_blocks": 0,
+      "sha256": "4d9bc11cd33acec8d330cfc4e680bca6ca26b69fa1e813c8b39fbf6ffd42cab1",
+      "preview_dimensions": [
+        512,
+        512
+      ],
+      "preview_sha256": "cbdd7076823854def07d7d0c716917f399fa26926e99929a63abcefce0fe242f"
+    },
+    {
+      "id": "deadchannel",
+      "label": "Dead Channel",
+      "stable_id": 19,
+      "texture": "azimuthskins/data/deadchannel_co.paa",
+      "format": "DXT1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mip_count": 10,
+      "last_mip": [
+        4,
+        4
+      ],
+      "transparent_blocks": 0,
+      "sha256": "3068b8cbb20c1a919bbb6646470049a17f3876e86bfc75ec4461b7bbae161d8f",
+      "preview_dimensions": [
+        512,
+        512
+      ],
+      "preview_sha256": "3b881eeab943266392ee3bc888f0cd57538967d9f6a2b0815b62797c111b6380"
+    },
+    {
+      "id": "rationzero",
+      "label": "Ration Zero",
+      "stable_id": 20,
+      "texture": "azimuthskins/data/rationzero_co.paa",
+      "format": "DXT1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mip_count": 10,
+      "last_mip": [
+        4,
+        4
+      ],
+      "transparent_blocks": 0,
+      "sha256": "dab3f9b173766f1175f64e13edef1b3bcab482a0e25cf6142b9c2ff37174b4fe",
+      "preview_dimensions": [
+        512,
+        512
+      ],
+      "preview_sha256": "75c77526fe80d6abef20e67d7d965523630c1983eb74295649fdff3d2c4ac1af"
+    },
+    {
+      "id": "bobsburgers",
+      "label": "Bob's Burgers",
+      "stable_id": 21,
+      "texture": "azimuthskins/data/bobsburgers_co.paa",
+      "format": "DXT1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mip_count": 10,
+      "last_mip": [
+        4,
+        4
+      ],
+      "transparent_blocks": 0,
+      "sha256": "2c04defbf884d32ee5b94a4b02796148b994393fa085f330e6e1ad3120805f65",
+      "preview_dimensions": [
+        512,
+        512
+      ],
+      "preview_sha256": "da1c081c828c7a0a655245e21303b1ca5ad257e3d0defa1961a7acd6e7f35a41"
+    },
+    {
+      "id": "thesimpsons",
+      "label": "The Simpsons",
+      "stable_id": 22,
+      "texture": "azimuthskins/data/thesimpsons_co.paa",
+      "format": "DXT1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mip_count": 10,
+      "last_mip": [
+        4,
+        4
+      ],
+      "transparent_blocks": 0,
+      "sha256": "c345ed1d35396878f39aedbfbb4030be6d74893c07e4f966c0dfab89b4b68abe",
+      "preview_dimensions": [
+        512,
+        512
+      ],
+      "preview_sha256": "29ba74f5efb1811449ac5f476055693525f334139477c792890f640e658693ec"
+    },
+    {
+      "id": "familyguy",
+      "label": "Family Guy",
+      "stable_id": 23,
+      "texture": "azimuthskins/data/familyguy_co.paa",
+      "format": "DXT1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mip_count": 10,
+      "last_mip": [
+        4,
+        4
+      ],
+      "transparent_blocks": 0,
+      "sha256": "58a9123d57dba6b57942fb077e3d934d6bebac1bfdcaeabd162b26fde8bc3547",
+      "preview_dimensions": [
+        512,
+        512
+      ],
+      "preview_sha256": "7f6de3c63b4a947c25e441261a3e0db6236e1dd01652744c91e7e39aaa15b0ea"
+    },
+    {
+      "id": "southpark",
+      "label": "South Park",
+      "stable_id": 24,
+      "texture": "azimuthskins/data/southpark_co.paa",
+      "format": "DXT1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mip_count": 10,
+      "last_mip": [
+        4,
+        4
+      ],
+      "transparent_blocks": 0,
+      "sha256": "877f4fdb002318cbbb69c51deaec3f004257d4efb1a116f624e5bdbbf699f616",
+      "preview_dimensions": [
+        512,
+        512
+      ],
+      "preview_sha256": "77cab43138ad554ebeba8d4729284127449ab47868ca7c1922904a2c7b00ff0f"
+    },
+    {
+      "id": "americandad",
+      "label": "American Dad!",
+      "stable_id": 25,
+      "texture": "azimuthskins/data/americandad_co.paa",
+      "format": "DXT1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mip_count": 10,
+      "last_mip": [
+        4,
+        4
+      ],
+      "transparent_blocks": 0,
+      "sha256": "f3a246750c1168242f551eee0aeea59a0d28ddbc60d19904d409d8bebf6ce109",
+      "preview_dimensions": [
+        512,
+        512
+      ],
+      "preview_sha256": "94b978717024706319173cfbd265f42736c0dcde90bf8507ce2fd57718eb3ee4"
+    },
+    {
+      "id": "rickandmorty",
+      "label": "Rick and Morty",
+      "stable_id": 26,
+      "texture": "azimuthskins/data/rickandmorty_co.paa",
+      "format": "DXT1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mip_count": 10,
+      "last_mip": [
+        4,
+        4
+      ],
+      "transparent_blocks": 0,
+      "sha256": "efb4fbbeff418257093cbdd6278b650bc1cf2c75acfd801cb247bb2e21b3110a",
+      "preview_dimensions": [
+        512,
+        512
+      ],
+      "preview_sha256": "8171ac51b853a169a8059eeccffc71ecc9eafea8571eed02068696257bfb8029"
+    },
+    {
+      "id": "futurama",
+      "label": "Futurama",
+      "stable_id": 27,
+      "texture": "azimuthskins/data/futurama_co.paa",
+      "format": "DXT1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mip_count": 10,
+      "last_mip": [
+        4,
+        4
+      ],
+      "transparent_blocks": 0,
+      "sha256": "051c0937f6e38c648607cc6dcadbbf3444a88f3c9a8ae8fabbc1120eb07402cc",
+      "preview_dimensions": [
+        512,
+        512
+      ],
+      "preview_sha256": "65703136d2a5a245df41fbfd90eca776b8f9405e9530d5a5d480f5e380f912d2"
+    },
+    {
+      "id": "kingofthehill",
+      "label": "King of the Hill",
+      "stable_id": 28,
+      "texture": "azimuthskins/data/kingofthehill_co.paa",
+      "format": "DXT1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mip_count": 10,
+      "last_mip": [
+        4,
+        4
+      ],
+      "transparent_blocks": 0,
+      "sha256": "b06b4ce72906830eff4d66f533704b217958a916a89b350d38cf15a63ae3a644",
+      "preview_dimensions": [
+        512,
+        512
+      ],
+      "preview_sha256": "e65eb68b18a9e64a2c79277938fbfcc7d7d5a0febcdee31e1f9f39c94f02414a"
+    },
+    {
+      "id": "bojackhorseman",
+      "label": "BoJack Horseman",
+      "stable_id": 29,
+      "texture": "azimuthskins/data/bojackhorseman_co.paa",
+      "format": "DXT1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mip_count": 10,
+      "last_mip": [
+        4,
+        4
+      ],
+      "transparent_blocks": 0,
+      "sha256": "2cb9ab1d97b4d63b1d18a7d7ff23fd8796fba1a71408a2f3e3952ff78eb32703",
+      "preview_dimensions": [
+        512,
+        512
+      ],
+      "preview_sha256": "360361b4515e2649646aea23e9a6e2a04f32a5c88cc98520ee6b97575976ae2d"
+    },
+    {
+      "id": "archer",
+      "label": "Archer",
+      "stable_id": 30,
+      "texture": "azimuthskins/data/archer_co.paa",
+      "format": "DXT1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mip_count": 10,
+      "last_mip": [
+        4,
+        4
+      ],
+      "transparent_blocks": 0,
+      "sha256": "2c02151403255abc75676accaae9561e2697934a05908e62be75e2f921f774b0",
+      "preview_dimensions": [
+        512,
+        512
+      ],
+      "preview_sha256": "f4513afd20ddab988c631badabec6f092a57d257e9c3b3c4935187d5746d1ea1"
+    }
+  ]
+}

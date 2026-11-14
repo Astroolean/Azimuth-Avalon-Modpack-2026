@@ -1,0 +1,491 @@
+{
+  "schema_version": 1,
+  "purpose": "Installed vehicle configuration decoding and cross-pack cargo-slot repair",
+  "evidence_zip": "Azimuth_Vehicle_Wrap_Evidence_20261114_151536_UTC_51ddecbedbda.zip",
+  "evidence_sha256": "89bbbdb4ca121f3a0ba50cf0daace1bcbfacb3d05c2dd9a7218d57fd7d8677e4",
+  "decoded_configs": 265,
+  "formats": {
+    "rap": 260,
+    "text": 5
+  },
+  "decode_failures": 0,
+  "roundtrip_verification": "All265 original configurations decode then render then parse to identical semantic class trees; RAP enum tails fully consumed. GolfCart raw text and binary match after float32 normalization.",
+  "observed_config_classes": 4286,
+  "cross_source_class_reopenings": 195,
+  "independent_drivable_model_name_collisions": 0,
+  "slot_repair": {
+    "classes": [
+      "CanisterGasoline",
+      "Barrel_ColorBase"
+    ],
+    "strategy": "Append only published slots that might be removed by any active replacement definition; retain current native parent and all other fields. Dependency patch names are restricted to active relevant publishers.",
+    "activation": "No patch when active packs create no evidenced slot-loss conflict.",
+    "config_api": "vehicle_slot_compat.apply_config(original, root, active_workshop_ids)",
+    "tests": {
+      "source_decoder_and_inheritance": 12,
+      "slot_compatibility": 10,
+      "vehicle_base_isolation": 9,
+      "failures": 0
+    }
+  },
+  "publisher_global_base_changes": {
+    "CarScript": [
+      {
+        "path": "/fuelCapacity",
+        "native": 50,
+        "merged_capture_order": 100
+      }
+    ],
+    "CarDoor": [
+      {
+        "path": "/DamageSystem/GlobalHealth/Health/hitpoints",
+        "native": 500,
+        "merged_capture_order": 1600
+      }
+    ],
+    "CarWheel": [
+      {
+        "path": "/weight",
+        "native": 12000,
+        "merged_capture_order": 15000
+      },
+      {
+        "path": "/DamageSystem/GlobalHealth/Health/hitpoints",
+        "native": 200,
+        "merged_capture_order": 1000
+      }
+    ],
+    "MotorbikeScript": [],
+    "BoatScript": []
+  },
+  "limits": [
+    "Configuration/adapter checks are not native DayZ compilation, rendering or driving tests.",
+    "Observed archive order is not proof of engine requiredAddons load order; the slot repair declares all relevant active publisher dependencies.",
+    "Partial exported native configs omit many built-in addons; absence in export is not a missing dependency verdict.",
+    "No publisher model, texture or script payload was present in the export.",
+    "Other4Kpublisher-wide globals, including Cargo1/Cargo2 shared by Dodge andTahoe configurations, are not changed by the Kamaz-only isolation patch."
+  ],
+  "sources": [
+    "https://community.bistudio.com/wiki/raP_File_Format_-_Elite",
+    "https://community.bistudio.com/wiki/Array%2B%3D",
+    "https://community.bistudio.com/wiki/Class_Inheritance",
+    "https://feedback.bistudio.com/T79801",
+    "https://community.bistudio.com/wiki/Class_Inheritance#Delete"
+  ],
+  "inheritance_resolver": "Corrected explicit nested inheritance and empty class semantics. A new nested child without a parent does not merge its inherited namesake; same-path empty reopening removes inheritance but retains own fields.",
+  "vehicle_base_isolation": {
+    "activation": "4KBOSSK3387855369 active only",
+    "deleted_global_subtree_count": 21,
+    "paths": [
+      {
+        "path": [
+          "Crew",
+          "Cargo3"
+        ],
+        "truck_definition_source": "existing_truck",
+        "definition": {
+          "name": "Cargo3",
+          "parent": "",
+          "properties": {
+            "actionSel": "seat_cargo3",
+            "proxyPos": "crewCargo3",
+            "getInPos": "pos_cargo3",
+            "getInDir": "pos_cargo3_dir"
+          },
+          "classes": {}
+        }
+      },
+      {
+        "path": [
+          "Crew",
+          "Cargo4"
+        ],
+        "truck_definition_source": "existing_truck",
+        "definition": {
+          "name": "Cargo4",
+          "parent": "",
+          "properties": {
+            "actionSel": "seat_cargo4",
+            "proxyPos": "crewCargo4",
+            "getInPos": "pos_cargo4",
+            "getInDir": "pos_cargo4_dir"
+          },
+          "classes": {}
+        }
+      },
+      {
+        "path": [
+          "Crew",
+          "Cargo5"
+        ],
+        "truck_definition_source": "existing_truck",
+        "definition": {
+          "name": "Cargo5",
+          "parent": "",
+          "properties": {
+            "actionSel": "seat_cargo5",
+            "proxyPos": "crewCargo5",
+            "getInPos": "pos_cargo5",
+            "getInDir": "pos_cargo5_dir"
+          },
+          "classes": {}
+        }
+      },
+      {
+        "path": [
+          "Crew",
+          "Cargo6"
+        ],
+        "truck_definition_source": "existing_truck",
+        "definition": {
+          "name": "Cargo6",
+          "parent": "",
+          "properties": {
+            "actionSel": "seat_cargo6",
+            "proxyPos": "crewCargo6",
+            "getInPos": "pos_cargo6",
+            "getInDir": "pos_cargo6_dir"
+          },
+          "classes": {}
+        }
+      },
+      {
+        "path": [
+          "Crew",
+          "Cargo7"
+        ],
+        "truck_definition_source": "existing_truck",
+        "definition": {
+          "name": "Cargo7",
+          "parent": "",
+          "properties": {
+            "actionSel": "seat_cargo7",
+            "proxyPos": "crewCargo7",
+            "getInPos": "pos_cargo7",
+            "getInDir": "pos_cargo7_dir"
+          },
+          "classes": {}
+        }
+      },
+      {
+        "path": [
+          "Crew",
+          "Cargo8"
+        ],
+        "truck_definition_source": "existing_truck",
+        "definition": {
+          "name": "Cargo8",
+          "parent": "",
+          "properties": {
+            "actionSel": "seat_cargo8",
+            "proxyPos": "crewCargo8",
+            "getInPos": "pos_cargo8",
+            "getInDir": "pos_cargo8_dir"
+          },
+          "classes": {}
+        }
+      },
+      {
+        "path": [
+          "Crew",
+          "Cargo9"
+        ],
+        "truck_definition_source": "existing_truck",
+        "definition": {
+          "name": "Cargo9",
+          "parent": "",
+          "properties": {
+            "actionSel": "seat_cargo9",
+            "proxyPos": "crewCargo9",
+            "getInPos": "pos_cargo9",
+            "getInDir": "pos_cargo9_dir"
+          },
+          "classes": {}
+        }
+      },
+      {
+        "path": [
+          "Crew",
+          "Cargo10"
+        ],
+        "truck_definition_source": "existing_truck",
+        "definition": {
+          "name": "Cargo10",
+          "parent": "",
+          "properties": {
+            "actionSel": "seat_cargo10",
+            "proxyPos": "crewCargo10",
+            "getInPos": "pos_cargo10",
+            "getInDir": "pos_cargo10_dir"
+          },
+          "classes": {}
+        }
+      },
+      {
+        "path": [
+          "Crew",
+          "Cargo11"
+        ],
+        "truck_definition_source": "existing_truck",
+        "definition": {
+          "name": "Cargo11",
+          "parent": "",
+          "properties": {
+            "actionSel": "seat_cargo11",
+            "proxyPos": "crewCargo11",
+            "getInPos": "pos_cargo11",
+            "getInDir": "pos_cargo11_dir"
+          },
+          "classes": {}
+        }
+      },
+      {
+        "path": [
+          "Crew",
+          "Cargo12"
+        ],
+        "truck_definition_source": "existing_truck",
+        "definition": {
+          "name": "Cargo12",
+          "parent": "",
+          "properties": {
+            "actionSel": "seat_cargo12",
+            "proxyPos": "crewCargo12",
+            "getInPos": "pos_cargo12",
+            "getInDir": "pos_cargo12_dir"
+          },
+          "classes": {}
+        }
+      },
+      {
+        "path": [
+          "Crew",
+          "Cargo13"
+        ],
+        "truck_definition_source": "existing_truck",
+        "definition": {
+          "name": "Cargo13",
+          "parent": "",
+          "properties": {
+            "actionSel": "seat_cargo13",
+            "proxyPos": "crewCargo13",
+            "getInPos": "pos_cargo13",
+            "getInDir": "pos_cargo13_dir"
+          },
+          "classes": {}
+        }
+      },
+      {
+        "path": [
+          "Crew",
+          "Cargo14"
+        ],
+        "truck_definition_source": "existing_truck",
+        "definition": {
+          "name": "Cargo14",
+          "parent": "",
+          "properties": {
+            "actionSel": "seat_cargo14",
+            "proxyPos": "crewCargo14",
+            "getInPos": "pos_cargo14",
+            "getInDir": "pos_cargo14_dir"
+          },
+          "classes": {}
+        }
+      },
+      {
+        "path": [
+          "AnimationSources",
+          "DoorsCargo3"
+        ],
+        "truck_definition_source": "existing_truck",
+        "definition": {
+          "name": "DoorsCargo3",
+          "parent": "",
+          "properties": {
+            "source": "user",
+            "initPhase": 0,
+            "animPeriod": 0.5,
+            "soundOpen": "DoorsCargo3_open",
+            "soundClose": "DoorsCargo3_close"
+          },
+          "classes": {}
+        }
+      },
+      {
+        "path": [
+          "AnimationSources",
+          "DoorsCargo4"
+        ],
+        "truck_definition_source": "existing_truck",
+        "definition": {
+          "name": "DoorsCargo4",
+          "parent": "",
+          "properties": {
+            "source": "user",
+            "initPhase": 0,
+            "animPeriod": 0.5,
+            "soundOpen": "DoorsCargo4_open",
+            "soundClose": "DoorsCargo4_close"
+          },
+          "classes": {}
+        }
+      },
+      {
+        "path": [
+          "AnimationSources",
+          "DoorsCargo5"
+        ],
+        "truck_definition_source": "existing_truck",
+        "definition": {
+          "name": "DoorsCargo5",
+          "parent": "",
+          "properties": {
+            "source": "user",
+            "initPhase": 0,
+            "animPeriod": 0.5,
+            "soundOpen": "DoorsCargo5_open",
+            "soundClose": "DoorsCargo5_close"
+          },
+          "classes": {}
+        }
+      },
+      {
+        "path": [
+          "AnimationSources",
+          "DoorsCargo6"
+        ],
+        "truck_definition_source": "existing_truck",
+        "definition": {
+          "name": "DoorsCargo6",
+          "parent": "",
+          "properties": {
+            "source": "user",
+            "initPhase": 0,
+            "animPeriod": 0.5,
+            "soundOpen": "DoorsCargo6_open",
+            "soundClose": "DoorsCargo6_close"
+          },
+          "classes": {}
+        }
+      },
+      {
+        "path": [
+          "AnimationSources",
+          "DoorsCargo7"
+        ],
+        "truck_definition_source": "existing_truck",
+        "definition": {
+          "name": "DoorsCargo7",
+          "parent": "",
+          "properties": {
+            "source": "user",
+            "initPhase": 0,
+            "animPeriod": 0.5,
+            "soundOpen": "DoorsCargo7_open",
+            "soundClose": "DoorsCargo7_close"
+          },
+          "classes": {}
+        }
+      },
+      {
+        "path": [
+          "AnimationSources",
+          "DoorsCargo8"
+        ],
+        "truck_definition_source": "existing_truck",
+        "definition": {
+          "name": "DoorsCargo8",
+          "parent": "",
+          "properties": {
+            "source": "user",
+            "initPhase": 0,
+            "animPeriod": 0.5,
+            "soundOpen": "DoorsCargo8_open",
+            "soundClose": "DoorsCargo8_close"
+          },
+          "classes": {}
+        }
+      },
+      {
+        "path": [
+          "AnimationSources",
+          "AnimHitWheel_1_3"
+        ],
+        "truck_definition_source": "publisher_global",
+        "definition": {
+          "name": "AnimHitWheel_1_3",
+          "parent": "AnimHitWheel_1_1",
+          "properties": {
+            "hitpoint": "HitWheel_1_3"
+          },
+          "classes": {}
+        }
+      },
+      {
+        "path": [
+          "AnimationSources",
+          "AnimHitWheel_2_3"
+        ],
+        "truck_definition_source": "publisher_global",
+        "definition": {
+          "name": "AnimHitWheel_2_3",
+          "parent": "AnimHitWheel_1_1",
+          "properties": {
+            "hitpoint": "HitWheel_2_3"
+          },
+          "classes": {}
+        }
+      },
+      {
+        "path": [
+          "SimulationModule",
+          "Axles",
+          "Middle"
+        ],
+        "truck_definition_source": "publisher_global",
+        "definition": {
+          "name": "Middle",
+          "parent": "",
+          "properties": {},
+          "classes": {
+            "Wheels": {
+              "name": "Wheels",
+              "parent": "",
+              "properties": {},
+              "classes": {
+                "Left": {
+                  "name": "Left",
+                  "parent": "",
+                  "properties": {
+                    "animTurn": "turnmidleft",
+                    "animRotation": "wheelbackmidleft",
+                    "wheelHub": "wheel_1_3_damper_land",
+                    "animDamper": "damper_1_3",
+                    "inventorySlot": "Kamaz_TyphoonK_Wheel_1_3"
+                  },
+                  "classes": {}
+                },
+                "Right": {
+                  "name": "Right",
+                  "parent": "",
+                  "properties": {
+                    "animTurn": "turnmidright",
+                    "animRotation": "wheelbackmidright",
+                    "wheelHub": "wheel_2_3_damper_land",
+                    "animDamper": "damper_2_3",
+                    "inventorySlot": "Kamaz_TyphoonK_Wheel_2_3"
+                  },
+                  "classes": {}
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "behavior": "Relocate exact Kamaz-only axle, seats and animations from shared CarScript to Kamaz_TyphoonK. Retain Cargo1/Cargo2 declared by other4Kconfigs. No global scalar or Front/Rear axle changes.",
+    "checks": "Full Kamaz and2variant behavior trees unchanged; exact21globalnodes removed; Audi andGunter4wheels, Kamaz6wheels; direct resolvedpropertiesunchanged for4286configclasses.",
+    "native_limit": "Native delete and late inheritance propagation have not been executed in DayZ."
+  }
+}

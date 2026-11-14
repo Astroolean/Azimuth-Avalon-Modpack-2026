@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-14",
+  "parent": {
+    "path": "Azimuth_DayZ_Server_Manager_R23_Vehicle_Wrap_Render_Fix.zip",
+    "sha256": "4f851d95a08d1337e70b5dab681160edee16224bfdfc7b4fd3858f50f91bfb0c",
+    "version": 42,
+    "user_native_confirmation": "Gunter wrap visible on body and fitted panels; user reports working flawlessly. No native claim for other vehicles."
+  },
+  "scope": "Skin application reliability, clothing surface handling, expanded verified publisher vehicle paint mappings, and installed-data exporter. Additional Workshop transport activation and go-kart delivery remain incomplete without installed publisher definitions.",
+  "implemented": [
+    "Weapon/item per-slot texture readback, bounded retry and native reset recovery; exact original restoration with retry; external paints preserved.",
+    "Clothing/helmet/backpack category with declared ground and worn male/female selections; independent vehicle probability retained.",
+    "Magazine/weapon-part classification before generic native melee-capability; CarDoor, CarWheel and MotorbikePart excluded from competing item renderer.",
+    "Known alpha filename and procedural transparency protection.",
+    "Tractor body camo/front/back/roof, Merlin three author paint selections, RHIB author body paint selection.",
+    "UAZ, bus and Land Rover exterior damage aliases, plus compatible UAZ/Land Rover panel aliases.",
+    "Skins/Camos vehicle coverage guide and read-only installed vehicle data export for 20 explicit Workshop IDs and native vehicle addons."
+  ],
+  "verification": {
+    "source_tests_passed": 84,
+    "source_test_groups": [
+      {
+        "log": "source_tests.log",
+        "passed": 67,
+        "sha256": "9fc15f596da2e9dd6a7e7fa2a98e5702c31539dafb4f517c1139f2cd5ecc5574"
+      },
+      {
+        "log": "vehicle_surface_tests.log",
+        "passed": 15,
+        "sha256": "e062cffab14cb0f0c39c383393b326533d5627eb47ce3d57b534153f1580d8ca"
+      },
+      {
+        "log": "vehicle_lifecycle_tests.log",
+        "passed": 2,
+        "sha256": "e6cdf6683fd1b3ac56b976b4f0b98a91df00e1f5b6f7784e49de0b7e907dc241"
+      }
+    ],
+    "asset_pipeline": "All 30 PAAs, 30 PNGs and 60 fixed weapon variants passed. Actual selected-only asset and runtime PBO round trips and 36 independent chance/toggle configurations passed.",
+    "actual_choice_adapter": "Actual production hash/Choose methods ran under C++17 + UBSan over 10,000 signed four-word keys plus 30 extreme cases. At the 20% setting, outcomes were 20.21% for items and 19.86% for vehicles. All 30 finishes were reachable.",
+    "preservation": "The exact version 42 parent hash was checked. All unrelated packaged files were preserved, with no deletions. Existing delivery source, settings logic, artwork and earlier repairs are unchanged. No saves, receipt resets, private keys or live configs were added.",
+    "native_dayz_execution": false,
+    "native_evidence": "The user screenshot verifies the existing Gunter body and fitted panels. No assistant-run native DayZ compilation, joining, rendering, physics or network test occurred.",
+    "adapter_boundary": "Extracted production control flow ran with deterministic fake engine APIs. This is not Enforce compilation or native rendering.",
+    "fresh_zip_check": "Performed after packaging; outcome recorded separately from this prepackage audit.",
+    "independent_review": "A second reviewer checked the item/clothing ownership, retry, restoration, network and native API signatures. The unverified FileExist precondition was removed. Indexed boolean negation uses an explicit comparison. The final 21 item/category regressions passed again."
+  },
+  "current_vehicle_source_coverage": {
+    "families": 13,
+    "configured_variants": 66,
+    "documented_setup_families": 23,
+    "documented_setup_variants": 94,
+    "count_boundary": "Documented configured catalog, not the live population or every Workshop vehicle. Broad opaque author atlases can recolour cabin, trim or deck surfaces; this is not polygon-level visual certification."
+  },
+  "remaining_work": [
+    "Native bikes and native boats need their separate lifecycle adapters and installed effective config/model mapping. The current CarScript hook does not reach them.",
+    "Zodiac requires its original alpha-bearing atlas and a derived alpha-preserving texture. Vodnik/Gyro installed mapping is not available.",
+    "Humvee, RZR, bicycles and An-2 need installed model/config evidence for actual paint targets.",
+    "MBM_GoKart metadata has no direct public file URL. The candidate class in community examples is not a verified publisher parts recipe. A new kart delivery has not been added; the Gunter receipt is preserved.",
+    "Additional Workshop candidates were researched but are not installed or enabled. Their current configs, parts and economy files are inside their Steam downloads.",
+    "Removing a selected finish can unload older fixed Azimuth gun classes; the existing control-panel warning is retained. Random finishes on normal-class items preserve their identity."
+  ],
+  "production_files": {
+    "Custom/GunSkins/RandomSkins/azimuthrandomskins/scripts/4_world/azimuth_random_skin_item.c": "a1ca6cfa62e032f6d9404e472b7b381de70d1c7c6c4af7a1a82b66ebb14dcfeb",
+    "Custom/GunSkins/RandomSkins/azimuthrandomskins/scripts/4_world/azimuth_random_skin_rules.c": "dc8efc84683c73e8820a9de26637778ad3a01f3e221e41b50455c57baae64e98",
+    "Custom/GunSkins/RandomSkins/azimuthrandomskins/scripts/4_world/azimuth_vehicle_wrap_rules.c": "fdbfd3e3f2516c5c63d70e1f9a56f3a306a476e78b0b513fd011c2c163b8b394",
+    "Engine/azimuth_app/checks/vehicle_wrap_evidence.py": "3ba1b9edbbd96694a323f652093eb8c7725d3844ebeee23c31157affc5f8bc53",
+    "Engine/azimuth_app/ui/dashboard_skins.py": "6afd22301144350d036224828a89158d236eb68fb0728d28c51417b3d0e27235"
+  }
+}

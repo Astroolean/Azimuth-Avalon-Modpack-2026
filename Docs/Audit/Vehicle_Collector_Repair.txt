@@ -1,0 +1,62 @@
+AZIMUTH VEHICLE FILE COLLECTION REPAIR
+14 November 2026
+
+This is the complete Azimuth application package. It retains the preceding
+full-audit repairs, camo assets, go-kart/Gunter delivery code and organized layout.
+There is no updater or installer program. No live saves, choices or receipts
+were changed while preparing this package.
+
+CONFIRMED CAUSE
+The supplied 16:52 repair export scanned 59 native client archives and reached
+the shared 50,000-member limit in sounds_weapons.pbo. No Workshop source was
+reached. It collected 20 of 200 requested assets plus six configurations.
+The separate 16:51 configuration export confirms that LM_Planes.pbo is present;
+the repair collector's earlier not_found result was caused by the early stop.
+
+CORRECTION
+- Workshop sources are processed first. Native archive prefixes are checked
+  before indexing, so unrelated sound archives do not consume the member budget.
+- Each source has a bounded allowance alongside aggregate safety limits.
+  Errors and incomplete scans are recorded per source instead of silently
+  appearing to be a complete search. Actual header bytes are accounted for.
+- Requested models, textures and materials are prioritized. Identical resource
+  payloads are stored once while preserving the source records and hashes.
+- LM's original archive can go in a companion ZIP when it cannot fit beside
+  the other assets. Each ZIP remains at most 500 MiB. An LM archive above the
+  400 MiB raw-file bound gets explicitly labelled header/tail diagnostic data,
+  never a falsely complete archive. Its actual size is recorded.
+- Each collection is published in a new folder only after its files are ready.
+  Failed copying or companion creation cleans up the entire unfinished output.
+- The control panel shows the actual collected count, incomplete scans and
+  size limits. When there are two ZIPs, it tells you to send both together.
+
+VERIFICATION
+172 repair tests and 125 retained checks passed on the source and again against
+a fresh extraction of the complete ZIP. All 295 preceding application files
+remain, with all 160 game-asset, native-script and bundled-world payload files
+byte-identical. Final code/assets match the freshly tested extraction.
+
+The available inventory identifies 191 of the 200 requested resource paths.
+Nine references remain absent: eight publisher materials and the Techs ATV
+handlebar model. A replay using exact uploaded archive/member names and synthetic
+payloads reached all 12 requested Workshop owners and recovered those 191 paths
+despite 60,000 unrelated native sound entries placed first. The preceding
+collector fails that same reproduction. This is selection/collection evidence,
+not execution of DayZ or real LM model data.
+
+The uploaded repair payload's 26 hashes were also verified. Its four actual
+Humvee door models use a Multi material that requires material-aware wrapping;
+merely adding their selection names would not establish a correct visual result.
+No unverified rendering change was added to this collector correction.
+
+Executed check totals and package preservation results are recorded in
+Vehicle_Collector_Repair_Verification.json. Developer test sources and reports
+are in Vehicle_Collector_Repair_Evidence.zip. Earlier audit reports describe
+their named earlier packages and remain retained historical evidence.
+
+NEXT STEP FOR THE REMAINING WRAPS
+Open Workshop > Collect vehicle repair files. After collection, send all ZIPs
+in the newly opened folder together. Individual vehicle testing is not required.
+The original 20-asset upload did not contain the remaining third-party model
+bytes, so those wraps are not declared finished by this collector repair.
+No native DayZ, Windows execution, flight, physics or appearance test was run.

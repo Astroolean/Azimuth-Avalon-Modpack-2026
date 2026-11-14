@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "scope": "DayZ executable version check hotfix",
+  "offline_tests": 18,
+  "all_passed": true,
+  "reproduction": {
+    "file_version_from_user_screenshot": "1.30.164.289",
+    "product_version_in_test": "1.0.0.0",
+    "product_version_is_synthetic": true,
+    "old_result": "DayZ Server is version 1.30.164.289. The transport update needs DayZ 1.30 or newer. Update DayZ Server in Steam before playing.",
+    "fixed_result": "1.30.164.289"
+  },
+  "rules": [
+    "Use a valid fixed file version first.",
+    "Fallback to product version only when file version is missing or malformed.",
+    "An older file version cannot be rescued by newer product metadata.",
+    "Unavailable metadata remains an actionable verification failure."
+  ],
+  "native_Windows_DayZ_execution": "NOT_RUN",
+  "unchanged_features": "Vehicle wraps, one-time Gunter, weapon camos, native scripts, transportation and save handling unchanged.",
+  "primary_reference": "https://learn.microsoft.com/en-us/windows/win32/api/verrsrc/ns-verrsrc-vs_fixedfileinfo"
+}

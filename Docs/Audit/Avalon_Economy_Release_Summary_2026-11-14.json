@@ -1,0 +1,47 @@
+{
+  "audit_date": "2026-11-14",
+  "source_bytes": 19040778161,
+  "source_entries": 1217,
+  "workshop_zip_count": 49,
+  "workshop_folder_count": 76,
+  "pbo_total": 391,
+  "pbo_readable_headers": 375,
+  "pbo_unsupported_headers": 16,
+  "pbo_config_constraints": 29,
+  "pbo_config_class_declarations": 12048,
+  "pbo_cfgvehicles_declarations": 7209,
+  "before_classes": 4887,
+  "after_classes": 5310,
+  "before_natural": 1388,
+  "after_natural": 1679,
+  "positive_active_publisher_rows": 1350,
+  "missing_positive_active_publisher_rows": 0,
+  "root_warnings": 0,
+  "contained_warnings": 0,
+  "route_counts": {
+    "natural": 1679,
+    "crafted": 329,
+    "zero": 2285,
+    "event": 813,
+    "unknown": 204
+  },
+  "placement_categories": {
+    "Category and usage have placed loot groups; tier region not independently certified": 320,
+    "Not applicable to ordinary loot": 3631,
+    "Matched category/usage/tiers to placed loot groups": 1282,
+    "No complete static placement match found": 64,
+    "No explicit item category; static group matching inconclusive": 13
+  },
+  "not_statically_certified": 397,
+  "offline_release_checks": 24,
+  "restart_identical": true,
+  "original_files_preserved": 304,
+  "limitations": [
+    "DayZ runtime not available in this environment; class existence is not an in-game spawn guarantee.",
+    "Tiered loot regions and dynamic dispatch events need native gameplay/survival testing.",
+    "Some publisher PBOs use unsupported headers, compressed configuration entries, or preprocessors.",
+    "Large ships and airships require authored dedicated spawn sites; no unsafe positions were invented.",
+    "Some mods generate profile settings/loot on first native start; their first-run behavior is unverified.",
+    "Only activated mods are included in Avalon loot; downloaded but inactive mods are correctly excluded."
+  ]
+}

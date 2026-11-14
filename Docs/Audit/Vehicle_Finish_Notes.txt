@@ -1,0 +1,30 @@
+AZIMUTH R23 — TRANSPORT AND WRAP REPAIRS
+Complete application package, preserving existing world data and receipts.
+
+Inputs: supplied 191-asset collection plus full LM_Planes.pbo. All 1006 copied
+payload records matched their reported SHA256. Raw Workshop models/PBOs are
+not redistributed in this application; original installed mods remain required.
+
+Repaired: 24 precise hidden-selection config extensions; 33 body and five panel
+rules grounded in actual model geometry; missing Maharlika renderer references;
+optional unavailable Techs handlebar recipes; LM aircraft class/part integration,
+bounded existing airport anchor transfer and large-water seaplane routing;
+LM public-class wrap cleanup around its publisher's non-super deletion callback.
+Generated script-source size guard increased to 512 KiB for the expanded mappings.
+Current package has 14 extra packs /580 variants. Combined audited vehicle
+inventory:738 variants,703 exterior mappings,33 stock-only,2 panel-only.
+
+Preserved: all30 camos/art, existing Gunter/go-kart showcase and delivery receipts,
+world/save locations, settings behavior, organized folders and previous fixes.
+No live user files or vehicles were modified; no respawn or replacement queued.
+
+Model validation:145 actual models;2985 compiled section/face comparisons with
+zero mismatches. This confirms parsed geometry, not native rendering success.
+Some exterior mappings cover only a small safe section. Airship hull stays stock;
+banners remain mapped. Humvee Multi-material door wrapping remains unresolved.
+Stock-only bodies require model-author work or separate material/geometry work.
+Missing publisher glass damage materials are not recreated; safe base materials
+remain. Native DayZ compilation/rendering, terrain/physics/flight, network behavior
+and Windows signing have not been executed here. See verification JSON for
+exact automated checks. No per-model manual testing or further export is required
+to launch this release.

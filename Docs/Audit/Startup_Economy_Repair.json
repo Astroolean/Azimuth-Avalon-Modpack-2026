@@ -1,0 +1,119 @@
+{
+  "release": "R23 Startup Economy Repair",
+  "parent_archive": "Azimuth_DayZ_Server_Manager_R23_Vehicle_Wrap_Compile_Fix.zip",
+  "parent_sha256": "8a96e3dd981689cde21a761ce8ba002e1c3d01f0c92ddc32322cdaa84708b92d",
+  "changes": [
+    "Register the official DayZ 1.30 MotorbikeScript CE root in Avalon before launch; preserve unrelated root classes and valid existing settings.",
+    "Seed or narrowly migrate missing VPP_Map.MapColor fixed RGB array in Airdrop settings; retain populated valid values.",
+    "Pause automatic relaunch after a Play startup exit; preserve visible error for an explicit retry.",
+    "Bound general watchdog to three consecutive failed launches/early exits; healthy 120-second session resets counter.",
+    "Retain healthy server after unrelated client-launch failure; no new kill/stop calls."
+  ],
+  "crash_evidence": {
+    "source_archive": "Worlds(1).zip",
+    "source_sha256": "9251c03b340c84c94b0fafe6e7521e49a8b1a8e9d93317da08d310a90640a980",
+    "observed_sessions": [
+      {
+        "session": "2026-11-14_01-07-25",
+        "rpt_sha256": "b803236d3124a6ce2ff1ab1be1b0709725660bda33d7a87e58cad9330ff1db34",
+        "crash_type": "C0000005 ACCESS_VIOLATION",
+        "pre_crash_lines": [
+          "2026/11/14,  1:08:08.882 !!! [CE][DE] (VehicleHunterz_Old_Bike) :: Unable to create child (Old_Bike) as the type does not exist.",
+          "2026/11/14,  1:08:08.882 !!! [CE][DE] (VehicleHunterz_Old_Bike) :: Unable to create child (Old_Bike_White) as the type does not exist.",
+          "2026/11/14,  1:08:08.883 !!! [CE][DE] (VehicleHunterz_Old_Bike) :: Unable to create child (Old_Bike_Red) as the type does not exist.",
+          "2026/11/14,  1:08:08.883 !!! [CE][DE] (VehicleHunterz_Old_Bike) :: Unable to create child (Old_Bike_Green) as the type does not exist.",
+          "2026/11/14,  1:08:08.883 !!! [CE][DE] (VehicleHunterz_Old_Bike) :: Unable to create child (Old_Bike_Blue) as the type does not exist.",
+          "2026/11/14,  1:08:08.883 !!! [CE][DE] (VehicleHunterz_Old_Bike) :: Unable to create child (Old_Bike_Pink) as the type does not exist.",
+          "2026/11/14,  1:08:08.883 !!! [CE][DE] (VehicleHunterz_Old_Bike) :: Unable to create child (Lady_Bicycle) as the type does not exist.",
+          "2026/11/14,  1:08:08.883 !!! [CE][DE] (VehicleHunterz_Old_Bike) :: Unable to create child (Lady_Bicycle_Purple) as the type does not exist.",
+          "2026/11/14,  1:08:08.883 [CE][offlineDB] :: Loaded 33 dynamic events 220 total types.",
+          "2026/11/14,  1:08:08.884  ENGINE    (F): Crashed"
+        ]
+      },
+      {
+        "session": "2026-11-14_01-08-40",
+        "rpt_sha256": "57aef07f5a64088a461cae4fc9e61ed247b9aa2e00f35c650cae3a1ad4c8cfe4",
+        "crash_type": "C0000005 ACCESS_VIOLATION",
+        "pre_crash_lines": [
+          "2026/11/14,  1:09:30.561 !!! [CE][DE] (VehicleHunterz_Old_Bike) :: Unable to create child (Old_Bike) as the type does not exist.",
+          "2026/11/14,  1:09:30.561 !!! [CE][DE] (VehicleHunterz_Old_Bike) :: Unable to create child (Old_Bike_White) as the type does not exist.",
+          "2026/11/14,  1:09:30.561 !!! [CE][DE] (VehicleHunterz_Old_Bike) :: Unable to create child (Old_Bike_Red) as the type does not exist.",
+          "2026/11/14,  1:09:30.561 !!! [CE][DE] (VehicleHunterz_Old_Bike) :: Unable to create child (Old_Bike_Green) as the type does not exist.",
+          "2026/11/14,  1:09:30.561 !!! [CE][DE] (VehicleHunterz_Old_Bike) :: Unable to create child (Old_Bike_Blue) as the type does not exist.",
+          "2026/11/14,  1:09:30.561 !!! [CE][DE] (VehicleHunterz_Old_Bike) :: Unable to create child (Old_Bike_Pink) as the type does not exist.",
+          "2026/11/14,  1:09:30.561 !!! [CE][DE] (VehicleHunterz_Old_Bike) :: Unable to create child (Lady_Bicycle) as the type does not exist.",
+          "2026/11/14,  1:09:30.561 !!! [CE][DE] (VehicleHunterz_Old_Bike) :: Unable to create child (Lady_Bicycle_Purple) as the type does not exist.",
+          "2026/11/14,  1:09:30.561 [CE][offlineDB] :: Loaded 33 dynamic events 220 total types.",
+          "2026/11/14,  1:09:30.562  ENGINE    (F): Crashed"
+        ]
+      }
+    ],
+    "findings": {
+      "native_crash": "Both sessions crash in mission main at ce.InitOffline(), immediately after loading the bicycle event layer.",
+      "missing_registration": "Actual cfgeconomycore.xml lacks MotorbikeScript; the next registered event layer enables seven native motorbike variants.",
+      "bicycle_warnings": "All eight bicycle event children are missing from the loaded CE type database. The Bicycle author switched to vanilla bike simulation in October.",
+      "airdrop_schema": "First run reports VPP_Map.MapColor static array JSON error. Publisher repaired it before second run.",
+      "wrap_compile_fix": "Both uploaded sessions compile and load the World and Mission modules; the prior Transport compile error is absent.",
+      "root_cause_limit": "Missing motorcycle CE registration is a concrete configuration defect at the startup stage that crashed. Native crash resolution needs a fresh game launch."
+    }
+  },
+  "native_root_evidence": {
+    "primary_source": "https://raw.githubusercontent.com/BohemiaInteractive/DayZ-Central-Economy/master/dayzOffline.chernarusplus/cfgeconomycore.xml",
+    "sha256": "b5a88d6d5a79e8c1e272d63a608eb02107d444169aa993348430dd6c9f4dd503",
+    "motorcycle_root_line": 17,
+    "registration": {
+      "name": "MotorbikeScript",
+      "act": "car",
+      "reportMemoryLOD": "no"
+    },
+    "observed_user_snapshot_root_absent": true,
+    "native_script_inheritance": [
+      "MotorbikeScript : Motorbike",
+      "Motorbike extends Transport"
+    ],
+    "observed_crash_phase": "Hive.InitOffline, during CE dynamic event loading after base32+bicycle1 events, before landlayer completion",
+    "crash_resolution": "Native DayZ execution required; cause inferred from missing CE root and log phase",
+    "partial_existing_event_overrides": "Supported by official documentation; left unchanged",
+    "partial_override_source": "https://community.bistudio.com/wiki/DayZ:Central_Economy_mission_files_modding"
+  },
+  "airdrop_evidence": {
+    "author_schema_url": "https://www.games.digiacom.com/Airdrop_Server_Guide.pdf",
+    "author_schema_section": "9. VPP_Map; c. MapColor; RGB integer array with values 0 to 255",
+    "actual_observation": "First-run backup has no VPP_Map; crash log reports VPP_Map.MapColor static array; current and second-run backup contain publisher-filled VPP_Map with MapColor [0,0,0].",
+    "native_DayZ_execution": "NOT_RUN",
+    "tests_passed": 7,
+    "files": {
+      "reference/Worlds/avalon/Profiles/Airdrop/AirdropSettings_bakup_2026-11-14 @ 06-07-52.json": "3e6d22de08bac21e02a21f4610bc6fbc9c2840df1ea49c0428fe0b7476df8af6",
+      "reference/Worlds/avalon/Profiles/Airdrop/AirdropSettings.json": "0c4c91b24121a42f9489984f14f110e5d8335a33cb038d72c157bc121adf6c2a",
+      "reference/Worlds/avalon/Profiles/crash_2026-11-14_01-07-25.log": "49fb24a00d97be681db2b51c2319b774ca85a59727e0804825f97a74ae6697da"
+    }
+  },
+  "qualification": {
+    "offline_tests_by_log": {
+      "startup_retry_tests.log": 8,
+      "legacy_server_tests.log": 13,
+      "graphics_integration_tests.log": 23,
+      "airdrop_tests.log": 7,
+      "land_crash_repair_tests.log": 7,
+      "land_existing_tests.log": 14,
+      "transport_pipeline_tests.log": 2
+    },
+    "offline_tests_total": 74,
+    "pipeline": "Actual Server._configure_world plus prepare_logout against uploaded failed world; two runs per publisher-input scenario.",
+    "horse_input": "Actual previous user-provided Horse XML",
+    "plane_input": "Synthetic publisher fixture; not native aircraft certification",
+    "skin_settings_input": "Top-level manager settings absent from upload; selected IDs and odds reconstructed from uploaded generated addon configuration, with uploaded showcase settings and identifiers.",
+    "native_signing": "Simulated in pipeline",
+    "native_DayZ_execution": "NOT_RUN",
+    "crash_resolution": "Concrete configuration defect corrected. Native confirmation requires user game launch."
+  },
+  "production_files_changed": [
+    "Engine/avalon_airdrop.py",
+    "Engine/avalon_land_transport.py",
+    "Engine/azimuth.py",
+    "READ_FIRST.txt"
+  ],
+  "mods_disabled": [],
+  "save_reset_or_wipe": false,
+  "uploaded_data_in_distribution": false
+}

@@ -1,0 +1,527 @@
+{
+  "source_map_file_hashes": {
+    "mapgroupproto.xml": "4bc4fb2f76b79e16cb7e8ad4c8765e2148e7b8cff71ae00717bf0ebf3bfe652b",
+    "mapgrouppos.xml": "7ec0ee0859da413ba608d3498e3fd93f1b707a727682034d6391a68750846817",
+    "mapclusterproto.xml": "e091a019fc8b16ce376d1dab63259a40c00c2ab87b03232055e4684ad582fd5e",
+    "mapgroupcluster.xml": "caebec069434cf10eb896c784a15ab9793d3eb3a96bae0cc399d95ca8b7c4917",
+    "mapgroupcluster01.xml": "fe5de3f5593032eb84e3c9af1523353e3b96ead468c3c5fa16911dc13f59f05c",
+    "mapgroupcluster02.xml": "0c80c1939286fca5799f522d91b1f9b5a7212c553969e6fe26870f779605b4dc",
+    "mapgroupcluster03.xml": "9881195d581bcb7e9187ee194c7a540e8166f1e53d4edad76fd044ea324a1a08",
+    "mapgroupcluster04.xml": "e1d29ac3cb6cb69d07bb631cb34a00dd30e3c5601fc22302d8fb17bdd69b0f2a",
+    "mapgroupcluster05.xml": "03097d66cc752e2ba5684295f9a748a0d9f748330d0ea79461c355bc72c7a4a3",
+    "mapgroupdirt.xml": "296d13eef4606680688e05e1a66019f4bb6c91c4cd50450022f123228de5d45f"
+  },
+  "all_core_map_placement_files_preserved": true,
+  "buildings": {
+    "mapgroupproto_group_definitions": 692,
+    "unique_proto_classes": 680,
+    "duplicate_proto_classes": {
+      "Land_Underground_Storage_Ammo2": 2,
+      "Land_Underground_Floor_Crew": 3,
+      "Land_Underground_Floor_Comms": 3,
+      "Land_Underground_Storage_Hospital": 2,
+      "Land_Underground_Entrance": 3,
+      "Land_Underground_Storage_POX2": 2,
+      "Land_Wreck_Mining_HaulTruck": 2,
+      "Land_Wreck_Mining_Excavator": 2,
+      "StaticObj_Misc_Table_Camp": 2
+    },
+    "mapgrouppos_entries": 4261,
+    "finite_mapgrouppos_entries": 4261,
+    "invalid_positions": 0,
+    "unique_placed_classnames": 407,
+    "placed_classes_with_matching_unambiguous_prototypes": 389,
+    "usable_loot_groups_with_valid_containers": 387,
+    "total_placed_buildings_using_active_loot_groups": 4176,
+    "valid_container_count": 676,
+    "unmatched_placement_classes_count": 10,
+    "prototype_without_placement_count": 283,
+    "ambiguous_place_groups": [
+      "Land_Underground_Entrance",
+      "Land_Underground_Floor_Comms",
+      "Land_Underground_Floor_Crew",
+      "Land_Underground_Storage_Ammo2",
+      "Land_Underground_Storage_Hospital",
+      "Land_Underground_Storage_POX2",
+      "Land_Wreck_Mining_Excavator",
+      "Land_Wreck_Mining_HaulTruck"
+    ],
+    "top_active_placement_classes": [
+      [
+        "Land_metro_village_spawn",
+        451
+      ],
+      [
+        "Land_metro_military_spawn",
+        324
+      ],
+      [
+        "Land_metro_Hunting_spawn",
+        114
+      ],
+      [
+        "Land_Roadblock_Table",
+        92
+      ],
+      [
+        "Land_Container_1Mo",
+        73
+      ],
+      [
+        "Land_Boat_Small2",
+        67
+      ],
+      [
+        "Land_Misc_Table_Market_Spawn",
+        67
+      ],
+      [
+        "Land_Mil_Barracks_Round",
+        62
+      ],
+      [
+        "Land_Wreck_offroad02_aban2",
+        61
+      ],
+      [
+        "Land_misc_chickenCoop",
+        59
+      ],
+      [
+        "Land_Misc_FeedShack",
+        58
+      ],
+      [
+        "Land_crate_low_1",
+        57
+      ]
+    ]
+  },
+  "clusters": {
+    "mapgroupcluster.xml": {
+      "groups": 50000,
+      "valid_coords": 50000,
+      "includes": 1
+    },
+    "mapgroupcluster01.xml": {
+      "groups": 50000,
+      "valid_coords": 50000,
+      "includes": 1
+    },
+    "mapgroupcluster02.xml": {
+      "groups": 50000,
+      "valid_coords": 50000,
+      "includes": 1
+    },
+    "mapgroupcluster03.xml": {
+      "groups": 50000,
+      "valid_coords": 50000,
+      "includes": 1
+    },
+    "mapgroupcluster04.xml": {
+      "groups": 25015,
+      "valid_coords": 25015,
+      "includes": 0
+    },
+    "mapgroupcluster05.xml": {
+      "groups": 0,
+      "valid_coords": 0,
+      "includes": 0
+    },
+    "cluster_proto_definitions": 50,
+    "total_valid_cluster_positions": 225015,
+    "unique_cluster_position_classes": 50,
+    "cluster_classes_without_prototype": 0
+  },
+  "events": {
+    "db_event_definitions": 54,
+    "active_db_event_definitions": 32,
+    "event_spawn_sections": 53,
+    "all_event_spawn_coords_finite": true,
+    "total_explicit_event_positions": 593,
+    "active_fixed_events": 18,
+    "active_fixed_events_no_static_positions": [
+      "AmbientFox",
+      "AmbientHare",
+      "AmbientHen",
+      "AnimalCow",
+      "AnimalDeer",
+      "AnimalGoat",
+      "AnimalPig",
+      "AnimalRoeDeer",
+      "AnimalWildBoar",
+      "AnimalWolf",
+      "Loot"
+    ],
+    "active_defined_events_without_event_spawn_section": [
+      "AmbientFox",
+      "AmbientHare",
+      "AmbientHen",
+      "AnimalGoat",
+      "AnimalPig",
+      "InfectedArmyConvoy",
+      "InfectedArmyHard",
+      "InfectedIndustrial",
+      "InfectedNBC",
+      "InfectedPoliceHard",
+      "InfectedReligious",
+      "InfectedSanta",
+      "Loot"
+    ],
+    "spawn_sections_without_db_event_definition": [
+      "AnimalWildHorse",
+      "VehicleAzimuthAn2Plane",
+      "VehicleAzimuthExpansionBus",
+      "VehicleAzimuthExpansionGyrocopter",
+      "VehicleAzimuthExpansionLandRover",
+      "VehicleAzimuthExpansionMH6",
+      "VehicleAzimuthExpansionMerlin",
+      "VehicleAzimuthExpansionRHIB",
+      "VehicleAzimuthExpansionTractor",
+      "VehicleAzimuthExpansionUAZ",
+      "VehicleAzimuthExpansionUH1H",
+      "VehicleAzimuthExpansionVodnik",
+      "VehicleAzimuthExpansionZodiac",
+      "VehicleAzimuthMotorbike",
+      "VehicleAzimuthWorkshopLight",
+      "VehicleAzimuthWorkshopPlane",
+      "VehicleAzimuthWorkshopRoad",
+      "VehicleAzimuthWorkshopTruck",
+      "VehicleAzimuthWorkshopWater",
+      "VehicleHunterz_Old_Bike",
+      "VehicleTransitBus"
+    ],
+    "available_spawn_events_for_active_db": 7
+  },
+  "economy_registration": {
+    "ce_files": 31,
+    "missing_in_generated_mission": [],
+    "extension_files": [
+      {
+        "folder": "azimuth_hunter_mods",
+        "file": "hunter_types.xml",
+        "type": "types",
+        "exists": true,
+        "bytes": 20451
+      },
+      {
+        "folder": "azimuth_workshop/rag_hunting_cabin",
+        "file": "types.xml",
+        "type": "types",
+        "exists": true,
+        "bytes": 484
+      },
+      {
+        "folder": "azimuth_workshop/rag_basebuilding",
+        "file": "types.xml",
+        "type": "types",
+        "exists": true,
+        "bytes": 3025
+      },
+      {
+        "folder": "azimuth_workshop/rag_baseitems",
+        "file": "types.xml",
+        "type": "types",
+        "exists": true,
+        "bytes": 125290
+      },
+      {
+        "folder": "azimuth_workshop/rag_beehive",
+        "file": "types.xml",
+        "type": "types",
+        "exists": true,
+        "bytes": 7645
+      },
+      {
+        "folder": "azimuth_workshop/solitude_storage",
+        "file": "types.xml",
+        "type": "types",
+        "exists": true,
+        "bytes": 39592
+      },
+      {
+        "folder": "azimuth_workshop/dayz_bicycle",
+        "file": "types.xml",
+        "type": "types",
+        "exists": true,
+        "bytes": 6342
+      },
+      {
+        "folder": "azimuth_workshop/dayz_bicycle",
+        "file": "events.xml",
+        "type": "events",
+        "exists": true,
+        "bytes": 1137
+      },
+      {
+        "folder": "azimuth_workshop/dayz_bicycle",
+        "file": "spawnabletypes.xml",
+        "type": "spawnabletypes",
+        "exists": true,
+        "bytes": 2315
+      },
+      {
+        "folder": "azimuth_workshop/dayz_dog",
+        "file": "types.xml",
+        "type": "types",
+        "exists": true,
+        "bytes": 8194
+      },
+      {
+        "folder": "azimuth_workshop/dayz_guitar",
+        "file": "types.xml",
+        "type": "types",
+        "exists": true,
+        "bytes": 12896
+      },
+      {
+        "folder": "azimuth_workshop/airdrop-upgraded",
+        "file": "types.xml",
+        "type": "types",
+        "exists": true,
+        "bytes": 587
+      },
+      {
+        "folder": "azimuth_transport_land",
+        "file": "types.xml",
+        "type": "types",
+        "exists": true,
+        "bytes": 11891
+      },
+      {
+        "folder": "azimuth_transport_land",
+        "file": "spawnabletypes.xml",
+        "type": "spawnabletypes",
+        "exists": true,
+        "bytes": 3949
+      },
+      {
+        "folder": "azimuth_transport_land",
+        "file": "events.xml",
+        "type": "events",
+        "exists": true,
+        "bytes": 3155
+      },
+      {
+        "folder": "azimuth_workshop/azimuth_expansion_transport",
+        "file": "types.xml",
+        "type": "types",
+        "exists": true,
+        "bytes": 97680
+      },
+      {
+        "folder": "azimuth_workshop/azimuth_expansion_transport",
+        "file": "events.xml",
+        "type": "events",
+        "exists": true,
+        "bytes": 9934
+      },
+      {
+        "folder": "azimuth_workshop/azimuth_expansion_transport",
+        "file": "spawnabletypes.xml",
+        "type": "spawnabletypes",
+        "exists": true,
+        "bytes": 64706
+      },
+      {
+        "folder": "azimuth_workshop/dayz_horse",
+        "file": "types.xml",
+        "type": "types",
+        "exists": true,
+        "bytes": 2661
+      },
+      {
+        "folder": "azimuth_workshop/dayz_horse",
+        "file": "events.xml",
+        "type": "events",
+        "exists": true,
+        "bytes": 909
+      },
+      {
+        "folder": "azimuth_workshop/dayz_horse",
+        "file": "spawnabletypes.xml",
+        "type": "spawnabletypes",
+        "exists": true,
+        "bytes": 58
+      },
+      {
+        "folder": "azimuth_workshop/an2_plane",
+        "file": "types.xml",
+        "type": "types",
+        "exists": true,
+        "bytes": 2575
+      },
+      {
+        "folder": "azimuth_workshop/an2_plane",
+        "file": "spawnabletypes.xml",
+        "type": "spawnabletypes",
+        "exists": true,
+        "bytes": 1887
+      },
+      {
+        "folder": "azimuth_workshop/an2_plane",
+        "file": "events.xml",
+        "type": "events",
+        "exists": true,
+        "bytes": 589
+      },
+      {
+        "folder": "azimuth_workshop/azimuth_additional_vehicles",
+        "file": "types.xml",
+        "type": "types",
+        "exists": true,
+        "bytes": 831868
+      },
+      {
+        "folder": "azimuth_workshop/azimuth_additional_vehicles",
+        "file": "events.xml",
+        "type": "events",
+        "exists": true,
+        "bytes": 45171
+      },
+      {
+        "folder": "azimuth_workshop/azimuth_additional_vehicles",
+        "file": "spawnabletypes.xml",
+        "type": "spawnabletypes",
+        "exists": true,
+        "bytes": 746887
+      },
+      {
+        "folder": "azimuth_economy_repairs",
+        "file": "types.xml",
+        "type": "types",
+        "exists": true,
+        "bytes": 1093
+      },
+      {
+        "folder": "azimuth_economy_repairs",
+        "file": "spawnabletypes.xml",
+        "type": "spawnabletypes",
+        "exists": true,
+        "bytes": 7809
+      },
+      {
+        "folder": "azimuth_economy_repairs",
+        "file": "events.xml",
+        "type": "events",
+        "exists": true,
+        "bytes": 578
+      },
+      {
+        "folder": "azimuth_loot_balance",
+        "file": "types.xml",
+        "type": "types",
+        "exists": true,
+        "bytes": 73825
+      }
+    ]
+  },
+  "loot": {
+    "effective_classes": 5310,
+    "positive_ordinary_classes": 1679,
+    "xml_warnings": 0,
+    "contained_warnings": 0,
+    "placement_confidence": {
+      "Category and usage have placed loot groups; tier region not independently certified": 320,
+      "Not applicable to ordinary loot": 3631,
+      "Matched category/usage/tiers to placed loot groups": 1282,
+      "No complete static placement match found": 64,
+      "No explicit item category; static group matching inconclusive": 13
+    },
+    "fully_static_matched": 1282,
+    "tier_region_pending": 320,
+    "static_no_complete_match": 64,
+    "no_item_category": 13,
+    "no_static_match_source_groups": {
+      "BrisketSpread": 1,
+      "CivSedanWheel": 1,
+      "Dego": 1,
+      "Hatchback": 1,
+      "HatchbackWheel": 1,
+      "HM": 48,
+      "Offroad": 1,
+      "Pate": 1,
+      "pnw": 1,
+      "Sedan": 1,
+      "SodaCan": 3,
+      "Truck": 2,
+      "UnknownFoodCan": 1,
+      "WaterBottle": 1
+    },
+    "no_static_match_names": [
+      "BrisketSpread",
+      "CivSedanWheel",
+      "Dego_baguette",
+      "Hatchback_02_Wheel",
+      "HatchbackWheel",
+      "HM_Bars_01",
+      "HM_Bars_02",
+      "HM_Bars_03",
+      "HM_Bars_04",
+      "HM_Bars_05",
+      "HM_Bars_06",
+      "HM_Base_Radio_Big_Kit",
+      "HM_Base_Radio_Kit",
+      "HM_Burn",
+      "HM_Cheetos_01",
+      "HM_Cheetos_02",
+      "HM_Cheetos_03",
+      "HM_Coffee_Bag",
+      "HM_Coffee_Machine_Kit",
+      "HM_Cola",
+      "HM_Cola_Light",
+      "HM_Heineken",
+      "HM_JD",
+      "HM_Lays_01",
+      "HM_Lays_02",
+      "HM_Lays_03",
+      "HM_Monster_Energy",
+      "HM_Mr_Coffee",
+      "HM_MRE_01",
+      "HM_MRE_02",
+      "HM_MRE_03",
+      "HM_MRE_04",
+      "HM_Mystery_Box_Ammo",
+      "HM_Mystery_Box_BaseBuild",
+      "HM_Mystery_Box_Clothes",
+      "HM_Mystery_Box_Food",
+      "HM_Mystery_Box_Meds",
+      "HM_Mystery_Box_Misc",
+      "HM_Mystery_Box_Tools",
+      "HM_Mystery_Box_Weapons",
+      "HM_Painting_Spraycan",
+      "HM_Pringles_01",
+      "HM_Pringles_02",
+      "HM_Pringles_03",
+      "HM_Redbull",
+      "HM_Rush",
+      "HM_Sewing_Machine_Kit",
+      "HM_Snacks_01",
+      "HM_Snacks_02",
+      "HM_Snacks_03",
+      "HM_Snacks_04",
+      "HM_Stove_Kit",
+      "HM_Tornado",
+      "Offroad_02_Wheel",
+      "Pate",
+      "pnw_skrrttles",
+      "Sedan_02_Wheel",
+      "SodaCan_Cola",
+      "SodaCan_Pipsi",
+      "SodaCan_Spite",
+      "Truck_01_Wheel",
+      "Truck_01_WheelDouble",
+      "UnknownFoodCan_Opened",
+      "WaterBottle"
+    ]
+  },
+  "qualifications": {
+    "native_dayz_executed": false,
+    "full_linux_offline_qualified": true,
+    "map_placement_static_checked": true,
+    "tiers_area_flags_decode_supported": false,
+    "runtime_spawn_capacity_measured": false,
+    "marine_depth_collision_terrain_validated": false,
+    "notes": "Static XML/path/coordinate verification only; no native CE log, region occupancy, placement physics or vehicle simulation."
+  }
+}

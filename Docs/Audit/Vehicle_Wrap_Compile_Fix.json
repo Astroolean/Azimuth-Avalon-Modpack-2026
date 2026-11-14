@@ -1,0 +1,50 @@
+{
+  "release": "R23 Vehicle Wrap Compile Fix",
+  "parent_archive": "Azimuth_DayZ_Server_Manager_R23_Horse_Avalon_Publisher_Fix.zip",
+  "parent_sha256": "717f20e154ce47db46c4164a2d0684fa0e71070744f9321bf0a564f02539ac71",
+  "observed_error": "Cannot compile World script module: azimuth_vehicle_wrap_transport.c(3): Unknown type Transport",
+  "cause": "The World addon attempted to mod the Transport class defined in the Game module.",
+  "correction": [
+    "Extend World-module CarScript with matching constructor.",
+    "Use CarScript for panel casts and helper parent types.",
+    "Remove the unnecessary MotorbikeScript cleanup hook; bikes were already outside the wrap allowlist.",
+    "Preserve all ten approved wrap families and existing wrap rules."
+  ],
+  "primary_source_evidence": [
+    {
+      "path": "scripts/3_game/vehicles/transport.c",
+      "class": "Transport",
+      "module": "Game"
+    },
+    {
+      "path": "scripts/4_world/entities/vehicles/carscript.c",
+      "class": "CarScript",
+      "module": "World"
+    },
+    {
+      "path": "scripts/4_world/entities/core/inherited/inventoryitem.c",
+      "class": "CarDoor",
+      "module": "World"
+    }
+  ],
+  "qualification": {
+    "offline_test_counts": {
+      "vehicle_tests.log": 53,
+      "module_boundary_tests.log": 6
+    },
+    "offline_tests_total": 59,
+    "source_module_ownership": "Checked against local Bohemia DayZ-Script-Diff snapshot; original defect reproduced by source check.",
+    "native_DayZ_Enforce_compilation": "NOT_RUN; Windows game launch required",
+    "native_vehicle_rendering_and_networking": "NOT_RUN",
+    "signing_in_test": "Simulated; actual signing remains performed by the manager on the user PC."
+  },
+  "production_files_changed": [
+    "Custom/GunSkins/RandomSkins/azimuthrandomskins/scripts/4_world/azimuth_vehicle_wrap_panel.c",
+    "Custom/GunSkins/RandomSkins/azimuthrandomskins/scripts/4_world/azimuth_vehicle_wrap_rules.c",
+    "Custom/GunSkins/RandomSkins/azimuthrandomskins/scripts/4_world/azimuth_vehicle_wrap_surface.c",
+    "Custom/GunSkins/RandomSkins/azimuthrandomskins/scripts/4_world/azimuth_vehicle_wrap_transport.c",
+    "READ_FIRST.txt"
+  ],
+  "horse_fix_and_other_parent_files": "Preserved byte-for-byte outside the listed changes.",
+  "user_settings_and_saves_in_release": false
+}

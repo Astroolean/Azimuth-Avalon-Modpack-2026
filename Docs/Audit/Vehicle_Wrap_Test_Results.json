@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "update": "Vehicle wraps and one-time Gunter test car",
+  "all_passed": true,
+  "total_offline_tests": 385,
+  "new_vehicle_tests": 53,
+  "existing_regression_tests": 332,
+  "suites": [
+    {
+      "suite": "vehicle_wraps/RegressionTests/cartoon",
+      "tests": 19,
+      "exit_code": 0,
+      "log": "regression_cartoon_final.log"
+    },
+    {
+      "suite": "vehicle_wraps/RegressionTests/relic",
+      "tests": 37,
+      "exit_code": 0,
+      "log": "regression_relic_final.log"
+    },
+    {
+      "suite": "vehicle_wraps/RegressionTests/skins",
+      "tests": 42,
+      "exit_code": 0,
+      "log": "regression_skins_final.log"
+    },
+    {
+      "suite": "vehicle_wraps/RegressionTests/xml",
+      "tests": 10,
+      "exit_code": 0,
+      "log": "regression_xml_final.log"
+    },
+    {
+      "suite": "vehicle_wraps/RegressionTests/graphics",
+      "tests": 38,
+      "exit_code": 0,
+      "log": "regression_graphics_final.log"
+    },
+    {
+      "suite": "vehicle_wraps/RegressionTests/inspect",
+      "tests": 21,
+      "exit_code": 0,
+      "log": "regression_inspect_final.log"
+    },
+    {
+      "suite": "vehicle_wraps/RegressionTests/photo",
+      "tests": 20,
+      "exit_code": 0,
+      "log": "regression_photo_final.log"
+    },
+    {
+      "suite": "vehicle_wraps/LegacyTests",
+      "tests": 70,
+      "exit_code": 0,
+      "log": "LegacyTests_final.log"
+    },
+    {
+      "suite": "playthrough_audit/qa/launch_signature_review",
+      "tests": 8,
+      "exit_code": 0,
+      "log": "launch_signature_review_final.log"
+    },
+    {
+      "suite": "vehicle_wraps/Tests",
+      "tests": 120,
+      "exit_code": 0,
+      "log": "Tests_final.log"
+    }
+  ],
+  "native_DayZ_compilation": "NOT_RUN",
+  "native_signing_join_render_physics": "NOT_RUN",
+  "native_UI_graphical_check": "NOT_RUN: display listener unavailable; page behavior tested without a display",
+  "source_policy_execution": "Shipped hash/choice and safety rules run through a C++ API adapter; this is not Enforce compilation.",
+  "pipeline_check": "Real manager preparation repeated against the Avalon snapshot in two publisher-data scenarios; signing mocked, Horse/An-2 publisher fixtures synthetic.",
+  "preservation": {
+    "art_files_byte_identical": 84,
+    "catalog_unchanged": true,
+    "weapon_native_scripts_unchanged": true,
+    "weapon_showcase_generation_and_receipts_preserved": true,
+    "no_live_world_or_character_files_bundled": true
+  },
+  "runtime_limits": [
+    "Per-model UV layout, damage rendering and network persistence require the game test.",
+    "Placement checks are source-verified; native physics is not exercised here.",
+    "A later native/player repaint may override a wrap until reload.",
+    "The one-time car requires enabled vehicle wraps at100% and at least one selected finish."
+  ],
+  "sources": {
+    "Engine/server.py": "dc6bb9c82a4454d57e25bb02b26678dcf7e773a9540e2d20b50e610c8eda658e",
+    "Engine/skin_settings.py": "2fe80b879520a8c25825ebe51bf121434f93358f1e8dec553efdc52f6c71523d",
+    "Engine/dashboard_skins.py": "5413dfc7a8fa264c338730b4acff7e589ed0f8181b89ca521eb816f1b29e6203",
+    "Engine/random_skin_mode.py": "d1ef163d7cf4d1edbba54ab2ad8aff2ebc876bafddd6fc00e08d28a616e54cca",
+    "Engine/vehicle_showcase.py": "28f262731aac6eef10df8821740aa81a699c5bc3b831c9d2e1b0a8db5b3a883f",
+    "Engine/verify_gun_skins.py": "6ce4373fe4b57a6a86e4c54d456cd76a48c50392f2e5dd288752fa06515d8906",
+    "Engine/verify_playthrough.py": "e118f3302ccf08d2d1b0e65a800112546d32fe801056260ca45d0ee985234163",
+    "Custom/GunSkins/RandomSkins/azimuthrandomskins/config.cpp": "354330f8a38c389c0f73803de07e868d1a7bb50857b4bcfb433dee10d074ea85",
+    "Custom/GunSkins/RandomSkins/azimuthrandomskins/scripts/4_world/azimuth_vehicle_wrap_surface.c": "ebca9ba1f467eb4f961ac96b7af75017c17c752087a88736f99d67b4fa7a6e77",
+    "Custom/GunSkins/RandomSkins/azimuthrandomskins/scripts/4_world/azimuth_random_skin_item.c": "0d87440ddb7e3c25653470f7131ad979656900e5ac0843aa50e8aa687387a634",
+    "Custom/GunSkins/RandomSkins/azimuthrandomskins/scripts/4_world/azimuth_vehicle_wrap_panel.c": "fa7770267657c216293f582bbacc71588ece23b9f8671cce1d574c04ad1c0141",
+    "Custom/GunSkins/RandomSkins/azimuthrandomskins/scripts/4_world/azimuth_vehicle_wrap_transport.c": "01a6e1cf64cee966dfba20fb02f8cc353c05fadae3a507291cfec45352c84e33",
+    "Custom/GunSkins/RandomSkins/azimuthrandomskins/scripts/4_world/azimuth_vehicle_wrap_rules.c": "ed0823367c79e877d56b132b0969c877908c5ebd659ab2aa11eff69fcda23f13",
+    "Custom/GunSkins/RandomSkins/azimuthrandomskins/scripts/4_world/azimuth_random_skin_rules.c": "164cd8c725e036bfb38ecba17cc31446b7fdc0388f0776e19624a3d200ac0384",
+    "Custom/GunSkins/VehicleShowcase/azimuthvehicleshowcase/config.cpp": "0fc9445dcca660423bfa30d91e9968a6846c83352de273a0b83c6954f110a5a1",
+    "Custom/GunSkins/VehicleShowcase/azimuthvehicleshowcase/scripts/5_mission/azimuth_vehicle_showcase.c": "cd51fe992613c58cf90260067463334e6f333843869ea4a06e86eab6a8f4fa34"
+  }
+}

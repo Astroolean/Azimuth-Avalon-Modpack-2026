@@ -1,0 +1,80 @@
+{
+  "release": "R23 Horse Avalon Publisher Fix",
+  "parent_archive": "Azimuth_DayZ_Server_Manager_R23_Horse_XML_Fix.zip",
+  "parent_sha256": "da9cef5cd63c41ad2737b4c33439009b451bf08fcd3a2346e8be3b8984094b85",
+  "scope": "Horse publisher XML ingestion and Avalon animal-event registration only",
+  "changes": [
+    "Normalize only the exact observed missing Chernarus comment terminator in memory.",
+    "Retain the prior valid-declaration prologue handling.",
+    "Exclude other maps coordinate examples from Avalon input; do not repair truncated Takistan data.",
+    "Keep publisher animal events without inventing live-horse ordinary-loot rows.",
+    "Register the publisher empty Horse event-position entry if missing; preserve custom entries.",
+    "Use three actual Avalon cattle territory groups and author Horse AI behavior."
+  ],
+  "source_evidence": {
+    "source": "User-provided 3295021220.zip; not an online copy",
+    "archive_sha256": "f5345db456600af42963fab08630256863fdb7601b1d746ce79d0cc8af0f6dae",
+    "pbo_entry": "3295021220/Addons/dayz_horse.pbo",
+    "config_entry": "config.bin",
+    "config_sha256": "e9210c784d3d4cea61df6a5cc3a2fd2fc76bad855d77eef51a0961ff9d098b86",
+    "method": "Bounded PBO metadata and uncompressed config entry extraction; CfgVehicles class descriptors and first scalar fields decoded from RAP bytes. No publisher assets redistributed.",
+    "observed_event_name": "AnimalWildHorse",
+    "observed_environment_behavior": "DZDeerGroupBeh",
+    "observed_gear_type_count": 7,
+    "observed_animal_type_rows": 0,
+    "verified_event_classes": [
+      {
+        "class_name": "Animal_Horse_Brown",
+        "parent": "Horse_Base",
+        "scope": 2,
+        "config_class_body_offset": 61489
+      },
+      {
+        "class_name": "Animal_Horse_White",
+        "parent": "Horse_Base",
+        "scope": 2,
+        "config_class_body_offset": 61837
+      },
+      {
+        "class_name": "Animal_Horse_Gray",
+        "parent": "Horse_Base",
+        "scope": 2,
+        "config_class_body_offset": 62185
+      },
+      {
+        "class_name": "Animal_Horse_Gray2",
+        "parent": "Horse_Base",
+        "scope": 2,
+        "config_class_body_offset": 62531
+      },
+      {
+        "class_name": "Animal_Horse_Palomino",
+        "parent": "Horse_Base",
+        "scope": 2,
+        "config_class_body_offset": 62879
+      }
+    ],
+    "native_DayZ_execution": "NOT_RUN"
+  },
+  "qualification": {
+    "offline_tests_passed": 64,
+    "actual_publisher_regressions": 12,
+    "pipeline": "Real Server._configure_world plus prepare_logout, two runs per scenario; actual uploaded Horse XML with supplied Avalon mission.",
+    "pipeline_scenarios": [
+      "Actual Horse files plus synthetic An-2 fixture",
+      "Missing Horse and An-2 publisher files"
+    ],
+    "native_signing": "SIMULATED in pipeline test",
+    "native_DayZ_execution": "NOT_RUN",
+    "native_horse_spawning_riding": "NOT_RUN; user PC game test required",
+    "publisher_bytes_unchanged": true,
+    "save_settings_receipt_native_loot_preservation": "PASS",
+    "repeat_setup_byte_identical": true,
+    "rollback_including_event_positions": "PASS"
+  },
+  "publisher_assets_redistributed": false,
+  "production_files_changed": [
+    "Engine/avalon_horse_transport.py",
+    "READ_FIRST.txt"
+  ]
+}

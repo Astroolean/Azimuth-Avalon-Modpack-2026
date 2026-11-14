@@ -1,0 +1,77 @@
+﻿WorkshopID,ModName,EnabledInAvalonAudit,PublisherCETypeRows,PBOFiles,PBOCfgVehicleDeclarations,StrictPBOHeaderFailures,UnsupportedOrCompressedConfigEntries,Assessment
+1559212036,Community Framework,YES,0,3,0,0,0,Enabled; config-level offline audit only
+1560819773,Unlimited Stamina,NO,0,1,0,0,0,"Downloaded, not necessarily enabled; no requirement to spawn its items"
+1612576045,Easy Signs [by Cl0ud],NO,0,2,0,0,0,"Downloaded, not necessarily enabled; no requirement to spawn its items"
+1619476627,ZombiesEverywhere,NO,0,2,213,0,0,"Downloaded, not necessarily enabled; no requirement to spawn its items"
+1623711988,VanillaPlusPlusMap,NO,0,1,0,0,1,"Downloaded, not necessarily enabled; no requirement to spawn its items"
+1646187754,CodeLock,NO,0,1,0,0,2,"Downloaded, not necessarily enabled; no requirement to spawn its items"
+1648967877,GoreZ,NO,0,1,0,0,0,"Downloaded, not necessarily enabled; no requirement to spawn its items"
+1710977250,BaseBuildingPlus,NO,84,2,140,0,0,"Downloaded, not necessarily enabled; no requirement to spawn its items"
+1721317955,NoDOF,NO,0,2,0,0,0,"Downloaded, not necessarily enabled; no requirement to spawn its items"
+1742199749,UniversalWheels,NO,0,1,2,0,0,"Downloaded, not necessarily enabled; no requirement to spawn its items"
+1748044748,BetterSuppressors,NO,0,1,0,0,0,"Downloaded, not necessarily enabled; no requirement to spawn its items"
+1807898863,LittleQuieter,NO,0,1,0,0,0,"Downloaded, not necessarily enabled; no requirement to spawn its items"
+1816010715,No Sprinting Zombies,NO,0,1,0,0,0,"Downloaded, not necessarily enabled; no requirement to spawn its items"
+1868236039,No Glove Or Shoe Damage,NO,0,1,0,0,0,"Downloaded, not necessarily enabled; no requirement to spawn its items"
+1870524790,Airdrop-Upgraded,YES,0,2,12,0,0,Enabled; config-level offline audit only
+1940434090,Better Inspect,NO,0,1,0,0,0,"Downloaded, not necessarily enabled; no requirement to spawn its items"
+1991570984,MuchStuffPack,NO,294,24,344,0,0,"Downloaded, not necessarily enabled; no requirement to spawn its items"
+2024889593,COCAs_NoVehicleDamageMOD,NO,0,1,0,1,0,"Downloaded, not necessarily enabled; no requirement to spawn its items"
+2039448058,NoMuffle,NO,0,1,4,0,0,"Downloaded, not necessarily enabled; no requirement to spawn its items"
+2041904977,VendingSearch,NO,0,2,16,0,0,"Downloaded, not necessarily enabled; no requirement to spawn its items"
+2061775533,Disable Zombie Climbing,NO,0,1,0,0,0,"Downloaded, not necessarily enabled; no requirement to spawn its items"
+2067834152,CarimDeprecated,NO,0,1,0,0,0,"Downloaded, not necessarily enabled; no requirement to spawn its items"
+2098390861,No Force Weapon Raise,NO,0,1,0,0,0,"Downloaded, not necessarily enabled; no requirement to spawn its items"
+2116157322,DayZ-Expansion-Licensed,YES,0,35,359,6,0,Enabled; config-level offline audit only
+2208230845,GarbageSearch,NO,0,2,7,0,0,"Downloaded, not necessarily enabled; no requirement to spawn its items"
+2291785308,DayZ-Expansion-Core,YES,0,29,186,5,0,Enabled; config-level offline audit only
+2291785437,DayZ-Expansion-Vehicles,YES,0,33,512,2,0,Enabled; config-level offline audit only
+2394804821,SFX_Zombie,NO,0,1,0,0,0,"Downloaded, not necessarily enabled; no requirement to spawn its items"
+2444247391,InventoryMoveSounds,NO,0,2,514,0,0,"Downloaded, not necessarily enabled; no requirement to spawn its items"
+2471347750,DayZ Dog,YES,20,2,0,0,0,Enabled; config-level offline audit only
+2521460498,Immersive Placing,NO,0,1,0,0,0,"Downloaded, not necessarily enabled; no requirement to spawn its items"
+2545327648,Dabs Framework,YES,0,2,3,0,0,Enabled; config-level offline audit only
+2550932214,AimSounds,NO,0,2,0,0,0,"Downloaded, not necessarily enabled; no requirement to spawn its items"
+2565724570,Better-Snap-Sounds,NO,0,1,0,0,0,"Downloaded, not necessarily enabled; no requirement to spawn its items"
+2579252958,AdditionalMedicSupplies,NO,31,2,37,0,0,"Downloaded, not necessarily enabled; no requirement to spawn its items"
+2608895186,Keep it dead - ProjectBR,NO,0,1,4,0,0,"Downloaded, not necessarily enabled; no requirement to spawn its items"
+2635230737,UniversalSuppressor,NO,0,1,0,0,0,"Downloaded, not necessarily enabled; no requirement to spawn its items"
+2651195301,Arma 2 Helicopters Remastered,YES,229,19,245,0,0,Enabled; config-level offline audit only
+2660804395,No Sickness,NO,0,1,0,0,0,"Downloaded, not necessarily enabled; no requirement to spawn its items"
+2670506982,Building Fortifications,YES,0,2,24,0,0,Enabled; config-level offline audit only
+2717530007,Proxy Search Framework,NO,0,1,0,0,0,"Downloaded, not necessarily enabled; no requirement to spawn its items"
+2757509117,gebsfish,YES,0,1,0,0,0,Enabled; config-level offline audit only
+2775721969,R22R Storage Overhaul,NO,45,3,99,0,0,"Downloaded, not necessarily enabled; no requirement to spawn its items"
+2792982069,DayZ-Expansion-AI,NO,0,9,66,0,0,"Downloaded, not necessarily enabled; no requirement to spawn its items"
+2793619401,Zenarchist's Leftovers Mod,NO,36,1,48,0,0,"Downloaded, not necessarily enabled; no requirement to spawn its items"
+2810260908,Zenarchist's Cause of Death Mod,NO,0,1,0,0,0,"Downloaded, not necessarily enabled; no requirement to spawn its items"
+2811697255,GM-Mods: Repair Wells,NO,1,1,0,1,0,"Downloaded, not necessarily enabled; no requirement to spawn its items"
+2812312144,TF:Battery Meter,NO,0,1,0,0,0,"Downloaded, not necessarily enabled; no requirement to spawn its items"
+2816215175,Zenarchist's Car Horn Mod,NO,0,1,1,0,0,"Downloaded, not necessarily enabled; no requirement to spawn its items"
+2832590702,Zombie kids,NO,6,1,0,0,0,"Downloaded, not necessarily enabled; no requirement to spawn its items"
+2878980498,RaG_BaseItems,YES,388,29,533,0,0,Enabled; config-level offline audit only
+2879040969,RaG_BeeHive,YES,22,1,24,0,0,Enabled; config-level offline audit only
+2880254695,RaG_Vehicle_Pack,YES,193,1,270,0,0,Enabled; config-level offline audit only
+2918418331,Survivor Animations,YES,0,3,1,0,0,Enabled; config-level offline audit only
+2971190303,DayZ Bicycle,YES,18,2,22,0,0,Enabled; config-level offline audit only
+2971993210,Arma Bicycles,YES,0,2,8,0,0,Enabled; config-level offline audit only
+3011551250,Trolley Kart,YES,0,2,37,0,0,Enabled; config-level offline audit only
+3117613872,RaG_Hunting_Cabin,YES,5,1,6,0,0,Enabled; config-level offline audit only
+3125203834,Techs 4x4 All Terrain Vehicles,YES,26,1,42,0,0,Enabled; config-level offline audit only
+3157695626,RaG_BaseBuilding,YES,46,1,91,0,0,Enabled; config-level offline audit only
+3225634444,Avalon,YES,2035,55,408,0,0,Enabled; config-level offline audit only
+3295021220,DayZ Horse,YES,7,1,85,0,0,Enabled; config-level offline audit only
+3354681846,MaharlikaPH_Boats,YES,30,11,71,0,0,Enabled; config-level offline audit only
+3387855369,4KBOSSKVehiclePackage,YES,0,51,2074,0,0,Enabled; config-level offline audit only
+3411055412,MaharlikaPH_Cars,YES,91,8,153,0,0,Enabled; config-level offline audit only
+3456445155,MBM_GoKart,YES,19,1,22,0,0,Enabled; config-level offline audit only
+3556131153,RaG_Core,YES,0,1,84,0,0,Enabled; config-level offline audit only
+3623510671,Psyerns Sound System,YES,0,1,0,0,0,Enabled; config-level offline audit only
+3639695989,LMs Planes,YES,0,1,0,1,0,Enabled; config-level offline audit only
+3706032797,MaharlikaPH_Galleon,YES,9,1,20,0,0,Enabled; config-level offline audit only
+3776514672,Solitude Storage Mod,YES,104,1,273,0,26,Enabled; config-level offline audit only
+3810689113,Airship-Survive,YES,0,2,34,0,0,Enabled; config-level offline audit only
+3821819263,DayZ-Guitar,YES,32,1,33,0,0,Enabled; config-level offline audit only
+3827497320,GolfCart,YES,0,1,20,0,0,Enabled; config-level offline audit only
+3830162428,[CrSk] Vespa 125 Primavera,YES,46,1,46,0,0,Enabled; config-level offline audit only
+3834034916,An-2 Biplane,YES,3,1,16,0,0,Enabled; config-level offline audit only

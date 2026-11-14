@@ -1,0 +1,70 @@
+AZIMUTH VEHICLE WRAPS AND GO-KART SHOWCASE
+
+INSTALL AND PLAY
+Follow Docs/START_HERE.md for the complete application ZIP. Stop the old server
+and make a backup before replacing application files. Keep Worlds, Config, Mods
+and Backups. Existing characters, vehicles and world saves do not need a reset.
+
+OPTIONAL GO-KART SHOWCASE
+In Skins / Camos select your finishes, enable vehicle wraps, set Chance to 100%
+and check "Spawn one test go-kart beside me". Save with the server stopped,
+then Play Avalon. Stand outdoors on clear, fairly flat ground for ten seconds.
+The placement search retries while connected and announces successful delivery.
+The MBM Go-Kart uses its actual battery, spark plug and four wheels; its optional
+flashlight is omitted because the publisher documents a headlight-key conflict.
+
+The kart and original Gunter have separate durable one-time receipts. Restarting,
+reconnecting, toggling the checkbox or installing this repair does not repeat
+completed delivery. Missing vehicle/part classes do not consume the request.
+For normal play, disable the showcase and choose your preferred wrap chance.
+
+CHANCE AND SELECTED FINISHES
+The 30-finish collection is shared across compatible weapons, weapon parts,
+helmets, clothing, backpacks and vehicles. Checked finishes control new random
+choices; required assets for previously installed fixed-skin guns are retained.
+Vehicle chance is independent of weapon/gear chance. Saved settings are retained.
+100% applies to eligible vehicles, not every model or every surface. Results
+remain stable with unchanged settings; changing the chosen finishes or chance
+can change the result after a restart.
+
+Existing vehicles receive wraps when loaded. Mapped fitted panels follow their
+parent's finish and restore their original texture on detach. Failed writes
+retain the information needed for bounded retries. An unrelated external paint
+change is preserved. Wraps do not change handling, fuel, cargo or spawn rates.
+Native damage materials and protected glass, lights and tyres stay intact.
+
+CURRENT COVERAGE
+738 public variants: 703 with an exterior mapping, 33 stock-only and 2 with
+fitted panels only. "Exterior mapping" means at least one eligible section;
+it does not promise whole-body coverage or native visual verification.
+VEHICLE_VARIANTS.csv contains the exact classes and VEHICLE_WRAP_COVERAGE.txt
+explains partial coverage and the stock-model list.
+
+The Airship wraps its banners, not its main hull; the galleon maps sails.
+Vodnik and Gaz69 have partial exterior coverage. Humvee Multi-shader door
+exteriors still need material-specific wrapping; texture readback alone is
+not proof that their camo is visible. KA60/Mi171 mixed distant-LOD sections
+are protected. Models without an independent exterior section remain stock.
+
+WORKSHOP AND AUTOMATIC PLACEMENT
+Supported downloaded packs are added to server and client together on the next
+stopped-server start, including the newly decoded LMs Planes pack. Steam pending
+updates and required dependencies are respected. A previously used pack missing
+from a save blocks launch instead of silently loading without its vehicle classes.
+No third-party PBO is rewritten.
+
+Large ships, Airship and additional aircraft use suitable dedicated positions
+or automatic Avalon terrain/clearance survey results. Play may wait up to two
+minutes and perform one clean setup backup/restart. If discovery takes longer,
+existing transport stays available and accepted new positions import later.
+No manual vehicle-by-vehicle test round is required for normal setup.
+
+EVIDENCE AND RECEIPTS
+Your Gunter screenshot confirms that car's visible wrap. Other coverage comes
+from supplied configuration/model/material analysis and executable source tests.
+Native DayZ compilation, physics and visual testing were not run here.
+
+Profiles/AzimuthSkins/vehicle_wrap_coverage.json records server choices and
+coverage observations; actual client per-slot state is checked separately.
+Profiles/AzimuthSkins/vehicle_gokart_showcase_state.json is the kart receipt.
+The original vehicle_showcase_state.json Gunter receipt is preserved.

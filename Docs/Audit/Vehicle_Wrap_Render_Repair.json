@@ -1,0 +1,112 @@
+{
+  "product": "Azimuth DayZ Server Manager",
+  "version": "R23",
+  "update": "Vehicle wrap render repair",
+  "date_utc": "2026-11-14",
+  "parent": {
+    "filename": "Azimuth_DayZ_Server_Manager_R23_Test_Car_Delivery_Fix.zip",
+    "sha256": "7bdb20b9bad98896797780847fb5380cd8ae4d8ad1c263526160c33df24e3859"
+  },
+  "confirmed_source_defects": [
+    "The old renderer cached a requested ID even when no exterior slots were painted.",
+    "An unchanged requested ID skipped later texture-state validation, allowing a native reset to remain visible."
+  ],
+  "user_specific_native_cause": "Not confirmed. The supplied successful-session receipt confirms delivery and a nonzero ID; coverage confirms Hatchback_02_Blue is an eligible camo_chassi candidate at 100% with 30 selected finishes. These files do not record final selection/client texture readback. The reproduced renderer cache bugs are repaired.",
+  "changes": [
+    "Check current texture overrides for every requested refresh, including unchanged camo IDs.",
+    "Retry zero-slot or failed-readback attempts, bounded to 30 attempts per event window.",
+    "Defer refresh after synchronization, attachment and health-level events, preserving superclass behavior.",
+    "Cancel callbacks on deletion; restore owned panel textures on detach or reparent.",
+    "Preserve unrelated external textures during same-ID automatic refresh.",
+    "Log bounded selected-ID, model, readback and material diagnostics.",
+    "Exclude CarDoor descendants from the weapon-skin Category path so supported fitted panels have one renderer."
+  ],
+  "preserved": [
+    "Test-car spawn, safe placement, retry behavior and delivery-receipt implementation",
+    "Persistent vehicle identity policy and deterministic finish assignment",
+    "All 30 camo artworks, texture assets and catalog IDs",
+    "Saved settings paths, world data paths, prior startup repairs and organized application layout",
+    "Native materials, vehicle physics, damage behavior and gameplay properties"
+  ],
+  "source_checks": {
+    "tests_run": 27,
+    "passed": 27,
+    "failed": 0,
+    "surface_adapter_tests": 15,
+    "lifecycle_tests": 2,
+    "package_preservation_tests": 5,
+    "log": "27 passing source checks, including actual-method C++ adapters, isolated imports, 30-finish catalog verification and parent preservation.",
+    "actual_skin_catalog_check": "PASS: 30 finishes; read-only source verification",
+    "isolated_python_module_imports": "PASS",
+    "panel_category_tests": 5
+  },
+  "adapter_boundary": "Actual shipped methods mechanically translated into C++ and executed with deterministic fake engine APIs under UndefinedBehaviorSanitizer. This does not compile native Enforce or execute DayZ.",
+  "native_checks": {
+    "enforce_compilation": "NOT RUN",
+    "windows_server_start_and_join": "NOT RUN",
+    "visible_wrap_and_native_shader_output": "NOT RUN",
+    "native_mod_signing": "NOT RUN in this Linux workspace; existing manager signing flow runs on Windows"
+  },
+  "runtime_notes": [
+    "GetObjectTexture matching the requested path verifies an override registration, not visible pixels.",
+    "Existing Gunter and delivery record must be retained; no replacement spawn or wipe is required.",
+    "Stop the server and close DayZ/manager before merging the update, then launch through Play Avalon so source is repacked and signed.",
+    "The source changes do not broaden the supported vehicle model list.",
+    "Client texture logs and server selection logs distinguish pending application from unresolved identity if the live issue persists."
+  ],
+  "changed_script_sha256": {
+    "Custom/GunSkins/RandomSkins/azimuthrandomskins/scripts/4_world/azimuth_random_skin_rules.c": "b76c9b02e0c5478b3d9b64203ae9680b0f44222106319cae9da193453c3a9bbb",
+    "Custom/GunSkins/RandomSkins/azimuthrandomskins/scripts/4_world/azimuth_vehicle_wrap_panel.c": "5000ab6be532a97c8c512857a7632b537efd503ee3cb1195dd326395ce1f0543",
+    "Custom/GunSkins/RandomSkins/azimuthrandomskins/scripts/4_world/azimuth_vehicle_wrap_surface.c": "876fc14ded81c290d5d3d22a16344b76b7181c33a9186215d273849a42de7f3a",
+    "Custom/GunSkins/RandomSkins/azimuthrandomskins/scripts/4_world/azimuth_vehicle_wrap_transport.c": "96e9bed6b1bed19f8a9cd31e0ab16cb56bbffe1729dda9ce50c2d3465f3f6726"
+  },
+  "uploaded_runtime_evidence": {
+    "source": "User-supplied AzimuthSkins.zip, inspected 2026-11-14",
+    "vehicle_class": "Hatchback_02_Blue",
+    "receipt_status": "delivered",
+    "nonzero_persistent_id_present": true,
+    "vehicle_wraps_enabled": true,
+    "vehicle_chance_percent": 100,
+    "selected_finishes": 30,
+    "server_coverage_status": "eligible_exterior_candidate",
+    "server_exterior_selections": [
+      "camo_chassi"
+    ],
+    "limits": "Receipt proves identity was available at delivery. Class-level eligibility does not record the actual chosen camo ID, client-received ID, per-slot texture or material readback. It does not establish the exact native visual failure.",
+    "preservation": "The uploaded receipt/settings/profile files are diagnostic input only and are not shipped or overwritten.",
+    "expected_finish_inference": {
+      "id": 6,
+      "name": "Event Horizon",
+      "texture": "azimuthskins/data/eventhorizon_co.paa",
+      "basis": "Exact uploaded hash using the receipt four signed integer words joined with pipes and selected catalog IDs1..30. Not a recorded client ID or visible-render proof."
+    },
+    "panel_ownership_conflict": "The uploaded weapon coverage classifies supported Expansion vehicle doors as melee with eligible camo selections; ItemBase and CarDoor renderers can both write overlapping slots. This is a separate confirmed source conflict, not proof of the Gunter body cause.",
+    "gunskins_source_matches_delivered_parent": true
+  },
+  "generated_pack_verification": {
+    "parsed_pbo_matches_all_current_sources": true,
+    "final_health_hooks_packed": true,
+    "car_door_exclusion_packed": true,
+    "changed_scripts": [
+      "scripts/4_world/azimuth_vehicle_wrap_transport.c",
+      "scripts/4_world/azimuth_vehicle_wrap_panel.c",
+      "scripts/4_world/azimuth_random_skin_rules.c",
+      "scripts/4_world/azimuth_vehicle_wrap_surface.c"
+    ],
+    "prior_source_pbo_sha256": "98b476ef9b30fab6c3ca591d4e52cd7970f87035c52c5ca9c3eccc83838af719",
+    "current_source_pbo_sha256": "7bdd622702ba3b541f342020058d2992ff61a2284cdff4676586486f75ecaaf7",
+    "source_sha256": {
+      "config.cpp": "c4b25217f87d32c9a21e8710407d0a9be92c55086f89b37b5cd4b45dfc4da380",
+      "scripts/4_world/azimuth_random_skin_item.c": "0d87440ddb7e3c25653470f7131ad979656900e5ac0843aa50e8aa687387a634",
+      "scripts/4_world/azimuth_random_skin_rules.c": "b76c9b02e0c5478b3d9b64203ae9680b0f44222106319cae9da193453c3a9bbb",
+      "scripts/4_world/azimuth_vehicle_wrap_panel.c": "5000ab6be532a97c8c512857a7632b537efd503ee3cb1195dd326395ce1f0543",
+      "scripts/4_world/azimuth_vehicle_wrap_rules.c": "c02d063b4cc7277789655844406411b2c56ae95abeb412c30af44b78e12550b1",
+      "scripts/4_world/azimuth_vehicle_wrap_surface.c": "876fc14ded81c290d5d3d22a16344b76b7181c33a9186215d273849a42de7f3a",
+      "scripts/4_world/azimuth_vehicle_wrap_transport.c": "96e9bed6b1bed19f8a9cd31e0ab16cb56bbffe1729dda9ce50c2d3465f3f6726"
+    },
+    "files": 7,
+    "native_signing_run": false,
+    "launch_route": "Stopped-server start -> _configure_world -> random_skin_mode.prepare -> current source PBO build -> SHA256-invalidated signing -> staged pack publication -> discovered local mod list -> same list passed to client junction staging.",
+    "restart_required": "Server.start returns immediately if the server is already running. Stop server and close client/manager before overlaying the ZIP; normal Play then rebuilds and signs."
+  }
+}

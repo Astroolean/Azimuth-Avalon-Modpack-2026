@@ -1,0 +1,44 @@
+{
+  "release": "Azimuth_DayZ_Server_Manager_R23_Transport_And_Wrap_Fixes_Full.zip",
+  "parent": {
+    "path": "/workspace/scratch/5af776953b72/collector_repair/output/Azimuth_DayZ_Server_Manager_R23_Full_Package_Collector_Fix.zip",
+    "sha256": "b0d6493f9fd866bbef71357b11aead134336cbffabdfcd765c63e9ad04824a11",
+    "library_id": "libfile_fde3_f-8b868cdc6f348191a65696d74973df54_b9d254397b588191bf13f4eb4cc3a703",
+    "version": 47
+  },
+  "changed": [
+    "Custom/GunSkins/RandomSkins/azimuthrandomskins/scripts/4_world/azimuth_vehicle_wrap_rules.c",
+    "Custom/Transport/Workshop/catalog.json",
+    "Docs/Audit/README.md",
+    "Docs/Guides/TRANSPORTATION_GUIDE.txt",
+    "Docs/Guides/VEHICLE_VARIANTS.csv",
+    "Docs/Guides/VEHICLE_WRAPS_GUIDE.txt",
+    "Docs/Guides/VEHICLE_WRAP_COVERAGE.txt",
+    "Docs/START_HERE.md",
+    "Engine/azimuth_app/cosmetics/random_skin_mode.py",
+    "Engine/azimuth_app/transport/additional_vehicles.py",
+    "Engine/azimuth_app/transport/vehicle_asset_compat.py",
+    "Engine/azimuth_app/transport/vehicle_slot_compat.py",
+    "Engine/azimuth_app/ui/dashboard_workshop.py"
+  ],
+  "unchanged_count": 285,
+  "removed": [],
+  "added": [
+    "Custom/Transport/Workshop/wrap_model_compat.json",
+    "Docs/Audit/Vehicle_Finish_Evidence.zip",
+    "Docs/Audit/Vehicle_Finish_Notes.txt",
+    "Docs/Audit/Vehicle_Finish_Verification.json",
+    "Engine/azimuth_app/cosmetics/publisher_wrap_lifecycle.py",
+    "Engine/azimuth_app/transport/lm_plane_positions.py",
+    "Engine/azimuth_app/transport/vehicle_wrap_model_compat.py"
+  ],
+  "protected_unchanged_count": 158,
+  "python_files_parse_310": 80,
+  "native_game_or_windows_execution": false,
+  "live_user_state_modified": false,
+  "repair_tests": 235,
+  "retained_checks": 91,
+  "fresh_zip_repair_tests": 235,
+  "fresh_zip_retained_checks": 91,
+  "fresh_zip_code_assets_match_final": true
+}

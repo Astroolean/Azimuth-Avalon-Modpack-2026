@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-11-14T15:49:10.842667+00:00",
+  "source": "User installed vehicle export from 2026-11-14T15:15:36Z",
+  "loadable_packs": 13,
+  "vehicle_variants": 567,
+  "ordinary_pool_variants": 552,
+  "dedicated_large_vessel_variants": 15,
+  "population_targets": {
+    "light": 8,
+    "road": 10,
+    "heavy": 3,
+    "small_water": 3,
+    "helicopters": 2
+  },
+  "attachment_review": {
+    "counts": {
+      "vehicles": 567,
+      "fitted_parts": 6695
+    },
+    "issue_counts": {},
+    "issues": []
+  },
+  "model_reference_review": {
+    "references": 2269,
+    "missing": [
+      "Techs_AllTerrainVehicle/Techs_Proxies/Techs_ATV_Handlebars.p3d"
+    ],
+    "effect_on_native_gameplay": "Not established; publisher literal steering-part recipe preserved."
+  },
+  "focused_tests_passed": 15,
+  "real_mission_copy_validation": {
+    "suite": "Actual Avalon mission release integration",
+    "tests_passed": 6,
+    "tests_failed": 0,
+    "input_sha256": "f45378a3317bcb0d50c32b4677843829241d0289c6b685123c4f7151d42c235d",
+    "input_filename": "Worlds.zip",
+    "checks": [
+      "13 installed additional vehicle packs integrate into a copy of supplied Avalon mission",
+      "Existing non-owned mission/profile/config bytes remain unchanged; original CE and placement entries remain semantically unchanged",
+      "Root classes CarScript, BoatScript, MotorbikeScript registered as vehicles",
+      "Second preparation is byte-identical",
+      "Catalog variants are registered without duplicate types; natural populations bounded per route",
+      "Missing previously enabled Go-Kart pack blocks startup without world mutation",
+      "Existing repair and loot-balance pipeline completes with no economy or contained-source warnings",
+      "Actual Server Workshop resolution and configure-world dispatch preserve required/optional ID mappings into random-skin preparation",
+      "Actual random-skin preparation packs slot compatibility using required+additional active Workshop IDs"
+    ],
+    "explicit_test_doubles": [
+      "Synthetic save/database and Gunter/kart receipts because older supplied world archive lacks those runtime files",
+      "Steam library directories contain placeholder PBO files for discovery only",
+      "Native signing function stub produces clearly test-only bytes; no valid signatures or native DayZ launch are claimed",
+      "Unrelated required-pack/world/cosmetic preparation functions stubbed in dispatch test; additional vehicle preparation and random-skin preparation are real"
+    ],
+    "native_dayz_tested": false
+  },
+  "native_dayz_tested": false
+}

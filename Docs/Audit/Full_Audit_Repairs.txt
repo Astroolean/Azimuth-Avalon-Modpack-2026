@@ -1,0 +1,121 @@
+AZIMUTH FULL AUDIT REPAIRS
+14 November 2026 — current repair summary
+
+This update repairs the confirmed source/configuration defects that can be
+resolved from the supplied files. It does not claim flawless native DayZ behavior
+or fabricate replacements for missing models and publisher assets. Earlier JSON
+reports remain historical evidence; their test counts are not this release's total.
+
+INSTALL WITHOUT RESETTING YOUR PLAYTHROUGH
+Before updating an older manager: Stop, wait for DayZ Server to exit, use Backups
+> Back up now and confirm the archive, then close DayZ and Azimuth. Older Stop
+did not automatically back up. Extract the ZIP into the parent of your existing
+Azimuth folder, merging Azimuth with Azimuth and replacing packaged files.
+Keep Worlds, Config, Mods and Backups. Do not delete the installation first or
+nest Azimuth inside Azimuth. Start with START_SERVER.bat and Play Avalon.
+Your character, world, saved choices and one-time delivery receipts are retained.
+No new round of manual model tests, respawn or world reset is required.
+
+MANAGER, BACKUPS AND CLIENT
+- Stop now pauses management, requests graceful shutdown and continues the final
+  backup work. Only confirmed clean shutdown leads to a verified archive.
+  Failure is reported as Backup delayed; shutdown is not force-killed to claim
+  success. Repeated failed starts and unresponsive startup pause the retry loop.
+- Shutdown evidence is tied to recorded launch provenance. Reopening cannot
+  reuse a previous clean log to certify a newer run. Corrupt or incomplete
+  archives do not become valid backups just because their filenames look recent.
+- Restore selected validates the selected world's archive, requires a stopped
+  and paused manager with the client closed, retains a pre-restore safety copy,
+  and stages replacements with rollback/recovery. World/profile data, archived
+  world settings and saved skin choices are restored together. Current connection
+  settings remain, and the server stays stopped. A safety ZIP is also made when
+  the current world has save files.
+- Client/server executable builds must match, including the version recorded
+  for the running server. A newer disk executable cannot hide an older process.
+- Invalid or incomplete FPS graphics baselines are rejected before profile
+  changes. Baseline extension and profile writes use transactional rollback.
+- Workshop scan failure clears stale readiness and disables Enable pack. The
+  13 integrated packs give download/restart guidance. UI completion errors no
+  longer prevent later results or future timer polls from being processed.
+
+SAVED COSMETICS AND PHOTO MODE
+- Checked finishes control new random choices. Validated historical fixed-skin
+  classes and recorded chest classes/assets remain available when deselected,
+  including an empty selection. Retained classes have no new ordinary loot target.
+- Missing or distant recorded test items retain their records but can defer
+  cleanup without locking finish changes. Remove test kit can retry later;
+  reachable items with protected gear remain pending until safe to remove.
+- Photo mode hides the full native HUD root after the base update and restores
+  its prior visibility on exit. Extracted-code tests cover the update ordering;
+  native rendering was not executed here.
+
+VEHICLES AND AUTOMATIC PLACEMENT
+- An-2's known cargo/passenger/storage doors receive exact persistence rows;
+  incompatible wheel/unknown attachment definitions are still rejected.
+- Four shared native scalar fields are restored, with 79 source-backed local
+  pins preserving publisher subclass behavior. Green Kamaz uses its twelve
+  matching green panels. Three Cybertruck material paths now reference existing
+  same-PBO glass-state assets; unrelated materials are not replaced with guesses.
+- The supported additional catalog contains 568 variants across 13 packs.
+  Airship uses its publisher-documented ready-on-spawn assembly and ordinary
+  AirshipRemote supply where a verified floor route exists; admin remote excluded.
+- Fifteen large vessels and Airship can enter bounded natural pools only with
+  suitable dedicated existing sites or complete matching survey evidence.
+  Additional helicopters use unused authored pads and separate surveyed sites;
+  old managed positions are retained while new validated sites are pending.
+- A server-only automatic Avalon survey checks depth, level ground, footprints
+  and obstacle clearance without creating/removing vehicles. Play waits up to
+  two minutes, then can perform one clean backup/restart to import accepted sites
+  and fishing setup. If discovery continues, existing transport remains available;
+  new accepted sites apply on a later start. No suitable site means no new spawn.
+  Report validation is not a signed measurement certificate or a native result
+  from this repair environment.
+
+ECONOMY AND CHECKER
+- All eight exact DayZ Bicycle variants use their validated retained attachment
+  rules and 40 existing Avalon road sites. The precise Humvee min/max conflict
+  is repaired without raising its authored nominal population.
+- HipPack_Party, SVD_Wooden and PunchedCard receive verified ordinary usage
+  routes while preserving their existing targets. Zero-target events and
+  zero-capacity children no longer count as positive supply evidence.
+- Missing BeeHive spatula/dipper/empty-pot companion rows can be recovered from
+  actual installed publisher configuration only when concrete classes are
+  unambiguous. Publisher XML is preserved. No class names were invented; the
+  real BeeHive binary was unavailable here, so actual live discovery is unproved.
+- The checker now validates event numbers, flags, modes and children; finite
+  position pools; fixed vehicle sites; cargo/attachment/preset chances; duplicate
+  roots; and required CE root/actions. Eight ambiguous map-prototype names
+  remain warnings instead of receiving guessed precedence.
+
+REMAINING SOURCE/MODEL LIMITS
+- Of the 726 installed-config vehicle variants, 33 have no supported exterior
+  mapping, eight have fitted-panel coverage only, and 19 need a safe nonempty
+  opaque texture from the live model. Those are not fully wrapped bodies.
+- Eight Maharlika material paths and TechsHandleBars' missing handlebar model
+  have no proven supplied replacement. LMs Planes' export is unreadable and
+  remains excluded. Horse-body wrapping and unsupported Avalon train systems
+  are outside the current supported mechanism.
+- The optional Workshop > Collect vehicle repair files button gathers relevant
+  model/mod source evidence into one local ZIP and opens its folder. It does
+  not upload files or include player saves/profiles. Use it only for the remaining
+  source gaps; normal integrated pack setup does not require collection.
+- Publisher script callback behavior, native geometry/clearance, exact appearance,
+  vehicle handling, flight, multiplayer and spawn timing cannot be certified
+  from configuration. Existing Gunter imagery proves only that observed car.
+
+VERIFICATION BOUNDARY
+155 repair tests and 125 retained regression checks passed on the source and
+again against a fresh extraction of the repair ZIP. All 30 camo assets passed
+the bundled format/reference checks. The full catalog economy fixture checked
+4,593 classes, 63 events and 15,299 probability fields with zero errors; its
+survey positions were injected fixtures, not native measurements.
+All 284 original packaged files remain. The 77 protected asset/delivery/Hunter
+payload files are byte-identical. No live settings, receipts or saves were read
+or changed. The final package's code/assets match those freshly tested.
+
+Python regressions, actual supplied configuration checks, temporary-file restore
+and backup operations, repeat-preparation checks and extracted native-code
+adapters were used. The package/import paths and current guides were reviewed.
+Native Tk display/DPI, Windows BAT execution, DayZ compilation, real signing and
+joining, actual survey measurements and every model's appearance were not run.
+No claim of native success is inferred from those offline checks.

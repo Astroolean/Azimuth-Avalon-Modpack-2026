@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "scope": "Source audit and extracted production methods executed with C++/UBSan adapters; NOT native DayZ",
+  "native_confirmation": "User screenshot confirms Gunter exterior wrap only; no new weapon/clothing/other vehicle native execution performed here.",
+  "confirmed_before_defects": [
+    {
+      "finding": "Same requested texture returned before reading actual slots, so native reset left the stock surface.",
+      "evidence": "before_reset extracted unchanged method scenario PASS (defect reproduced)"
+    },
+    {
+      "finding": "SetObjectTexture success was assumed without readback; failed first write was permanently cached.",
+      "evidence": "before_failed_write extracted unchanged method scenario PASS (defect reproduced)"
+    },
+    {
+      "finding": "IsMeleeWeapon is native capability flag, not a narrow weapon category; magazines/clothing/parts were classified melee.",
+      "evidence": "Official pinned inventoryitem.c + uploaded runtime coverage contains clothing, magazines, food and MotorbikePart."
+    }
+  ],
+  "repairs": [
+    "Read every eligible surface back; repair captured-original, publisher-default or blank visual resets.",
+    "Use one deferred queue and at most30 attempts per event window; refresh on sync, health, location and attach/detach; clean callbacks on load/deletion.",
+    "Preserve unrelated external repaints and exact original overrides, including blank; failed restoration retains ownership for retry.",
+    "Keep user-requested clothing coverage; label clothing, magazines and weaponparts before generic melee-capable items.",
+    "Only clothing extends recognized body selections with camoMale/camoFemale; camoGround remains supported.",
+    "Exclude CarDoor, CarWheel and MotorbikePart from independent item randomskins; preserve optics/ammo/ghillie weapon-wrap exclusions.",
+    "Exclude named alpha textures and nonexplicitlyopaque procedural color expressions; do not write any materials."
+  ],
+  "preserved": [
+    "NetSync variable name/range",
+    "PersistentID-based assignment/hash/salts",
+    "Configured probability and selected stableIDs",
+    "No added OnStoreSave/OnStoreLoad data",
+    "All30 original assets unchanged",
+    "Vehicle spawn and receipt code unchanged by this patch"
+  ],
+  "limits": [
+    "No native Enforce compile or in-game rendering/network test here.",
+    "Safe declared selection names and alpha guards cannot prove texture atlases contain no lens/detail regions on every publisher model.",
+    "Other melee-capable items remain eligible according to existing behavior; generic native capability includes food/drink/container items.",
+    "Runtime class report remains bounded to512 entries, so it is a partial observed inventory, not all installed classes.",
+    "Weapon/clothing model UV scale and worn versus ground appearance require in-game checks.",
+    "Fixed Azimuth variant classes/assets remain selected-only by existing explicit design; deselecting owned fixed variant content has native item availability implications."
+  ],
+  "runtime_coverage": {
+    "source": "User-supplied upload/AzimuthSkins.zip random_skin_coverage.json from priorbuild",
+    "entries": 512,
+    "at_cap": true,
+    "categories": {
+      "melee": 489,
+      "firearm": 23
+    },
+    "statuses": {
+      "no_hidden_selections": 123,
+      "eligible_body_selection": 360,
+      "no_safe_body_selection": 29
+    },
+    "examples": [
+      {
+        "typeName": "MotoHelmet_Blue",
+        "category": "melee",
+        "status": "eligible_body_selection",
+        "selections": [
+          "camoGround"
+        ]
+      },
+      {
+        "typeName": "SodaCan_Pipsi",
+        "category": "melee",
+        "status": "eligible_body_selection",
+        "selections": [
+          "camoGround"
+        ]
+      },
+      {
+        "typeName": "FirefightersPants_Black",
+        "category": "melee",
+        "status": "eligible_body_selection",
+        "selections": [
+          "camoGround"
+        ]
+      },
+      {
+        "typeName": "AmmoBox_762x39Tracer_20Rnd",
+        "category": "melee",
+        "status": "eligible_body_selection",
+        "selections": [
+          "zbytek"
+        ]
+      },
+      {
+        "typeName": "FilteringBottle",
+        "category": "melee",
+        "status": "eligible_body_selection",
+        "selections": [
+          "zbytek"
+        ]
+      },
+      {
+        "typeName": "Motorbike_02_ShieldFront_Green",
+        "category": "melee",
+        "status": "eligible_body_selection",
+        "selections": [
+          "camo"
+        ]
+      },
+      {
+        "typeName": "Mag_AK101_30Rnd",
+        "category": "melee",
+        "status": "eligible_body_selection",
+        "selections": [
+          "camo"
+        ]
+      }
+    ]
+  },
+  "primary_sources": [
+    {
+      "url": "https://github.com/BohemiaInteractive/DayZ-Script-Diff/blob/78be1c402eec249e4e4cdac7e1fef71006e94d20/scripts/3_game/entities/inventoryitem.c",
+      "finding": "IsMeleeWeapon reads cached isMeleeWeapon config bool."
+    },
+    {
+      "url": "https://github.com/BohemiaInteractive/DayZ-Script-Diff/blob/78be1c402eec249e4e4cdac7e1fef71006e94d20/scripts/4_world/entities/core/inherited/inventoryitem.c",
+      "finding": "Pinned inherited inventoryitem.c establishes Clothing_Base IsClothing and native CarWheel/MotorbikePart."
+    },
+    {
+      "url": "https://github.com/BohemiaInteractive/DayZ-Samples/blob/master/Test_ClothingRetexture/config.cpp",
+      "finding": "Official clothing retexture sample has distinctground and two on-character textures/materials; sourcequalification not modelrenderproof."
+    }
+  ],
+  "tests": {
+    "count": 21,
+    "successful": true,
+    "log": "research/skins/regression_tests.log",
+    "limitations": "Fake engine APIs; mechanically translated production controlflow; no nativeDayZ"
+  },
+  "production_sha256": {
+    "azimuth_random_skin_item.c": "a1ca6cfa62e032f6d9404e472b7b381de70d1c7c6c4af7a1a82b66ebb14dcfeb",
+    "azimuth_random_skin_rules.c": "dc8efc84683c73e8820a9de26637778ad3a01f3e221e41b50455c57baae64e98"
+  }
+}

@@ -1,0 +1,731 @@
+{
+  "description": "OFFLINE FIXTURES ONLY, not live population or installed Horse/An-2 certification",
+  "publisher_files_present": {
+    "fixture": "applied",
+    "pipeline": "Actual Server._configure_world plus prepare_logout twice",
+    "source": "Supplied Avalon snapshot and frozen transport manager source",
+    "horse_plane_publisher_input": "SYNTHETIC fixtures, not current Workshop schema certification",
+    "expansion_motorcycle_input": "Bundled attributed publisher XML",
+    "native_DayZ_execution": "NOT_RUN",
+    "native_signing": "SIMULATED only",
+    "save_settings_receipt_and_original_publisher_xml_preserved": true,
+    "generated_files_byte_identical_second_run": true,
+    "saved_skin_chance_preserved": 37,
+    "loot_classes": 2636,
+    "active_vehicle_events": {
+      "VehicleBoat": {
+        "target": 6,
+        "classes": [
+          "Boat_01_Black",
+          "Boat_01_Blue",
+          "Boat_01_Orange"
+        ]
+      },
+      "VehicleCivilianSedan": {
+        "target": 8,
+        "classes": [
+          "CivilianSedan",
+          "CivilianSedan_Black",
+          "CivilianSedan_Wine"
+        ]
+      },
+      "VehicleHatchback02": {
+        "target": 8,
+        "classes": [
+          "Hatchback_02",
+          "Hatchback_02_Black",
+          "Hatchback_02_Blue"
+        ]
+      },
+      "VehicleOffroad02": {
+        "target": 4,
+        "classes": [
+          "Offroad_02"
+        ]
+      },
+      "VehicleOffroadHatchback": {
+        "target": 8,
+        "classes": [
+          "OffroadHatchback",
+          "OffroadHatchback_Blue",
+          "OffroadHatchback_White",
+          "Sedan_02",
+          "Sedan_02_Grey"
+        ]
+      },
+      "VehicleSedan02": {
+        "target": 10,
+        "classes": [
+          "RTrzr",
+          "RTrzr_Desert",
+          "RTrzr_Black",
+          "RTrzr_Eclipse"
+        ]
+      },
+      "VehicleTruck01": {
+        "target": 8,
+        "classes": [
+          "Truck_01_Covered",
+          "Truck_01_Covered_Blue",
+          "Truck_01_Covered_Orange"
+        ]
+      },
+      "VehicleHunterz_Old_Bike": {
+        "target": 20,
+        "classes": [
+          "Old_Bike",
+          "Old_Bike_White",
+          "Old_Bike_Red",
+          "Old_Bike_Green",
+          "Old_Bike_Blue",
+          "Old_Bike_Pink",
+          "Lady_Bicycle",
+          "Lady_Bicycle_Purple"
+        ]
+      },
+      "VehicleAzimuthMotorbike": {
+        "target": 14,
+        "classes": [
+          "Motorbike_01_Blue",
+          "Motorbike_01_Red",
+          "Motorbike_01_Yellow",
+          "Motorbike_02_Blue",
+          "Motorbike_02_Green",
+          "Motorbike_02_Red",
+          "Motorbike_02_Yellow"
+        ]
+      },
+      "VehicleAzimuthExpansionUAZ": {
+        "target": 4,
+        "classes": [
+          "ExpansionUAZ",
+          "ExpansionUAZ_Black",
+          "ExpansionUAZ_LightGreen",
+          "ExpansionUAZRoofless",
+          "ExpansionUAZRoofless_Black",
+          "ExpansionUAZRoofless_LightGreen",
+          "ExpansionUAZCargo",
+          "ExpansionUAZCargo_Black",
+          "ExpansionUAZCargo_LightGreen",
+          "ExpansionUAZCargoRoofless",
+          "ExpansionUAZCargoRoofless_Black",
+          "ExpansionUAZCargoRoofless_LightGreen"
+        ]
+      },
+      "VehicleAzimuthExpansionVodnik": {
+        "target": 2,
+        "classes": [
+          "ExpansionVodnik"
+        ]
+      },
+      "VehicleAzimuthExpansionBus": {
+        "target": 2,
+        "classes": [
+          "ExpansionBus",
+          "ExpansionBus_Weeb",
+          "ExpansionBus_Red"
+        ]
+      },
+      "VehicleAzimuthExpansionTractor": {
+        "target": 2,
+        "classes": [
+          "ExpansionTractor",
+          "ExpansionTractor_Blue",
+          "ExpansionTractor_Green"
+        ]
+      },
+      "VehicleAzimuthExpansionLandRover": {
+        "target": 4,
+        "classes": [
+          "Expansion_Landrover",
+          "Expansion_Landrover_Yellow",
+          "Expansion_Landrover_Red",
+          "Expansion_Landrover_Green",
+          "Expansion_Landrover_Grey",
+          "Expansion_Landrover_Orange",
+          "Expansion_Landrover_Blue"
+        ]
+      },
+      "VehicleAzimuthExpansionMH6": {
+        "target": 2,
+        "classes": [
+          "ExpansionMh6",
+          "ExpansionMh6_Blueline",
+          "ExpansionMh6_Digital",
+          "ExpansionMh6_Elliptical",
+          "ExpansionMh6_Furious",
+          "ExpansionMh6_GrayWatcher",
+          "ExpansionMh6_Jeans",
+          "ExpansionMh6_Resistance",
+          "ExpansionMh6_Shadow",
+          "ExpansionMh6_Sheriff",
+          "ExpansionMh6_Speedy",
+          "ExpansionMh6_Sunset",
+          "ExpansionMh6_Vrana",
+          "ExpansionMh6_Wasp",
+          "ExpansionMh6_Wave"
+        ]
+      },
+      "VehicleAzimuthExpansionMerlin": {
+        "target": 1,
+        "classes": [
+          "ExpansionMerlin",
+          "ExpansionMerlin_Dahoman",
+          "ExpansionMerlin_Ion",
+          "ExpansionMerlin_President",
+          "ExpansionMerlin_Vrana",
+          "ExpansionMerlin_Wave"
+        ]
+      },
+      "VehicleAzimuthExpansionUH1H": {
+        "target": 2,
+        "classes": [
+          "ExpansionUh1h",
+          "ExpansionUh1h_Medical",
+          "ExpansionUh1h_Uber",
+          "ExpansionUh1h_Resistance",
+          "ExpansionUh1h_Civilian"
+        ]
+      },
+      "VehicleAzimuthExpansionRHIB": {
+        "target": 2,
+        "classes": [
+          "ExpansionUtilityBoat"
+        ]
+      },
+      "VehicleAzimuthExpansionZodiac": {
+        "target": 3,
+        "classes": [
+          "ExpansionZodiacBoat",
+          "ExpansionZodiacBoat_Black",
+          "ExpansionZodiacBoat_Green"
+        ]
+      },
+      "VehicleAzimuthExpansionGyrocopter": {
+        "target": 1,
+        "classes": [
+          "ExpansionGyrocopter"
+        ]
+      },
+      "VehicleAzimuthAn2Plane": {
+        "target": 1,
+        "classes": [
+          "An2_Biplane"
+        ]
+      }
+    },
+    "motorcycle_variants": [
+      "Motorbike_01_Blue",
+      "Motorbike_01_Red",
+      "Motorbike_01_Yellow",
+      "Motorbike_02_Blue",
+      "Motorbike_02_Green",
+      "Motorbike_02_Red",
+      "Motorbike_02_Yellow"
+    ],
+    "read_only_check": {
+      "errors": [],
+      "warnings": [
+        "metro.Avalon: Placement not certified for duplicate prototype Land_Underground_Entrance.",
+        "metro.Avalon: Placement not certified for duplicate prototype Land_Underground_Floor_Comms.",
+        "metro.Avalon: Placement not certified for duplicate prototype Land_Underground_Floor_Crew.",
+        "metro.Avalon: Placement not certified for duplicate prototype Land_Underground_Storage_Ammo2.",
+        "metro.Avalon: Placement not certified for duplicate prototype Land_Underground_Storage_Hospital.",
+        "metro.Avalon: Placement not certified for duplicate prototype Land_Underground_Storage_POX2.",
+        "metro.Avalon: Placement not certified for duplicate prototype Land_Wreck_Mining_Excavator.",
+        "metro.Avalon: Placement not certified for duplicate prototype Land_Wreck_Mining_HaulTruck.",
+        "metro.Avalon: No static building route confirmed for: HipPack_Party, PunchedCard, SVD_Wooden. Scripted/event placement may supply these; this is not proof they cannot spawn.",
+        "The transport pack upgrade has not been prepared yet. Use Play Avalon to install its required Workshop mods and apply setup.",
+        "gebsfish generated economy files are absent. Its first successful server start creates them; the next start imports them. Vanilla fishing is separate.",
+        "metro.Avalon: gebsfish economy is not registered yet.",
+        "RaG BeeHive kit is available, but honey production is not fully configured. Publisher companion-item loot is still needed for: Honeycomb Spatula, Honeycomb Dipper, empty Honey Pot. Azimuth imports the installed mod's types XML when supplied; it does not guess class names."
+      ],
+      "missions": [
+        {
+          "mission": "metro.Avalon",
+          "loot_classes": 2636,
+          "types_files": 18,
+          "sources": {
+            "zero": 691,
+            "natural": 1282,
+            "crafted": 344,
+            "event": 319
+          },
+          "errors": [],
+          "warnings": [
+            "Placement not certified for duplicate prototype Land_Underground_Entrance.",
+            "Placement not certified for duplicate prototype Land_Underground_Floor_Comms.",
+            "Placement not certified for duplicate prototype Land_Underground_Floor_Crew.",
+            "Placement not certified for duplicate prototype Land_Underground_Storage_Ammo2.",
+            "Placement not certified for duplicate prototype Land_Underground_Storage_Hospital.",
+            "Placement not certified for duplicate prototype Land_Underground_Storage_POX2.",
+            "Placement not certified for duplicate prototype Land_Wreck_Mining_Excavator.",
+            "Placement not certified for duplicate prototype Land_Wreck_Mining_HaulTruck.",
+            "No static building route confirmed for: HipPack_Party, PunchedCard, SVD_Wooden. Scripted/event placement may supply these; this is not proof they cannot spawn."
+          ],
+          "no_static_route_confirmed": [
+            "HipPack_Party",
+            "PunchedCard",
+            "SVD_Wooden"
+          ]
+        }
+      ],
+      "skins": {
+        "catalog_finishes": 30,
+        "selected_ids": [
+          "neon420",
+          "cosmickush420",
+          "deeporbit",
+          "cathedralash",
+          "deadfrequency",
+          "lasttrain",
+          "floodline",
+          "blackbox",
+          "ghostanatomy",
+          "evidencelocker",
+          "funeralporcelain",
+          "mothkeeper",
+          "mycelium",
+          "redactedatlas",
+          "foundrybloom",
+          "deadchannel",
+          "rationzero",
+          "bobsburgers",
+          "thesimpsons",
+          "familyguy",
+          "southpark",
+          "americandad",
+          "rickandmorty",
+          "futurama",
+          "kingofthehill",
+          "bojackhorseman",
+          "archer"
+        ],
+        "variant_count": 54,
+        "showcase_count": 3,
+        "packed_file_count": 28,
+        "skin_sha256": "35296631d66ec6ba686eefd6e8a41f627fd13d7e30e3e41cd2ea4086920fa18d",
+        "script_sha256": "484e401007f50e47885dbb9c04c1fa88391623f21f78ec5ac6ec9c5d123cde41",
+        "random_script_sha256": "0f9b2970dc81eb55f3c00d5beaf8750eeeb9c434889558feaf4907e599d1bf8a",
+        "random_skins_enabled": true,
+        "random_skin_chance_percent": 37
+      },
+      "not_checked": [
+        "Native DayZ compilation, signature validation, joining and rendering.",
+        "Actual Workshop class definitions and mod-script behavior.",
+        "Live loot occupancy, travel time, regional terrain tiers and spawn timing."
+      ],
+      "status": "REVIEW"
+    },
+    "setup_messages": [
+      "Hunter Mods ready for Avalon. Registered 55 loot types.",
+      "RaG BeeHive kit is available, but honey production is not fully configured. Publisher companion-item loot is still needed for: Honeycomb Spatula, Honeycomb Dipper, empty Honey Pot. Azimuth imports the installed mod's types XML when supplied; it does not guess class names.",
+      "Bicycles use up to forty locations from Avalon's active road-vehicle events.",
+      "gebsfish generates its loot files on first launch. Azimuth registers the fishing gear at the next server start.",
+      "Psyerns Sound System generates its settings on first launch.",
+      "Olga, Gunter and M3S truck spawns are enabled using the active Avalon road-site pool and matching wheel spares.",
+      "Seven native motorcycle variants are enabled: target 14 across 28 Avalon road sites. Both wheels are fitted; spark plugs have a 75% attachment chance. Fuel and replacement parts remain scavenged.",
+      "Expansion transport prepared: 57 variants, including helicopters, gyrocopter, UAZ, Land Rover, Vodnik, bus, tractor and boats.",
+      "Helicopters use authored Avalon helipad anchors; actual rotor clearance and vehicle handling still need an in-game check.",
+      "Horse transport prepared from installed publisher files: 1 event(s), 3 Avalon grazing areas, saddle/bridle loot (TestHorse_Saddle, TestHorse_Bridle). Use an apple to lure a horse; claim it by attaching a saddle, then add its bridle. Riding and grazing clearance still require an in-game check.",
+      "An-2 airplane configured from installed publisher XML: An2_Biplane, target 1 at the Avalon airfield. Native clearance and flight still need an in-game check.",
+      "Azimuth gun skins ready. Registered 54 cosmetic weapon variants.",
+      "Weapon inspection ready. In first person, hold a gun and press I. Rebind in Options > Controls > Azimuth.",
+      "Screenshot freecam ready. Hold your weapon and press P. Press P again to return to your character.",
+      "Random finishes prepared for compatible weapons and weapon parts. Manage the chance in Skins/Camos.",
+      "Repaired bicycle_wheel: undefined vehiclesparts category now uses verified tools placements.",
+      "Repaired ladybicycle_wheel: undefined vehiclesparts category now uses verified tools placements.",
+      "Registered missing RT_rzr_wheel_desert from the active desert vehicle's authored attachment and sibling wheel rules.",
+      "Repaired dog_gasmask: removed undefined Tier4; its existing Tier3 route remains.",
+      "Repaired Crossbow_Black: reversed quantity range 80..0 now matches sibling crossbows at 30..80.",
+      "Repaired green milkmaid infected cargo using the existing village food/drink and tool presets.",
+      "Repaired missing industrial bag preset on 25 infected types using existing village bags.",
+      "Avalon loot: reviewed 2636 classes and adjusted 641. See Worlds > Loot audit.",
+      "Hunter Mods ready for Avalon. Registered 55 loot types.",
+      "RaG BeeHive kit is available, but honey production is not fully configured. Publisher companion-item loot is still needed for: Honeycomb Spatula, Honeycomb Dipper, empty Honey Pot. Azimuth imports the installed mod's types XML when supplied; it does not guess class names.",
+      "Bicycles use up to forty locations from Avalon's active road-vehicle events.",
+      "gebsfish generates its loot files on first launch. Azimuth registers the fishing gear at the next server start.",
+      "Psyerns Sound System generates its settings on first launch.",
+      "Olga, Gunter and M3S truck spawns are enabled using the active Avalon road-site pool and matching wheel spares.",
+      "Seven native motorcycle variants are enabled: target 14 across 28 Avalon road sites. Both wheels are fitted; spark plugs have a 75% attachment chance. Fuel and replacement parts remain scavenged.",
+      "Expansion transport prepared: 57 variants, including helicopters, gyrocopter, UAZ, Land Rover, Vodnik, bus, tractor and boats.",
+      "Helicopters use authored Avalon helipad anchors; actual rotor clearance and vehicle handling still need an in-game check.",
+      "Horse transport prepared from installed publisher files: 1 event(s), 3 Avalon grazing areas, saddle/bridle loot (TestHorse_Saddle, TestHorse_Bridle). Use an apple to lure a horse; claim it by attaching a saddle, then add its bridle. Riding and grazing clearance still require an in-game check.",
+      "An-2 airplane configured from installed publisher XML: An2_Biplane, target 1 at the Avalon airfield. Native clearance and flight still need an in-game check.",
+      "Azimuth gun skins ready. Registered 54 cosmetic weapon variants.",
+      "Weapon inspection ready. In first person, hold a gun and press I. Rebind in Options > Controls > Azimuth.",
+      "Screenshot freecam ready. Hold your weapon and press P. Press P again to return to your character.",
+      "Random finishes prepared for compatible weapons and weapon parts. Manage the chance in Skins/Camos.",
+      "Repaired bicycle_wheel: undefined vehiclesparts category now uses verified tools placements.",
+      "Repaired ladybicycle_wheel: undefined vehiclesparts category now uses verified tools placements.",
+      "Registered missing RT_rzr_wheel_desert from the active desert vehicle's authored attachment and sibling wheel rules.",
+      "Repaired dog_gasmask: removed undefined Tier4; its existing Tier3 route remains.",
+      "Repaired Crossbow_Black: reversed quantity range 80..0 now matches sibling crossbows at 30..80.",
+      "Repaired green milkmaid infected cargo using the existing village food/drink and tool presets.",
+      "Repaired missing industrial bag preset on 25 infected types using existing village bags.",
+      "Avalon loot: reviewed 2636 classes and adjusted 641. See Worlds > Loot audit."
+    ]
+  },
+  "publisher_files_absent": {
+    "fixture": "missing_publisher",
+    "pipeline": "Actual Server._configure_world plus prepare_logout twice",
+    "source": "Supplied Avalon snapshot and frozen transport manager source",
+    "horse_plane_publisher_input": "ABSENT intentionally",
+    "expansion_motorcycle_input": "Bundled attributed publisher XML",
+    "native_DayZ_execution": "NOT_RUN",
+    "native_signing": "SIMULATED only",
+    "save_settings_receipt_and_original_publisher_xml_preserved": true,
+    "generated_files_byte_identical_second_run": true,
+    "saved_skin_chance_preserved": 37,
+    "loot_classes": 2629,
+    "active_vehicle_events": {
+      "VehicleBoat": {
+        "target": 6,
+        "classes": [
+          "Boat_01_Black",
+          "Boat_01_Blue",
+          "Boat_01_Orange"
+        ]
+      },
+      "VehicleCivilianSedan": {
+        "target": 8,
+        "classes": [
+          "CivilianSedan",
+          "CivilianSedan_Black",
+          "CivilianSedan_Wine"
+        ]
+      },
+      "VehicleHatchback02": {
+        "target": 8,
+        "classes": [
+          "Hatchback_02",
+          "Hatchback_02_Black",
+          "Hatchback_02_Blue"
+        ]
+      },
+      "VehicleOffroad02": {
+        "target": 4,
+        "classes": [
+          "Offroad_02"
+        ]
+      },
+      "VehicleOffroadHatchback": {
+        "target": 8,
+        "classes": [
+          "OffroadHatchback",
+          "OffroadHatchback_Blue",
+          "OffroadHatchback_White",
+          "Sedan_02",
+          "Sedan_02_Grey"
+        ]
+      },
+      "VehicleSedan02": {
+        "target": 10,
+        "classes": [
+          "RTrzr",
+          "RTrzr_Desert",
+          "RTrzr_Black",
+          "RTrzr_Eclipse"
+        ]
+      },
+      "VehicleTruck01": {
+        "target": 8,
+        "classes": [
+          "Truck_01_Covered",
+          "Truck_01_Covered_Blue",
+          "Truck_01_Covered_Orange"
+        ]
+      },
+      "VehicleHunterz_Old_Bike": {
+        "target": 20,
+        "classes": [
+          "Old_Bike",
+          "Old_Bike_White",
+          "Old_Bike_Red",
+          "Old_Bike_Green",
+          "Old_Bike_Blue",
+          "Old_Bike_Pink",
+          "Lady_Bicycle",
+          "Lady_Bicycle_Purple"
+        ]
+      },
+      "VehicleAzimuthMotorbike": {
+        "target": 14,
+        "classes": [
+          "Motorbike_01_Blue",
+          "Motorbike_01_Red",
+          "Motorbike_01_Yellow",
+          "Motorbike_02_Blue",
+          "Motorbike_02_Green",
+          "Motorbike_02_Red",
+          "Motorbike_02_Yellow"
+        ]
+      },
+      "VehicleAzimuthExpansionUAZ": {
+        "target": 4,
+        "classes": [
+          "ExpansionUAZ",
+          "ExpansionUAZ_Black",
+          "ExpansionUAZ_LightGreen",
+          "ExpansionUAZRoofless",
+          "ExpansionUAZRoofless_Black",
+          "ExpansionUAZRoofless_LightGreen",
+          "ExpansionUAZCargo",
+          "ExpansionUAZCargo_Black",
+          "ExpansionUAZCargo_LightGreen",
+          "ExpansionUAZCargoRoofless",
+          "ExpansionUAZCargoRoofless_Black",
+          "ExpansionUAZCargoRoofless_LightGreen"
+        ]
+      },
+      "VehicleAzimuthExpansionVodnik": {
+        "target": 2,
+        "classes": [
+          "ExpansionVodnik"
+        ]
+      },
+      "VehicleAzimuthExpansionBus": {
+        "target": 2,
+        "classes": [
+          "ExpansionBus",
+          "ExpansionBus_Weeb",
+          "ExpansionBus_Red"
+        ]
+      },
+      "VehicleAzimuthExpansionTractor": {
+        "target": 2,
+        "classes": [
+          "ExpansionTractor",
+          "ExpansionTractor_Blue",
+          "ExpansionTractor_Green"
+        ]
+      },
+      "VehicleAzimuthExpansionLandRover": {
+        "target": 4,
+        "classes": [
+          "Expansion_Landrover",
+          "Expansion_Landrover_Yellow",
+          "Expansion_Landrover_Red",
+          "Expansion_Landrover_Green",
+          "Expansion_Landrover_Grey",
+          "Expansion_Landrover_Orange",
+          "Expansion_Landrover_Blue"
+        ]
+      },
+      "VehicleAzimuthExpansionMH6": {
+        "target": 2,
+        "classes": [
+          "ExpansionMh6",
+          "ExpansionMh6_Blueline",
+          "ExpansionMh6_Digital",
+          "ExpansionMh6_Elliptical",
+          "ExpansionMh6_Furious",
+          "ExpansionMh6_GrayWatcher",
+          "ExpansionMh6_Jeans",
+          "ExpansionMh6_Resistance",
+          "ExpansionMh6_Shadow",
+          "ExpansionMh6_Sheriff",
+          "ExpansionMh6_Speedy",
+          "ExpansionMh6_Sunset",
+          "ExpansionMh6_Vrana",
+          "ExpansionMh6_Wasp",
+          "ExpansionMh6_Wave"
+        ]
+      },
+      "VehicleAzimuthExpansionMerlin": {
+        "target": 1,
+        "classes": [
+          "ExpansionMerlin",
+          "ExpansionMerlin_Dahoman",
+          "ExpansionMerlin_Ion",
+          "ExpansionMerlin_President",
+          "ExpansionMerlin_Vrana",
+          "ExpansionMerlin_Wave"
+        ]
+      },
+      "VehicleAzimuthExpansionUH1H": {
+        "target": 2,
+        "classes": [
+          "ExpansionUh1h",
+          "ExpansionUh1h_Medical",
+          "ExpansionUh1h_Uber",
+          "ExpansionUh1h_Resistance",
+          "ExpansionUh1h_Civilian"
+        ]
+      },
+      "VehicleAzimuthExpansionRHIB": {
+        "target": 2,
+        "classes": [
+          "ExpansionUtilityBoat"
+        ]
+      },
+      "VehicleAzimuthExpansionZodiac": {
+        "target": 3,
+        "classes": [
+          "ExpansionZodiacBoat",
+          "ExpansionZodiacBoat_Black",
+          "ExpansionZodiacBoat_Green"
+        ]
+      },
+      "VehicleAzimuthExpansionGyrocopter": {
+        "target": 1,
+        "classes": [
+          "ExpansionGyrocopter"
+        ]
+      }
+    },
+    "motorcycle_variants": [
+      "Motorbike_01_Blue",
+      "Motorbike_01_Red",
+      "Motorbike_01_Yellow",
+      "Motorbike_02_Blue",
+      "Motorbike_02_Green",
+      "Motorbike_02_Red",
+      "Motorbike_02_Yellow"
+    ],
+    "read_only_check": {
+      "errors": [],
+      "warnings": [
+        "metro.Avalon: Placement not certified for duplicate prototype Land_Underground_Entrance.",
+        "metro.Avalon: Placement not certified for duplicate prototype Land_Underground_Floor_Comms.",
+        "metro.Avalon: Placement not certified for duplicate prototype Land_Underground_Floor_Crew.",
+        "metro.Avalon: Placement not certified for duplicate prototype Land_Underground_Storage_Ammo2.",
+        "metro.Avalon: Placement not certified for duplicate prototype Land_Underground_Storage_Hospital.",
+        "metro.Avalon: Placement not certified for duplicate prototype Land_Underground_Storage_POX2.",
+        "metro.Avalon: Placement not certified for duplicate prototype Land_Wreck_Mining_Excavator.",
+        "metro.Avalon: Placement not certified for duplicate prototype Land_Wreck_Mining_HaulTruck.",
+        "metro.Avalon: No static building route confirmed for: HipPack_Party, PunchedCard, SVD_Wooden. Scripted/event placement may supply these; this is not proof they cannot spawn.",
+        "The transport pack upgrade has not been prepared yet. Use Play Avalon to install its required Workshop mods and apply setup.",
+        "Latest setup report: NEEDS SETUP: DayZ Horse. DayZ Horse needs its installed publisher setup files: types XML, horse event XML, cfgenvironment Horse behavior snippet. Keep the mod's original Extras/ServerFiles/manual alongside Addons and Keys. No new horse spawn rules were applied; existing mission files were left unchanged and other transport can still load.",
+        "Latest setup report: NEEDS SETUP: An-2 Biplane. Airplane is NOT configured: An-2 Biplane needs its publisher ServerFiles folder. Verify the Steam Workshop download. Other transport categories can still run.",
+        "gebsfish generated economy files are absent. Its first successful server start creates them; the next start imports them. Vanilla fishing is separate.",
+        "metro.Avalon: gebsfish economy is not registered yet.",
+        "RaG BeeHive kit is available, but honey production is not fully configured. Publisher companion-item loot is still needed for: Honeycomb Spatula, Honeycomb Dipper, empty Honey Pot. Azimuth imports the installed mod's types XML when supplied; it does not guess class names."
+      ],
+      "missions": [
+        {
+          "mission": "metro.Avalon",
+          "loot_classes": 2629,
+          "types_files": 16,
+          "sources": {
+            "zero": 691,
+            "natural": 1279,
+            "crafted": 343,
+            "event": 316
+          },
+          "errors": [],
+          "warnings": [
+            "Placement not certified for duplicate prototype Land_Underground_Entrance.",
+            "Placement not certified for duplicate prototype Land_Underground_Floor_Comms.",
+            "Placement not certified for duplicate prototype Land_Underground_Floor_Crew.",
+            "Placement not certified for duplicate prototype Land_Underground_Storage_Ammo2.",
+            "Placement not certified for duplicate prototype Land_Underground_Storage_Hospital.",
+            "Placement not certified for duplicate prototype Land_Underground_Storage_POX2.",
+            "Placement not certified for duplicate prototype Land_Wreck_Mining_Excavator.",
+            "Placement not certified for duplicate prototype Land_Wreck_Mining_HaulTruck.",
+            "No static building route confirmed for: HipPack_Party, PunchedCard, SVD_Wooden. Scripted/event placement may supply these; this is not proof they cannot spawn."
+          ],
+          "no_static_route_confirmed": [
+            "HipPack_Party",
+            "PunchedCard",
+            "SVD_Wooden"
+          ]
+        }
+      ],
+      "skins": {
+        "catalog_finishes": 30,
+        "selected_ids": [
+          "neon420",
+          "cosmickush420",
+          "deeporbit",
+          "cathedralash",
+          "deadfrequency",
+          "lasttrain",
+          "floodline",
+          "blackbox",
+          "ghostanatomy",
+          "evidencelocker",
+          "funeralporcelain",
+          "mothkeeper",
+          "mycelium",
+          "redactedatlas",
+          "foundrybloom",
+          "deadchannel",
+          "rationzero",
+          "bobsburgers",
+          "thesimpsons",
+          "familyguy",
+          "southpark",
+          "americandad",
+          "rickandmorty",
+          "futurama",
+          "kingofthehill",
+          "bojackhorseman",
+          "archer"
+        ],
+        "variant_count": 54,
+        "showcase_count": 3,
+        "packed_file_count": 28,
+        "skin_sha256": "35296631d66ec6ba686eefd6e8a41f627fd13d7e30e3e41cd2ea4086920fa18d",
+        "script_sha256": "484e401007f50e47885dbb9c04c1fa88391623f21f78ec5ac6ec9c5d123cde41",
+        "random_script_sha256": "0f9b2970dc81eb55f3c00d5beaf8750eeeb9c434889558feaf4907e599d1bf8a",
+        "random_skins_enabled": true,
+        "random_skin_chance_percent": 37
+      },
+      "not_checked": [
+        "Native DayZ compilation, signature validation, joining and rendering.",
+        "Actual Workshop class definitions and mod-script behavior.",
+        "Live loot occupancy, travel time, regional terrain tiers and spawn timing."
+      ],
+      "status": "REVIEW"
+    },
+    "setup_messages": [
+      "Hunter Mods ready for Avalon. Registered 55 loot types.",
+      "RaG BeeHive kit is available, but honey production is not fully configured. Publisher companion-item loot is still needed for: Honeycomb Spatula, Honeycomb Dipper, empty Honey Pot. Azimuth imports the installed mod's types XML when supplied; it does not guess class names.",
+      "Bicycles use up to forty locations from Avalon's active road-vehicle events.",
+      "gebsfish generates its loot files on first launch. Azimuth registers the fishing gear at the next server start.",
+      "Psyerns Sound System generates its settings on first launch.",
+      "Olga, Gunter and M3S truck spawns are enabled using the active Avalon road-site pool and matching wheel spares.",
+      "Seven native motorcycle variants are enabled: target 14 across 28 Avalon road sites. Both wheels are fitted; spark plugs have a 75% attachment chance. Fuel and replacement parts remain scavenged.",
+      "Expansion transport prepared: 57 variants, including helicopters, gyrocopter, UAZ, Land Rover, Vodnik, bus, tractor and boats.",
+      "Helicopters use authored Avalon helipad anchors; actual rotor clearance and vehicle handling still need an in-game check.",
+      "NEEDS SETUP: DayZ Horse. DayZ Horse needs its installed publisher setup files: types XML, horse event XML, cfgenvironment Horse behavior snippet. Keep the mod's original Extras/ServerFiles/manual alongside Addons and Keys. No new horse spawn rules were applied; existing mission files were left unchanged and other transport can still load.",
+      "NEEDS SETUP: An-2 Biplane. Airplane is NOT configured: An-2 Biplane needs its publisher ServerFiles folder. Verify the Steam Workshop download. Other transport categories can still run.",
+      "Azimuth gun skins ready. Registered 54 cosmetic weapon variants.",
+      "Weapon inspection ready. In first person, hold a gun and press I. Rebind in Options > Controls > Azimuth.",
+      "Screenshot freecam ready. Hold your weapon and press P. Press P again to return to your character.",
+      "Random finishes prepared for compatible weapons and weapon parts. Manage the chance in Skins/Camos.",
+      "Repaired bicycle_wheel: undefined vehiclesparts category now uses verified tools placements.",
+      "Repaired ladybicycle_wheel: undefined vehiclesparts category now uses verified tools placements.",
+      "Registered missing RT_rzr_wheel_desert from the active desert vehicle's authored attachment and sibling wheel rules.",
+      "Repaired dog_gasmask: removed undefined Tier4; its existing Tier3 route remains.",
+      "Repaired Crossbow_Black: reversed quantity range 80..0 now matches sibling crossbows at 30..80.",
+      "Repaired green milkmaid infected cargo using the existing village food/drink and tool presets.",
+      "Repaired missing industrial bag preset on 25 infected types using existing village bags.",
+      "Avalon loot: reviewed 2629 classes and adjusted 638. See Worlds > Loot audit.",
+      "Hunter Mods ready for Avalon. Registered 55 loot types.",
+      "RaG BeeHive kit is available, but honey production is not fully configured. Publisher companion-item loot is still needed for: Honeycomb Spatula, Honeycomb Dipper, empty Honey Pot. Azimuth imports the installed mod's types XML when supplied; it does not guess class names.",
+      "Bicycles use up to forty locations from Avalon's active road-vehicle events.",
+      "gebsfish generates its loot files on first launch. Azimuth registers the fishing gear at the next server start.",
+      "Psyerns Sound System generates its settings on first launch.",
+      "Olga, Gunter and M3S truck spawns are enabled using the active Avalon road-site pool and matching wheel spares.",
+      "Seven native motorcycle variants are enabled: target 14 across 28 Avalon road sites. Both wheels are fitted; spark plugs have a 75% attachment chance. Fuel and replacement parts remain scavenged.",
+      "Expansion transport prepared: 57 variants, including helicopters, gyrocopter, UAZ, Land Rover, Vodnik, bus, tractor and boats.",
+      "Helicopters use authored Avalon helipad anchors; actual rotor clearance and vehicle handling still need an in-game check.",
+      "NEEDS SETUP: DayZ Horse. DayZ Horse needs its installed publisher setup files: types XML, horse event XML, cfgenvironment Horse behavior snippet. Keep the mod's original Extras/ServerFiles/manual alongside Addons and Keys. No new horse spawn rules were applied; existing mission files were left unchanged and other transport can still load.",
+      "NEEDS SETUP: An-2 Biplane. Airplane is NOT configured: An-2 Biplane needs its publisher ServerFiles folder. Verify the Steam Workshop download. Other transport categories can still run.",
+      "Azimuth gun skins ready. Registered 54 cosmetic weapon variants.",
+      "Weapon inspection ready. In first person, hold a gun and press I. Rebind in Options > Controls > Azimuth.",
+      "Screenshot freecam ready. Hold your weapon and press P. Press P again to return to your character.",
+      "Random finishes prepared for compatible weapons and weapon parts. Manage the chance in Skins/Camos.",
+      "Repaired bicycle_wheel: undefined vehiclesparts category now uses verified tools placements.",
+      "Repaired ladybicycle_wheel: undefined vehiclesparts category now uses verified tools placements.",
+      "Registered missing RT_rzr_wheel_desert from the active desert vehicle's authored attachment and sibling wheel rules.",
+      "Repaired dog_gasmask: removed undefined Tier4; its existing Tier3 route remains.",
+      "Repaired Crossbow_Black: reversed quantity range 80..0 now matches sibling crossbows at 30..80.",
+      "Repaired green milkmaid infected cargo using the existing village food/drink and tool presets.",
+      "Repaired missing industrial bag preset on 25 infected types using existing village bags.",
+      "Avalon loot: reviewed 2629 classes and adjusted 638. See Worlds > Loot audit."
+    ]
+  }
+}

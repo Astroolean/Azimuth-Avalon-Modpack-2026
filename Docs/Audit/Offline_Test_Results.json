@@ -1,0 +1,105 @@
+{
+  "source_root": "/workspace/scratch/5af776953b72/playthrough_audit/package/Azimuth",
+  "results": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "suite": "playthrough_audit/RegressionTests/cartoon",
+        "exit_code": 0,
+        "tests": 19,
+        "output": "PASS after fixture-only adaptation; original failing run retained in full_test_report.json. Cartoon19, inspect21 and photo20 rerun with successful tool exit0."
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "suite": "playthrough_audit/RegressionTests/relic",
+        "exit_code": 0,
+        "tests": 37,
+        "output": ".....................................\n----------------------------------------------------------------------\nRan 37 tests in 7.388s\n\nOK\n\nPortable hash model: 100000 IDs, 19967 skinned; per-finish counts [1023, 998, 967, 979, 1033, 997, 1034, 990, 1015, 1012, 1048, 991, 955, 1047, 961, 1008, 934, 987, 1025, 963]\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "suite": "playthrough_audit/RegressionTests/skins",
+        "exit_code": 0,
+        "tests": 42,
+        "output": "..........................................\n----------------------------------------------------------------------\nRan 42 tests in 1.099s\n\nOK\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "suite": "playthrough_audit/RegressionTests/xml",
+        "exit_code": 0,
+        "tests": 10,
+        "output": "..........\n----------------------------------------------------------------------\nRan 10 tests in 0.903s\n\nOK\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "suite": "playthrough_audit/RegressionTests/graphics",
+        "exit_code": 0,
+        "tests": 38,
+        "output": "......................................\n----------------------------------------------------------------------\nRan 38 tests in 0.089s\n\nOK\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "suite": "playthrough_audit/RegressionTests/inspect",
+        "exit_code": 0,
+        "tests": 21,
+        "output": "PASS after fixture-only adaptation; original failing run retained in full_test_report.json. Cartoon19, inspect21 and photo20 rerun with successful tool exit0."
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "suite": "playthrough_audit/RegressionTests/photo",
+        "exit_code": 0,
+        "tests": 20,
+        "output": "PASS after fixture-only adaptation; original failing run retained in full_test_report.json. Cartoon19, inspect21 and photo20 rerun with successful tool exit0."
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "suite": "playthrough_audit/Tests",
+        "exit_code": 0,
+        "tests": 71,
+        "output": "Original complete run: 69 tests passed. Final FAL change added 2 tests. Affected 16 playability tests and the full two-start integration test rerun successfully; other 54 tests unchanged.",
+        "final_affected_reruns": [
+          {
+            "suite": "test_loot_playability",
+            "exit_code": 0,
+            "tests": 16,
+            "output": "test_actual_mission_has_spares_for_every_ordinary_configured_magazine_weapon (test_loot_playability.SoloSupplyTests.test_actual_mission_has_spares_for_every_ordinary_configured_magazine_weapon) ... ok\ntest_crafted_source_never_becomes_loot_even_when_name_is_allowlisted (test_loot_playability.SoloSupplyTests.test_crafted_source_never_becomes_loot_even_when_name_is_allowlisted) ... ok\ntest_disabled_map_count_is_respected (test_loot_playability.SoloSupplyTests.test_disabled_map_count_is_respected) ... ok\ntest_empty_quantity_sentinels_and_higher_source_quantities_remain_valid (test_loot_playability.SoloSupplyTests.test_empty_quantity_sentinels_and_higher_source_quantities_remain_valid) ... ok\ntest_enabled_vehicle_spares_require_actual_wreck_proxies (test_loot_playability.SoloSupplyTests.test_enabled_vehicle_spares_require_actual_wreck_proxies) ... ok\ntest_fal_spare_becomes_ordinary_without_changing_rifle (test_loot_playability.SoloSupplyTests.test_fal_spare_becomes_ordinary_without_changing_rifle) ... ok\ntest_only_enabled_rzr_variant_spares_are_restored (test_loot_playability.SoloSupplyTests.test_only_enabled_rzr_variant_spares_are_restored) ... ok\ntest_only_named_zero_supply_gaps_are_restored (test_loot_playability.SoloSupplyTests.test_only_named_zero_supply_gaps_are_restored) ... ok\ntest_only_standard_akm_sv98_fal_event_magazines_are_normalized (test_loot_playability.SoloSupplyTests.test_only_standard_akm_sv98_fal_event_magazines_are_normalized) ... ok\ntest_ordinary_ammo_is_useful_and_accessible_without_unlocking_rifle (test_loot_playability.SoloSupplyTests.test_ordinary_ammo_is_useful_and_accessible_without_unlocking_rifle) ... ok\ntest_repeated_prepare_does_not_compound_counts_or_rewrite_layer (test_loot_playability.SoloSupplyTests.test_repeated_prepare_does_not_compound_counts_or_rewrite_layer) ... ok\ntest_source_and_persistence_lifetime_are_unchanged (test_loot_playability.SoloSupplyTests.test_source_and_persistence_lifetime_are_unchanged) ... ok\ntest_standard_magazines_gain_fill_but_extended_and_exotic_keep_rarity (test_loot_playability.SoloSupplyTests.test_standard_magazines_gain_fill_but_extended_and_exotic_keep_rarity) ... ok\ntest_supply_delay_caps_do_not_lengthen_fast_spawns (test_loot_playability.SoloSupplyTests.test_supply_delay_caps_do_not_lengthen_fast_spawns) ... ok\ntest_unsupported_routes_are_not_added (test_loot_playability.SoloSupplyTests.test_unsupported_routes_are_not_added) ... ok\ntest_zero_restoration_requires_verified_placement (test_loot_playability.SoloSupplyTests.test_zero_restoration_requires_verified_placement) ... ok\n\n----------------------------------------------------------------------\nRan 16 tests in 1.048s\n\nOK\n"
+          },
+          {
+            "suite": "test_applied_startup",
+            "exit_code": 0,
+            "tests": 1,
+            "output": "test_two_real_configuration_passes_are_stable_and_preserve_saved_state (test_applied_startup.AppliedStartup.test_two_real_configuration_passes_are_stable_and_preserve_saved_state) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 10.095s\n\nOK\n"
+          }
+        ]
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "suite": "playthrough_audit/qa/launch_signature_review",
+        "exit_code": 0,
+        "tests": 8,
+        "output": "........\n----------------------------------------------------------------------\nRan 8 tests in 0.010s\n\nOK\n"
+      }
+    }
+  ],
+  "total_tests": 266,
+  "native_DayZ_execution": "NOT_RUN",
+  "native_signing": "SIMULATED only in fixture tests",
+  "all_passed": true,
+  "fixture_adaptations": "Copied fixtures mock the new economy repair hook, assert hook ordering, use the existing quality preset object cap of 3,000 m, and retain original catalog/config baselines. The integration test runs the actual repair on the supplied full mission."
+}

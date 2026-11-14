@@ -1,0 +1,547 @@
+R23 — GO-KART AND INSTALLED VEHICLE INTEGRATION — NOVEMBER 14, 2026
+Current instructions: Docs/START_HERE.md. The go-kart has a separate one-time
+receipt; the existing Gunter remains.13 additional downloaded packs now resolve
+into client/server startup, with grounded vehicle/part/economy definitions.
+Native boat/motorbike hooks, exact model mappings, restoration retries and
+conditional publisher compatibility repairs are included. Current inventory,
+known model/asset limits and offline evidence are in Docs/Guides and Docs/Audit.
+Earlier release descriptions below apply only to their original updates.
+
+AZIMUTH RELEASE HISTORY — ARCHIVED NOTES
+
+This file preserves earlier release notes. Later findings supersede earlier
+diagnoses and test counts apply only to their original update. For current
+launch and update instructions, read Docs/START_HERE.md from the Azimuth root.
+In particular, inactive road events now use complete definitions; the earlier
+statement that their partial activation entries remain unchanged is obsolete.
+Historical paths below describe the previous layout. Current guides are in
+Docs/Guides, verification tools in Tools, and retained reports in Docs/Audit.
+
+STARTUP ECONOMY AND RESTART REPAIR
+Your uploaded logs show both server crashes occurred in ce.InitOffline while
+loading vehicle events. Avalon was missing the MotorbikeScript economy root
+required for DayZ 1.30 motorcycles. Startup now registers that exact native
+vehicle root while preserving existing classes, events and save files.
+Partial overrides of existing events are valid and remain unchanged.
+
+Also repairs the missing three-number VPP_Map.MapColor array in older Azimuth
+airdrop settings. Valid existing settings are kept. No mod is disabled.
+
+If Play Avalon detects a server exit during startup, automatic restarting now
+pauses and keeps the error visible. Ordinary Start pauses after three successive
+failures; a healthy two-minute session resets that count. Click Start server or
+Play Avalon after correcting an error to retry. A client launch problem does
+not shut down a healthy server.
+
+With DayZ and Azimuth closed, merge this ZIP's Azimuth folder into your existing
+folder and replace packaged files. Run START_SERVER.bat, then Play Avalon.
+The manager applies the repair to your existing mission automatically.
+Do not delete your Saves or Profiles. No wipe or settings reset is required.
+The Horse XML and vehicle-wrap compile fixes remain included.
+
+Offline checks use the uploaded failed-world snapshot and preserve its save
+data. The missing motorcycle registration is a confirmed configuration defect;
+native crash resolution still needs your next PC game launch.
+
+PREVIOUS UPDATE FOLLOWS
+
+VEHICLE WRAP SCRIPT MODULE FIX
+Fixes the World-module compile error: Unknown type 'Transport'.
+The wrap hook now extends CarScript in its own World module; matching panels
+use that same parent class. All ten supported vehicle families keep their wraps.
+No supported wrap family, selected camo or vehicle chance setting was removed.
+
+Click Abort on the compile-error dialog. Stop Avalon normally if it is running
+and wait for its backup, then close DayZ and Azimuth. Merge this ZIP's Azimuth
+folder into your existing folder, replace packaged files, run START_SERVER.bat
+and click Play Avalon. The manager rebuilds and signs the corrected addon.
+No world wipe, Workshop XML editing or rearming of the test car is required.
+The Horse/Avalon XML fix and all previous features remain included.
+
+Offline regression, source-module and generated-PBO checks were completed.
+Native DayZ Enforce compilation and in-game rendering need the PC game test.
+
+PREVIOUS UPDATE FOLLOWS
+
+HORSE PUBLISHER / AVALON COMPATIBILITY FIX
+Fixes the malformed comment in the actual publisher horses_chernarus.xml
+and the XML-declaration error. Repairs are made only in the parsing copy;
+your installed Workshop files stay untouched and the Horse mod stays enabled.
+
+Avalon uses its own three cattle grazing/rest/water areas for horses, with
+the author's Horse behavior and five actual horse variants. Other maps'
+coordinate examples, including the truncated Takistan example, are not imported.
+Horse events no longer require nonexistent ordinary-loot rows for live animals.
+The author's empty animal-event position entry is registered when missing;
+existing custom Horse positions and all unrelated event positions are preserved.
+
+Stop Avalon normally and wait for its backup. Close DayZ and Azimuth, merge
+this ZIP's Azimuth folder into yours, replace packaged files, and run
+START_SERVER.bat. No Workshop editing, reinstall, world wipe or settings reset.
+The earlier version fix, vehicle wraps, test car and existing features remain.
+
+64 offline checks passed, including your actual Horse XML and the full manager
+startup preparation against the supplied Avalon mission, repeated twice.
+Five horse classes were also checked in your uploaded PBO. Native DayZ loading,
+horse spawning and riding still need your PC game test. An-2 checks use fixtures.
+
+PREVIOUS UPDATE FOLLOWS
+
+HORSE XML STARTUP HOTFIX
+Handles a valid XML declaration after leading publisher comments/blank lines.
+The Horse importer normalizes an in-memory copy and preserves the original
+Workshop files. Broken XML remains an error. The Horse mod stays enabled.
+
+Stop Avalon normally and wait for its backup. Close DayZ and Azimuth, merge
+this ZIP's Azimuth folder into yours, replace packaged files, and launch again.
+No Workshop XML editing, reinstall, world wipe or settings reset is required.
+The 1.30 version fix, vehicle wraps and one-time Gunter test car remain included.
+
+52 offline checks passed, including repeated startup preparation with synthetic
+publisher fixtures. Actual Workshop data and native DayZ need the PC game test.
+
+PREVIOUS UPDATE FOLLOWS
+
+DAYZ 1.30 VERSION-CHECK HOTFIX
+Fixes the false rejection of an installed 1.30 executable when its secondary
+product-version metadata is older. The actual file version takes priority.
+Older binaries and unreadable version resources still require attention.
+
+Stop Avalon normally, wait for its backup, then close DayZ and Azimuth.
+Merge this ZIP's Azimuth folder into yours, replace packaged files, and open
+START_SERVER.bat. No reinstall, world wipe or settings reset is required.
+Vehicle wraps and the queued one-time Gunter test car remain included.
+
+18 focused regression checks passed. Windows game execution was not run here.
+
+PREVIOUS UPDATE FOLLOWS
+
+RANDOM VEHICLE WRAPS UPDATE
+Your existing selected camos can now wrap compatible vehicle exterior panels.
+Skins/Camos has a separate Random wraps on vehicles toggle and chance, ON at
+100% by default. Your weapon-skin percentage stays unchanged. Only checked
+finishes are used. Unsupported vehicles/surfaces remain in their original look.
+
+Stop Avalon normally and let its backup finish. Close DayZ and Azimuth, then
+merge this ZIP's Azimuth folder into your existing folder and replace packaged
+files. Run START_SERVER.bat and Play Avalon. No world wipe or respawn is needed.
+One test Gunter is queued beside you on clear, flat ground after joining.
+The new checkbox is separate from your rifles; no replacement rifle kit is
+queued. Stay still outdoors with room nearby. Unsafe placements are skipped.
+The transportation update remains included.
+
+Read VEHICLE_WRAPS_GUIDE.txt for controls, model limitations and in-game checks.
+The native game test is still required; this package was verified offline.
+
+PREVIOUS UPDATE FOLLOWS
+
+EXPANDED TRANSPORTATION UPDATE
+More cars and trucks, seven native motorcycle variants, helicopters, gyrocopter,
+UAZ/Land Rover/Vodnik, bus, tractor and extra boats are configured. Horse and
+An-2 airplane setup imports their installed publisher files and flags missing data.
+
+Stop Avalon normally and let its backup finish. Close DayZ/Azimuth, then merge
+this ZIP's Azimuth folder into your existing folder and replace packaged files.
+Update DayZ and DayZ Server in Steam (1.30+), then run START_SERVER.bat and click
+Play Avalon. Subscribe to the new required Workshop items when Steam opens.
+No world wipe or new character is needed. All 30 skins and earlier fixes remain.
+
+Read TRANSPORTATION_GUIDE.txt for the vehicle list, parts, setup notices and
+testing limits. The Loot audit and VERIFY_PLAYTHROUGH.bat expose NEEDS SETUP
+messages if installed Horse or An-2 publisher data cannot be imported.
+Trains are not enabled: the checked train mod does not support Avalon.
+
+PREVIOUS UPDATE FOLLOWS
+
+FIRST-PLAYTHROUGH LOOT AND RELIABILITY UPDATE
+This full update improves ordinary ammunition, spare magazines, medical items,
+food/water, tools, building supplies and replacement vehicle parts for solo play.
+It repairs confirmed economy errors without changing the original map XML files.
+The 30 finishes and your selected skins/chance remain available.
+
+1. Stop Avalon normally and wait for the backup to finish. Close DayZ and Azimuth.
+2. Extract beside your existing Azimuth folder; merge it and replace packaged
+   files. Do not create Azimuth/Azimuth. No live world saves are in this ZIP.
+3. Open START_SERVER.bat and use Play Avalon. The manager applies its generated
+   repair and supply layers automatically. No world wipe is needed. Existing
+   loot is not instantly replaced; the economy replenishes eligible locations.
+
+See PLAYTHROUGH_AUDIT.txt for the findings, exact availability changes, checks
+and remaining runtime limits. No additional gameplay mod is required by this audit.
+VERIFY_PLAYTHROUGH.bat checks your installed mission and skins without editing
+settings or saves. Run it after a normal stop for a consistent file snapshot.
+REVIEW means a reported item needs attention or runtime confirmation; it is not
+the same as a parsing/build failure. Actual DayZ spawning still needs the game.
+
+RaG BeeHive now imports companion items from its installed publisher types XML.
+If those rows are unavailable, the panel's loot audit and verifier explain which
+tools are still unconfirmed. A visible hive kit alone does not prove that the
+whole honey-production chain is configured. The existing fishing setup restart
+still imports gebsfish's generated files after its first successful startup.
+
+Avalon backups now also include ManagerSettings/Config/GunSkins when present.
+For a manual restore, close DayZ and Azimuth and copy those included settings.json
+and applied.json files to Azimuth/Config/GunSkins before launching. Use the same
+backup's World and Profiles so skin choices, chance and test-kit receipts match.
+
+PREVIOUS UPDATE: 30 FINISHES, TEN NEW ADULT-ANIMATION THEMES
+This complete Azimuth update adds ten static cartoon finishes:
+Bob's Burgers, The Simpsons, Family Guy, South Park, American Dad!,
+Rick and Morty, Futurama, King of the Hill, BoJack Horseman and Archer.
+All previous twenty finishes, graphics settings, I inspection and P freecam
+remain. Each new finish has a named preview and uses the same selected-only
+skin system for compatible weapons and parts.
+
+Eight designs feature character artwork. The Simpsons uses pink donuts,
+clouds and soda motifs; Rick and Morty uses green portals, planets and flasks.
+Those two use object motifs because character-image generation was blocked.
+
+UPDATE YOUR EXISTING INSTALLATION
+1. Stop Avalon and wait for shutdown/backup. Close DayZ, its launcher and Azimuth.
+2. Extract into the same PARENT folder containing your existing Azimuth folder.
+   Merge and replace packaged files. Do not create Azimuth/Azimuth.
+3. Open START_SERVER.bat. Skins/Camos shows all 30 named previews. The ten
+   cartoon finishes are selected once when upgrading from the 20-skin pack.
+   Your previous choices, random-skin chance and on/off setting stay saved.
+   Subsequent changes to your selections are respected. If you are upgrading
+   directly from the original six, the fourteen relic finishes are also added.
+4. Use Play Avalon. The manager builds and signs the selected texture pack
+   and matching random-finish addon for the server and your game.
+
+HOW RANDOM FINISHES WORK
+The default is a 20% chance for each compatible item. Skins/Camos lets you
+turn random skins off or choose a different percentage. Save changes while
+the game and server are stopped, then use Play Avalon to apply them.
+
+The system checks firearms, melee weapons/tools, magazines and compatible
+stocks, handguards, suppressors and other weapon parts from the loaded game
+and mod pack. It uses the body's exposed retexture selections. Models with
+no safe paintable surface stay unchanged. Optics, loose ammo, alpha-cutout
+surfaces and ghillie wraps are excluded. This is broader than M4A1/AKM, but
+it cannot create paintable surfaces that a model does not provide.
+
+Existing saved items can receive finishes when they load, as can new loot.
+The same item keeps the same result across restarts with unchanged options.
+Changing the chance or selected finishes can change existing random finishes.
+Parts receive their own chance, so a gun and its magazine need not match.
+Only checked finishes are included. No replacement gun or extra loot spawn
+is created; normal classes, ammunition, attachments and statistics remain.
+
+The existing fixed Azimuth M4A1/AKM and showcase guns retain their explicit
+finishes. Unchecking one of their finishes removes its classes as before;
+keep a finish selected while you own fixed variants that use it.
+Turning off random skins returns ordinary randomly painted items to their
+normal appearance after restarting. A world wipe is not required.
+
+FOR A QUICK VISUAL TEST
+You can temporarily set the chance to 100%, save and restart, then check
+several ordinary weapon types. Restore 20% or your preferred chance afterward.
+Use I to inspect in first person and P to frame screenshots in freecam.
+This update does not queue a replacement test kit. An explicitly queued kit
+contains at most the first three selected M4A1 finishes, keeping the chest
+within capacity. Existing delivery and cleanup receipts remain intact.
+
+COMPATIBILITY AND CHECKS
+The actual converted texture previews are shown in Skins/Camos. Their layout
+can differ across weapon models because each model maps texture space differently.
+The server records observed candidate types and skip reasons in
+Worlds/avalon/Profiles/AzimuthSkins/random_skin_coverage.json.
+Candidate status describes model configuration, not a completed visual test.
+VERIFY_GUN_SKINS.bat checks the catalog, previews and deterministic addon packs.
+Native DayZ compilation, newly spawned item identity timing and per-model
+appearance still require your Windows game test. Original artwork and format
+notes are included under Custom/GunSkins/Art for future edits.
+
+P-KEY SCREENSHOT FREECAM
+The complete manager now includes a photo camera for Avalon. Move around
+your actual character and held weapon to frame your skins from any angle.
+Your working graphics, skins, I-key inspection and world saves remain.
+
+UPDATE
+1. Stop Avalon and wait for shutdown/backup. Close DayZ and its launcher,
+   then exit Azimuth.
+2. Extract this ZIP into the same PARENT folder as your existing Azimuth
+   folder. Merge and replace packaged files; do not create Azimuth/Azimuth.
+3. Open START_SERVER.bat and use Play Avalon. Azimuth builds, signs and
+   loads Photo Mode for both the server and your game automatically.
+
+TRY IT
+Join your existing character; no respawn is needed. Hold your gun, stand
+still on foot, and press P. The camera starts in front and to one side of
+you, with the HUD hidden. Press P again to return to your character.
+
+PHOTO CONTROLS
+P              Enter / leave photo camera
+W A S D        Move camera forward / left / back / right
+Q / E          Move down / up
+Mouse          Look around
+Mouse wheel    Zoom in / out
+Left Shift     Move faster
+Left Ctrl      Move slower for close angles
+F12            Take a Steam screenshot (Steam's default shortcut)
+
+P controls the camera; it does not save an image. The camera stays within
+20 metres of your character. Your character stays in place while the
+camera moves; the world keeps running. This mode adds no protection or
+pause. Exit restores your prior perspective, HUD and normal controls.
+Opening a menu or leaving a supported character state ends photo mode.
+
+Rebind P in Options > Controls > Azimuth photo mode; I is under Azimuth.
+I still inspects the gun in first person: stand still with aim released,
+then tap I. Tap I again, move, aim, fire or reload to stop the inspection.
+
+Automated package and source checks are included in development checks.
+Actual DayZ script compilation, full-body rendering and camera controls
+still need the first live test on your Windows PC. Check P entry and exit,
+HUD restoration, movement and your held M4A1 from several camera angles.
+
+PREVIOUS GRAPHICS UPDATE AND GUIDES
+
+GRAPHICS AND DISTANCE UPDATE
+This is the complete Azimuth manager. The working skins and XML fix remain.
+
+1. Stop Avalon and wait for shutdown/backup. Close DayZ and its launcher,
+   then exit Azimuth.
+2. Extract this ZIP into the same PARENT folder as your existing Azimuth
+   folder. Merge and replace packaged files; do not create Azimuth/Azimuth.
+3. Open Azimuth/START_SERVER.bat. Open Client and click Play Avalon Enhanced.
+   This selects the new quality preset even if your old preset was FPS.
+
+Quality mode requests 5,000 m terrain and 3,000 m object visibility, raises
+object and shadow detail, and enables stronger edge/foliage smoothing in
+existing DayZ settings. Higher saved detail values remain. This uses more
+GPU/CPU and can lower FPS. The map's models, textures and weather still
+limit the result; actual appearance must be checked in game.
+
+Existing world saves and character data are not included in this ZIP and
+remain when you merge it. Your showcase kit stays on its existing receipt;
+this update does not request another kit. Graphics originals are backed up.
+Client > Restore graphics restores managed values. Normal Play Avalon
+respects your saved graphics mode; Enhanced always selects quality again.
+
+If Activity reports missing graphics fields, save Video settings in DayZ
+once, close the game and launcher, then use Play Avalon Enhanced again.
+Use Client > Choose profile if Azimuth cannot identify your client profile.
+
+PREVIOUS FIXES AND SKINS GUIDE
+XML STARTUP FIX
+The reader now accepts the decorative MUMMY comment in Avalon attachment
+XML. This was checked against your uploaded metro.Avalon mission. Original
+mission files are not rewritten. Skins and the three-M4 showcase remain enabled.
+
+SKINS / CAMOS SHOWCASE UPDATE
+This is the complete Azimuth manager with the skins panel already integrated.
+
+UPDATE AND TEST YOUR EXISTING WORLD
+1. Stop Avalon and wait for shutdown/backup to finish. Close DayZ and its
+   launcher, then click Exit Azimuth.
+2. Extract this ZIP into the SAME PARENT folder that contains your existing
+   Azimuth folder. Replace packaged files when Windows asks. Keep the existing
+   Azimuth folder and merge into it; do not create Azimuth/Azimuth.
+3. Open Azimuth/START_SERVER.bat and click Play Avalon.
+4. Join your existing character. Open inventory and look in Vicinity for the
+   Azimuth Skin Showcase chest beside you. It contains your three M4A1s:
+   Neon 420, Cosmic Kush 420, and Deep Orbit.
+
+The three finishes and one-time test kit are selected by default. Existing
+saved skin choices take priority. Your current world, character and settings
+are preserved by merging: this ZIP includes no live saves or settings.
+Your installed Steam game, server and Workshop downloads are still required.
+
+Use Skins/Camos for named previews, choosing included finishes, and test-kit
+controls. Only checked finishes load on the next Avalon start. Unchecking a
+finish removes its classes and textures; guns using it may disappear.
+The preview shows the finish texture. Fixed showcase variants paint their
+weapon bodies. The random-finish system also evaluates compatible weapon
+parts; optics retain their original appearance.
+
+AFTER SCREENSHOTS
+Unload the test rifles, remove any extra attachments you added, and place
+them in the test chest or on the ground nearby. Empty personal items from
+the test chest. Close DayZ and stop Avalon, then click Remove test kit in
+Skins/Camos. Start Avalon and join once to run cleanup. Normal guns are not
+targeted. Queue another kit explicitly requests another delivery.
+
+The packaged source and panel were checked locally. DayZ compilation,
+spawning, visual appearance and persistence require your actual PC game test.
+
+AZIMUTH
+DayZ Server Manager
+Created by Ashton Kenney
+Windows 10/11 • DayZ on Steam
+
+PLAY AVALON
+1. Extract the ZIP and double-click START_SERVER.bat inside Azimuth.
+2. Close DayZ and its launcher if they are open. Click Play Avalon.
+3. The first time, approve any Steam installs and click Subscribe on the
+   Workshop pages Azimuth opens. Leave Azimuth open while they download.
+   Once Steam finishes, Azimuth prepares the pack and joins automatically.
+
+For distance and image quality in one click, use Client > Play Avalon
+Enhanced. It selects the Avalon Visuals quality preset: 5,000 m terrain,
+3,000 m objects, more detail, and cleaner edges. It also enables the
+daylight color preview and joins Avalon. If Avalon is running without it,
+Azimuth waits for it to be empty and performs a clean restart. The first
+time, approve DayZ Tools in Steam if it is needed for signing.
+
+Azimuth waits for Steam, signs Hunter Mods, starts Avalon, and then launches
+DayZ through BattlEye with the same client mods, address and password. It
+applies your saved graphics preset to the selected DayZ profile.
+Azimuth matches DayZ's Windows access level to Steam. If Steam itself is
+running as administrator, Windows may ask for approval to launch DayZ.
+Activity reports how many mod paths reached DayZ when the client writes a
+new launch log. The Windows Avalon server and client use matching short
+links to the original mod files. If Steam changes those files during
+startup, Azimuth waits for an empty Avalon, restarts it, and then joins.
+Azimuth reuses your saved graphics profile or identifies one from your
+DayZ client logs and existing profiles. If it cannot identify the profile,
+Play Avalon still launches DayZ. The preset applies on a later launch
+once Azimuth identifies the profile. Client > Choose profile lets you
+select a different profile manually.
+To cancel before launch, click Stop. If a Steam prompt was dismissed,
+click Play Avalon again to reopen it.
+
+AVALON WORKSHOP PACK
+Play Avalon sets up the pack automatically. The Workshop pack panel shows
+download progress. The guide in WorldSetup/avalon explains the starter kit,
+building, airdrops, and the features that depend on publisher setup files.
+Use Start server to play the existing setup while downloading a pack that
+has not yet been enabled.
+
+AVALON LOOT AND FIRST SPAWN
+Azimuth checks the installed Avalon mission and its registered mod loot.
+It raises targets modestly across ordinary loot, with more room for food,
+medical supplies, building tools, storage and repair parts. Military and
+special loot keep their progression. DayZ fills eligible slots over time.
+Open Worlds > Avalon > Loot audit for the results and publisher setup gaps.
+
+Avalon logout has a zero-second countdown. The server saves the character
+normally and removes the death penalty for disconnecting while unconscious
+or restrained. The logout rule is installed automatically on the server.
+
+The first character and each respawn receive the same Avalon Shore Kit
+automatically. It includes a hoodie, jeans, shoes, a sling bag, an apple,
+a cola, a bandage, a stone knife, matches and a green glow stick.
+Existing characters keep their gear when they reconnect.
+
+AZIMUTH DASHBOARD
+Overview shows the active world, player count, server CPU, resident
+memory, uptime, and the local server query time. CPU and memory charts
+collect real samples after the server starts. Workshop shows Steam
+item readiness and opens the missing items. Worlds switches between
+separate saves and opens each mission setup folder. Backups shows recent
+archives and can verify a selected ZIP. Back up now takes a clean
+snapshot and restarts an empty online server. Activity filters Azimuth
+events and DayZ logs. Client manages your saved DayZ graphics preset.
+
+MANUAL JOIN
+Once Avalon is Online, open DayZ Launcher > Mods > Local Mod and select
+Azimuth/Worlds/avalon/Mods/@HunterMods and the generated @AzimuthSkins
+folder beside it when skins are selected. Enable the same mods used by
+Play Avalon; using Play Avalon automatically matches the full mod list.
+Join 127.0.0.1 on game port 2302 with password freedayzme unless you changed
+it. If the launcher offers to replace your current mod selection, keep
+the enabled mods or use Direct Connect from the game menu.
+
+The eight Hunter Mods are Base Radio, Battery Charger Plus, Food and
+Drinks, Improved Weapon Raise, Life Machines, Mystery Boxes, Starter Kit,
+and Vanilla Painting. Azimuth registers their 55 supplied loot entries
+on Avalon. The Avalon Shore Kit is equipped at character creation and
+the bundled Hunter reward lists are disabled on this world.
+
+If DayZ Server is missing, click Install in Steam and let Steam finish.
+If the Avalon mission is still missing, click Open World Setup with Avalon
+selected and follow the instructions there. The Workshop page has the
+creator's support link. Chernarus+ and Livonia are available in the same
+selector while a Workshop download is pending.
+
+CLIENT GRAPHICS
+Play Avalon uses Avalon Visuals by default. It requests 5,000 m terrain
+and 3,000 m object visibility, with more object detail, stronger shadows,
+hardware anti-aliasing, foliage smoothing, and high texture filtering.
+Higher saved detail settings are preserved. Quality mode uses more GPU
+and CPU and can lower FPS. The map's own models and textures still limit
+its appearance; this preset does not replace them. Server settings and
+weather can further limit visibility.
+
+If you join manually in DayZ Launcher, close DayZ and its launcher, apply
+the preset in Client, then reopen the launcher with the same profile.
+
+Client > Apply FPS preset remembers the lower 1,600 m terrain / 1,000 m
+object visibility caps for ordinary Play Avalon launches. Play Avalon
+Enhanced always selects quality mode again. Restore graphics returns the
+backed-up settings and turns off automatic tuning for ordinary launches.
+Your resolution and display mode remain under DayZ's Video menu. The
+graphics guide explains both choices.
+ReShade's installer lists the DayZ client as blocked. Azimuth uses the
+game's built-in settings for gameplay. To try the separate experimental
+daylight color grade, stop Avalon and choose Client > Enable color preview.
+Then use Play Avalon. The preview needs DayZ Tools for local signing.
+
+UPDATE YOUR EXISTING AZIMUTH INSTALLATION
+Click Stop, wait for DayZ to stop, and click Exit Azimuth. Extract the ZIP
+into the same parent directory as your existing Azimuth folder and replace
+packaged files when prompted. Open START_SERVER.bat and click Play Avalon. Select Chernarus+ in the world menu to return to your original
+Chernarus character, base, settings, and world. Your old files stay in
+their original locations.
+
+WORLD SELECTOR
+Choose Avalon, Chernarus+, Livonia, Deer Isle Stable, or Namalsk Regular,
+then click Switch world. Azimuth remembers your last selection. Every map
+has its own mission, save files, profiles, mods, and six-hour backup schedule.
+The host name, password, and connection ports are shared.
+
+When a world is running, Azimuth prepares the next world before requesting
+a normal shutdown. It waits for DayZ to report a clean shutdown, then
+launches the selected world. If the target fails to come online, Azimuth
+tries to restart the previous world. When paused, selecting a world keeps
+Azimuth paused until you click Start server.
+
+MODS AND MISSIONS
+Workshop opens the required Steam items for the selected world. The
+bundled Hunter Mods use a local client folder on the same PC. Subscribe
+to each and let Steam download them. Open World Setup opens the selected
+world's mission import folder. For Deer Isle or Namalsk, use Mission source
+to get the creator's files if the required mission is missing. Open Mods
+opens the active world's drag-and-drop folder. Keep the required client
+mods installed when you join a community map.
+
+BACKUPS AND RESTORE
+Every world has its own Backups folder. A backup is due six hours after
+its first launch or last completed backup. Azimuth waits until the active
+server has been empty for a minute, stops it normally, checks the shutdown
+log, verifies the backup ZIP, and restarts the world. Keep Azimuth running
+to service its backup schedule. Closing the window minimizes it.
+
+Before restoring, stop DayZ and click Exit Azimuth. Move the world's
+current World and Profiles folders aside, then extract its backup into
+the corresponding world directory. For Chernarus+ that is Azimuth itself.
+For Avalon that is Azimuth/Worlds/avalon. The other world directories are
+Azimuth/Worlds/livonia, Azimuth/Worlds/deer_isle, and Azimuth/Worlds/namalsk.
+A modded world also needs the same mods installed. Backups contain the
+join password and other settings. Keep them private.
+For Avalon's Workshop pack, keep its Config/avalon-workshop.json from
+the same backup as the World and Profiles directories. The pre-pack backup
+has no pack marker. Move the current marker aside when restoring that backup.
+
+AZIMUTH IN THE BACKGROUND
+Open Azimuth with START_SERVER.bat. The dashboard waits for you to click
+Start server or Play Avalon. Once you start the server, Azimuth handles
+backups and retries unexpected exits until you click Stop.
+Run START_SERVER.bat again to reopen the minimized app. To quit, click
+Stop, wait for DayZ to stop, then click Exit Azimuth.
+
+PLAY WITH SOMEONE ELSE
+They need Steam DayZ and the same mods for the active map. A second PC
+joining Avalon needs the same signed local @HunterMods folder. On the same
+network use the address shown in Azimuth. For internet play, the host needs
+a reachable public IPv4 or a shared private network. With public IPv4,
+allow the server through Windows Firewall and forward UDP 2302, 2304,
+and 27016 to the host PC, or their configured equivalents.
+
+Requires 64-bit Python 3.10+ with Tkinter, Steam DayZ Server, and Steam DayZ.
+Steam supplies DayZ and the Workshop content.
+
+DayZ documentation
+https://community.bohemia.net/wiki/DayZ:Server_Configuration
+https://community.bohemia.net/wiki/DayZ:Modding_Structure

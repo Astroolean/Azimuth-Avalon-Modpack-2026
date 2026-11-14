@@ -1,0 +1,445 @@
+{
+  "scope": "Exactly the 11 configured Expansion transport families, 57 color/body variants. Publisher-source audit and implemented explicit paint mappings; no native testing.",
+  "commit": "14fd692bd7eb46df05853ea31ee3d481239a826c",
+  "native_tested_here": false,
+  "current_supported_families": 8,
+  "current_supported_variants": 52,
+  "proposal_new_family": "Implemented Tractor, Merlin and RHIB using publisher-declared opaque paint selections; preserve all exact model and protected-slot gates.",
+  "new_full_model_certifications": 0,
+  "inheritance": "ExpansionBoatScript and ExpansionHelicopterScript both inherit CarScript. Native BoatScript is a separate question; no Expansion-specific BoatScript hook is required.",
+  "safe_addition_contract": "Exact publisher model folders and declared selection names; original texture ownership, alpha rejection, native material preservation, actual configured slot indices. Broad publisher paint selections can include opaque trim/cab/deck. This is source-backed paint coverage, not a claim that every polygon is exterior-only or that native rendering was tested.",
+  "families": [
+    {
+      "family": "UAZ",
+      "variants": 12,
+      "class": "ExpansionUAZBase",
+      "script_base": "CarScript",
+      "model_folder": "dayzexpansion/vehicles/ground/uaz/",
+      "current": "supported_exterior_not_native_tested",
+      "body": [
+        "camo1"
+      ],
+      "panel": [
+        "camo"
+      ],
+      "keep_original": [
+        "camo2",
+        "lights",
+        "glass",
+        "interior",
+        "wheels"
+      ],
+      "evidence": [
+        "UAZ_config.cpp",
+        "Skins_Vehicles_Ground_ExpansionUAZ_Green.json",
+        "Skins_Vehicles_Ground_ExpansionUAZDoorDriver_Green.json"
+      ],
+      "source": "https://github.com/salutesh/DayZ-Expansion-Scripts/blob/14fd692bd7eb46df05853ea31ee3d481239a826c/DayZExpansion/Vehicles/Ground/UAZ/config.cpp",
+      "implemented_body_additions": [
+        "dmgzone_front",
+        "dmgzone_back",
+        "dmgzone_roof",
+        "dmgzone_fender_fl",
+        "dmgzone_fender_bl",
+        "dmgzone_fender_fr",
+        "dmgzone_fender_br"
+      ],
+      "implemented_panel_additions": [
+        "dmgzone_doors"
+      ]
+    },
+    {
+      "family": "Land Rover",
+      "variants": 7,
+      "class": "Expansion_Landrover_Base",
+      "script_base": "CarScript",
+      "model_folder": "dayzexpansion/vehicles/ground/landrover/",
+      "current": "supported_exterior_not_native_tested",
+      "body": [
+        "body_outdoor"
+      ],
+      "panel": [
+        "body_outdoor"
+      ],
+      "keep_original": [
+        "body_inside",
+        "bottom",
+        "dmgzone_chassis",
+        "dmgzone_interior",
+        "dmgzone_door_inside",
+        "lights",
+        "glass",
+        "wheels"
+      ],
+      "evidence": [
+        "Vehicles_Ground_LandRover_config.cpp",
+        "Skins_Vehicles_Ground_Expansion_Landrover_Blue.json",
+        "Skins_Vehicles_Ground_Expansion_Landrover_Driverdoor_Blue.json",
+        "Skins_Vehicles_Ground_Expansion_Landrover_Hood_Blue.json"
+      ],
+      "source": "https://github.com/salutesh/DayZ-Expansion-Scripts/blob/14fd692bd7eb46df05853ea31ee3d481239a826c/DayZExpansion/Vehicles/Ground/LandRover/config.cpp",
+      "implemented_body_additions": [
+        "dmgzone_front",
+        "dmgzone_back",
+        "dmgzone_roof",
+        "dmgzone_w_framel",
+        "dmgzone_w_framer",
+        "dmgzone_fender_1_1",
+        "dmgzone_fender_2_1",
+        "dmgzone_fender_1_2",
+        "dmgzone_fender_2_2",
+        "dmgzone_doors"
+      ],
+      "implemented_panel_additions": [
+        "dmgzone_door_outside",
+        "dmgzone_hood"
+      ]
+    },
+    {
+      "family": "Bus",
+      "variants": 3,
+      "class": "ExpansionBus",
+      "script_base": "CarScript",
+      "model_folder": "dayzexpansion/vehicles/ground/bus/",
+      "current": "supported_exterior_not_native_tested",
+      "body": [
+        "camo"
+      ],
+      "panel": [],
+      "keep_original": [
+        "lights",
+        "glass",
+        "dashboard",
+        "interior",
+        "wheels"
+      ],
+      "note": "Skin JSON also lists dmgZone_chassis, but body config does not expose it; only write existing runtime indices.",
+      "evidence": [
+        "Bus_config.cpp",
+        "Skins_Vehicles_Ground_ExpansionBus_Blue.json"
+      ],
+      "source": "https://github.com/salutesh/DayZ-Expansion-Scripts/blob/14fd692bd7eb46df05853ea31ee3d481239a826c/DayZExpansion/Vehicles/Ground/Bus/config.cpp",
+      "implemented_body_additions": [
+        "dmgzone_front",
+        "dmgzone_back",
+        "dmgzone_roof",
+        "dmgzone_fl",
+        "dmgzone_ml",
+        "dmgzone_bl",
+        "dmgzone_fr",
+        "dmgzone_br"
+      ]
+    },
+    {
+      "family": "MH-6",
+      "variants": 15,
+      "class": "ExpansionMh6",
+      "script_base": "ExpansionHelicopterScript -> CarScript",
+      "model_folder": "dayzexpansion/vehicles/air/mh6/",
+      "current": "supported_exterior_not_native_tested",
+      "body": [
+        "camo"
+      ],
+      "panel": [
+        "camo"
+      ],
+      "keep_original": [
+        "lights",
+        "glass",
+        "interior",
+        "rotors"
+      ],
+      "evidence": [
+        "Mh6_config.cpp"
+      ],
+      "source": "https://github.com/salutesh/DayZ-Expansion-Scripts/blob/14fd692bd7eb46df05853ea31ee3d481239a826c/DayZExpansion/Vehicles/Air/Mh6/config.cpp"
+    },
+    {
+      "family": "UH-1H",
+      "variants": 5,
+      "class": "ExpansionUh1h",
+      "script_base": "ExpansionHelicopterScript -> CarScript",
+      "model_folder": "dayzexpansion/vehicles/air/uh1h/",
+      "current": "supported_exterior_not_native_tested",
+      "body": [
+        "camo1"
+      ],
+      "panel": [
+        "camo1"
+      ],
+      "keep_original": [
+        "camo2",
+        "interior",
+        "glass",
+        "rotors"
+      ],
+      "evidence": [
+        "Uh1h_config.cpp"
+      ],
+      "source": "https://github.com/salutesh/DayZ-Expansion-Scripts/blob/14fd692bd7eb46df05853ea31ee3d481239a826c/DayZExpansion/Vehicles/Air/Uh1h/config.cpp"
+    },
+    {
+      "family": "Tractor",
+      "variants": 3,
+      "class": "ExpansionTractor",
+      "script_base": "CarScript",
+      "model_folder": "dayzexpansion/vehicles/ground/tractor/",
+      "current": "implemented_publisher_paint_not_native_tested",
+      "panel": [],
+      "keep_original": [
+        "lights",
+        "light_dashboard",
+        "windows",
+        "wheels",
+        "unverified_fitted_door_selections"
+      ],
+      "note": "Publisher skin JSON explicitly targets opaque camo. Lights and glass damage components are separate. Body atlas can include opaque cab/trim; no texture/model pixel inspection performed. Config has 13 names and 12 texture/material defaults; actual production rules plus Surface adapter confirms indices 9-12 only, dashboard index 8 untouched, missing/default blank safely retained and restored. Door models remain excluded.",
+      "evidence": [
+        "tractor_config.cpp",
+        "Skins_Vehicles_Ground_ExpansionTractor_Red.json"
+      ],
+      "source": "https://github.com/salutesh/DayZ-Expansion-Scripts/blob/14fd692bd7eb46df05853ea31ee3d481239a826c/DayZExpansion/Vehicles/Ground/Tractor/config.cpp",
+      "implemented_body_additions": [
+        "dmgzone_front",
+        "dmgzone_back",
+        "dmgzone_roof"
+      ],
+      "body": [
+        "camo"
+      ]
+    },
+    {
+      "family": "Merlin",
+      "variants": 6,
+      "class": "ExpansionMerlin",
+      "script_base": "ExpansionHelicopterScript -> CarScript",
+      "model_folder": "dayzexpansion/vehicles/air/merlin/",
+      "current": "implemented_publisher_paint_not_native_tested",
+      "declared_body": [
+        "camo1",
+        "camo2",
+        "camo3"
+      ],
+      "textures": [
+        "heavy_mer_1_co.paa",
+        "heavy_mer_2_co.paa",
+        "heavy_mer_3_co.paa"
+      ],
+      "evidence": [
+        "merlin_config.cpp",
+        "Skins_Vehicles_Air_ExpansionMerlin_Green.json"
+      ],
+      "source": "https://github.com/salutesh/DayZ-Expansion-Scripts/blob/14fd692bd7eb46df05853ea31ee3d481239a826c/DayZExpansion/Vehicles/Air/Merlin/config.cpp",
+      "body": [
+        "camo1",
+        "camo2",
+        "camo3"
+      ],
+      "panel": [],
+      "note": "Publisher current config and supplied skins agree with author-documented paint selections. Opaque atlas can include trim/cab/deck; not certified polygon-by-polygon. Separate protected slots and all native materials remain unchanged. No fitted-door mappings added."
+    },
+    {
+      "family": "RHIB",
+      "variants": 1,
+      "class": "ExpansionUtilityBoat",
+      "script_base": "ExpansionBoatScript -> CarScript",
+      "model_folder": "dayzexpansion/vehicles/water/utility/",
+      "current": "implemented_publisher_paint_not_native_tested",
+      "declared_body": [
+        "camo"
+      ],
+      "textures": [
+        "rhib_co.paa"
+      ],
+      "keep_original": [
+        "light_1_1",
+        "light_2_1",
+        "antiwater"
+      ],
+      "evidence": [
+        "Vehicles_Water_Utility_config.cpp",
+        "Skins_Vehicles_Water_ExpansionUtilityBoat_Black.json"
+      ],
+      "source": "https://github.com/salutesh/DayZ-Expansion-Scripts/blob/14fd692bd7eb46df05853ea31ee3d481239a826c/DayZExpansion/Vehicles/Water/Utility/config.cpp",
+      "body": [
+        "camo"
+      ],
+      "panel": [],
+      "note": "Publisher current config and supplied skins agree with author-documented paint selections. Opaque atlas can include trim/cab/deck; not certified polygon-by-polygon. Separate protected slots and all native materials remain unchanged. No fitted-door mappings added."
+    },
+    {
+      "family": "Zodiac",
+      "variants": 3,
+      "class": "ExpansionZodiacBoat",
+      "script_base": "ExpansionBoatScript -> CarScript",
+      "model_folder": "dayzexpansion/vehicles/water/zodiac/",
+      "current": "not_enabled",
+      "potential": "Possible with a dedicated alpha-preserving texture built from verified original atlas/mask.",
+      "declared_body": [
+        "camo"
+      ],
+      "textures": [
+        "inflatable_boat_ca.paa"
+      ],
+      "keep_original": [
+        "antiwater"
+      ],
+      "blocker": "Publisher explicitly uses CA texture. Existing opaque camo replacement would discard original alpha; may paint cutouts, accessories or mixed surfaces. Needs original pixel/mask data.",
+      "evidence": [
+        "Vehicles_Water_Zodiac_config.cpp",
+        "Skins_Vehicles_Water_ExpansionZodiacBoat_Orange.json"
+      ],
+      "source": "https://github.com/salutesh/DayZ-Expansion-Scripts/blob/14fd692bd7eb46df05853ea31ee3d481239a826c/DayZExpansion/Vehicles/Water/Zodiac/config.cpp",
+      "minimum_additional_data": [
+        "Original inflatable_boat_ca.paa (including alpha), matching rvmat and effective installed camo selection/index.",
+        "UV layout or visible model texture breakdown to restrict pattern to tube/hull and retain controls/accessories.",
+        "Build derived CA atlas per finish preserving alpha; do not disable global alpha safety gate."
+      ]
+    },
+    {
+      "family": "Vodnik",
+      "variants": 1,
+      "class": "ExpansionVodnik",
+      "script_base": "ExpansionBoatScript -> CarScript",
+      "model_folder": "dayzexpansion/vehicles/ground/vodnik/",
+      "current": "not_enabled",
+      "potential": "Full-body wrap needs model/selection work or an author-provided paintable exterior.",
+      "declared_nonlight": [
+        "med",
+        "antiwater"
+      ],
+      "blocker": "No broad exterior camo selection declared. med is used by author medical cabin skin; lights/antiwater are protected. Door proxies inherit civilian-door config without verified matching model selections.",
+      "evidence": [
+        "vodnik_config.cpp",
+        "Skins_Vehicles_Ground_ExpansionVodnik_CamoMedical.json"
+      ],
+      "source": "https://github.com/salutesh/DayZ-Expansion-Scripts/blob/14fd692bd7eb46df05853ea31ee3d481239a826c/DayZExpansion/Vehicles/Ground/Vodnik/config.cpp",
+      "minimum_additional_data": [
+        "Effective installed CfgVehicles ExpansionVodnik model, hiddenSelections, texture/material arrays and per-slot runtime readback.",
+        "If current med/antiwater-only config matches pinned source: original model named selections and body atlases/UV map; publisher model/config extension needed for full exterior."
+      ],
+      "wiki_conflict": "2021 author wiki mentions camo1/2/3; current pinned config instead declares med and antiwater plus lights. Do not guess indices."
+    },
+    {
+      "family": "Gyrocopter",
+      "variants": 1,
+      "class": "ExpansionGyrocopter",
+      "script_base": "ExpansionHelicopterScript -> CarScript",
+      "model_folder": "dayzexpansion/vehicles/air/gyro/",
+      "current": "not_enabled",
+      "potential": "Needs publisher model/paint-selection support, not a generic camo switch.",
+      "declared_body": [],
+      "blocker": "No hiddenSelections declared in gyro config or its Expansion helicopter base; no exposed publisher paint selection to target. Native effective config still needs installed check.",
+      "evidence": [
+        "Gyro_config.cpp",
+        "Vehicles_Data_config.cpp",
+        "expansiongyrocopter.c"
+      ],
+      "source": "https://github.com/salutesh/DayZ-Expansion-Scripts/blob/14fd692bd7eb46df05853ea31ee3d481239a826c/DayZExpansion/Vehicles/Air/Gyro/config.cpp",
+      "minimum_additional_data": [
+        "Effective installed CfgVehicles ExpansionGyrocopter model and inherited hiddenSelections/texture/material arrays plus per-slot readback.",
+        "If no paint selections as in current pinned config: original model named selections and opaque body atlas/UV layout; publisher/model edit needed to expose paint."
+      ],
+      "wiki_conflict": "2021 wiki mentions camo; current Gyro and helicopter base configs expose none. Do not write index 0 by assumption."
+    }
+  ],
+  "evidence_sha256": {
+    "Vehicles_Data_config.cpp": "354279c59ed41959d3abca3c731a3fe88f8bb2bb4e2f4aeb62939e0de0f02254",
+    "Skins_Vehicles_Air_ExpansionMerlin_Green.json": "caf89d2f5044bbb2217b8a31fab8107748b12fdf578dd42af67a5631279bae4c",
+    "Skins_Vehicles_Water_ExpansionZodiacBoat_Orange.json": "2a65e2a1cf5e007bcbcc91858140a4969f22108987153ea79464247d2725d56e",
+    "UAZ_config.cpp": "211bc123b14b79ef24b48c2f12e7ce1c4bdf13fe236df429de2c6fc06ab0d553",
+    "Mh6_config.cpp": "4c1b0eced21b22138fece5b65541e5df6efb6dc2c9a48fe608e018931668565a",
+    "Skins_Vehicles_Ground_ExpansionUAZ_Green.json": "f8b2fb65be74d8c658767ced021456e74d354f9c52e153b7c49fafb1e6c19f62",
+    "tractor_config.cpp": "46dca7bc0c6f1b9b4c798601d3ffabd9e2cd7e4b922b07109535a6fd4e2a37d8",
+    "Bus_config.cpp": "150e2ba65e5cf66cab09112cf2e2e80c92f5d407509b344eeb9b5a7274fed518",
+    "expansiongyrocopter.c": "549f62e047019941109ca739e4f74d2141aff7b29a8505eed0c829edc895e4dd",
+    "expansionboatscript.c": "fdf2a35db5e6c92d69ac1250529238c270977c081bc6d9088aebf27f83849a26",
+    "Skins_Vehicles_Ground_ExpansionTractor_Red.json": "e3c64ac95db2888325c7d982fd713f5c10eda431769a214a8d6d7a7059a2ec93",
+    "Vehicles_Ground_LandRover_config.cpp": "4ad0c9b5b8fcb33b620e900cd16cabb5f2cb033370a442608ca8b29ae5d0ad0b",
+    "Skins_Vehicles_Ground_Expansion_Landrover_Trunk_Blue.json": "7e21efca7999a7f4628dcb7cbda50488a03a546f04933205fa2abfa2eaed69c9",
+    "Skins_Vehicles_Ground_ExpansionVodnik_CamoMedical.json": "f7943ea5d5373f7ee0f3ac8a7096631d0efba25636c48756e92428cb8e6c47ab",
+    "Uh1h_config.cpp": "ea1d7009c29202ceb03bf08b017beb27bf4be8bd4cec202bd726b905d6836f07",
+    "vodnik_config.cpp": "619e6cda02633a593e6e9bc6940cb852fb9a49c498de59c3be079ae4402772d2",
+    "merlin_config.cpp": "310fa26252ffcb0352e8d7c870e231d5df51b918e0240b06aaab59001ddef499",
+    "Gyro_config.cpp": "a69f2c4ce18c6c107fb18710d02d620aa694a6bf323ba65e5fcaf970c12716b2",
+    "Skins_Vehicles_Ground_ExpansionBus_Blue.json": "f40882a482bb102d1f6625b5720db538df95761ce528bf53635d1e7e70947977",
+    "Skins_Vehicles_Ground_Expansion_Landrover_Driverdoor_Blue.json": "7e21efca7999a7f4628dcb7cbda50488a03a546f04933205fa2abfa2eaed69c9",
+    "Vehicles_Water_Zodiac_config.cpp": "e86c701785c11f6c02fd2a1fea2a52b466cf93a894b1e27e9797b8469c662775",
+    "Skins_Vehicles_Ground_Expansion_Landrover_Hood_Blue.json": "a9f457830dfe380927f5f72b65ccc37fab78f2183e4b4b3e5c4eb1f19d086bfc",
+    "Vehicles_Water_Utility_config.cpp": "24ef106a0cd73f8ce326e589788487cda3ed6c01eaae8cafa7f42832184c675a",
+    "Skins_Vehicles_Water_ExpansionUtilityBoat_Black.json": "6ee1fbbc62afa95f86937acebc7faef4d7e0c713893ab09afbe817877b4e75ae",
+    "Skins_Vehicles_Ground_Expansion_Landrover_Blue.json": "9e5a9d90853d1dc794e55128dbe4767ba353e20bc43a64eeb9cf473520db693b",
+    "Skins_Vehicles_Ground_Expansion_Landrover_Left_Blue.json": "7e21efca7999a7f4628dcb7cbda50488a03a546f04933205fa2abfa2eaed69c9",
+    "expansionhelicopterscript.c": "075e733d251373bfde4be1676140fdaf3c2c18bd158e6f0f9b7c4a627463a1b0",
+    "Skins_Vehicles_Ground_ExpansionUAZDoorDriver_Green.json": "394784ecdec2415db4f47b81bffd5e13cfa7425ba21feea21708659d26cb8d38"
+  },
+  "implemented_total_including_vanilla_families": 13,
+  "implemented_total_including_vanilla_variants": 66,
+  "additional_primary_evidence": {
+    "url": "https://github.com/salutesh/DayZ-Expansion-Scripts/wiki/%5BModding%5D-Adding-skins",
+    "page_updated": "2021-01-20",
+    "finding": "Publisher explicitly calls RHIB camo, Merlin camo1/camo2/camo3 and Tractor camo intended skin selections. Pinned current config and supplied skin JSON agree for these models. Old gyro/Vodnik wiki claims conflict with current configs and are not used to invent slots."
+  },
+  "model_review": {
+    "UAZ": {
+      "names": 18,
+      "defaults": 18,
+      "materials": 18,
+      "folder_matches": true
+    },
+    "Land Rover": {
+      "names": 24,
+      "defaults": 24,
+      "materials": 24,
+      "folder_matches": true
+    },
+    "Bus": {
+      "names": 18,
+      "defaults": 18,
+      "materials": 18,
+      "folder_matches": true
+    },
+    "MH-6": {
+      "names": 3,
+      "defaults": 3,
+      "materials": 3,
+      "folder_matches": true
+    },
+    "UH-1H": {
+      "names": 2,
+      "defaults": 2,
+      "materials": 2,
+      "folder_matches": true
+    },
+    "Tractor": {
+      "names": 13,
+      "defaults": 12,
+      "materials": 12,
+      "folder_matches": true,
+      "tested_indices": [
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "Merlin": {
+      "names": 3,
+      "defaults": 3,
+      "materials": 3,
+      "folder_matches": true
+    },
+    "RHIB": {
+      "names": 4,
+      "defaults": 4,
+      "materials": 4,
+      "folder_matches": true
+    }
+  },
+  "verification": {
+    "rules_and_surface_adapter_tests": 10,
+    "result": "passed",
+    "native_DayZ": false,
+    "scope": "Actual extracted production methods through C++ adapter, pinned publisher fixtures, UBSan. No native compilation, rendering or gameplay claim."
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "release": "R23 \u2014 Startup repair and organized layout",
+  "date": "2026-11-14",
+  "crash_evidence": {
+    "uploaded_minidumps_analyzed": 2,
+    "native_fault": "Null read at 0x28",
+    "event": "VehicleCivilianSedan",
+    "event_file": "azimuth_transport_land/events.xml",
+    "base_event_definitions": 54,
+    "active_base_events": 32,
+    "scope": "Both uploaded dumps reference the first activation-only road event; latest screenshot shows same fault but a new full log was not supplied."
+  },
+  "repair": {
+    "road_events": [
+      "VehicleCivilianSedan",
+      "VehicleHatchback02",
+      "VehicleTruck01"
+    ],
+    "change": "Write complete effective definitions before activating previously inactive events",
+    "preserved": "Existing populations, children, flags, lifetimes and other event settings; existing zero-target fallback remains."
+  },
+  "organization": {
+    "modules_moved": 53,
+    "packages": 10,
+    "entry_point": "START_SERVER.bat",
+    "checks": "Tools",
+    "documentation": "Docs",
+    "legacy_files": "Known old files are archived and verified on first launch before cleanup; unknown files and runtime data are preserved."
+  },
+  "qualification": {
+    "behavior_regressions_passed": 142,
+    "organization_import_and_cli_tests_passed": 9,
+    "layout_migration_tests_passed": 11,
+    "total_unique_tests_passed": 162,
+    "failures": 0,
+    "actual_uploaded_files_preserved_in_pipeline": 120,
+    "repeat_setup_byte_identical": true,
+    "all_30_skin_assets_and_native_mod_sources": "Byte-identical to parent",
+    "native_signing": "Simulated in pipeline tests",
+    "native_DayZ_server_boot_and_join": "NOT RUN \u2014 requires Windows game test",
+    "Windows_batch_and_GUI_execution": "NOT RUN \u2014 static routing and Python entry points checked"
+  },
+  "fixtures": {
+    "Avalon_mission_and_Horse_XML": "Actual user uploads",
+    "An2_publisher_XML": "Synthetic labelled fixture",
+    "manager_skin_preferences": "Reconstructed from uploaded deployed pack and showcase profiles; original top-level settings were not uploaded"
+  },
+  "parent_zip_sha256": "0fee8a9202ef25da89a8d7d401d123d7a2d6ead7e4ecc29975802efe1bf0641c"
+}

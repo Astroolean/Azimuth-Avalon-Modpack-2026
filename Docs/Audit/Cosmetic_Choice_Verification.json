@@ -1,0 +1,104 @@
+{
+  "scope": "Execution of mechanically extracted production Enabled/PositiveHash/Choose methods with Enforce string/config-array adapters, compiled C++17 with undefined-behavior sanitizer. Not native DayZ execution.",
+  "tests_passed": 5,
+  "native_dayz_execution": false,
+  "test_file": "vehicle_coverage/Tests/test_cosmetic_choice.py",
+  "dataset": {
+    "signed_32_bit_four_word_keys": 10000,
+    "seed_hex": "A21A2026",
+    "extra_extreme_keys": 30
+  },
+  "checks": [
+    "No UBSan errors across actual signed32 hash arithmetic",
+    "Repeated signed persistence extremes have identical nonnegative hashes and valid choices",
+    "Zero percent, disabled toggle and empty selected pool always return zero",
+    "At100percent all10000 keys receive a selected finish and all30finish IDs occur",
+    "At20percent each accepted finish matches the same key at100percent; measured rates20.21percent weapons and19.86percent vehicles",
+    "Subset1/12/30 remains those stableIDs in any selection order",
+    "Removing a nonwinning selected finish retains the existing winner",
+    "Weapon and vehicle cosmetic namespaces are distinct and deterministic"
+  ],
+  "distributions": {
+    "W": {
+      "at_20_percent": 2021,
+      "full_counts": {
+        "1": 336,
+        "2": 344,
+        "3": 355,
+        "4": 320,
+        "5": 344,
+        "6": 305,
+        "7": 336,
+        "8": 331,
+        "9": 342,
+        "10": 352,
+        "11": 379,
+        "12": 343,
+        "13": 302,
+        "14": 340,
+        "15": 307,
+        "16": 329,
+        "17": 341,
+        "18": 336,
+        "19": 332,
+        "20": 351,
+        "21": 306,
+        "22": 345,
+        "23": 328,
+        "24": 343,
+        "25": 324,
+        "26": 342,
+        "27": 353,
+        "28": 333,
+        "29": 307,
+        "30": 294
+      }
+    },
+    "V": {
+      "at_20_percent": 1986,
+      "full_counts": {
+        "1": 341,
+        "2": 355,
+        "3": 351,
+        "4": 322,
+        "5": 344,
+        "6": 298,
+        "7": 332,
+        "8": 324,
+        "9": 319,
+        "10": 356,
+        "11": 341,
+        "12": 331,
+        "13": 341,
+        "14": 323,
+        "15": 361,
+        "16": 333,
+        "17": 343,
+        "18": 343,
+        "19": 285,
+        "20": 335,
+        "21": 333,
+        "22": 323,
+        "23": 333,
+        "24": 297,
+        "25": 326,
+        "26": 339,
+        "27": 364,
+        "28": 351,
+        "29": 334,
+        "30": 322
+      }
+    }
+  },
+  "extracted_adapter_method_sha256": {
+    "azimuth_random_skin_rules.c": {
+      "Enabled": "d57cdbe02a88742f8e9001df1260d7977732758442fba68225c7515c372ac7aa",
+      "PositiveHash": "fef7d6e6429e75c8f29553f1f6482bc95fd27f5348c5a1e27c9123d07bd7ab7f",
+      "Choose": "4884d9bdad31ac5f6419bd7122d1eeff87a228f86a668d1bff69f88baf1024d4"
+    },
+    "azimuth_vehicle_wrap_rules.c": {
+      "Enabled": "d57cdbe02a88742f8e9001df1260d7977732758442fba68225c7515c372ac7aa",
+      "Choose": "55aec768a9dceb0fce6b53d96b1ba5e5c94d897e199ae3a2c18585d02a872209"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "scope": "Horse publisher XML declaration compatibility",
+  "offline_tests": 52,
+  "all_passed": true,
+  "observed_error": "XML or text declaration not at start of entity: line 7, column 0",
+  "actual_publisher_file_available": false,
+  "reproduction": "Synthetic XML with a valid declaration on line 7 after an XML comment banner; also tested BOM/CRLF and all five publisher document types.",
+  "implementation": [
+    "Normalize one valid declaration only in the harmless prologue of the in-memory parsing copy.",
+    "Preserve complete document roots and support complete sibling XML snippets.",
+    "Keep original publisher bytes untouched.",
+    "Reject malformed, duplicate or nested declarations, broken markup, DTDs, entities, NULs and stray prose."
+  ],
+  "pipeline": "Real manager configuration pipeline run twice in each of two scenarios using the Avalon snapshot; Horse publisher fixtures include the comment banner. Horse and An-2 publisher files are synthetic; signing mocked.",
+  "native_DayZ_execution": "NOT_RUN",
+  "unchanged": "Version-check hotfix, vehicle wraps, one-time Gunter, weapon camos, native scripts, mod selection and save handling."
+}

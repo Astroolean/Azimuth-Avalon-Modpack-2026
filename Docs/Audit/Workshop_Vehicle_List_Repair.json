@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-14",
+  "parent": {
+    "path": "Azimuth_DayZ_Server_Manager_R23_Skins_Clothing_Vehicle_Coverage.zip",
+    "sha256": "d014a617564fd875f3069849c78ea645c2523ecba89853f897e481a315d1246f",
+    "version": 43
+  },
+  "change": "Add 14 additional vehicle Workshop entries, Steam links, independent download status and direct vehicle-data export to the Workshop page.",
+  "checks": {
+    "passed": 18,
+    "details": [
+      "Real Steam folder and manifest discovery, including pending updates",
+      "Optional downloads remain separate from required Avalon pack",
+      "UI callback routing, busy guards, export delegation and independent poll results",
+      "All unrelated files, gameplay, skins, settings and delivery source match the exact delivered parent",
+      "All application modules import from the new package"
+    ]
+  },
+  "not_performed": [
+    "No Steam subscription or download by this package",
+    "No additional mods enabled or spawn definitions generated",
+    "No go-kart test delivery change",
+    "No native DayZ or Windows GUI execution"
+  ],
+  "native_scope": "This update fixes the missing Workshop list. Additional vehicle integration still requires downloaded publisher data."
+}

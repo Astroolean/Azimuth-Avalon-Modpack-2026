@@ -1,0 +1,453 @@
+{
+  "scope": "Current delivered coverage after the source-qualified exterior extension; variant inventory retains its documented-setup boundary.",
+  "baseline_zip": "Azimuth_DayZ_Server_Manager_R23_Vehicle_Wrap_Render_Fix.zip",
+  "baseline_sha256": "4f851d95a08d1337e70b5dab681160edee16224bfdfc7b4fd3858f50f91bfb0c",
+  "counts": {
+    "known_driveable_model_families": 23,
+    "known_literal_driveable_variants": 94,
+    "prepared_ce_event_families": 20,
+    "expansion_model_families": 11,
+    "expansion_variants": 57,
+    "currently_implemented_wrap_model_families": 13,
+    "currently_implemented_wrap_variants": 66
+  },
+  "count_boundary": "The 94 names come from bundled native/Expansion catalogs plus a retained prepared supplied-Avalon mission fixture. They are exact documented setup variants, not a live installed-config enumeration, current population, or all Workshop vehicles. Publisher imports may differ by installed version.",
+  "families": [
+    {
+      "label": "ADA 4x4",
+      "category": "car",
+      "source": "retained supplied-Avalon prepared mission fixture; not current live population",
+      "workshop_id": null,
+      "event": "VehicleOffroadHatchback",
+      "variants": [
+        "OffroadHatchback",
+        "OffroadHatchback_Blue",
+        "OffroadHatchback_White"
+      ],
+      "variant_count": 3,
+      "current_wrap_status": "implemented_exterior_gate; native visual check pending",
+      "notes": ""
+    },
+    {
+      "label": "Sarka 120",
+      "category": "car",
+      "source": "retained supplied-Avalon prepared mission fixture; not current live population",
+      "workshop_id": null,
+      "event": "VehicleOffroadHatchback",
+      "variants": [
+        "Sedan_02",
+        "Sedan_02_Grey"
+      ],
+      "variant_count": 2,
+      "current_wrap_status": "implemented_exterior_gate; native visual check pending",
+      "notes": ""
+    },
+    {
+      "label": "Olga 24",
+      "category": "car",
+      "source": "retained supplied-Avalon prepared mission fixture; not current live population",
+      "workshop_id": null,
+      "event": "VehicleCivilianSedan",
+      "variants": [
+        "CivilianSedan",
+        "CivilianSedan_Black",
+        "CivilianSedan_Wine"
+      ],
+      "variant_count": 3,
+      "current_wrap_status": "implemented_exterior_gate; native visual check pending",
+      "notes": ""
+    },
+    {
+      "label": "Gunter 2",
+      "category": "car",
+      "source": "retained supplied-Avalon prepared mission fixture; not current live population",
+      "workshop_id": null,
+      "event": "VehicleHatchback02",
+      "variants": [
+        "Hatchback_02",
+        "Hatchback_02_Black",
+        "Hatchback_02_Blue"
+      ],
+      "variant_count": 3,
+      "current_wrap_status": "implemented_exterior_gate; user visually confirmed blue Gunter body and fitted panels on 2026-11-14",
+      "notes": ""
+    },
+    {
+      "label": "M3S truck",
+      "category": "truck",
+      "source": "retained supplied-Avalon prepared mission fixture; not current live population",
+      "workshop_id": null,
+      "event": "VehicleTruck01",
+      "variants": [
+        "Truck_01_Covered",
+        "Truck_01_Covered_Blue",
+        "Truck_01_Covered_Orange"
+      ],
+      "variant_count": 3,
+      "current_wrap_status": "implemented_exterior_gate; native visual check pending",
+      "notes": ""
+    },
+    {
+      "label": "M1025 / Humvee",
+      "category": "car",
+      "source": "retained supplied-Avalon prepared mission fixture; not current live population",
+      "workshop_id": null,
+      "event": "VehicleOffroad02",
+      "variants": [
+        "Offroad_02"
+      ],
+      "variant_count": 1,
+      "current_wrap_status": "not_implemented; actual exterior/atlas mapping unverified",
+      "notes": ""
+    },
+    {
+      "label": "RZR",
+      "category": "buggy",
+      "source": "retained supplied-Avalon prepared mission fixture; not current live population",
+      "workshop_id": null,
+      "event": "VehicleSedan02",
+      "variants": [
+        "RTrzr",
+        "RTrzr_Desert",
+        "RTrzr_Black",
+        "RTrzr_Eclipse"
+      ],
+      "variant_count": 4,
+      "current_wrap_status": "not_implemented; installed model/config mapping unverified",
+      "notes": "No dedicated RZR Workshop item is declared in manager dependencies. RTrzr classes occur in the supplied Avalon mission. Their precise PBO/model owner must be inspected; do not assign an invented Workshop ID."
+    },
+    {
+      "label": "Old bicycle",
+      "category": "pedal_bicycle",
+      "source": "DayZ-Bicycle author XML imported at runtime; exact names here are retained prepared-mission evidence",
+      "workshop_id": "2971190303",
+      "event": "VehicleHunterz_Old_Bike",
+      "variants": [
+        "Old_Bike",
+        "Old_Bike_White",
+        "Old_Bike_Red",
+        "Old_Bike_Green",
+        "Old_Bike_Blue",
+        "Old_Bike_Pink"
+      ],
+      "variant_count": 6,
+      "current_wrap_status": "not_implemented; installed model/config mapping unverified",
+      "notes": ""
+    },
+    {
+      "label": "Lady bicycle",
+      "category": "pedal_bicycle",
+      "source": "DayZ-Bicycle author XML imported at runtime; exact names here are retained prepared-mission evidence",
+      "workshop_id": "2971190303",
+      "event": "VehicleHunterz_Old_Bike",
+      "variants": [
+        "Lady_Bicycle",
+        "Lady_Bicycle_Purple"
+      ],
+      "variant_count": 2,
+      "current_wrap_status": "not_implemented; installed model/config mapping unverified",
+      "notes": ""
+    },
+    {
+      "label": "Jana 50",
+      "category": "motorcycle",
+      "source": "Bundled exact Bohemia DZ_130 types/spawnabletypes and MOTORBIKES tuple",
+      "workshop_id": null,
+      "event": "VehicleAzimuthMotorbike",
+      "variants": [
+        "Motorbike_01_Blue",
+        "Motorbike_01_Red",
+        "Motorbike_01_Yellow"
+      ],
+      "variant_count": 3,
+      "current_wrap_status": "not_implemented; distinct MotorbikeScript hook and body mapping required",
+      "notes": ""
+    },
+    {
+      "label": "Bitrak 682",
+      "category": "motorcycle",
+      "source": "Bundled exact Bohemia DZ_130 types/spawnabletypes and MOTORBIKES tuple",
+      "workshop_id": null,
+      "event": "VehicleAzimuthMotorbike",
+      "variants": [
+        "Motorbike_02_Blue",
+        "Motorbike_02_Green",
+        "Motorbike_02_Red",
+        "Motorbike_02_Yellow"
+      ],
+      "variant_count": 4,
+      "current_wrap_status": "not_implemented; distinct MotorbikeScript hook and body/shield mapping required",
+      "notes": ""
+    },
+    {
+      "label": "Native motorboat",
+      "category": "boat",
+      "source": "retained supplied-Avalon prepared mission fixture; not current live population",
+      "workshop_id": null,
+      "event": "VehicleBoat",
+      "variants": [
+        "Boat_01_Black",
+        "Boat_01_Blue",
+        "Boat_01_Orange"
+      ],
+      "variant_count": 3,
+      "current_wrap_status": "not_implemented; native BoatScript hook and hull mapping required",
+      "notes": ""
+    },
+    {
+      "label": "Expansion UAZ (four body layouts)",
+      "category": "road_vehicle",
+      "source": "Bundled exact Expansion catalog and economy XML; pinned script commit 14fd692bd7eb46df05853ea31ee3d481239a826c",
+      "workshop_id": "2291785437",
+      "event": "VehicleAzimuthExpansionUAZ",
+      "variants": [
+        "ExpansionUAZ",
+        "ExpansionUAZ_Black",
+        "ExpansionUAZ_LightGreen",
+        "ExpansionUAZRoofless",
+        "ExpansionUAZRoofless_Black",
+        "ExpansionUAZRoofless_LightGreen",
+        "ExpansionUAZCargo",
+        "ExpansionUAZCargo_Black",
+        "ExpansionUAZCargo_LightGreen",
+        "ExpansionUAZCargoRoofless",
+        "ExpansionUAZCargoRoofless_Black",
+        "ExpansionUAZCargoRoofless_LightGreen"
+      ],
+      "variant_count": 12,
+      "current_wrap_status": "implemented_exterior_gate; native visual check pending",
+      "notes": "Variations include color, livery and body layouts; not distinct unrelated models."
+    },
+    {
+      "label": "Expansion Vodnik amphibious vehicle",
+      "category": "road_vehicle",
+      "source": "Bundled exact Expansion catalog and economy XML; pinned script commit 14fd692bd7eb46df05853ea31ee3d481239a826c",
+      "workshop_id": "2291785437",
+      "event": "VehicleAzimuthExpansionVodnik",
+      "variants": [
+        "ExpansionVodnik"
+      ],
+      "variant_count": 1,
+      "current_wrap_status": "not_implemented; no verified independent body texture selection",
+      "notes": "Variations include color, livery and body layouts; not distinct unrelated models."
+    },
+    {
+      "label": "Expansion Bus",
+      "category": "road_vehicle",
+      "source": "Bundled exact Expansion catalog and economy XML; pinned script commit 14fd692bd7eb46df05853ea31ee3d481239a826c",
+      "workshop_id": "2291785437",
+      "event": "VehicleAzimuthExpansionBus",
+      "variants": [
+        "ExpansionBus",
+        "ExpansionBus_Weeb",
+        "ExpansionBus_Red"
+      ],
+      "variant_count": 3,
+      "current_wrap_status": "implemented_exterior_gate; native visual check pending",
+      "notes": "Variations include color, livery and body layouts; not distinct unrelated models."
+    },
+    {
+      "label": "Expansion Tractor",
+      "category": "road_vehicle",
+      "source": "Bundled exact Expansion catalog and economy XML; pinned script commit 14fd692bd7eb46df05853ea31ee3d481239a826c",
+      "workshop_id": "2291785437",
+      "event": "VehicleAzimuthExpansionTractor",
+      "variants": [
+        "ExpansionTractor",
+        "ExpansionTractor_Blue",
+        "ExpansionTractor_Green"
+      ],
+      "variant_count": 3,
+      "current_wrap_status": "implemented_camo_and_front_back_roof; no native runtime result supplied",
+      "notes": "Author-defined camo atlas plus front/back/roof. Exact configured indices used despite publisher 13-name/12-default mismatch. Attached door mappings are not inferred."
+    },
+    {
+      "label": "Expansion Land Rover",
+      "category": "road_vehicle",
+      "source": "Bundled exact Expansion catalog and economy XML; pinned script commit 14fd692bd7eb46df05853ea31ee3d481239a826c",
+      "workshop_id": "2291785437",
+      "event": "VehicleAzimuthExpansionLandRover",
+      "variants": [
+        "Expansion_Landrover",
+        "Expansion_Landrover_Yellow",
+        "Expansion_Landrover_Red",
+        "Expansion_Landrover_Green",
+        "Expansion_Landrover_Grey",
+        "Expansion_Landrover_Orange",
+        "Expansion_Landrover_Blue"
+      ],
+      "variant_count": 7,
+      "current_wrap_status": "implemented_exterior_gate; native visual check pending",
+      "notes": "Variations include color, livery and body layouts; not distinct unrelated models."
+    },
+    {
+      "label": "Expansion MH-6 Little Bird",
+      "category": "aircraft",
+      "source": "Bundled exact Expansion catalog and economy XML; pinned script commit 14fd692bd7eb46df05853ea31ee3d481239a826c",
+      "workshop_id": "2291785437",
+      "event": "VehicleAzimuthExpansionMH6",
+      "variants": [
+        "ExpansionMh6",
+        "ExpansionMh6_Blueline",
+        "ExpansionMh6_Digital",
+        "ExpansionMh6_Elliptical",
+        "ExpansionMh6_Furious",
+        "ExpansionMh6_GrayWatcher",
+        "ExpansionMh6_Jeans",
+        "ExpansionMh6_Resistance",
+        "ExpansionMh6_Shadow",
+        "ExpansionMh6_Sheriff",
+        "ExpansionMh6_Speedy",
+        "ExpansionMh6_Sunset",
+        "ExpansionMh6_Vrana",
+        "ExpansionMh6_Wasp",
+        "ExpansionMh6_Wave"
+      ],
+      "variant_count": 15,
+      "current_wrap_status": "implemented_exterior_gate; native visual check pending",
+      "notes": "Variations include color, livery and body layouts; not distinct unrelated models."
+    },
+    {
+      "label": "Expansion Merlin helicopter",
+      "category": "aircraft",
+      "source": "Bundled exact Expansion catalog and economy XML; pinned script commit 14fd692bd7eb46df05853ea31ee3d481239a826c",
+      "workshop_id": "2291785437",
+      "event": "VehicleAzimuthExpansionMerlin",
+      "variants": [
+        "ExpansionMerlin",
+        "ExpansionMerlin_Dahoman",
+        "ExpansionMerlin_Ion",
+        "ExpansionMerlin_President",
+        "ExpansionMerlin_Vrana",
+        "ExpansionMerlin_Wave"
+      ],
+      "variant_count": 6,
+      "current_wrap_status": "implemented_publisher_paint_selections; no native runtime result supplied",
+      "notes": "Author-defined opaque paint atlas; can include opaque trim, cabin or deck surfaces. Materials and separate protected selectors unchanged."
+    },
+    {
+      "label": "Expansion UH-1H",
+      "category": "aircraft",
+      "source": "Bundled exact Expansion catalog and economy XML; pinned script commit 14fd692bd7eb46df05853ea31ee3d481239a826c",
+      "workshop_id": "2291785437",
+      "event": "VehicleAzimuthExpansionUH1H",
+      "variants": [
+        "ExpansionUh1h",
+        "ExpansionUh1h_Medical",
+        "ExpansionUh1h_Uber",
+        "ExpansionUh1h_Resistance",
+        "ExpansionUh1h_Civilian"
+      ],
+      "variant_count": 5,
+      "current_wrap_status": "implemented_exterior_gate; native visual check pending",
+      "notes": "Variations include color, livery and body layouts; not distinct unrelated models."
+    },
+    {
+      "label": "Expansion RHIB utility boat",
+      "category": "boat",
+      "source": "Bundled exact Expansion catalog and economy XML; pinned script commit 14fd692bd7eb46df05853ea31ee3d481239a826c",
+      "workshop_id": "2291785437",
+      "event": "VehicleAzimuthExpansionRHIB",
+      "variants": [
+        "ExpansionUtilityBoat"
+      ],
+      "variant_count": 1,
+      "current_wrap_status": "implemented_publisher_paint_selections; no native runtime result supplied",
+      "notes": "Author-defined opaque paint atlas; can include opaque trim, cabin or deck surfaces. Materials and separate protected selectors unchanged."
+    },
+    {
+      "label": "Expansion Zodiac inflatable",
+      "category": "boat",
+      "source": "Bundled exact Expansion catalog and economy XML; pinned script commit 14fd692bd7eb46df05853ea31ee3d481239a826c",
+      "workshop_id": "2291785437",
+      "event": "VehicleAzimuthExpansionZodiac",
+      "variants": [
+        "ExpansionZodiacBoat",
+        "ExpansionZodiacBoat_Black",
+        "ExpansionZodiacBoat_Green"
+      ],
+      "variant_count": 3,
+      "current_wrap_status": "not_implemented; publisher camo atlas is alpha-bearing; direct opaque camo unsafe",
+      "notes": "Variations include color, livery and body layouts; not distinct unrelated models."
+    },
+    {
+      "label": "Expansion Gyrocopter",
+      "category": "aircraft",
+      "source": "Bundled exact Expansion catalog and economy XML; pinned script commit 14fd692bd7eb46df05853ea31ee3d481239a826c",
+      "workshop_id": "2291785437",
+      "event": "VehicleAzimuthExpansionGyrocopter",
+      "variants": [
+        "ExpansionGyrocopter"
+      ],
+      "variant_count": 1,
+      "current_wrap_status": "not_implemented; no verified body hidden selection",
+      "notes": "Variations include color, livery and body layouts; not distinct unrelated models."
+    }
+  ],
+  "dynamic_or_separate_transport": [
+    {
+      "label": "An-2 Biplane",
+      "workshop_id": "3834034916",
+      "configured_class_policy": "The literal base class ending in biplane must agree across installed types, event children and spawnabletypes. Optional suffixed paint-pack classes are not imported.",
+      "known_class_names": [],
+      "fixture_only_name": "An2_Biplane",
+      "current_wrap_status": "not_implemented; actual installed class/model/atlas/hook unknown",
+      "warning": "An2_Biplane in the retained audit is explicitly synthetic publisher fixture input, not current native class verification."
+    },
+    {
+      "label": "Rideable horses",
+      "workshop_id": "3295021220",
+      "event": "AnimalWildHorse",
+      "known_class_names": [
+        "Animal_Horse_Brown",
+        "Animal_Horse_White",
+        "Animal_Horse_Gray",
+        "Animal_Horse_Gray2",
+        "Animal_Horse_Palomino"
+      ],
+      "source": "Retained prior actual user-upload PBO/config audit, not newly fetched or live spawn verification",
+      "current_wrap_status": "explicitly excluded as animals",
+      "notes": "Five coat variants. Saddle/bridle item customization would be separate from vehicle-body wraps."
+    }
+  ],
+  "dependencies": {
+    "Avalon_terrain": "3225634444",
+    "CF": "1559212036",
+    "Dabs_Framework": "2545327648",
+    "Expansion_Core": "2291785308",
+    "Expansion_Licensed": "2116157322",
+    "Expansion_Vehicles": "2291785437",
+    "DayZ_Bicycle": "2971190303",
+    "Survivor_Animations": "2918418331",
+    "DayZ_Horse": "3295021220",
+    "An2_Biplane": "3834034916"
+  },
+  "unconfigured_categories": [
+    {
+      "label": "Trains / HypeTrain",
+      "reason": "No authored/supported Avalon track adaptation in this manager; wreck events are not usable trains."
+    },
+    {
+      "label": "Aircraft carrier / Quack / arbitrary Workshop vehicles",
+      "reason": "No transport event/configuration mapping is provided by this package; do not imply installed or wrappable."
+    }
+  ],
+  "current_hook_limits": "Current runtime hook is CarScript plus CarDoor. Native MotorbikeScript/BoatScript and bike panels need separate hooks; no broad all-vehicle claim.",
+  "source_files": [
+    "Custom/Transport/Expansion/catalog.json",
+    "Custom/Transport/Vanilla130/SOURCE.json",
+    "Custom/Transport/Vanilla130/types.xml",
+    "Custom/Transport/Vanilla130/spawnabletypes.xml",
+    "Docs/Audit/Transport_Prepared_Configuration.json",
+    "Docs/Audit/Horse_Publisher_Compatibility_Fix.json",
+    "Docs/Audit/Vehicle_Wrap_Compatibility.json",
+    "Engine/azimuth_app/transport/avalon_land_transport.py",
+    "Engine/azimuth_app/transport/avalon_air_transport.py",
+    "Engine/azimuth_app/transport/avalon_plane_transport.py",
+    "Engine/azimuth_app/transport/avalon_horse_transport.py",
+    "Engine/azimuth_app/world/avalon_immersion.py",
+    "Engine/azimuth_app/core/worlds.py",
+    "Custom/GunSkins/RandomSkins/azimuthrandomskins/scripts/4_world/azimuth_vehicle_wrap_rules.c"
+  ],
+  "implementation_boundary": "13 source-mapped families / 66 configured variants, including publisher-defined opaque paint atlases. This does not certify each model in native DayZ or every polygon as exterior-only. Gunter body/panels are user-confirmed."
+}
