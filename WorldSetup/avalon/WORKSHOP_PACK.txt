@@ -1,0 +1,65 @@
+AZIMUTH | AVALON WORKSHOP PACK
+DayZ Steam Stable 1.30.164289
+
+PLAY
+Click Play Avalon. Steam handles first-time subscriptions and updates.
+When Steam opens a Workshop page, click Subscribe. Leave Azimuth open.
+It checks local downloads, prepares Avalon, waits for the server, and
+joins with the same mod order. Steam supplies the Workshop files.
+
+IN GAME
+M opens the map with your location. DayZ equips the Avalon Shore Kit on
+first spawn and every respawn. It contains civilian clothes, a sling bag,
+an apple, a cola, a bandage, a stone knife, matches and a green glow stick.
+Your living character keeps their gear. The Workshop pack reduces stock
+sprint stamina drain and loosens some placement checks for roofs and slopes.
+
+Build a RaG Hunting Cabin or assemble a RaG BaseBuilding structure.
+Building Fortifications adds barricades for existing buildings. RaG Base
+Items adds workbenches and greenhouse kits. Solitude adds furniture and
+storage. BeeHive adds beekeeping; some companion equipment may require
+the publisher's economy setup. Hunter Life Machines still provides your
+stove, coffee machine, and sewing machine.
+
+Use an Airdrop Flare on open inland ground to call survival supplies.
+Azimuth sets up flare calls; timed drops need verified Avalon landing
+coordinates. A new drop can bring three infected. Existing custom drop
+configurations retain their settings apart from a publisher logging fix.
+
+Survivor Animations adds emotes. Bicycle, dog, and guitar files load with
+the pack. Natural bike, kennel kit, guitar, and some furniture spawns depend
+on usable publisher economy files or suitable Avalon vehicle locations.
+Azimuth reports setup gaps in Server activity. Fishing loot is integrated
+after the mod generates its files, normally during a one-time restart
+before the first join. The sound system creates its configuration on first
+boot. Custom sound zones use its in-game editor and Avalon locations.
+
+FILES AND UPDATES
+Steam keeps the subscribed items current. Azimuth reads the same installed
+Workshop copies for client and server and checks for pending updates when
+Steam lists them. The bundled Hunter Mods are local archives; Azimuth
+checks their signatures and signs changed PBOs with DayZ Tools.
+
+Avalon configuration and profiles live under Worlds/avalon. The mission's
+azimuth_workshop folder contains each add-on's separate economy files.
+Azimuth backs up existing Avalon saves before the first pack change.
+Azimuth checks Solitude Storage against its Workshop signatures and
+synchronizes its public key before Avalon starts.
+Review any remaining publisher setup notices in Server activity.
+
+LOOT AUDIT
+Worlds > Avalon > Loot audit opens the audit after Azimuth prepares the
+world. It lists counts, configured spawn routes, and mod setup gaps. It
+covers ordinary loot, active event children, static wreck proxies, and
+declared cargo and attachments. Azimuth applies a separate mission loot
+overlay for restrained increases and checks real building categories and
+tags where the terrain provides them. Regional tiers, craft recipes,
+event placement and existing world storage keep their rules. Loot appears
+as the running DayZ economy fills eligible points.
+
+COMBINATION NOTES
+Use Survivor Animations as the only player animation overhaul. Horse setup now
+imports installed publisher data and uses Avalon grazing/rest/water territories.
+Ambient Animals remains deferred until its Avalon territories are verified.
+Zens Sleeping Mod requires a wipe and is excluded from the existing save.
+BaseBuildingPlus is a separate alternative to RaG BaseBuilding.
