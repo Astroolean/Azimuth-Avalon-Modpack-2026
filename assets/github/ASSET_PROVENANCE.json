@@ -1,0 +1,233 @@
+{
+  "source_zip": "Azimuth_DayZ_R23_Avalon_Vehicle_Startup_Fix_FULL(1).zip",
+  "source_sha256": "71a94343bc7c774d277116c6338debdec4bd0dad49e33a7d131daa02a38fefc8",
+  "finishes": [
+    {
+      "id": "neon420",
+      "label": "Neon 420",
+      "catalog_id": 1,
+      "original_source": "Azimuth/Custom/GunSkins/Previews/neon420_co.png",
+      "sha256": "e2775392d7b710c3b543e29abe3f7492171f3cbd889703a7fba96a4f0e21126e"
+    },
+    {
+      "id": "bluedream420",
+      "label": "Blue Dream 420",
+      "catalog_id": 2,
+      "original_source": "Azimuth/Custom/GunSkins/Previews/bluedream420_co.png",
+      "sha256": "f7c4325b7103543a61401c36b0655cb735502039460b56699a2d4746e05dbfdc"
+    },
+    {
+      "id": "cosmickush420",
+      "label": "Cosmic Kush 420",
+      "catalog_id": 3,
+      "original_source": "Azimuth/Custom/GunSkins/Previews/cosmickush420_co.png",
+      "sha256": "da93afd8fc99eb71433d68e7b302613b50349512b4ce306f73bee11c59c25b14"
+    },
+    {
+      "id": "deeporbit",
+      "label": "Deep Orbit",
+      "catalog_id": 4,
+      "original_source": "Azimuth/Custom/GunSkins/Previews/deeporbit_co.png",
+      "sha256": "ba22625fff88130517fde1660e564a410df45df8f5d2262921b046858ed25384"
+    },
+    {
+      "id": "arcticpulse",
+      "label": "Arctic Pulse",
+      "catalog_id": 5,
+      "original_source": "Azimuth/Custom/GunSkins/Previews/arcticpulse_co.png",
+      "sha256": "d6f6a3e05a4d96a7da64d5482eefc52284daec8cc619db1d5c1a94ddcdf328ed"
+    },
+    {
+      "id": "eventhorizon",
+      "label": "Event Horizon",
+      "catalog_id": 6,
+      "original_source": "Azimuth/Custom/GunSkins/Previews/eventhorizon_co.png",
+      "sha256": "692f0549c95b5dcce0eee895f9657b8f4cf8fc518ccf6662ff16d0ef81a787bb"
+    },
+    {
+      "id": "cathedralash",
+      "label": "Cathedral Ash",
+      "catalog_id": 7,
+      "original_source": "Azimuth/Custom/GunSkins/Previews/cathedralash_co.png",
+      "sha256": "c4bd993c704e476b186e7a6cca612d0b62cacad94f75af8f61078bfe1b58dae6"
+    },
+    {
+      "id": "deadfrequency",
+      "label": "Dead Frequency",
+      "catalog_id": 8,
+      "original_source": "Azimuth/Custom/GunSkins/Previews/deadfrequency_co.png",
+      "sha256": "5756723a01b865cf3112f2f22e0cc2d5b63832167eb15c8e3090e113e4bd8a45"
+    },
+    {
+      "id": "lasttrain",
+      "label": "Last Train",
+      "catalog_id": 9,
+      "original_source": "Azimuth/Custom/GunSkins/Previews/lasttrain_co.png",
+      "sha256": "e3ecb8c502bee790ebc4c8642d5b91bb0201da407299ab92ae9e27bb503f9bbe"
+    },
+    {
+      "id": "floodline",
+      "label": "Floodline",
+      "catalog_id": 10,
+      "original_source": "Azimuth/Custom/GunSkins/Previews/floodline_co.png",
+      "sha256": "fefaf5495b6d7edbf487424aa989ba306d7a666aa203a4556b784fe899729ee4"
+    },
+    {
+      "id": "blackbox",
+      "label": "Black Box",
+      "catalog_id": 11,
+      "original_source": "Azimuth/Custom/GunSkins/Previews/blackbox_co.png",
+      "sha256": "8c0efc4f9a23e823d57bf448cd2c3bd9d0c83ea13af09f56064c6164973be48c"
+    },
+    {
+      "id": "ghostanatomy",
+      "label": "Ghost Anatomy",
+      "catalog_id": 12,
+      "original_source": "Azimuth/Custom/GunSkins/Previews/ghostanatomy_co.png",
+      "sha256": "41919f356f04720bb022517fc7633e5b367fe42a2e87399c0d793f2ae61ad1ef"
+    },
+    {
+      "id": "evidencelocker",
+      "label": "Evidence Locker",
+      "catalog_id": 13,
+      "original_source": "Azimuth/Custom/GunSkins/Previews/evidencelocker_co.png",
+      "sha256": "71c51d39c372ab485d44c2dd9f4c7e9be67a8867489eeaf1550d018a1e6a040b"
+    },
+    {
+      "id": "funeralporcelain",
+      "label": "Funeral Porcelain",
+      "catalog_id": 14,
+      "original_source": "Azimuth/Custom/GunSkins/Previews/funeralporcelain_co.png",
+      "sha256": "4774dfd111fc7d933c8d0b5a884a7b86808323eea830062859a6b3548625c15d"
+    },
+    {
+      "id": "mothkeeper",
+      "label": "Mothkeeper",
+      "catalog_id": 15,
+      "original_source": "Azimuth/Custom/GunSkins/Previews/mothkeeper_co.png",
+      "sha256": "af57e6e86087bef0d96c6184dad4428ed3429647fe64e74e8922736c3595a16b"
+    },
+    {
+      "id": "mycelium",
+      "label": "Mycelium",
+      "catalog_id": 16,
+      "original_source": "Azimuth/Custom/GunSkins/Previews/mycelium_co.png",
+      "sha256": "c16b302a42e06d8ba35c3a74f2403df5b9dba42f813e9d0eca9329343bb464fd"
+    },
+    {
+      "id": "redactedatlas",
+      "label": "Redacted Atlas",
+      "catalog_id": 17,
+      "original_source": "Azimuth/Custom/GunSkins/Previews/redactedatlas_co.png",
+      "sha256": "281acf6f1eccf63e84ff6a4e9b7390f4369eb59e5d9b0f48cb53c1e75163f4cb"
+    },
+    {
+      "id": "foundrybloom",
+      "label": "Foundry Bloom",
+      "catalog_id": 18,
+      "original_source": "Azimuth/Custom/GunSkins/Previews/foundrybloom_co.png",
+      "sha256": "cbdd7076823854def07d7d0c716917f399fa26926e99929a63abcefce0fe242f"
+    },
+    {
+      "id": "deadchannel",
+      "label": "Dead Channel",
+      "catalog_id": 19,
+      "original_source": "Azimuth/Custom/GunSkins/Previews/deadchannel_co.png",
+      "sha256": "3b881eeab943266392ee3bc888f0cd57538967d9f6a2b0815b62797c111b6380"
+    },
+    {
+      "id": "rationzero",
+      "label": "Ration Zero",
+      "catalog_id": 20,
+      "original_source": "Azimuth/Custom/GunSkins/Previews/rationzero_co.png",
+      "sha256": "75c77526fe80d6abef20e67d7d965523630c1983eb74295649fdff3d2c4ac1af"
+    },
+    {
+      "id": "bobsburgers",
+      "label": "Bob's Burgers",
+      "catalog_id": 21,
+      "original_source": "Azimuth/Custom/GunSkins/Previews/bobsburgers_co.png",
+      "sha256": "da1c081c828c7a0a655245e21303b1ca5ad257e3d0defa1961a7acd6e7f35a41"
+    },
+    {
+      "id": "thesimpsons",
+      "label": "The Simpsons",
+      "catalog_id": 22,
+      "original_source": "Azimuth/Custom/GunSkins/Previews/thesimpsons_co.png",
+      "sha256": "29ba74f5efb1811449ac5f476055693525f334139477c792890f640e658693ec"
+    },
+    {
+      "id": "familyguy",
+      "label": "Family Guy",
+      "catalog_id": 23,
+      "original_source": "Azimuth/Custom/GunSkins/Previews/familyguy_co.png",
+      "sha256": "7f6de3c63b4a947c25e441261a3e0db6236e1dd01652744c91e7e39aaa15b0ea"
+    },
+    {
+      "id": "southpark",
+      "label": "South Park",
+      "catalog_id": 24,
+      "original_source": "Azimuth/Custom/GunSkins/Previews/southpark_co.png",
+      "sha256": "77cab43138ad554ebeba8d4729284127449ab47868ca7c1922904a2c7b00ff0f"
+    },
+    {
+      "id": "americandad",
+      "label": "American Dad!",
+      "catalog_id": 25,
+      "original_source": "Azimuth/Custom/GunSkins/Previews/americandad_co.png",
+      "sha256": "94b978717024706319173cfbd265f42736c0dcde90bf8507ce2fd57718eb3ee4"
+    },
+    {
+      "id": "rickandmorty",
+      "label": "Rick and Morty",
+      "catalog_id": 26,
+      "original_source": "Azimuth/Custom/GunSkins/Previews/rickandmorty_co.png",
+      "sha256": "8171ac51b853a169a8059eeccffc71ecc9eafea8571eed02068696257bfb8029"
+    },
+    {
+      "id": "futurama",
+      "label": "Futurama",
+      "catalog_id": 27,
+      "original_source": "Azimuth/Custom/GunSkins/Previews/futurama_co.png",
+      "sha256": "65703136d2a5a245df41fbfd90eca776b8f9405e9530d5a5d480f5e380f912d2"
+    },
+    {
+      "id": "kingofthehill",
+      "label": "King of the Hill",
+      "catalog_id": 28,
+      "original_source": "Azimuth/Custom/GunSkins/Previews/kingofthehill_co.png",
+      "sha256": "e65eb68b18a9e64a2c79277938fbfcc7d7d5a0febcdee31e1f9f39c94f02414a"
+    },
+    {
+      "id": "bojackhorseman",
+      "label": "BoJack Horseman",
+      "catalog_id": 29,
+      "original_source": "Azimuth/Custom/GunSkins/Previews/bojackhorseman_co.png",
+      "sha256": "360361b4515e2649646aea23e9a6e2a04f32a5c88cc98520ee6b97575976ae2d"
+    },
+    {
+      "id": "archer",
+      "label": "Archer",
+      "catalog_id": 30,
+      "original_source": "Azimuth/Custom/GunSkins/Previews/archer_co.png",
+      "sha256": "f4513afd20ddab988c631badabec6f092a57d257e9c3b3c4935187d5746d1ea1"
+    }
+  ],
+  "generated_visuals": [
+    "atlas-all-30.jpg",
+    "banner-finishes.png",
+    "banner-manager.png",
+    "banner-survival.png",
+    "banner-transport.png",
+    "collection-animation.jpg",
+    "collection-core.jpg",
+    "collection-survival.jpg",
+    "control-panel-map.png",
+    "coverage.png",
+    "hero.png",
+    "launch-flow.png",
+    "survival-systems.png",
+    "transport-numbers.png"
+  ],
+  "note": "Original finish previews copied byte-for-byte from source ZIP; all other visuals are editorial diagrams and asset collages, not DayZ screenshots."
+}
