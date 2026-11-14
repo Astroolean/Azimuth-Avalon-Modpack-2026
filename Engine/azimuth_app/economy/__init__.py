@@ -1,0 +1,1 @@
+"""Azimuth economy components."""
